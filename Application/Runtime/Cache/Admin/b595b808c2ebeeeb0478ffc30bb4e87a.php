@@ -3,13 +3,13 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>bbsbendi后台管理首页</title>
-	<link rel="stylesheet" href="/Tp3.2/bbsbendi/Public/css/admin.css" />
-	<script type="text/javascript" src="/Tp3.2/bbsbendi/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Tp3.2/bbsbendi/Public/js/admin.js"></script>
+	<link rel="stylesheet" href="/bbs/Public/css/admin.css" />
+	<script type="text/javascript" src="/bbs/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/bbs/Public/js/admin.js"></script>
 <!-- 默认打开目标 -->
 <base target="iframe"/>
 </head>
-<body>/Tp3.2/bbsbendi/Public
+<body>
 <!-- 头部 -->
 	<div id="top_box">
 		<div id="top">
@@ -180,22 +180,22 @@
 				<div class="text">
                                     <ul class="con">
 				        <li class="nav_u">
-				        	<a href="<?php echo U('Home/index/add_video_category');?>" class="pos">添加视频分类</a>
+				        	<a href="<?php echo U('Admin/video/add_video_category');?>" class="pos">添加视频分类</a>
 				        </li> 
 				    </ul>
                                      <ul class="con">
 				        <li class="nav_u">
-				        	<a href="<?php echo U('Home/index/category_video_list');?>" class="pos">视频分类列表</a>
+				        	<a href="<?php echo U('Admin/video/category_video_list');?>" class="pos">视频分类列表</a>
 				        </li> 
 				    </ul>
 					<ul class="con">
 				        <li class="nav_u">
-				        	<a href="<?php echo U('Home/index/add_video');?>" class="pos">上传视频</a>
+				        	<a href="<?php echo U('Admin/video/add_video');?>" class="pos">上传视频</a>
 				        </li> 
 				    </ul>
                                     <ul class="con">
 				        <li class="nav_u">
-                                                <a href="<?php echo U('Home/index/video_show');?>" class="pos">列表显示</a>	
+                                                <a href="<?php echo U('Admin/video/video_show');?>" class="pos">列表显示</a>	
 				        </li> 
 				    </ul>
 				
@@ -231,7 +231,7 @@
 	</div>
 
 </body>
-    <script language="javascript" src="/Tp3.2/bbsbendi/Public/js/ServerClock.js"></script>
+    <script language="javascript" src="/bbs/Public/js/ServerClock.js"></script>
 <script language="javascript">
 <!--
 var myDate = new Date();

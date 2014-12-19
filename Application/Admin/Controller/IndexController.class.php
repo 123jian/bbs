@@ -8,8 +8,4 @@ class IndexController extends Controller {
 		
 		$this->display("index");
     }
-	/*public function yzm()
-	{
-	
-	}*/
 }
