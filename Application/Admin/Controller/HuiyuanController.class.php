@@ -34,7 +34,7 @@ class HuiyuanController extends Controller{
 
         $show = $page->show();//获取分页后数据
 
-        $data = $cat->limit($page->firstRow.','.$page->listRows)->select();
+        $data = $cat->order('c_id desc')->limit($page->firstRow.','.$page->listRows)->select();
 
         $this->assign('data',$data);
         $this->assign('page',$show);
@@ -111,7 +111,7 @@ class HuiyuanController extends Controller{
 
         $show = $page->show();//获取分页后数据
 
-        $data = $art->join('bbs_category ON bbs_article.text_type = bbs_category.c_id')->where('text_status=0')->limit($page->firstRow.','.$page->listRows)->select();
+        $data = $art->join('bbs_category ON bbs_article.text_type = bbs_category.c_id')->order('text_id desc')->where('text_status=0')->limit($page->firstRow.','.$page->listRows)->select();
         //print_r($data);die;
         $this->assign('data',$data);
         $this->assign('page',$show);
@@ -184,7 +184,7 @@ class HuiyuanController extends Controller{
 
         $show = $page->show();//获取分页后数据
 
-        $data = $art->join('bbs_category ON bbs_article.text_type = bbs_category.c_id')->where('text_status=1')->limit($page->firstRow.','.$page->listRows)->select();
+        $data = $art->join('bbs_category ON bbs_article.text_type = bbs_category.c_id')->order('text_id desc')->where('text_status=1')->limit($page->firstRow.','.$page->listRows)->select();
         //print_r($data);die;
         $this->assign('data',$data);
         $this->assign('page',$show);
