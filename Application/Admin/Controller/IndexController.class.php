@@ -59,7 +59,8 @@ class IndexController extends Controller {
                       if($data['psd']==md5($pwd)){
                         //  $this->redirect();
                         session('name',$name); 
-                       $this->display('index');
+                       //$this->display('index');
+					   echo "<script>location.href='http://www.bbs.com/index.php/Admin';</script>";
 
                       }else{
                         echo "<script>alert('密码错误')</script>";
