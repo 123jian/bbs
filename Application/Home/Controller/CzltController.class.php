@@ -6,7 +6,7 @@ class CzltController extends Controller {
 	//传智论坛首页
 	public function index(){
 
-		$this->display();
+            $this->display();
 	}
 
 	
