@@ -26,11 +26,11 @@
 			<td align='center' ><?php echo $val['v_title'];?></td>
                         <td align='center' ><?php echo $val['name'];?></td>
 			<td align='center' ><?php echo $val['desc'];?></td>
-			<td align='center' ><img src="/bbs/Uploads/<?php echo $val['thumb'];?>" width="50" height="50" border="0" alt=""></td>
+			<td align='center' ><img src="/Uploads/<?php echo $val['thumb'];?>" width="50" height="50" border="0" alt=""></td>
 			
 			<td align='center' >
 				<a href="">[修改]</a>
-				<a href="/bbs/index.php/Admin/Video/video_del/id/<?php echo $val['id'];?>" class="del">[删除]</a>
+				<a href="/index.php/Admin/Video/video_del/id/<?php echo $val['id'];?>" class="del">[删除]</a>
 			</td>
 		</tr>
 		<?php }?>

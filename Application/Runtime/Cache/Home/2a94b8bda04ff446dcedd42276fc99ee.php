@@ -306,1325 +306,583 @@ www.veikei.com
   </div>
 
 
-<div id="wp" class="wp">
-<!--
-<style type="text/css">
-.ie6 .module { position: static;}
-.ie6 .module em { position: static; right:0px;}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="/www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="php培训,php教程,php视频,php下载,php视频教程" />
+<meta name="description" content="php培训的龙头老大,口碑最好的php培训机构,进来看看同学们的呐喊，就会知道我们是个怎么样的学校,问天下php培训机构谁与争锋?php培训课程内容包含目前最流行的zendframework、thinkphp框架、ECShop、dedecms等产品的二次开发" />
+<title>传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校</title>
+<link href="/Public/css/css.css" type="text/css" rel="stylesheet" />
+<link href="/Public/css/nav_main.css" type="text/css" rel="stylesheet" />
+<link href="/Public/css/imageswitch.css" type="text/css" rel="stylesheet" />
+<link href="/Public/css/webim.css" type="text/css" rel="stylesheet" />
+<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
+<script type="text/javascript" src="/Public/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Public/js/imageschange.js"></script>
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
 
-</style>
--->
-<!--  焦点下部 全屏横幅广告占位   -->
-<div class="wp vk_index">
-  		<!--[diy=diy_vk_ad_001]--><div id="diy_vk_ad_001" class="area"></div><!--[/diy]--> 
+</head>
+
+<body>	
+	<div id="header">
+	<!-- 页面顶部 -->
+<div class="top1">
+
+	<p class="fr">
+            <?php if(empty($_COOKIE['Example_auth'])){?>
+            <a href="/index.php/index/login">登录注册</a>
+            <?php }else{ ?>
+            <span color='red'><?php echo $_COOKIE['Example_auth']?><a href="/index.php/index/loginout">退出</a></span>
+            <?php }?>
+            <a href="http://www.itcast.cn/channel/job.shtml" target="_blank">就业宣言</a><a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">报名流程</a><a href="http://open.itcast.cn" target="_blank">免费公开课</a><a href="http://dvd.itcast.cn" target="_blank">免费学习光盘</a><a href="http://www.itcast.cn/channel/book.shtml" target="_blank">原创教材</a><a href="http://bbs.itcast.cn/zine.php" target="_blank">传智特刊</a><a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a><a href="http://bbs.itcast.cn" target="_blank">技术论坛</a></p>
 </div>
 
-  
-<style id="diy_style" type="text/css"></style>
-    <!-- 上部自定义 diy区块 -->
-<div class="wp vk_index col_vk_title vk_tab">
-<!--[diy=diy_vk_top_bbs_1]--><div id="diy_vk_top_bbs_1" class="area"></div><!--[/diy]-->
-</div>
-
-
-<!--  焦点下部 全屏横幅广告占位   -->
-<div class="wp vk_index">
-  		<!--[diy=diy_vk_ad_002]--><div id="diy_vk_ad_002" class="area"></div><!--[/diy]--> 
-</div>
-
-
-<div class="wp vk_index col_vk_title vk_tab">
-<!--[diy=diy_vk_top_bbs_2]--><div id="diy_vk_top_bbs_2" class="area"></div><!--[/diy]-->
-</div>
-
-<div class="wp vk_index col_vk_title vk_tab">
-<!--[diy=diy_vk_top_bbs_3]--><div id="diy_vk_top_bbs_3" class="area"></div><!--[/diy]-->
-</div>
-
-  
-  
-
-<!--  焦点下部 全屏横幅广告占位   -->
-<div class="wp vk_index">
-  		<!--[diy=diy_vk_ad_003]--><div id="diy_vk_ad_003" class="area"></div><!--[/diy]--> 
-</div>
-
-
-
-<div id="pt" class="bm cl">
-<div class="z">
-<a href="./" class="nvhm" title="首页">传智论坛-IT学习社区</a><em>&raquo;</em><a href="forum.php" id="fjump" onmouseover="delayShow(this, 'showForummenu()');" class="showmenu">技术论坛</a></div>
-<div class="z">
-<iframe id="connectlike" allowtransparency="true" scrolling="no" border="0" width="280" height="25" frameborder="0"></iframe>
-<script type="text/javascript">_attachEvent(window, 'load', function () { $('connectlike').src = 'api/connect/like.php';}, document);</script>
-</div>
-</div>
-
-
-<div class="wp">
-<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
-</div>
-
-<div id="ct" class="wp cl">
-<div id="chart" class="bm bw0 cl">
-<p class="chart z">今日: <em>135</em><span class="pipe">|</span>昨日: <em>778</em><span class="pipe">|</span>帖子: <em>304807</em><span class="pipe">|</span>会员: <em>172608</em><span class="pipe">|</span>欢迎新会员: <em><a href="space-username-svghy4j0g.html" target="_blank" class="xi2">svghy4j0g</a></em></p>
-<div class="y">
-<a href="forum.php?mod=guide&amp;view=new" title="最新回复" class="xi2">最新回复</a></div>
-</div>
-
-<div class="mn" >
-    
-    
-    
-
-<script type="text/javascript">var showngethreadcard = 0,msgstr = '快速回复...';</script>
-<link href="source/plugin/study_nge/images/nge.css?K3L" rel="stylesheet" type="text/css" />
-
-<style>
-.nge_inactive{ background: #E5EDF2 url("template/veikei_dz_portal_20131130_texture/images/titlebg.png") repeat-x 0 0;  border-right:1px solid #C2D5E3;border-bottom:1px solid #C2D5E3;}
-.nge_active{  border-right:1px solid #C2D5E3;}
-.nge_border_left{border-left:1px solid #C2D5E3;}
-.nge_border_right{border-right:1px solid #C2D5E3;}
-.nge_border{border-collapse: collapse;border:1px solid #C2D5E3;}
-.study_nge_zdy .nge_inactive{ background: #E5EDF2 url("source/plugin/study_nge/images/titlebg.png") repeat-x 0 0;  border-right:1px solid #C2D5E3;border-bottom:1px solid #C2D5E3;}
-.study_nge_zdy .nge_active{  border-right:1px solid #C2D5E3;}
-.study_nge_zdy .nge_border_left{border-left:1px solid #C2D5E3;}
-.study_nge_zdy .nge_border_right{border-right:1px solid #C2D5E3;}
-.study_nge_zdy .nge_border{border:1px solid #C2D5E3;}
-.study_nge_zdy .bm_h {border-width: 1px 0;background: #E5EDF2 url("source/plugin/study_nge/images/titlebg.png") repeat-x 0 0;padding: 0 10px;height: 31px;border-top: 1px solid #C2D5E3;border-bottom: 1px solid #C2D5E3;line-height: 31px;white-space: nowrap;overflow: hidden;}
-.study_nge_zdy .bm_h .o {float: right;width: 30px;}
-.study_nge_zdy .bm_h .o img {float: right;margin-top: 11px;cursor: pointer;}
-.study_nge_zdy .fl {border: 1px solid #CDCDCD;border-top: none;background: white;}
-.study_nge_zdy .bm{margin-bottom: 10px;}
-.study_nge_zdy .floattitle{border: 1px solid #CDCDCD;}
-</style>
-
-<div class="study_nge_auto" id="study_nge_div">
-<div id="popLayer" class="floattitle" nowrap></div>
-<div class="fl bm">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_study_nge_img" src="static/image/common/collapsed_no.gif" title="收起、展开N格" alt="收起、展开N格" onclick="nge_toggle_collapse('category_study_nge');" />
-</span>
-
-<span class="y">
-<a id="nge_sslct" href="javascript:;" onmouseover="delayShow(this, function() {showMenu({'ctrlid':'nge_sslct','pos':'34!'})});" onclick="delayShow(this, function() {showMenu({'ctrlid':'nge_sslct','pos':'34!'})});">切换风格</a>
-</span>
-
-<span class="y">
-<a id="nge_desktopshotcut" href="plugin.php?id=study_nge:desktopshotcut" title="下载桌面快捷访问" name="xxx">下载桌面快捷访问</a>
-</span>
-
-<span class="z">
-<table>
-<tr>
-
-<td style="line-height:20px;height:20px;margin-top:10px;">
-
-</td>
-<td>
-<!--<h2>	
-<script language="JavaScript">
-day = new Date( )
-nge_Hour = day.getHours( )
-var nge_warmprompt = "";
-if (nge_Hour == 0)
-nge_warmprompt = "现在已经过凌晨了，身体是无价的资本喔，早点休息吧！"
-if (nge_Hour == 1)
-nge_warmprompt = "凌晨1点多了，工作是永远都做不完的，别熬坏身子！"
-if (nge_Hour == 2)
-nge_warmprompt = "该休息了，身体可是革命的本钱啊！"
-if (nge_Hour == 3)
-nge_warmprompt = "夜深了，熬夜很容易导致身体内分泌失调，长痘痘的！"
-if (nge_Hour == 4)
-nge_warmprompt = "四点过了，你明天不上班？？？"
-if (nge_Hour == 5)
-nge_warmprompt = "你知道吗，此时是国内网络速度最快的时候！"
-if (nge_Hour == 6)
-nge_warmprompt = "清晨好，这麽早就上论坛啦，昨晚做的梦好吗？ "
-if (nge_Hour == 7)
-nge_warmprompt = "新的一天又开始了，祝你过得快乐!"
-if (nge_Hour == 8)
-nge_warmprompt = "早上好，一天之际在于晨，又是美好的一天！"
-if ((nge_Hour == 9) || (nge_Hour ==10))
-nge_warmprompt = "上午好！今天你看上去好精神哦！"
-if (( nge_Hour == 11) || (nge_Hour == 12))
-nge_warmprompt = "该吃午饭啦！有什么好吃的？您有中午休息的好习惯吗？"
-if (( nge_Hour >= 13) && (nge_Hour <= 17))
-nge_warmprompt = "下午好！外面的天气好吗？记得朵朵白云曾捎来朋友殷殷的祝福。"
-if (( nge_Hour >= 17) && (nge_Hour <= 18))
-nge_warmprompt = "太阳落山了！快看看夕阳吧！如果外面下雨，就不必了 ^_^"
-if (( nge_Hour >= 18) && (nge_Hour <= 19))
-nge_warmprompt = "晚上好，今天的心情怎么样，来论坛和我们诉说吧！"
-if (( nge_Hour >= 19) && (nge_Hour <= 21))
-nge_warmprompt = "忙碌了一天，累了吧？来玩玩应用游戏，放松下吧！"
-if (( nge_Hour >= 22) && (nge_Hour <= 23))
-nge_warmprompt = "这么晚了，还在上网？早点洗洗睡吧，睡前记得洗洗脸喔！"
-document.write("　　<font color='#2E9AFE'>『温馨提示』")
-document.write(nge_warmprompt)
-document.write("</font>")
-</script>
-</h2>-->
-</td>
-</tr>
-</table>
-</span>
-</div>
-<div id="category_study_nge" >
-<div style="">
-<table border=0 cellSpacing=0 cellPadding=0 width="100%" style="border-collapse: collapse;border-bottom:1px solid #C2D5E3;">
-    <tr>
-
-<td width="450px" class="nge_border_right">
-<table border="0" cellSpacing=0 cellPadding=0 width="100%" style="height:24px">
-        <tbody>
-        	<tr style="TEXT-ALIGN:center;">
-        		<td class="nge_inactive" style="border-right:none;">精华推荐</td>
-</tr>
-       </tbody>
-    </table>
-</td>
-    
-    <td class="nge_border_right">
-    <table cellSpacing=0 cellPadding=0 width="100%"  style="height:24px">
-        <tbody>
-        <tr>
-
-                			<td class="nge_active" id="study_nge_t_threads_0" align="center" onmouseover="study_nge_hoverLi('_threads_','0','4');" style="cursor: pointer;">学员感言</td>
-        			<td class="nge_inactive" id="study_nge_t_threads_1" align="center" onmouseover="study_nge_hoverLi('_threads_','1','4');" style="cursor: pointer;">教程下载</td>
-        			<td class="nge_inactive" id="study_nge_t_threads_2" align="center" onmouseover="study_nge_hoverLi('_threads_','2','4');" style="cursor: pointer;">热门主题</td>
-        			<td class="nge_inactive" id="study_nge_t_threads_3" align="center" onmouseover="study_nge_hoverLi('_threads_','3','4');" style="cursor: pointer;border-right:0px;">热门活动</td>
-
-        </tr>
-        </tbody>
-    </table>
-    </td>
-    
-    </tr>
-    <tr>
-    	
-    <td width="450px" align=center class="nge_border_right" style="border-top:none;">
-    <table border="0" cellSpacing=0 cellPadding=0 width="450">
-      <tbody>
-        <tr>
-        	<td align="center" style="position: relative;">
-
-<div>
-<div class="module cl slidebox">
-<ul class="slideshow">
-<li style="width: 450px; height: 250px;">
-<a href="http://open.itcast.cn/home/open/look/mark/3/id/106.html?jd1" title="C#游戏开发" target="_blank">
-<img src="http://bbs.itcast.cn/data/attachment/forum/201412/12/102754g58zrglwvzk5lysa.jpg" width="450" height="250" alt="newpic"/></a>										
-</li>
-<li style="width: 450px; height: 250px;">
-<a href="http://open.itcast.cn/home/open/look/mark/1/id/109.html?jd2" title="【第17期】从零开始学习Linux编 ..." target="_blank">
-<img src="http://ww2.sinaimg.cn/mw1024/6c270781jw1en4bl04adzj20cj06y3zj.jpg" width="450" height="250" alt="newpic"/></a>										
-</li>
-<li style="width: 450px; height: 250px;">
-<a href="http://bbs.itcast.cn/thread-46811-1-1.html?jd3" title="2014年度优秀教师提名活动正在进 ..." target="_blank">
-<img src="http://bbs.itcast.cn/data/attachment/forum/201412/16/100011nnwnx1x8suxm8qx6.jpg" width="450" height="250" alt="newpic"/></a>										
-</li>
-<li style="width: 450px; height: 250px;">
-<a href="http://c.itcast.cn/?jd4" title="C++培训谁与争锋" target="_blank">
-<img src="http://bbs.itcast.cn/data/attachment/forum/201412/10/142213yc991oae6ocjn110.jpg" width="450" height="250" alt="newpic"/></a>										
-</li>
-
+	<div class="clear"></div>
+	<div class="top2">
+		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Public/images/logo.jpg" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<div class="fl toubu">
+		<div class="toubu-font1">PHP学院</div>
+			 <!-- 校区 -->
+<p><a href="http://www.itcast.cn" target="_blank">北京校区</a></p>
+<p><a target="_blank" href="http://sh.itcast.cn">上海校区</a></p>
+<p><a href="http://gz.itcast.cn" target="_blank">广州校区</a></p><br />
+<p><a target="_blank" href="http://wh.itcast.cn">武汉校区</a></p>
+<p><a href="http://cd.itcast.cn" target="_blank">成都校区</a></p>
+<p><a href="http://zz.itcast.cn" target="_blank">郑州校区</a></p><br />
+<p><a href="http://xa.itcast.cn" target="_blank">西安校区</a></p>
+<!-- 校区 --> 
+		</div>
+		<p class="fr"><img src="/Public/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
+	</div>
+	<div class="clear"></div>
+	<ul id="nav">
+           <?php foreach($nav as $key => $val){?>
+	<li nid="nav_life" width="15%"><a href="/<?php echo $val['n_url']?>" id="nav_main"><?php echo $val['n_name']?></a></li>
+	<?php }?>
+        <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">技术论坛</a></li>
+		 <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">首页</a></li>
+		  <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">php培训</a></li>
+		   <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">视频下载</a></li>
 </ul>
-</div>
-<script type="text/javascript">
-runslideshow();
-</script>
-</div>
+	</div>
+	</body>
+<DIV id="box">
+<DIV class="mbx"><!-- Baidu share BEGIN -->
+<DIV id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"><SPAN class="bds_more">分享到：</SPAN><A 
+class="bds_sqq">QQ好友</A><A class="bds_qzone">QQ空间</A><A 
+class="bds_tqq">腾讯微博</A><A class="bds_tsina">新浪微博</A><A 
+class="bds_tieba">百度贴吧</A><A class="shareCount"></A></DIV><!-- Baidu share END 需在页面底部添加baidushare.js -->
+<DIV 
+style="padding-left: 60px; float: left; _padding-top: 8px;"><B>其它学院入口：</B><IMG 
+src="/Public/images/sanjiao.jpg"> <A href="http://java.itcast.cn/" 
+target="_blank">java学院</A> <IMG src="/Public/images/sanjiao.jpg"> 
+<A href="http://net.itcast.cn/" target="_blank">.net学院</A><IMG src="/Public/images/sanjiao.jpg"> 
+<A href="http://ios.itcast.cn/">ios学院</A> <IMG src="/Public/images/sanjiao.jpg"> 
+<A href="http://c.itcast.cn/">c/c++学院</A><IMG src="/Public/images/sanjiao.jpg"> 
+<A href="http://icd.itcast.cn/" target="_blank">网页平面设计学院</A></DIV></DIV>
+<DIV style="margin-top: 3px;" id="left" class="fl">
+<DIV><IMG 
+src="/Public/images/lefttop.gif"></DIV>
+<DIV class="left_content2">
+<H4 class="title1"><SPAN style="padding-right: 20px; font-size: 14px; float: right;">今天我终于来到了心中向往已久的神圣学府--传智播客，开始了改变命运的征途</SPAN><SPAN 
+class="STYLE3">我们开学啦</SPAN></H4>
+<DIV style="clear: both;" class="ganyan1 huodong1">
+<DIV class="fl">
+<DIV id="idTransformView2" class="imagecontainer">
+<UL id="idSlider2" class="slider slider2">
+  <LI><A href="http://php.itcast.cn/subject/phpwzlx/bbs.shtml" 
+  target="_blank"><IMG style="width: 297px; height: 216px;" alt="王者来袭--只做中国PHP培训界的领航者!" 
+  src="/Public/images/20140507122631634.jpg"></A></LI>
+  <LI><A href="http://php.itcast.cn/news/20140904/1456540144.shtml?yuanchao" 
+  target="_blank"><IMG style="width: 297px; height: 216px;" alt="【精英访谈】PHP袁超：叛逆少年的成长" 
+  src="/Public/images/20140902180947196.jpg"></A></LI>
+  <LI><A href="http://php.itcast.cn/subject/phpzly/bbs.html" 
+  target="_blank"><IMG style="width: 297px; height: 216px;" alt="学PHP编程,不做孬种程序员" 
+  src="/Public/images/20140528133631480.jpg"></A></LI>
+</UL>
+<UL id="idNum2" class="num">
+  <LI>1</LI>
+  <LI>2</LI>
+  <LI>3</LI></UL></DIV></DIV>
+<DIV class="fr shouye">
+    <?php foreach($res as $key =>$val){?>
+<UL>
+  <LI><A href="/index.php/home/jiuye/detial/id=<?php echo $val['id']?>""><IMG style="width: 142px; height: 87px;" alt="传智播客php" src="/bbs/upload/<?php echo $val['image']?>"></A></LI>
+  <LI><A class="style3" href="http://php.itcast.cn/news/20131128/10173894392.shtml">曹伟-玩酷我的程序人生</A></LI>
+</UL>
+    <?php } ?>
+</DIV>
+<DIV></DIV></DIV>
+<DIV class="clear"></DIV>
+<P class="kxsy-font1"><IMG src="/Public/images/kxsy-tu6.jpg"></P><!--  校园消息  -->
+<UL class="huodong11">
+  <?php foreach($list as $key => $val){?>
+  <LI><IMG src="/Public/images/sanjiao-1.jpg"><A 
+  href="http://php.itcast.cn/news/20141203/14264847561.shtml" 
+  target="_blank"><SPAN 
+  ><?php echo $val['a_title']?></SPAN></A></LI>
+  <?php }?>
+<!--
+<li><img src="/images/sanjiao-1.jpg" /><a href="http://www.itcast.cn/news/20140917/17033478626.shtml" target="_blank">我为寻找最初的职业理想而来</a></li>
+<li><img src="/images/sanjiao-1.jpg" /><a href="http://dvd.itcast.cn/?php" target="_blank"><span style="color:#0000ff;">网速下载不给力，快来申请最新PHP学习光盘！</span></a></li>
+<li><img src="/images/sanjiao-1.jpg" /><a href="http://php.itcast.cn/subject/special/php.html">拒绝&quot;上半天，自学半天&quot;的教学培训</a></li>
+<li><img src="/images/sanjiao-1.jpg" /><a href="http://php.itcast.cn/news/20120913/18063829105.shtml" target="_blank">传智播客PHP视频教程配套笔记，更新到第114讲</a></li>
+<li><strong><img src="/images/sanjiao-1.jpg" /></strong><a href="http://www.itcast.cn/news/20140917/17205196075.shtml" target="_blank">力排众议来传智</a>！</li>
+--></UL><!--  校园消息  -->
+<DIV class="clear"></DIV>
+<P class="text-r"><A href="http://php.itcast.cn/news/list/48b817de-285d-4981-a85a-ccdb3f42b15b/1.shtml"><IMG 
+src="/Public/images/jiantoumore.gif"></A></P></DIV>
+<DIV><IMG 
+src="/Public/images/leftbottom.gif"></DIV>
+<DIV class="clear"></DIV>
+<DIV><IMG 
+src="/Public/images/lefttop.gif"></DIV>
+<DIV class="left_content2">
+<H4 class="title1"><SPAN class="STYLE3">校园</SPAN>动态</H4>
+<DL class="ganyan1 huodong1">
+  <DT class="fl"><A href="http://php.itcast.cn/news/20131117/14525122556.shtml" 
+  target="_blank"><IMG style="width: 286px; height: 215px;" src="/Public/images/20131117151902186.jpg"><BR>
+  		开拓视野，展现自我，“非你莫属”我们来啦！</A></DT>
+  <DD class="huodongfr">
+  <H3 class="STYLE7">班级活动</H3>
+  <UL class="bjhd">
+     <?php foreach($list1 as $key => $val){?>
+    <LI><IMG src="/Public/images/great.jpg"><A 
+    href="http://php.itcast.cn/news/20140328/17081824603.shtml" 
+    target="_blank"><?php echo $val['a_title']?></A></LI>
+    <?php }?>
+   </UL></DD></DL>
+<DIV class="clear"></DIV>
+<P class="text-r"><IMG src="/Public/images/jiantoumore.gif"></P></DIV>
+<DIV class="clear"></DIV>
+<DIV><IMG 
+src="/Public/images/leftbottom.gif"></DIV>
+<DIV><IMG 
+src="/Public/images/lefttop.gif"></DIV>
+<DIV class="left_content2">
+<H4 class="ganyan"><SPAN class="STYLE3">论坛</SPAN>热贴<SPAN class="fr"><A href="http://bbs.itcast.cn/">+MORE</A></SPAN></H4>
+<DIV class="tie">
+<SCRIPT type="text/javascript" src="传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files/api.htm"></SCRIPT>
+</DIV>
+<DIV class="clear"></DIV></DIV>
+<DIV><IMG 
+src="/Public/images/leftbottom.gif"></DIV>
+<DIV><IMG 
+src="/Public/images/lefttop.gif"></DIV>
+<DIV class="left_content2">
+<H4 class="ganyan"><SPAN class="fl"><SPAN 
+class="STYLE3">PHP培训</SPAN>学员呐喊</SPAN><SPAN class="fr"><A href="http://php.itcast.cn/php/jyjb.shtml">+MORE</A></SPAN></H4>
+<DL class="ganyan1 huodong1">
+  <DT class="fl"><A href="http://php.itcast.cn/news/20130705/14332258802.shtml" 
+  target="_blank"><IMG style="width: 287px; height: 189px;" src="/Public/images/20130705170611718.jpg"></A><BR><A 
+  href="http://php.itcast.cn/news/20130705/14332258802.shtml" 
+  target="_blank">传智播客PHP学院就业明星-张巍</A></DT>
+  <DD class="huodongfr">
+  <H3 class="STYLE7">就业信息</H3>
+  <UL class="bjhd">
+      <?php foreach($list2 as $key => $val){?>
+    <LI><IMG 
+    src="/Public/images/great(1).jpg"><A href="/question/qq/id/<?php echo $v['q_id']?>"><?php echo $val['student_name']?> 
+    <?php echo $val['job_time']?> &nbsp;<?php echo $val['job_company']?> &nbsp;<?php echo $val['work_money']?></A></LI>
+    <?php }?>
+    <LI><IMG 
+    src="/Public/images/great(1).jpg"><A href="http://www.bbs.com/bbs/jiuye/index"><FONT 
+    style="color: red;"><B>&gt;&gt;查看更多就业信息</B></FONT></A></LI></UL></DD></DL>
+<DIV class="clear"></DIV></DIV>
+<DIV class="clear"></DIV>
+<DIV><IMG 
+src="/Public/images/leftbottom.gif"></DIV>
+<DIV><IMG 
+src="/Public/images/lefttop.gif"></DIV>
+<DIV class="left_content2">
+<H4 class="ganyan"><SPAN class="fl"><SPAN class="STYLE3">学员</SPAN>感言</SPAN><SPAN 
+class="fr"><A href="http://php.itcast.cn/news/list/0b8acc29-7202-4e1d-a6db-f6dfd3a639bb/1.shtml">+MORE</A></SPAN></H4>
+<DIV class="xygy">
+<DIV class="ganyanleft fl">
+<DL class="ganyan1">
+  <DT class="fl"><A href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml"><IMG 
+  style="width: 108px; height: 71px;" alt="" src="/Public/images/xygn03.jpg"></A></DT>
+  <DD class="fr"><SPAN class="STYLE6"><A href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">[php学员]</A></SPAN><A 
+  href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">钟玲玉：传智，我人生中重要的一站</A></DD>
+</DL>
+<DIV class="clear"></DIV>
+<UL>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/fb4ddfd4/3e47/496a/8c63/7fbe5463bfd3.shtml">李久扬：90后,月薪10k,一封迟..</A></LI>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/5dc90d47/e9e4/4ff5/b156/77539ce525ca.shtml">杜宏海：同学到其它机构学完..</A></LI>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/fbe7a9c2/7cb8/40a0/93c7/3cddcecb76ba.shtml">杨*斌： 
+  一个小学生的奋斗史..</A></LI>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/a59c6523/b6ed/4304/a02f/cf7edb613bca.shtml">黄*：传智播客,让我月薪增长到..</A></LI>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/7e39b618/ad36/48f4/b944/f0c088dc025d.shtml">刘传华：传智，我人生中的转折点..</A></LI>
+</UL></DIV>
+<DIV class="ganyanleft fr3">
+<DL class="ganyan1">
+  <DT class="fl"><A 
+  href="http://php.itcast.cn/news/20120913/11580550824.shtml"><IMG style="width: 108px; height: 71px;" 
+  alt="" src="/Public/images/20130812133704044.jpg"></A></DT>
+  <DD class="fr"><SPAN class="STYLE6"><A href="http://php.itcast.cn/news/20120913/11580550824.shtml">[php学员]</A></SPAN><A 
+  href="http://php.itcast.cn/news/20120913/11580550824.shtml">王艳：美女网编,毕业薪水6500</A></DD>
+</DL>
+<DIV class="clear"></DIV>
+<UL>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/20130902/14205610545.shtml">吴思阳：传智之旅-真正的升华..</A></LI>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/20130902/14273649772.shtml">郝建设：短暂时光的改变..</A></LI>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/273e1200/65bb/4bf7/ad99/80f664bb5583.shtml">宋娇：幸好，我选择了传智..</A></LI>
+  <LI><SPAN class="STYLE6">[php学员]</SPAN><A href="http://php.itcast.cn/news/83bef091/4cfc/44a5/b0d4/18a862cd5fd3.shtml">李玉宝：零基础学员,刚毕业就拿..</A></LI>
+  <LI><A href="http://php.itcast.cn/news/list/0b8acc29-7202-4e1d-a6db-f6dfd3a639bb/1.shtml"><FONT 
+  style="color: red;"><B>&gt;&gt;查看更多学员感言</B></FONT></A></LI></UL></DIV></DIV><BR>
+<DIV class="clear"></DIV></DIV>
+<DIV><IMG 
+src="/Public/images/leftbottom.gif"></DIV>
+<DIV><IMG 
+src="/Public/images/lefttop.gif"></DIV>
+<DIV class="left_content2">
+<H4 class="ganyan"><SPAN class="fl"><SPAN 
+class="STYLE3">PHP培训</SPAN>名师答疑</SPAN><SPAN class="fr"><A href="http://php.itcast.cn/news/list/cba8c58c-b2d4-4f48-bf64-a10b59fb2666/1.shtml">+MORE</A></SPAN></H4>
+<DIV class="msdy">
+<DIV class="msdy-left"><IMG src="/Public/images/wenhao-1.jpg"></DIV>
+<DIV class="msdy-right">
+<UL>
+    <?php foreach($list3 as $key =>$val){?>
+  <LI><A href="/index.php/home/question1/qq/id/<?php echo $val['q_id']?>"><?php echo $val['q_wenti']?></A></LI>
+ <?php } ?>
+</UL>
+<UL>
+    <?php foreach($list4 as $key =>$val){?>
+  <LI><A 
+  href="/index.php/home/question1/qq/id/<?php echo $val['q_id']?>"><?php echo $val['q_wenti']?></A></LI>
+  <?php }?>
+  <LI><A href="http://www.bbs.com/bbs/question1/index"><FONT 
+  style="color: red;"><B>&gt;&gt;查看更多答疑信息</B></FONT></A></LI></UL></DIV><BR></DIV>
+<DIV class="clear"></DIV></DIV>
+<DIV><IMG 
+src="/Public/images/leftbottom.gif"></DIV>
+<DIV></DIV></DIV>
 
-</td>
-</tr>
-</tbody>
-</table>
-</td>    
+
+<DIV id="right" class="fl">
+<H4 style="margin-top: 10px;" class="righttitle1"><SPAN 
+class="fl">PHP培训开班信息</SPAN></H4>
+<DIV class="jyjb-left">
+<UL>
+<?php foreach($list5 as $k1=>$v1){?>
+  <LI style="color: rgb(81, 81, 81); border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; float: left;"><A 
+  href="http://php.itcast.cn/php/course/base.shtml"><B><FONT style="color: rgb(81, 81, 81);"><?php echo $v1['p_name']?></FONT></B></A></LI>
+  <BR></UL>
+<UL style="clear: both;">
+	<?php foreach($list6 as $k=>$val) { if($val['p_id']==$v1['p_id']) { ?> 
+  <LI><A href="http://php.itcast.cn/php/course/base.shtml" target="_blank"><SPAN 
+  class="time jyjb-font2"><B></B></SPAN><?php echo $val['k_name']?></A></LI>
+  <?php } }?>
+  
+ </UL>
+ <?php } ?>
+</DIV>
+<DIV class="rightbottom"><IMG src="/Public/images/rightbottom.jpg"></DIV>
+<H4 class="righttitle1 zhaopin"><SPAN class="blue">最新</SPAN>企业招聘</H4>
+<DIV class="rightkuang1">
+<P class="cent"> <IMG src="/Public/images/select.jpg" 
+width="256" height="66"></P>
+<TABLE style="margin-top: 5px;" class="zhaopinlist" border="0" cellSpacing="0" 
+cellPadding="0" width="98%" height="124">
+  <TBODY>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16233788127.shtml" 
+      target="_blank">上海北岸信息生物谷招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.28</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16302725269.shtml" 
+      target="_blank">TCL数码科技有限公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.28</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16292068856.shtml" 
+      target="_blank">博雅软件集团有限公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.28</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16242833345.shtml" 
+      target="_blank">北京南天信息有限公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.28</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16223017278.shtml" 
+      target="_blank">北京十方元基科技公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.28</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16213222025.shtml" 
+      target="_blank">北京天舟通信有限公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.28</TD></TR>
+  <TR></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16183668306.shtml" 
+      target="_blank">北京新玛互动传媒公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.28</TD></TR>
+  <TR></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/1617416903.shtml" 
+      target="_blank">北京缔凡思信息技术公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.21</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16165624603.shtml" 
+      target="_blank">北京韩购街贸易有限公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.21</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16155357521.shtml" 
+      target="_blank">北京花生米数字科技公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.21</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16145632220.shtml" 
+      target="_blank">集慧智佳知识产权管理招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.21</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/20141201/16135856735.shtml" 
+      target="_blank">北京金万维科技有限公司招聘</A></TD>
+    <TD width="11%">若干</TD>
+    <TD width="16%">11.21</TD></TR>
+  <TR>
+    <TD class="td1" width="73%"><A href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" 
+      target="_blank"><SPAN 
+      style="color: rgb(255, 0, 0);">更多企业招聘信息请点击……</SPAN></A></TD>
+    <TD width="11%"><A href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" 
+      target="_blank"><SPAN style="color: rgb(255, 0, 0);">查看</SPAN></A></TD>
+    <TD width="16%"><A href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" 
+      target="_blank"><SPAN style="color: rgb(255, 0, 0);">更多</SPAN></A></TD></TR>
+  <TR></TR></TBODY></TABLE>
+<DIV class="clear"></DIV></DIV>
+<DIV class="rightbottom"><IMG src="/Public/images/bottom1.gif"></DIV>
+<H4 style="margin-top: 3px;" class="righttitle1 zhaopin"><SPAN 
+class="blue">常见</SPAN>问题</H4>
+<DIV style="padding-top: 18px;" class="rightkuang1">
+<UL class="title4">
+  <UL class="zhaopinlist wenti">
+  <?php foreach($list7 as $k=>$v){?>
+	<li><a href="/index.php/Home/Index/qq/id/<?php echo $v['q_id']?>" target="_blank"><?php echo $v['q_wenti']?></a></li>
+	<?php } ?>
     
-    <td class="nge_border_right">
-    <table border="0" cellSpacing=0 cellPadding=0 width="100%" style="table-layout:auto;">
-        <tbody>
-        <tr valign="top">
-        <td>
-        	<img src="source/plugin/study_nge/images/list10.gif" alt="列表"/>
-        </td>
-        <td class="nge_list_td">
-        
-                	<div id="study_nge_m_threads_0" class="nge_dis">
-                		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47592-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】我为什么来传智。继续扯淡，且扯且珍
-发表: Acscend (2014-12-15 22:44)
-浏览:  35 次 回复: 4 次
-回复: 李拴王 (2014-12-17 00:18)"   target="_blank" name="xxx">【网络营销一期】我为什么来传智。继续扯淡，且扯且珍</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47594-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】20几
-发表: 一起走过的日子 (2014-12-15 22:50)
-浏览:  14 次 回复: 2 次
-回复: 李拴王 (2014-12-17 00:18)"   target="_blank" name="xxx">【网络营销一期】20几</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47582-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】痛苦区——舒适区
-发表: 营雪l (2014-12-15 22:16)
-浏览:  71 次 回复: 12 次
-回复: 李拴王 (2014-12-17 00:16)"   target="_blank" name="xxx">【网络营销一期】痛苦区——舒适区</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47583-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】说说我身边的网络营销
-发表: 荣剑江湖 (2014-12-15 22:17)
-浏览:  20 次 回复: 3 次
-回复: 李拴王 (2014-12-17 00:15)"   target="_blank" name="xxx">【网络营销一期】说说我身边的网络营销</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47891-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】小兰晨会观后感
-发表: deer (2014-12-16 23:27)
-浏览:  41 次 回复: 10 次
-回复: 李拴王 (2014-12-17 00:14)"   target="_blank" name="xxx">【网络营销一期】小兰晨会观后感</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47895-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】新的起点—致全新的自己 全新的明天
-发表: 小清新 (2014-12-16 23:46)
-浏览:  12 次 回复: 2 次
-回复: 李拴王 (2014-12-17 00:14)"   target="_blank" name="xxx">【网络营销一期】新的起点—致全新的自己 全新的明天</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-43095-1-1.html" title="版块: 学员感言
-标题: 【.Net】应届生高薪就业的背后，看到第3条我惊呆了！
-发表: 陈育梅 (2014-11-20 11:33)
-浏览:  4813 次 回复: 19 次
-回复: shandian (2014-12-16 22:42)"   target="_blank" name="xxx">【.Net】应届生高薪就业的背后，看到第3条我惊呆了！</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-42909-1-1.html" title="版块: 学员感言
-标题: 高中学历月薪10K：感谢武汉传智所有老师
-发表: 孤木参天 (2014-11-18 11:53)
-浏览:  474 次 回复: 4 次
-回复: 茹红 (2014-12-16 18:35)"   target="_blank" name="xxx">高中学历月薪10K：感谢武汉传智所有老师</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47391-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】我与网络营销的缘分（长期更新）
-发表: 黎明前的破晓 (2014-12-14 20:55)
-浏览:  84 次 回复: 21 次
-回复: W姑娘琳不怕 (2014-12-16 15:43)"   target="_blank" name="xxx">【网络营销一期】我与网络营销的缘分（长期更新）</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-47396-1-1.html" title="版块: 学员感言
-标题: 【网络营销一期】东北妞在传智
-发表: 小黑cristina (2014-12-14 21:54)
-浏览:  39 次 回复: 14 次
-回复: 小黑cristina (2014-12-15 23:26)"   target="_blank" name="xxx">【网络营销一期】东北妞在传智</a>
-
-</div>
-</div>
-
-        	</div>
-        	<div id="study_nge_m_threads_1" class="nge_undis">
-                		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-28031-1-1.html" title="版块: 干货分享
-标题: 软件Adobe Dreamweaver各种版本免费海量下载
-发表: 赵艳敏老师 (2014-08-12 22:43)
-浏览:  900 次 回复: 74 次
-回复: 专注.net30年 (2014-12-15 16:43)"   target="_blank" name="xxx">软件Adobe Dreamweaver各种版本免费海量下载</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-11837-1-1.html" title="版块: 干货分享
-标题: 网页平面-李凤辉-UI图标设计经典教程-5月28日发
-发表: fantasy217 (2013-05-28 12:01)
-浏览:  14309 次 回复: 490 次
-回复: ml02825 (2014-12-15 19:59)"   target="_blank" name="xxx">网页平面-李凤辉-UI图标设计经典教程-5月28日发</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-19370-1-1.html" title="版块: 干货分享
-标题: Photoshop史上最强抠头发丝的技巧
-发表: 高志远老师 (2013-09-18 23:49)
-浏览:  6849 次 回复: 552 次
-回复: 18914641375 (2014-12-16 20:49)"   target="_blank" name="xxx">Photoshop史上最强抠头发丝的技巧</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-13894-1-1.html" title="版块: 干货分享
-标题: 网页平面-贺叶铭-PS人物面部美化及商业修片技法教程视
-发表: fantasy217 (2013-06-09 15:35)
-浏览:  17083 次 回复: 793 次
-回复: php1024 (2014-12-14 09:52)"   target="_blank" name="xxx">网页平面-贺叶铭-PS人物面部美化及商业修片技法教程视</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-26647-1-1.html" title="版块: 干货分享
-标题: Adobe CC 2014 全套软件及完美注册机 X-FORCE（含破解
-发表: 高志远老师 (2014-06-29 21:35)
-浏览:  3881 次 回复: 235 次
-回复: 尘土飞扬 (2014-12-16 22:12)"   target="_blank" name="xxx">Adobe CC 2014 全套软件及完美注册机 X-FORCE（含破解</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-33240-1-1.html" title="版块: 干货分享
-标题: 【首发】史上最适合自学的C语言视频，超20000人订阅
-发表: 小春老师 (2014-10-15 13:48)
-浏览:  36374 次 回复: 301 次
-回复: MrHu (2014-12-15 09:55)"   target="_blank" name="xxx">【首发】史上最适合自学的C语言视频，超20000人订阅</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-17036-1-1.html" title="版块: 干货分享
-标题: 【高薪就业必备11】java中静态变量和实例变量的区别？
-发表: 董鹏老师 (2013-07-27 10:26)
-浏览:  8258 次 回复: 394 次
-回复: wanglingru123 (2014-12-04 10:44)"   target="_blank" name="xxx">【高薪就业必备11】java中静态变量和实例变量的区别？</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-28067-1-1.html" title="版块: 干货分享
-标题: 特供精品.Net基础全套视频教程2014版 -- 04Winform应
-发表: 小Z_ (2014-08-14 10:23)
-浏览:  13568 次 回复: 2202 次
-回复: zhangxy0822 (2014-12-17 01:15)"   target="_blank" name="xxx">特供精品.Net基础全套视频教程2014版 -- 04Winform应</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-22808-1-1.html" title="版块: 干货分享
-标题: 1月6、7号邵山欢老师JS公开课视频下载
-发表: nyjtt (2014-01-14 10:55)
-浏览:  4217 次 回复: 301 次
-回复: IT-宅男 (2014-12-15 14:22)"   target="_blank" name="xxx">1月6、7号邵山欢老师JS公开课视频下载</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-111-1-1.html" title="版块: 干货分享
-标题: 传智播客  黎活明 Android核心基础视频教程
-发表: admin (2012-05-06 17:43)
-浏览:  26372 次 回复: 634 次
-回复: 占老板 (2014-12-14 16:53)"   target="_blank" name="xxx">传智播客  黎活明 Android核心基础视频教程</a>
-
-</div>
-</div>
-
-        	</div>
-        	<div id="study_nge_m_threads_2" class="nge_undis">
-                		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-33240-1-1.html" title="版块: 干货分享
-标题: 【首发】史上最适合自学的C语言视频，超20000人订阅
-发表: 小春老师 (2014-10-15 13:48)
-浏览:  36374 次 回复: 301 次
-回复: MrHu (2014-12-15 09:55)"   target="_blank" name="xxx">【首发】史上最适合自学的C语言视频，超20000人订阅</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-28660-1-1.html" title="版块: 干货分享
-标题: 冲击月薪10K，PHP程序员要掌握哪些技术？
-发表: huawei (2014-09-09 14:38)
-浏览:  2984 次 回复: 246 次
-回复: 1314 (2014-12-16 09:30)"   target="_blank" name="xxx">冲击月薪10K，PHP程序员要掌握哪些技术？</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-30062-1-1.html" title="版块: 干货分享
-标题: Java程序设计总复习题（100题，含答案）
-发表: 起源 (2014-09-25 10:42)
-浏览:  1954 次 回复: 142 次
-回复: 中式月影 (2014-12-14 10:20)"   target="_blank" name="xxx">Java程序设计总复习题（100题，含答案）</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-32288-1-1.html" title="版块: 干货分享
-标题: Java入门基础必备练习试题【含答案】
-发表: 强哥qg (2014-10-09 10:23)
-浏览:  1910 次 回复: 123 次
-回复: Rhythm (2014-12-15 12:32)"   target="_blank" name="xxx">Java入门基础必备练习试题【含答案】</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-31190-1-1.html" title="版块: .Net公开课
-标题: [第09期]拒绝低调，国内首家推出微软WP8.1移动开发课
-发表: 小Z_ (2014-09-29 13:47)
-浏览:  29029 次 回复: 98 次
-回复: 掌柜来碗素面 (2014-12-13 20:37)"   target="_blank" name="xxx">[第09期]拒绝低调，国内首家推出微软WP8.1移动开发课</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-42688-1-1.html" title="版块: .Net公开课
-标题: [第11期]Asp.net MVC的企业管理系统项目开发
-发表: 兔纸姐 (2014-11-14 13:04)
-浏览:  13980 次 回复: 88 次
-回复: 匿名 (2014-12-16 17:18)"   target="_blank" name="xxx">[第11期]Asp.net MVC的企业管理系统项目开发</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-32150-1-1.html" title="版块: 干货分享
-标题: 惊爆！设计师实用尺寸手册
-发表: 高志远老师 (2014-10-03 09:02)
-浏览:  633 次 回复: 68 次
-回复: 智能ABC (2014-12-13 19:55)"   target="_blank" name="xxx">惊爆！设计师实用尺寸手册</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-31632-1-1.html" title="版块: Java公开课
-标题: [第14期]Linux系统开发基础入门公开课
-发表: 裙子老师 (2014-09-30 09:43)
-浏览:  20109 次 回复: 73 次
-回复: 爱玲 (2014-12-16 21:26)"   target="_blank" name="xxx">[第14期]Linux系统开发基础入门公开课</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-44031-1-1.html" title="版块: 干货分享
-标题: Unity基础入门全套视频教程 2015特供版
-发表: 小春老师 (2014-11-27 10:40)
-浏览:  739 次 回复: 57 次
-回复: 追梦汉子 (2014-12-16 23:54)"   target="_blank" name="xxx">Unity基础入门全套视频教程 2015特供版</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-33681-1-1.html" title="版块: PHP公开课
-标题: [第13期]PHP+MySql：8小时打造专属电子留言板系统
-发表: 小聂老师 (2014-10-16 16:30)
-浏览:  13978 次 回复: 72 次
-回复: paraflamel (2014-12-16 23:19)"   target="_blank" name="xxx">[第13期]PHP+MySql：8小时打造专属电子留言板系统</a>
-
-</div>
-</div>
-
-        	</div>
-        	<div id="study_nge_m_threads_3" class="nge_undis">
-                		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-46507-1-1.html" title="版块: 衣食住行
-标题: 老师，喝完这杯酒，今天不要走--传智那些事儿
-发表: 我是锤哥 (2014-12-10 16:12)
-浏览:  0 次 回复: 0 次
-回复: 我是锤哥 (2014-12-10 16:12)"   target="_blank" name="xxx">老师，喝完这杯酒，今天不要走--传智那些事儿</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-41106-1-1.html" title="版块: 衣食住行
-标题: 程序猿携设计狮美女雨中....想过我们的感受吗
-发表: 姚绮丽老师 (2014-10-31 13:58)
-浏览:  300 次 回复: 4 次
-回复: beijing0807 (2015-01-29 14:00)"   target="_blank" name="xxx">程序猿携设计狮美女雨中....想过我们的感受吗</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-20695-1-1.html" title="版块: 衣食住行
-标题: 上海网页二期模拟面试，看张鹏老师如何“刁难”学员
-发表: 姚绮丽老师 (2013-10-25 20:02)
-浏览:  1575 次 回复: 3 次
-回复: D姑娘 (2014-11-18 16:44)"   target="_blank" name="xxx">上海网页二期模拟面试，看张鹏老师如何“刁难”学员</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-13880-1-1.html" title="版块: 衣食住行
-标题: 微软，我们来啦！各种羡慕嫉妒呐，.Net学员应邀参观微
-发表: boyuan (2013-06-09 14:12)
-浏览:  3955 次 回复: 11 次
-回复: peopleonline (2013-06-26 17:13)"   target="_blank" name="xxx">微软，我们来啦！各种羡慕嫉妒呐，.Net学员应邀参观微</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-13371-1-1.html" title="版块: 衣食住行
-标题: 体验软件之巅:传智播客受邀参加第十七届中国国际软件
-发表: 栾博老师 (2013-06-07 01:07)
-浏览:  6332 次 回复: 10 次
-回复: 対伱♂嶶笶 (2013-07-02 00:06)"   target="_blank" name="xxx">体验软件之巅:传智播客受邀参加第十七届中国国际软件</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-10548-1-1.html" title="版块: 衣食住行
-标题: 畅游古刹八大处，尽显讲师年少时—记传智首个讲师日活
-发表: 刘晓曲老师 (2013-04-08 02:30)
-浏览:  6094 次 回复: 5 次
-回复: 仇邓强 (2013-05-31 16:43)"   target="_blank" name="xxx">畅游古刹八大处，尽显讲师年少时—记传智首个讲师日活</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-10437-1-1.html" title="版块: 衣食住行
-标题: 毕姥爷突击查寝暖人心——上海传智播客住宿生活篇（一
-发表: 王平 (2013-04-02 16:20)
-浏览:  8654 次 回复: 25 次
-回复: 茹红 (2014-12-10 14:01)"   target="_blank" name="xxx">毕姥爷突击查寝暖人心——上海传智播客住宿生活篇（一</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-10233-1-1.html" title="版块: 衣食住行
-标题: 爱心之火成燎原之势——浩荣 成都传智播客支持你
-发表: 成都中心 (2013-03-27 14:17)
-浏览:  1932 次 回复: 1 次
-回复: 成都中心 (2013-03-27 14:37)"   target="_blank" name="xxx">爱心之火成燎原之势——浩荣 成都传智播客支持你</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-7632-1-1.html" title="版块: 衣食住行
-标题: 必看！！！java&amp;平面联谊元旦晚会图文直播 精彩不断啊
-发表: 王平 (2013-01-08 15:19)
-浏览:  4421 次 回复: 6 次
-回复: 左手牵右手 (2013-02-27 23:37)"   target="_blank" name="xxx">必看！！！java&amp;平面联谊元旦晚会图文直播 精彩不断啊</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-7465-1-1.html" title="版块: 衣食住行
-标题: 期盼2013 high爆了 java班元旦晚会
-发表: 冯佳老师 (2012-12-31 16:22)
-浏览:  1893 次 回复: 2 次
-回复: 指弹 (2012-12-31 19:44)"   target="_blank" name="xxx">期盼2013 high爆了 java班元旦晚会</a>
-
-</div>
-</div>
-
-        	</div>
-
-        
-<!-- Powered by 1314study.com -->
-        </td>
-        </tr>
-        </tbody>
-    </table>
-</td>
-</tr>
-</table>
-<table border=0 cellSpacing=0 cellPadding=0 width="100%" style="border-collapse: collapse;">
-    </table>
-</div>
-</div>
-</div>
-</div>
-
-<div id="nge_sslct_menu" class="cl p_pop" style="display: none;">
-<span class="sslct_btn" onclick="nge_extstyle('')" title="默认"><i></i></span>
-<span class="sslct_btn" onclick="nge_extstyle('1')" title="蓝色"><i style='background:#0053B9'></i></span>
-<span class="sslct_btn" onclick="nge_extstyle('2')" title="红色"><i style='background:#FCC'></i></span>
-<span class="sslct_btn" onclick="nge_extstyle('3')" title="青色"><i style='background:#C5E6DF'></i></span>
-<span class="sslct_btn" onclick="nge_extstyle('4')" title="橙色"><i style='background:#FC6'></i></span>
-<span class="sslct_btn" onclick="nge_extstyle('5')" title="紫色"><i style='background:#DFCDDE'></i></span>
-<span class="sslct_btn" onclick="nge_extstyle('6')" title="白色"><i style='background:#FFFFFF'></i></span>
-</div>
-<!-- Powered by 1314study.com -->
-<script src="source/plugin/study_nge/images/common.js?K3L" type="text/javascript" ></script>
-
-
-
-        
-        <!-- 子分区版块列表页面 -->
-        <!-- 此处为自定义顶部可DIY区域 -->
-<div class="drag">
-<!--[diy=diy4]--><div id="diy4" class="area"></div><!--[/diy]-->
-</div>
-
-        
-        
-
-
-
-
-<div class="fl bm">
-<div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_177_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_177');" />
-</span>
-<h2><a href="forum.php?gid=177" style="">免费课程</a></h2>
-</div>
-<div id="category_177" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-178-1.html"><img src="static/image/common/forum_new.gif" alt="免费公开课" /></a>
-</div>
-<dl>
-<dt><a href="forum-178-1.html">免费公开课</a><em class="xw0 xi1" title="今日"> (4)</em></dt>
-<dd> <span class="xi2"> 208</span> <span class="xg1"> /<span title="46986">4万</span></span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=25330&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:17">25&nbsp;分钟前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-191-1.html"><img src="static/image/common/forum.gif" alt="作业" /></a>
-</div>
-<dl>
-<dt><a href="forum-191-1.html">作业</a></dt>
-<dd> <span class="xi2"> 892</span> <span class="xg1"> /8462</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=11192&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-11 14:56">6&nbsp;天前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-200-1.html"><img src="static/image/common/forum.gif" alt="传智特刊" /></a>
-</div>
-<dl>
-<dt><a href="forum-200-1.html">传智特刊</a></dt>
-<dd> <span class="xi2"> 78</span> <span class="xg1"> /983</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=26220&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-15 13:06">前天&nbsp;13:06</span></a>
-</dd>
-</dl>
-</td>
-</tr>
-</table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_215_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_215');" />
-</span>
-<h2><a href="forum.php?gid=215" style="">网页平面--网络班</a></h2>
-</div>
-<div id="category_215" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-217-1.html"><img src="static/image/common/forum_new.gif" alt="电商广告网络班" /></a>
-</div>
-<dl>
-<dt><a href="forum-217-1.html">电商广告网络班</a><em class="xw0 xi1" title="今日"> (63)</em></dt>
-<dd> <span class="xi2"> 66</span> <span class="xg1"> /246</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47984&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:26">15&nbsp;分钟前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-216-1.html"><img src="static/image/common/forum_new.gif" alt="PS基础网络班" /></a>
-</div>
-<dl>
-<dt><a href="forum-216-1.html">PS基础网络班</a><em class="xw0 xi1" title="今日"> (4)</em></dt>
-<dd> <span class="xi2"> 125</span> <span class="xg1"> /445</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47972&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 08:57">半小时前</span></a>
-</dd>
-</dl>
-</td>
-<td width="32.9%">&nbsp;</td></tr></tr>
-</table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_180_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_180');" />
-</span>
-<h2><a href="forum.php?gid=180" style="">技术学习</a></h2>
-</div>
-<div id="category_180" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-182-1.html"><img src="static/image/common/forum_new.gif" alt="技术答疑" /></a>
-</div>
-<dl>
-<dt><a href="forum-182-1.html">技术答疑</a><em class="xw0 xi1" title="今日"> (2)</em></dt>
-<dd> <span class="xi2"> 4265</span> <span class="xg1"> /<span title="20684">2万</span></span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47985&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:30">11&nbsp;分钟前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-181-1.html"><img src="static/image/common/forum_new.gif" alt="干货分享" /></a>
-</div>
-<dl>
-<dt><a href="forum-181-1.html">干货分享</a><em class="xw0 xi1" title="今日"> (20)</em></dt>
-<dd> <span class="xi2"> 3292</span> <span class="xg1"> /<span title="184457">18万</span></span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=26722&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:35">6&nbsp;分钟前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-209-1.html"><img src="static/image/common/forum.gif" alt="网页平面UI设计学员作品展示" /></a>
-</div>
-<dl>
-<dt><a href="forum-209-1.html">网页平面UI设计学员作品展示</a></dt>
-<dd> <span class="xi2"> 3</span> <span class="xg1"> /12</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47837&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-16 17:12">昨天&nbsp;17:12</span></a>
-</dd>
-</dl>
-</td>
-</tr>
-</table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_170_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_170');" />
-</span>
-<h2><a href="forum.php?gid=170" style="">热门看点</a></h2>
-</div>
-<div id="category_170" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-171-1.html"><img src="static/image/common/forum_new.gif" alt="IT资讯" /></a>
-</div>
-<dl>
-<dt><a href="forum-171-1.html">IT资讯</a><em class="xw0 xi1" title="今日"> (2)</em></dt>
-<dd> <span class="xi2"> 65</span> <span class="xg1"> /218</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47982&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:22">20&nbsp;分钟前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-172-1.html"><img src="static/image/common/forum_new.gif" alt="就业薪资" /></a>
-</div>
-<dl>
-<dt><a href="forum-172-1.html">就业薪资</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd> <span class="xi2"> 488</span> <span class="xg1"> /2187</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47976&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:06">半小时前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-173-1.html"><img src="static/image/common/forum.gif" alt="学员感言" /></a>
-</div>
-<dl>
-<dt><a href="forum-173-1.html">学员感言</a><em class="xw0 xi1" title="今日"> (8)</em></dt>
-<dd> <span class="xi2"> 734</span> <span class="xg1"> /3420</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47917&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 01:25">8&nbsp;小时前</span></a>
-</dd>
-</dl>
-</td>
-</tr>
-</table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_183_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_183');" />
-</span>
-<h2><a href="forum.php?gid=183" style="">大话码农</a></h2>
-</div>
-<div id="category_183" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-184-1.html"><img src="static/image/common/forum_new.gif" alt="衣食住行" /></a>
-</div>
-<dl>
-<dt><a href="forum-184-1.html">衣食住行</a><em class="xw0 xi1" title="今日"> (4)</em></dt>
-<dd> <span class="xi2"> 201</span> <span class="xg1"> /716</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47978&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:12">半小时前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-185-1.html"><img src="static/image/common/forum_new.gif" alt="热门活动" /></a>
-</div>
-<dl>
-<dt><a href="forum-185-1.html">热门活动</a><em class="xw0 xi1" title="今日"> (24)</em></dt>
-<dd> <span class="xi2"> 402</span> <span class="xg1"> /2410</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=46811&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 09:30">11&nbsp;分钟前</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-207-1.html"><img src="static/image/common/forum.gif" alt="吹牛专区" /></a>
-</div>
-<dl>
-<dt><a href="forum-207-1.html">吹牛专区</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd> <span class="xi2"> 6115</span> <span class="xg1"> /<span title="27577">2万</span></span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47871&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-16 21:28">昨天&nbsp;21:28</span></a>
-</dd>
-</dl>
-</td>
-</tr>
-</table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_174_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_174');" />
-</span>
-<h2><a href="forum.php?gid=174" style="">站务专区</a></h2>
-</div>
-<div id="category_174" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-175-1.html"><img src="static/image/common/forum.gif" alt="站务公告" /></a>
-</div>
-<dl>
-<dt><a href="forum-175-1.html">站务公告</a></dt>
-<dd> <span class="xi2"> 191</span> <span class="xg1"> /4019</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=44820&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-16 19:38">昨天&nbsp;19:38</span></a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g">
-<a href="forum-176-1.html"><img src="static/image/common/forum_new.gif" alt="版主会议室" /></a>
-</div>
-<dl>
-<dt><a href="forum-176-1.html">版主会议室</a><em class="xw0 xi1" title="今日"> (2)</em></dt>
-<dd> <span class="xi2"> 176</span> <span class="xg1"> /1288</span> </dd><dd>
-<a href="forum.php?mod=redirect&amp;tid=47970&amp;goto=lastpost#lastpost">最后发表: <span title="2014-12-17 08:48">半小时前</span></a>
-</dd>
-</dl>
-</td>
-<td width="32.9%">&nbsp;</td></tr></tr>
-</table>
-</div>
-</div>
-</div>
-
-<div class="wp mtn">
-<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
-</div>
-
-<div id="online" class="bm oll">
-<div class="bm_h">
-<span class="o"><a href="forum.php?showoldetails=yes#online" title="收起/展开"><img src="static/image/common/collapsed_yes.gif" alt="收起/展开" /></a></span>
-<h3>
-<strong>
-在线会员
-</strong>
-<span class="xs1">- 总计 <strong>608</strong> 人在线
-- 最高记录是 <strong>1205</strong> 于 <strong>2014-6-21</strong>.</span>
-</h3>
-</div>
-</div>
-<div class="bm lk">
-<div id="category_lk" class="bm_c ptm">
-<ul class="x mbm cl">
-<li><a href="http://www.itheima.com" target="_blank" title="黑马程序员">黑马程序员</a></li><li><a href="http://www.zpark.com.cn" target="_blank" title="中关村软件园">中关村软件园</a></li><li><a href="http://www.itcast.cn" target="_blank" title="传智播客">传智播客</a></li><li><a href="http://bbs.itheima.com" target="_blank" title="黑马程序员论坛">黑马程序员论坛</a></li><li><a href="http://www.php-z.com" target="_blank" title="PHP教程">PHP教程</a></li><li><a href="http://www.java800.com/" target="_blank" title="java培训指南">java培训指南</a></li><li><a href="http://www.itman1024.com/" target="_blank" title="CCNA">CCNA</a></li><li><a href="http://bbs.fishc.com/" target="_blank" title="C\C++汇编">C\C++汇编</a></li><li><a href="http://bbs.itcast.cn/thread-18391-1-1.html" target="_blank" title="申请友链">申请友链</a></li></ul>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
- 
-    <div class="a_cn"style=""><p class="close" id="ad_corner_close" onclick="setcookie('adclose_98', 1, 86400);this.parentNode.style.display='none'"><a href="javascript:;"><img src="static/image/common/ad_close.gif" /></a></p><a href="http://www.itcast.cn/subject/book/index.shtml" target="_blank"><img src="http://bbs.itcast.cn/data/attachment/common/cf/104008mf10a2fgf1w6aqow.jpg" border="0"></a></div> 
-
-
-
-
-<script type="text/javascript">
-_attachEvent(window, 'load', getForbiddenFormula, document);
-function getForbiddenFormula() {
-var toGetForbiddenFormulaFIds = function () {
-ajaxget('plugin.php?id=cloudsearch&formhash=b6b10c5e');
-};
-var a = document.body.getElementsByTagName('a');
-for(var i = 0;i < a.length;i++){
-if(a[i].getAttribute('sc')) {
-a[i].setAttribute('mid', hash(a[i].href));
-a[i].onmousedown = function() {toGetForbiddenFormulaFIds();};
-}
-}
-var btn = document.body.getElementsByTagName('button');
-for(var i = 0;i < btn.length;i++){
-if(btn[i].getAttribute('sc')) {
-btn[i].setAttribute('mid', hash(btn[i].id));
-btn[i].onmousedown = function() {toGetForbiddenFormulaFIds();};
-}
-}
-}
-</script>
-
-
-
-
-
-<div id="wechat_float_qrcode" class="p_pop xg1" style="display:none;text-align:center;float:left;position:fixed;top:220px;z-index:100;margin-left: 2px;width:110px">
-<p class="cl"><img class="y" style="cursor:pointer" onclick="display('wechat_float_qrcode');setcookie('wechatfqrc', 1, 86400)" src="static/image/common/ad_close.gif"></p>
-<img src="plugin.php?id=wechat:qrcode&amp;access=yes" width="98" />
-<p>手机快速浏览</p>
+   </UL></UL>
+   <h3 class="title2">PHP相关问题</h3>
+				<ul class="links">
+<ul>
+<?php foreach($list8 as $k=>$v1) {?>
+<li><a href="/index.php/Home/Index/qq/id/<?php echo $v['q_id']?>" target="_blank"><?php echo $v1['q_wenti'];?></a></li>
+<?php } ?>
+</ul>
+
+			    </ul>
+<DIV class="clear"></DIV>
+<P class="text-r"><A href="http://php.itcast.cn/php/question.shtml"><IMG border="0" 
+src="/Public/images/jiantoumore.gif"></A></P></DIV>
+<DIV class="rightbottom"><IMG src="/Public/images/bottom1.gif"></DIV>
+<H4 class="righttitle1 lianxi"><SPAN class="fl"><SPAN 
+class="blue">课程</SPAN>咨询</SPAN></H4>
+<DIV class="rightkuang">
+<DL>
+  <DT style="padding-bottom: 20px;">		北京传智播客</DT>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/iP66" 
+  target="_blank"><IMG border="0" alt="北京传智播客QQ在线咨询" src="/Public/images/qqmfst.jpg" 
+  width="99" height="27"></A></DD>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/iP66" 
+  target="_blank"><IMG border="0" alt="北京传智播客QQ在线咨询" src="/Public/images/qqkczx.jpg" 
+  width="99" height="27"></A></DD></DL>
+<DL class="qqtwo">
+  <DT style="padding-bottom: 20px;">		广州传智播客</DT>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDA2ODg2OF8yMDczMV84MDAwNjg4NjhfMl8" 
+  target="_blank"><IMG border="0" alt="广州传智播客QQ在线咨询" src="/Public/images/qqmfst.jpg" 
+  width="99" height="27"></A></DD>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDA2ODg2OF8yMDczMV84MDAwNjg4NjhfMl8" 
+  target="_blank"><IMG border="0" alt="广州传智播客QQ在线咨询" src="/Public/images/qqkczx.jpg" 
+  width="99" height="27"></A></DD></DL>
+<DL class="qqthree">
+  <DT style="padding-bottom: 20px;">		上海传智播客</DT>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/djUD" 
+  target="_blank"><IMG border="0" alt="上海传智播客QQ在线咨询" src="/Public/images/qqmfst.jpg" 
+  width="99" height="27"></A></DD>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/djUD" 
+  target="_blank"><IMG border="0" alt="上海传智播客QQ在线咨询" src="/Public/images/qqkczx.jpg" 
+  width="99" height="27"></A></DD></DL>
+<DL class="qqfour">
+  <DT style="padding-bottom: 20px;">		武汉传智播客</DT>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/P4EE" 
+  target="_blank"><IMG border="0" alt="武汉传智播客QQ在线咨询" src="/Public/images/qqmfst.jpg" 
+  width="99" height="27"></A></DD>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/P4EE" 
+  target="_blank"><IMG border="0" alt="武汉传智播客QQ在线咨询" src="/Public/images/qqkczx.jpg" 
+  width="99" height="27"></A></DD></DL>
+<DL class="qqfive">
+  <DT style="padding-bottom: 20px;">		郑州传智播客</DT>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/0LVE" 
+  target="_blank"><IMG border="0" alt="武汉传智播客QQ在线咨询" src="/Public/images/qqmfst.jpg" 
+  width="99" height="27"></A></DD>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/0LVE" 
+  target="_blank"><IMG border="0" alt="武汉传智播客QQ在线咨询" src="/Public/images/qqkczx.jpg" 
+  width="99" height="27"></A></DD></DL>
+<DL class="qqsix">
+  <DT style="padding-bottom: 20px;">		西安传智播客</DT>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/iP66" 
+  target="_blank"><IMG border="0" alt="西安传智播客QQ在线咨询" src="/Public/images/qqmfst.jpg" 
+  width="99" height="27"></A></DD>
+  <DD style="width: 120px; height: 40px; float: left;"><A href="http://cnrdn.com/iP66" 
+  target="_blank"><IMG border="0" alt="西安传智播客QQ在线咨询" src="/Public/images/qqkczx.jpg" 
+  width="99" height="27"></A></DD></DL><!--<dl class="qqsev">
+	<dt style="padding-bottom:20px;">
+		西安传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>-->
+<DIV class="clear"></DIV></DIV>
+<DIV class="rightbottom"><IMG src="/Public/images/rightbottom.jpg"></DIV></DIV></DIV>
+<DIV class="clear"></DIV><!-- 友情链接 -->
+<DIV class="content">
+<DIV class="friendlink_con">
+<DIV class="friendlink">
+<DIV class="friendlink_style01"><IMG src="/Public/images/youqin.jpg" 
+width="37" height="87"></DIV>
+<DIV class="friendlink_style03">
+<UL>
+  <LI><A href="http://www.sietoo.com/" target="_blank">深圳网站建设</A></LI>
+  <LI><A href="http://www.ibeifeng.com/" target="_blank">北风网</A></LI>
+  <LI><A href="http://www.wangxiaowang.com/" target="_blank">网络教育</A></LI>
+  <LI><A href="http://bbs.17liuxue.com/" target="_blank">澳洲留学DIY</A></LI>
+  <LI><A href="http://qd.jiajiao400.com/" target="_blank">青岛家教网</A></LI>
+  <LI><A href="http://www.028jq.com/" target="_blank">英国留学</A></LI>
+  <LI><A href="http://www.shisu-edu.com/" target="_blank">上外留学预科</A></LI>
+  <LI><A href="http://lyg.ygjj.com/" target="_blank">连云港家教</A></LI>
+  <LI><A href="http://www.wen5u.com/" target="_blank">论文格式</A></LI>
+  <LI><A href="http://edu.tianhenet.com.cn/" target="_blank">CFO培训</A></LI>
+  <LI><A href="http://baike.zidiantong.com/" target="_blank">百科知识</A></LI>
+  <LI><A href="http://www.xjc100.com/" target="_blank">宁波电脑培训</A></LI>
+  <LI><A href="http://jl.htexam.com/" target="_blank">吉林省公务员考试网</A></LI>
+  <LI><A href="http://bbs.xunkoo.com/" target="_blank">大学生网</A></LI>
+  <LI><A href="http://www.0755zixuekaoshi.com/" target="_blank">深圳自学考试网</A></LI>
+  <LI><A href="http://www.youzhikew.com/" target="_blank">优质课网</A></LI>
+  <LI><A href="http://www.youkao.com/" target="_blank">优考网</A></LI>
+  <LI><A href="http://www.fshuayue.com/" target="_blank">成人高考网</A></LI>
+  <LI><A href="http://sz.gaofen.com/" target="_blank">深圳教育网</A></LI>
+  <LI><A href="http://cjcx.xygmed.com/" target="_blank">执业医师成绩查询</A></LI>
+  <LI><A href="http://zs.k8008.com/" target="_blank">科技招商</A></LI>
+  <LI><A href="http://www.jsnxs.com/" target="_blank">江苏信用社招聘考试</A></LI>
+  <LI><A href="http://www.peixunhu.com/" target="_blank">武汉培训网</A></LI>
+  <LI><A href="http://net.thea.cn/" target="_blank">在线课程</A></LI>
+  <LI><A href="http://zz.jiajiao400.com/" target="_blank">郑州家教</A></LI>
+  <LI><A href="http://keji.3158.cn/" target="_blank">网络教育</A></LI>
+  <LI><A href="http://aia.lixinedu.com.cn/" target="_blank">AIA培训</A></LI>
+</UL></DIV></DIV></DIV></DIV><!-- 友情链接 --><!-- 页面底部 -->
+<!-- 页面底部 -->
+<div id="footer">
+  <div class="footer_info">
+    <p class="fl mar"><!--<img src="/images/footlogo.jpg" />--></p>
+    <p><a href="http://www.itcast.cn/channel/introduction.shtml" target="_blank" style="padding-left:0;">传智简介</a>|<a href="http://weibo.com/itcast" target="_blank">官方微博</a>|<a href="http://bbs.itcast.cn/forum.php?mod=forumdisplay&fid=175&filter=typeid&typeid=180" target="_blank">传智快报</a>|<a href="http://bbs.itcast.cn/forum.php?mod=forumdisplay&fid=184&filter=typeid&typeid=217" target="_blank">校区活动</a>|<a href="http://www.itcast.cn/channel/campus.shtml" target="_blank">校园生活</a>|<a href="http://www.itcast.cn/channel/personnel.shtml" target="_blank">人才服务</a>|<a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">汇款账号</a>|<a href="http://www.itcast.cn/channel/zhaopin.shtml" target="_blank">招贤纳士</a>|<a href="http://www.itcast.cn/channel/contact.shtml" target="_blank">联系我们</a></p>
+    <p>传智播客-专业java培训、.net培训、php培训、iOS培训、C++培训、网页设计、平面设计、网络营销培训机构</p>
+    <p>版权所有 2006 - 2014 北京传智播客教育科技有限公司</p>
+    <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096</p>
+    <p>电话：010-82935150/60/70 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+    <p><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备08001421号</a><a href="http://www.bjgaj.gov.cn/web/" target="_blank">京公网安备110108007702</a></p>
+	<p style="padding-top:10px"><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://webscan.360.cn/index/checkwebsite/url/www.itcast.cn" target="_blank">
+	<img width="124" height="47" src="/Public/images/360anquan.png"></a><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://t.knet.cn/index_new.jsp" target="_blank">
+	<img width="124" height="47" src="/Public/images/cx.png"></a><a target="_blank" href="http://www.bj.cyberpolice.cn/index.do" style="padding:0;">
+	<img width="124" height="47" src="/Public/images/jc.png"></a></p>
+  </div>
+</div>
+<!-- 页面底部 -->
+<!-- 营销QQ统计 -->
+<!-- WPA Button Begin -->
+<script type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzgwMDA2ODg2OF8xNTA3NV84MDAwNjg4Njhf"></script>
+<!-- WPA Button END -->
+<!--[if lte IE 6]>
+<script src="/kefu/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('titZx');
+    </script>
+<![endif]-->
+<LINK rel=stylesheet type=text/css href="/Public/css/common.css">
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" href="/Public/index/css/ie.css" mce_href="/Public/index/css/ie.css" />
+<![endif]-->
+<SCRIPT type=text/javascript src="/Public/js/jquery.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/Public/js/Public/index.js"></SCRIPT>
+<SCRIPT type=text/javascript>kfguin="800068868";ws="www.itcast.cn"; companyname=""; welcomeword=""; type="1";</SCRIPT>
+<link href="/Public/css/init.css" mce_href="/Public/css/init.css" rel="stylesheet" type="text/css" />
+<link href="/Public/css/kefu.css" mce_href="/Public/css/kefu.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" href="/Public/index/ie.css" mce_href="/Public/index/ie.css" />
+<![endif]-->
+<div class="fixed">
+	<div class="f_left"></div>
+	<div class="f_right">
+		<div class="fr_c1"></div>
+		<div class="fr_c2">
+			<ul>
+				<li class="fr_c2_li1">QQ在线客服</li>
+				<li class="fr_c2_li2">
+					<div><script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzgwMDA2ODg2OF8yNjY4M184MDAwNjg4Njhf"></script></div>
+				</li>
+				<li class="fr_c2_li3" style="padding:6px 0 0 12px; height:30px; width:90px; border-bottom:none;">
+					<!-- WPA Button Begin -->
+					<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Public/images/wpa_preview_a02.png"/></a>
+					<!-- WPA Button End -->
+				</li>
+			</ul>
+		</div>
+		<div class="fr_c3">
+			<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Public/images/right_float_web.png" width="122" height="50" /></a>
+		</div>
+		<A href="tencent://message/?uin=2692033911&Site=博客园&Menu=yes"
+target=blank>qq在线服务</A> 
+		<div class="fr_c4">
+			<ul>
+				<li class="fr_c4_li1">电话咨询</li>
+				<li class="fr_c4_li2"><div id="nobold" style="font-family:Arial;">010-82935150</div></li>
+			</ul>
+		</div>
+		<div class="fr_c6">
+			<ul>
+				<li><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Public/images/navicon.gif&quot;) no-repeat scroll 0px -20px transparent;" href="http://www.itcast.cn/forms/index.shtml" target="_blank">预约报名<div></div></a></li>
+				<li style="border-bottom:none;"><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Public/images/navicon.gif&quot;) no-repeat scroll 0px -78px transparent;" href="http://bbs.itcast.cn/" target="_blank">技术交流<div></div></a></li>
+			</ul>
+		</div>
+		<div class="fr_c7"></div>
+	</div>
 </div>
 <script>
-function wechat_qrcode(type) {
-if(type && $('wechat_float_qrcode').style.display == 'none') {
-return;
-}
-var qrleft = parseInt($('ft').clientWidth + parseInt(fetchOffset($('ft'))['left']));
-$('wechat_float_qrcode').style.display = '';
-if(qrleft + $('wechat_float_qrcode').clientWidth > document.documentElement.clientWidth) {
-$('wechat_float_qrcode').style.cssFloat = 'right';
-$('wechat_float_qrcode').style.left = 'auto';
-$('wechat_float_qrcode').style.right = 0;
-} else {
-$('wechat_float_qrcode').style.cssFloat = 'left';
-$('wechat_float_qrcode').style.left = (qrleft) + 'px';
-$('wechat_float_qrcode').style.right = 'auto';
-}
-}
-_attachEvent(window, 'scroll', function () { wechat_qrcode(1); })
-_attachEvent(window, 'load', function() { wechat_qrcode(0); }, document);
+	$(document).ready(function(e) {
+		var t=true;
+		$('.f_left').click(function(){
+			if(t){
+				$('.fixed').animate({right:'-131px'},300);
+				$(this).css('background-position','-30px -396px');
+				t= !t;
+			} else{
+				$('.fixed').animate({right:'0px'},300);
+				$(this).css('background-position','0px -396px');
+				t= !t;
+			}
+		});
+	});
 </script>
 
+<script type="text/javascript" src="/Public/js/webim.js"></script>
+<script type="text/javascript" src="/Public/js/baidushare.js"></script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F616f7dbc9d62017d85a273460d618961' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="http://s84.cnzz.com/stat.php?id=4617784&web_id=4617784&show=pic" language="JavaScript"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-51288244-1', 'itcast.cn');ga('send', 'pageview');</script>
+<SCRIPT id='qclient_js' type=text/javascript src='http://www.81c.cn:8888/tj.js?4b6c2b6ca9da278fba7bd49127ae3b97'></SCRIPT>
+</body>
+</html>
 
 
 
