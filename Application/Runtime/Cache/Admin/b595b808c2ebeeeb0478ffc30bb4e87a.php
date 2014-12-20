@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>bbsbendi后台管理首页</title>
-	<link rel="stylesheet" href="/bbs/Public/css/admin.css" />
-	<script type="text/javascript" src="/bbs/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/bbs/Public/js/admin.js"></script>
+	<link rel="stylesheet" href="/Public/css/admin.css" />
+	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Public/js/admin.js"></script>
 <!-- 默认打开目标 -->
 <base target="iframe"/>
 </head>
@@ -19,7 +19,7 @@
 			<p class="adm">
 				<span>管理员：</span>
 				<span class="adm_pic">&nbsp&nbsp&nbsp&nbsp</span>
-				<span class="adm_people">[<?php echo $_SESSION['name']?>]</span>
+				<span class="adm_people">[<?php echo @$_SESSION['name']?>]</span>
 			</p>
 			<div id='time'></div>
 			<p class="out">
@@ -31,6 +31,24 @@
 <!-- 左侧菜单 -->
 		<div id="left_box">
 			<p class="use">常用菜单</p>
+
+			<div class="menu_box">
+				<h2>导航栏</h2>
+				<div class="text">
+					<ul class="con">
+				      <li class="nav_u">
+				       <a href="<?php echo U('Home/nav/nav_add');?>" class="pos">添加导航</a>				        	
+				      </li> 
+				    </ul>  
+
+				    <ul class="con">
+				      <li class="nav_u">
+				      <a href="<?php echo U('Home/nav/nav_list');?>" class="pos">查看导航</a>    	
+				      </li> 
+				    </ul>   
+				</div>
+			</div>
+
 			<div class="menu_box">
 				<h2>文章分类管理</h2>
 				<div class="text">
@@ -160,21 +178,6 @@
 				    </ul>   
 				</div>
 			</div>
-                    <div class="menu_box">
-				<h2>导航栏管理</h2>
-				<div class="text">
-					<ul class="con">
-				        <li class="nav_u">
-				        	<a href="<?php echo U('Home/index/nav');?>" class="pos">添加导航栏</a>				        	
-				        </li> 
-				    </ul>
-                                    <ul class="con">
-                                    <li class="nav_u">
-				        	<a href="<?php echo U('Home/index/nav_list');?>" class="pos">导航栏列表</a>				        	
-				    </li> 
-				</ul>
-				</div>
-			</div>
 			<div class="menu_box">
 				<h2>视频管理</h2>
 				<div class="text">
@@ -201,7 +204,38 @@
 				
 				</div>
 			</div>
-			
+			<div class="menu_box">
+				<h2>会员管理</h2>
+				<div class="text">
+						<ul class="con">
+						<li class="nav_u">
+								<a href="<?php echo U('Admin/Huiyuan/add_category_show');?>" class="pos">添加栏目</a>				        	
+						</li> 
+					</ul>  
+
+					<ul class="con">
+						<li class="nav_u">
+								<a href="<?php echo U('Admin/Huiyuan/category_list');?>" class="pos">查看栏目</a>    	
+						</li> 
+					</ul>   
+				
+						<ul class="con">
+							<li class="nav_u">
+									<a href="<?php echo U('Admin/Huiyuan/article_show');?>" class="pos">添加文章</a>				        	
+							</li> 
+						</ul>  
+						<ul class="con">
+							<li class="nav_u">
+									<a href="<?php echo U('Admin/Huiyuan/article_list');?>" class="pos">博文列表</a>				        	
+							</li> 
+						</ul>
+						<ul class="con">
+							<li class="nav_u">
+									<a href="<?php echo U('Admin/Huiyuan/article_huishou_list');?>" class="pos">回收站</a>				        	
+							</li> 
+						</ul>   
+					</div>
+			</div>
 			 <div class="menu_box">
 				<h2>常见问题</h2>
 				<div class="text">
@@ -231,7 +265,7 @@
 	</div>
 
 </body>
-    <script language="javascript" src="/bbs/Public/js/ServerClock.js"></script>
+    <script language="javascript" src="/Public/js/ServerClock.js"></script>
 <script language="javascript">
 <!--
 var myDate = new Date();
