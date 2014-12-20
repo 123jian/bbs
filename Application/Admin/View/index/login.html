@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<link rel="stylesheet" href="/bbs/admin/Public/css/login.css" />
-	<script type="text/javascript" src="/bbs/admin/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/bbs/admin/Public/js/login.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/css/login.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/login.js"></script>
 	<title></title>
 </head>
 <body>
 	<div id="divBox">
-		<form action="{:U('Home/index/admin_login_pro')}" method="POST" id="loginForm">
+		<form action="{:U('Admin/index/admin_login_pro')}" method="POST" id="loginForm">
 			<input type="text" id="userName" name="admin_name"/>
 			<input type="password" id="psd" name="admin_pwd"/>
 			<input type="" value="" id="verify" name="yzm"/>
@@ -18,7 +18,7 @@
                         <div id='yzma'>
 			<img src='__URL__/yzm' onclick="gai()"  width="80"  height='25' id='yzm'/> 
                         </div>
-                        <div id='zhu'><a href="{:U('Home/index/zhuce')}"><img src="/bbs/admin/Public/images/medish.jpg"></a></div>
+                        <div id='zhu'><a href="{:U('Admin/index/zhuce')}"><img src="__PUBLIC__/images/medish.jpg"></a></div>
 		</form>
 		<div class="four_bj">
 			<p class="f_lt"></p>
@@ -44,7 +44,7 @@
     </script>
 <![endif]-->
 </body>
-   <script src="/bbs/admin/Public/js/jq.js"></script>
+   <script src="__PUBLIC__/js/jq.js"></script>
    <script type="text/javascript">
     <!--
       function gai(){
