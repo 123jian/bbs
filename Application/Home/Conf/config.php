@@ -15,11 +15,12 @@ return array(
 
 	'LAYOUT_ON'=>true,
 	'LAYOUT_NAME'=>'layout',
-
 	'MODULE_ALLOW_LIST' => array (
 			'Home',
 			'Admin',
 			'User' 
 	),
-	'DEFAULT_MODULE' => 'Home',  //URL去除home目录
+	'DEFAULT_MODULE' => 'Home',  
+
+	
 );

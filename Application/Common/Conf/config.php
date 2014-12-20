@@ -13,4 +13,12 @@ return array(
     
     // 显示页面Trace信息
     'SHOW_PAGE_TRACE' =>true,
+
+	'MODULE_ALLOW_LIST' => array (
+			'Home',
+			'Admin',
+			'User' 
+	),
+	'DEFAULT_MODULE' => 'Home',  //URL去除home目录
+
 );
