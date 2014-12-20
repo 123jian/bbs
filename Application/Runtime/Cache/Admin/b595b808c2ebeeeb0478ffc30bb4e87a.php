@@ -178,16 +178,7 @@
 			<div class="menu_box">
 				<h2>视频管理</h2>
 				<div class="text">
-                                    <ul class="con">
-				        <li class="nav_u">
-				        	<a href="<?php echo U('Admin/video/add_video_category');?>" class="pos">添加视频分类</a>
-				        </li> 
-				    </ul>
-                                     <ul class="con">
-				        <li class="nav_u">
-				        	<a href="<?php echo U('Admin/video/category_video_list');?>" class="pos">视频分类列表</a>
-				        </li> 
-				    </ul>
+                      
 					<ul class="con">
 				        <li class="nav_u">
 				        	<a href="<?php echo U('Admin/video/add_video');?>" class="pos">上传视频</a>
@@ -201,7 +192,38 @@
 				
 				</div>
 			</div>
-			
+			<div class="menu_box">
+				<h2>会员管理</h2>
+				<div class="text">
+						<ul class="con">
+						<li class="nav_u">
+								<a href="<?php echo U('Admin/Huiyuan/add_category_show');?>" class="pos">添加栏目</a>				        	
+						</li> 
+					</ul>  
+
+					<ul class="con">
+						<li class="nav_u">
+								<a href="<?php echo U('Admin/Huiyuan/category_list');?>" class="pos">查看栏目</a>    	
+						</li> 
+					</ul>   
+				
+						<ul class="con">
+							<li class="nav_u">
+									<a href="<?php echo U('Admin/Huiyuan/article_show');?>" class="pos">添加文章</a>				        	
+							</li> 
+						</ul>  
+						<ul class="con">
+							<li class="nav_u">
+									<a href="<?php echo U('Admin/Huiyuan/article_list');?>" class="pos">博文列表</a>				        	
+							</li> 
+						</ul>
+						<ul class="con">
+							<li class="nav_u">
+									<a href="<?php echo U('Admin/Huiyuan/article_huishou_list');?>" class="pos">回收站</a>				        	
+							</li> 
+						</ul>   
+					</div>
+			</div>
 			 <div class="menu_box">
 				<h2>常见问题</h2>
 				<div class="text">

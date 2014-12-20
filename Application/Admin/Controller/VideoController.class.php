@@ -4,6 +4,23 @@ namespace Admin\Controller;
 use Think\Controller;
 //use \Think\Verify;
 class VideoController extends Controller {
+    public function video_up(){ 
+    
+		$User = M("video"); // 实例化User对象// 要修改的数据对象属性赋值
+                if($_GET['status']==1){
+                    $data['status'] = '0';
+                }else{
+                    $data['status'] = '1';
+                }
+                
+                $User->where('id='.$_GET['id'])->save($data); // 根据条件更新记录
+                $this->redirect("video_show");
+    }
+    public function video_del(){ 
+		$Teacher = M("video"); // 实例化User对象
+                $Teacher->where('id='.$_GET['id'])->delete(); // 删除id为5的用户数据
+                $this->success('删除成功！');
+    }
     public function video_show(){ 
 		$Teacher = M("video"); // 实例化User对象
                 $teacher=$Teacher->join('bbs_teacher ON bbs_video.t_id = bbs_teacher.t_id')
@@ -31,8 +48,9 @@ class VideoController extends Controller {
         }else{       
             $video = M("Video");
             $_POST['thumb']=$url;
+            $_POST['status']=1;
             $video->data($_POST)->add();
-            $this->success('上传成功！');    
+            $this->success('上传成功！','video_show');    
         }       
     }
 }
