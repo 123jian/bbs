@@ -31,6 +31,24 @@
 <!-- 左侧菜单 -->
 		<div id="left_box">
 			<p class="use">常用菜单</p>
+
+			<div class="menu_box">
+				<h2>导航栏</h2>
+				<div class="text">
+					<ul class="con">
+				      <li class="nav_u">
+				       <a href="<?php echo U('Home/nav/nav_add');?>" class="pos">添加导航</a>				        	
+				      </li> 
+				    </ul>  
+
+				    <ul class="con">
+				      <li class="nav_u">
+				      <a href="<?php echo U('Home/nav/nav_list');?>" class="pos">查看导航</a>    	
+				      </li> 
+				    </ul>   
+				</div>
+			</div>
+
 			<div class="menu_box">
 				<h2>文章分类管理</h2>
 				<div class="text">
@@ -158,21 +176,6 @@
 				        	<a href="<?php echo U('Home/Jiuye/show_upload');?>" class="pos">查看个人形象</a>    	
 				        </li> 
 				    </ul>   
-				</div>
-			</div>
-                    <div class="menu_box">
-				<h2>导航栏管理</h2>
-				<div class="text">
-					<ul class="con">
-				        <li class="nav_u">
-				        	<a href="<?php echo U('Home/index/nav');?>" class="pos">添加导航栏</a>				        	
-				        </li> 
-				    </ul>
-                                    <ul class="con">
-                                    <li class="nav_u">
-				        	<a href="<?php echo U('Home/index/nav_list');?>" class="pos">导航栏列表</a>				        	
-				    </li> 
-				</ul>
 				</div>
 			</div>
 			<div class="menu_box">
