@@ -9,4 +9,8 @@ return array(
 	'DB_PORT'   => 3306, // 端口
 	'DB_PREFIX' => 'bbs_', // 数据库表前缀
 	'DB_CHARSET'=> 'utf8', // 字符集
+	'DB_DEBUG'  =>  TRUE, // 数据库调试模式 开启后可以记录SQL日志
+    
+    // 显示页面Trace信息
+    'SHOW_PAGE_TRACE' =>true,
 );
