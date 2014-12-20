@@ -52,7 +52,7 @@ class IndexController extends Controller {
             if(empty($verify->check($code, $id=''))){
                 $this->display('login');
             }else{
-                $admin_user = M('bbs_admin_user');
+                $admin_user = M('admin_user');
                 $data = $admin_user->where("username='".$name."'")->find();
                 //echo $admin_user->getLastSql();
                 if($data){
@@ -74,7 +74,7 @@ class IndexController extends Controller {
         }
         //用户注册
         public function zhuce_pro(){
-            $user=M('bbs_admin_user');
+            $user=M('admin_user');
 			$name=$_POST['username'];
 		    $psd=$_POST['psd'];
 			$data['username'] = $name;
