@@ -3,9 +3,15 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>bbsbendi后台管理首页</title>
+
 	<link rel="stylesheet" href="/Public/css/admin.css" />
 	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="/Public/js/admin.js"></script>
+
+	<link rel="stylesheet" href="/bbs/Public/css/admin.css" />
+	<script type="text/javascript" src="/bbs/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/bbs/Public/js/admin.js"></script>
+
 <!-- 默认打开目标 -->
 <base target="iframe"/>
 </head>
@@ -24,7 +30,10 @@
 			<div id='time'></div>
 			<p class="out">
 				<span class="out_bg">&nbsp&nbsp&nbsp&nbsp</span>&nbsp
+
 				<a href="<?php echo U('Admin/index/loginout');?>" target="_self">退出</a>
+
+
 			</p>
 		</div>
 	</div>
@@ -37,13 +46,19 @@
 				<div class="text">
 					<ul class="con">
 				      <li class="nav_u">
+
 				       <a href="<?php echo U('Admin/nav/nav_add');?>" class="pos">添加导航</a>				        	
+
+				      
 				      </li> 
 				    </ul>  
 
 				    <ul class="con">
 				      <li class="nav_u">
+
 				      <a href="<?php echo U('Admin/nav/nav_list');?>" class="pos">查看导航</a>    	
+
+				      
 				      </li> 
 				    </ul>   
 				</div>
@@ -54,13 +69,19 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/index/add_category_show');?>" class="pos">添加栏目</a>				        	
+
+				        	
 				        </li> 
 				    </ul>  
 
 				    <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/index/category_list');?>" class="pos">查看栏目</a>    	
+
+				        	
 				        </li> 
 				    </ul>   
 				</div>
@@ -71,12 +92,17 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/index/article_show');?>" class="pos">添加文章</a>				        	
+
 				        </li> 
 				    </ul>  
 				    <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/index/article_list');?>" class="pos">博文列表</a>				        	
+
+				        	
 				        </li> 
 				    </ul>
 				    <ul class="con">
@@ -112,12 +138,15 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/position/add_position');?>" class="pos">添加职位</a>				        	
+
 				        </li> 
 				    </ul>  
 				    <ul class="con">
 				        <li class="nav_u">
-				        	<a href="<?php echo U('Admin/position/position_list');?>" class="pos">职位列表</a>				        	
+
+				        	<a href="<?php echo U('Admin/position/position_list');?>" class="pos">职位列表</a>				        
 				        </li> 
 				    </ul>
 				  
@@ -128,25 +157,35 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Peixun/index');?>" class="pos">添加课程分班</a>				        	
+
 				        </li> 
 				    </ul>  
                                     
                                     <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Peixun/check_peixun');?>" class="pos">查看课程分班</a>				        	
+
+				        	
 				        </li> 
 				    </ul>  
                                     
                                     <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Peixun/add_course');?>" class="pos">添加课程</a>				        	
+
+				        	
 				        </li> 
 				    </ul>  
 
 				    <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Peixun/check_course');?>" class="pos">查看课程</a>    	
+
 				        </li> 
 				    </ul>   
 				</div>
@@ -156,24 +195,33 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Jiuye/add_jiuye');?>" class="pos">添加就业信息</a>				        	
+
 				        </li> 
 				    </ul>  
 
 				    <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Jiuye/show_jiuye');?>" class="pos">查看就业信息</a>    	
+
 				        </li> 
 				    </ul>   
 					<ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Jiuye/add_upload');?>" class="pos">添加个人形象</a>				        	
+
 				        </li> 
 				    </ul>  
 
 				    <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Jiuye/show_upload');?>" class="pos">查看个人形象</a>    	
+
+				        	
 				        </li> 
 				    </ul>   
 				</div>
@@ -181,6 +229,7 @@
 			<div class="menu_box">
 				<h2>视频管理</h2>
 				<div class="text">
+
                                     <ul class="con">
 				        <li class="nav_u">
 				        	<a href="<?php echo U('Admin/video/add_video_category');?>" class="pos">添加视频分类</a>
@@ -191,6 +240,8 @@
 				        	<a href="<?php echo U('Admin/video/category_video_list');?>" class="pos">视频分类列表</a>
 				        </li> 
 				    </ul>
+
+                      
 					<ul class="con">
 				        <li class="nav_u">
 				        	<a href="<?php echo U('Admin/video/add_video');?>" class="pos">上传视频</a>
@@ -241,12 +292,16 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Question/index');?>" class="pos">添加问题</a>				        	
+
 				        </li> 
 				    </ul>
 				    <ul class="con">
 				        <li class="nav_u">
+
 				        	<a href="<?php echo U('Admin/Question/listquestion');?> " class="pos">查看问题</a>				        	
+
 				        </li> 
 				    </ul>
 				
@@ -266,6 +321,8 @@
 
 </body>
     <script language="javascript" src="/Public/js/ServerClock.js"></script>
+
+   
 <script language="javascript">
 <!--
 var myDate = new Date();
