@@ -1,4 +1,6 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit(); print_r($data);?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -173,11 +175,16 @@ initSearchmenu('scbar', 'http://search.itcast.cn/f/discuz');
 
   <div id="nv">
     <ul>
+<?php foreach($nav as $item) {?>
+ 
+ 
+
        
+       <li id="mn_portal" ><a href="http://www.bbs.com/index.php/<?php echo $item['nav_url']?>" hidefocus="true" title="门户首页"  ><?php echo $item['nav_name']?><span></span></a></li>
        
+<?php }?>    
        
-       
-       
+<!--       
             <li id="mn_portal" ><a href="portal.php" hidefocus="true" title="门户首页"  >IT学习社区<span>门户首页</span></a></li>
        
        
@@ -209,7 +216,7 @@ initSearchmenu('scbar', 'http://search.itcast.cn/f/discuz');
        
             <li id="mn_N23a1" ><a href="plugin.php?id=itcast_lottery_draw:itcast_lottery_draw" hidefocus="true" title="金币积分抽奖"  >积分抽奖<span>金币积分抽奖</span></a></li>
        
-       
+-->      
     </ul>
     
   </div>

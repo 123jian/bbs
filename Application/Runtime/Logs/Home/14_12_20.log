@@ -363,3 +363,51 @@ ERR: 无法加载控制器:Nav
 ERR: 无法加载控制器:Nav
 
 >>>>>>> 8bdfd48a26c3a16b90a1ad1d0a703c1b78738f96
+[ 2014-12-20T16:20:05+08:00 ] 127.0.0.1 /index.php/czlt/index
+ERR: Think\Model:all方法不存在！
+
+[ 2014-12-20T16:20:07+08:00 ] 127.0.0.1 /index.php/czlt/index
+ERR: Think\Model:all方法不存在！
+
+[ 2014-12-20T16:26:01+08:00 ] 127.0.0.1 /bbs/admin/Public/css/public.css
+ERR: 无法加载控制器:Bbs
+
+[ 2014-12-20T16:26:23+08:00 ] 127.0.0.1 /bbs/admin/Public/css/public.css
+ERR: 无法加载控制器:Bbs
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /data/cache/style_8_common.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /static/js/common.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /data/cache/style_8_forum_index.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /source/plugin/study_nge/images/nge.css?K3L
+ERR: 无法加载控制器:Source
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /source/plugin/study_nge/images/common.js?K3L
+ERR: 无法加载控制器:Source
+
+[ 2014-12-20T16:47:05+08:00 ] 127.0.0.1 /plugin.php?id=wechat:qrcode&access=yes
+ERR: 无法加载控制器:Plugin.php
+
+[ 2014-12-20T16:50:04+08:00 ] 127.0.0.1 /peixun/index
+ERR: 无法加载控制器:Peixun
+
+[ 2014-12-20T16:50:22+08:00 ] 127.0.0.1 /index.php/peixun/index
+ERR: 无法加载控制器:Peixun
+
+[ 2014-12-20T16:53:27+08:00 ] 127.0.0.1 /member.php?mod=logging&action=login&referer=&infloat=yes&handlekey=login&inajax=1&ajaxtarget=fwin_content_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Member.php
+
