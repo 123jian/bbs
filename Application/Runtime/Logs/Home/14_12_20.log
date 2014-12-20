@@ -66,3 +66,6 @@ ERR: 无法加载控制器:Nav
 [ 2014-12-20T10:27:58+08:00 ] 127.0.0.1 /bbs/index.php/Home/nav/nav_add.html
 ERR: 无法加载控制器:Nav
 
+[ 2014-12-20T10:40:21+08:00 ] 127.0.0.1 /bbs/index.php/Home/nav/nav_add.html
+ERR: 无法加载控制器:Nav
+
