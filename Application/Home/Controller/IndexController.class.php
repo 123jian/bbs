@@ -12,52 +12,52 @@ class IndexController extends Controller {
         
      //var_dump($nav);
      $article=M('bbs_articles');
-     $condition = array('c_title' =>Ñ§ÔºĞÅÏ¢);
+     $condition = array('c_title' =>å­¦é™¢ä¿¡æ¯);
      $list=$article->where($condition)->select();
-     $condition1 = array('c_title' =>Ğ£Ô°¶¯Ì¬);
+     $condition1 = array('c_title' =>æ ¡å›­åŠ¨æ€);
      $list1=$article->where($condition1)->order('a_time desc')->limit(8)->select();
      //var_dump($list);
      $this->assign('list',$list);
      $this->assign('list1',$list1);
-    //²éÑ¯¾ÍÒµĞÅÏ¢
+    //æŸ¥è¯¢å°±ä¸šä¿¡æ¯
      $jiuye=M('jiuye');
      $list=$jiuye->order('add_time desc')->limit(8)->select(); 
      $this->assign('list2',$list);
-     //²éÑ¯phpÅàÑµÃûÊ¦´ğÒÉ
+     //æŸ¥è¯¢phpåŸ¹è®­åå¸ˆç­”ç–‘
     $jiuye=M('bbs_question');
      $list=$jiuye->order('q_time desc')->limit(0,6)->select(); 
      $array=$jiuye->order('q_time desc')->limit(6,5)->select(); 
      $this->assign('list3',$list);
      $this->assign('list4',$array);
-     //²éÑ¯Ê×Ò³ÊÓÆµ
+     //æŸ¥è¯¢é¦–é¡µè§†é¢‘
         $Jiuye1 = M("jiuye1");
         $res = $Jiuye1->order('add_time desc')->limit(4)->select();
         $this->assign('res',$res);
         //var_dump($res);
-        //²éÑ¯ÂÛÌ³ÈÈÌû
+        //æŸ¥è¯¢è®ºå›çƒ­å¸–
         
-	//²é¿´phpÅàÑµ
+	//æŸ¥çœ‹phpåŸ¹è®­
 
-	$p_class = M("bbs_pxclass"); //ÊµÀı»¯p_class¶Ô   
+	$p_class = M("bbs_pxclass"); //å®ä¾‹åŒ–p_classå¯¹   
    
      $list5=$p_class->select();
-     $this->assign("list5",$list5); //¸³ÖµÊı¾İ¼¯
+     $this->assign("list5",$list5); //èµ‹å€¼æ•°æ®é›†
 
      $course=M("bbs_course");
      $list6=$course->select();
      $this->assign('list6',$list6);
      
-	 //³£¼ûÎÊÌâ
+	 //å¸¸è§é—®é¢˜
 	 
-	  $question = M("bbs_question"); //ÊµÀı»¯p_class¶ÔÏó
-        $count=$question->count(); //²éÑ¯×Ü¼ÇÂ¼Êı
-        $Page= new\Think\Page($count,3); // ÊµÀı»¯·ÖÒ³Àà  ´«Èë×Ü¼ÇÂ¼ÊıºÍÃ¿Ò³ÏÔÊ¾ÌõÊı
-        $show=$Page->show(); //·ÖÒ³ÏÔÊ¾Êä³ö
-        // ½øĞĞ·ÖÒ³Êı¾İ²éÑ¯  ×¢Òâlimit ·½·¨µÄ²ÎÊıÒªÊ¹ÓÃPageÀàµÄÊôĞÔ
+	  $question = M("bbs_question"); //å®ä¾‹åŒ–p_classå¯¹è±¡
+        $count=$question->count(); //æŸ¥è¯¢æ€»è®°å½•æ•°
+        $Page= new\Think\Page($count,3); // å®ä¾‹åŒ–åˆ†é¡µç±»  ä¼ å…¥æ€»è®°å½•æ•°å’Œæ¯é¡µæ˜¾ç¤ºæ¡æ•°
+        $show=$Page->show(); //åˆ†é¡µæ˜¾ç¤ºè¾“å‡º
+        // è¿›è¡Œåˆ†é¡µæ•°æ®æŸ¥è¯¢  æ³¨æ„limit æ–¹æ³•çš„å‚æ•°è¦ä½¿ç”¨Pageç±»çš„å±æ€§
         $list7=$question->where('q_show=1')->limit($Page->firstRow.','.$Page->listRows)->select();
         $list8=$question->where('q_show=2')->select();
-        $this->assign("list7",$list7); //¸³ÖµÊı¾İ¼¯
-        $this->assign("list8",$list8); //¸³ÖµÊı¾İ¼¯
+        $this->assign("list7",$list7); //èµ‹å€¼æ•°æ®é›†
+        $this->assign("list8",$list8); //èµ‹å€¼æ•°æ®é›†
 
 
      $this->display();
