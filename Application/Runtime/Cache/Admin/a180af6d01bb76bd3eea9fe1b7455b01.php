@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/Public/css/public.css" />
-	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Public/js/public.js"></script>	
+	<link rel="stylesheet" href="/Tp3.2/bbs2/Public/css/public.css" />
+	<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/public.js"></script>	
 </head>
 <body>
 	<table class="table">
@@ -33,12 +33,12 @@
                         <td><?php echo $val['order']?></td>
 			<td>
                                 <?php if($val['isset']==1){?>
-                                <a href="/index.php/Admin/Nav/nav_isset_a/nav_id/<?php echo $val['nav_id']?>">[隐藏]</a>
+                                <a href="/Tp3.2/bbs2/index.php/Admin/Nav/nav_isset_a/nav_id/<?php echo $val['nav_id']?>">[隐藏]</a>
                                 <?php }else{ ?>
-                                <a href="/index.php/Admin/Nav/nav_isset_b/nav_id/<?php echo $val['nav_id']?>">[显示]</a>
+                                <a href="/Tp3.2/bbs2/index.php/Admin/Nav/nav_isset_b/nav_id/<?php echo $val['nav_id']?>">[显示]</a>
                                 <?php } ?>
-                               <a href="/index.php/Admin/Nav/nav_edit/nav_id/<?php echo $val['nav_id']?>">[编辑]</a>
-				<a href="/index.php/Admin/Nav/nav_delete/nav_id/<?php echo $val['nav_id']?>">[删除]</a>
+                               <a href="/Tp3.2/bbs2/index.php/Admin/Nav/nav_edit/nav_id/<?php echo $val['nav_id']?>">[编辑]</a>
+				<a href="/Tp3.2/bbs2/index.php/Admin/Nav/nav_delete/nav_id/<?php echo $val['nav_id']?>">[删除]</a>
 			</td>
 		</tr>
             <?php }?>
