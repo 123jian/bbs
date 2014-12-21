@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<link rel="stylesheet" href="/Public/css/public.css" />
+		<link rel="stylesheet" href="/Tp3.2/bbs2/Public/css/public.css" />
 	<title></title>
 </head>
 <body>
-	<form action="/index.php/Admin/Index/zhuce_pro" method="post" id="loginForm">
+	<form action="/Tp3.2/bbs2/index.php/Admin/Index/zhuce_pro" method="post" id="loginForm">
 		<table class="table">
 			<tr >
 				<td class="th" colspan="2">注册用户</td>
@@ -28,7 +28,7 @@
 		</table>
 	</form>
 </body>
-    <script src="/Public/js/jq.js"></script>
+    <script src="/Tp3.2/bbs2/Public/js/jq.js"></script>
    <script type="text/javascript">
     <!--
         $('#loginForm').submit(function(){
