@@ -32,13 +32,13 @@ class IndexController extends Controller {
            $Verify->entry();  
        }
         public function yzm(){
-        $config =    array(    
-             'fontSize'    =>    130,    // 验证码字体大小   
-             'length'      =>    4,     // 验证码位数   
-            // 'useNoise'    =>    true, // 关闭验证码杂点
-         );
-        $Verify = new \Think\Verify($config);
-        $Verify->entry();
+			$config =    array(    
+				 'fontSize'    =>    130,    // 验证码字体大小   
+				 'length'      =>    4,     // 验证码位数   
+				// 'useNoise'    =>    true, // 关闭验证码杂点
+			 );
+			$Verify = new \Think\Verify($config);
+			$Verify->entry();
         }
         //处理登陆
         public function admin_login_pro(){
@@ -56,21 +56,21 @@ class IndexController extends Controller {
                 $data = $admin_user->where("username='".$name."'")->find();
                 //echo $admin_user->getLastSql();
                 if($data){
-                      if($data['psd']==md5($pwd)){
-                        //  $this->redirect();
-                        session('name',$name); 
-                       //$this->display('index');
-					   echo "<script>location.href='http://www.bbs.com/index.php/Admin';</script>";
+					if($data['psd']==md5($pwd)){
+						//  $this->redirect();
+						session('name',$name); 
+						//$this->display('index');
+						echo "<script>location.href='./index.php/Admin';</script>";
 
-                      }else{
-                        echo "<script>alert('密码错误')</script>";
-                      $this->display('login'); 
-                      }
-                      }
-                      else{
-                      echo "<script>alert('用户名不存在')</script>";
-                      $this->display('login');
-                      } 
+					}else{
+						echo "<script>alert('密码错误')</script>";
+						$this->display('login'); 
+					}
+				 }
+				  else{
+				  echo "<script>alert('用户名不存在')</script>";
+				  $this->display('login');
+				  }
             }
         }
         //用户注册
