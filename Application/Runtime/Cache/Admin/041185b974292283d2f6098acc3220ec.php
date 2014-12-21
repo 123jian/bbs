@@ -6,7 +6,7 @@
 	<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/login.js"></script>
 	<title></title>
-</head>
+</head>/Tp3.2/bbs2/index.php/Admin/Index
 <body>
 	<div id="divBox">
 		<form action="<?php echo U('Admin/index/admin_login_pro');?>" method="POST" id="loginForm">
@@ -48,6 +48,7 @@
    <script type="text/javascript">
     <!--
       function gai(){
+		  alert(/Tp3.2/bbs2/index.php/Admin/Index);
                         //alert(111)
                         var yzma=document.getElementById("yzm");
 
