@@ -10,7 +10,14 @@ class CzltController extends Controller {
         // 查找status值为1name值为think的用户数据 
         $data = $nav->where('nav_category=1 and isset=1')->select();
         //dump($data);die;
-
+		//***********这个是会员专区和讲师专区
+		$art = M('Article');//获取表总数据
+        $data = $art->join('bbs_category ON bbs_article.text_type = bbs_category.c_id')->where('text_status=0 and user_type=3')->order('text_id desc')->limit(8)->select();
+        $list = $art->join('bbs_category ON bbs_article.text_type = bbs_category.c_id')->where('text_status=0 and user_type=2')->order('text_id desc')->limit(8)->select();
+        //print_r($list);//die;
+        $this->assign('data',$data);
+        $this->assign('list',$list);
+		//************
         $this->assign("nav",$data);
         $this->display();
     }
