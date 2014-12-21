@@ -1,0 +1,27 @@
+[ 2014-12-21T19:14:42+08:00 ] 127.0.0.1 /index.php/cztk/jfsc
+ERR: 无法加载控制器:Cztk
+
+[ 2014-12-21T19:14:52+08:00 ] 127.0.0.1 /index.php/czlt/mfgkk
+ERR: 模板不存在:./Application/Home/View/Czlt/mfgkk.html
+
+[ 2014-12-21T19:16:51+08:00 ] 127.0.0.1 /index.php/czlt/mfgkk
+ERR: 模板不存在:./Application/Home/View/Czlt/mfgkk.html
+
+[ 2014-12-21T19:39:15+08:00 ] 127.0.0.1 /member.php?mod=logging&action=login&infloat=yes&handlekey=login&inajax=1&ajaxtarget=fwin_content_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Member.php
+
+[ 2014-12-21T19:47:00+08:00 ] 127.0.0.1 /index.php/czlt/mfgkk
+ERR: 模板不存在:./Application/Home/View/Czlt/mfgkk.html
+
+[ 2014-12-21T19:47:08+08:00 ] 127.0.0.1 /index.php/czlt/
+ERR: 模板不存在:./Application/Home/View/Czlt/index.html
+
+[ 2014-12-21T19:47:12+08:00 ] 127.0.0.1 /index.php/czlt/index
+ERR: 模板不存在:./Application/Home/View/Czlt/index.html
+
+[ 2014-12-21T19:47:15+08:00 ] 127.0.0.1 /index.php/czlt/index
+ERR: 模板不存在:./Application/Home/View/Czlt/index.html
+
