@@ -4,10 +4,10 @@ namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends Controller {
 	
-		public function ll() {
-        if(empty($_SESSION['name'])){
-           $this->redirect('index/login');  
-        }
+	public function ll() {
+		if(empty($_SESSION['name'])){
+		   $this->redirect('index/login');  
+		}
     }
 	public function index(){
             $this->ll();
@@ -60,11 +60,10 @@ class IndexController extends Controller {
 						//  $this->redirect();
 						session('name',$name); 
 						//$this->display('index');
-						echo "<script>location.href='./index.php/Admin';</script>";
+						$this->success('登录成功', 'index');
 
 					}else{
-						echo "<script>alert('密码错误')</script>";
-						$this->display('login'); 
+						$this->success('登录失败', 'index');
 					}
 				 }
 				  else{

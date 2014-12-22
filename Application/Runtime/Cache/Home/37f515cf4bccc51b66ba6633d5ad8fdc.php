@@ -604,23 +604,18 @@ runslideshow();
 	<p><a href="space-uid-84762.html" title="翅膀" target="_blank">翅膀</a></p>
 </li></ul>
 </div></div></div><div id="portal_block_160" class="block move-span"><div id="portal_block_160_content" class="dxb_bc"><div class="portal_block_summary"><hr class='da' /></div></div></div><div id="portal_block_163" class="block move-span"><div class="blocktitle title" style=""><span class="titletext" style="float:;margin-left:px;font-size:;color: !important;">会员原创</span></div><div id="portal_block_163_content" class="dxb_bc"><div class="module cl">
-<ul style="padding-bottom:3px;"><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-181-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-40647-1-1.html" title="设计狮PK老板（设计师必备，谨防被坑）" target="_blank">设计狮PK老板（设计师必备，谨防被坑）</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-29 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/thread-40634-1-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-40634-1-1.html" title="HTML5 语义标签【设计必备内容】" target="_blank">HTML5 语义标签【设计必备内容】</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-29 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-207-1.html" style="color:#f60; font-size:14px;"> 吹牛专区 | </a>  <a href="thread-39729-1-1.html" title="1012平面就业班28期 小彭的作品展示" target="_blank">1012平面就业班28期 小彭的作品展示</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-27 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/thread-39725-1-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-39725-1-1.html" title="CSS3详解：background" target="_blank">CSS3详解：background</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-27 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/thread-39725-1-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-39517-1-1.html" title="超有食欲的美食网站设计(分享)" target="_blank">超有食欲的美食网站设计(分享)</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-27 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/thread-39725-1-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-39298-1-1.html" title="Web开发中20个很有用的CSS库" target="_blank">Web开发中20个很有用的CSS库</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-27 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/thread-39725-1-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-39277-1-1.html" title="【史上最强JavaSE笔记】之数组篇" target="_blank">【史上最强JavaSE笔记】之数组篇</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-27 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/thread-39725-1-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-38219-1-1.html" title="创意惊人的时间轴展示网站设计（分享）" target="_blank">创意惊人的时间轴展示网站设计（分享）</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-25 </em>
-</li></ul>
+<ul style="padding-bottom:3px;">
+
+
+<?php foreach($data as $k=>$v){ ?>
+    <li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="" style="color:#f60; font-size:14px;"> <?php echo $v['c_name']?> | </a>  <a href="thread-38219-1-1.html" title="<?php echo $v['text_title']?>" target="_blank"><?php echo $v['text_title']?></a>
+<em style=" font-size:12px; color:#999;"> <?php echo date('Y-m-d h:m:s',$v['add_time'])?> </em>
+</li>
+<?php }?>
+
+
+
+</ul>
 </div></div></div></div></div></div><!--[/diy]--> </div> 
 <div class=" col_1-1_ct"> <!--[diy=diy_vk_guide_2_left_ad]--><div id="diy_vk_guide_2_left_ad" class="area"></div><!--[/diy]--> </div> 
     </div>
@@ -660,25 +655,15 @@ runslideshow();
 </li></ul>
 </div>
 </div></div><div id="portal_block_165" class="block move-span"><div class="blocktitle title" style=""><span class="titletext" style="float:;margin-left:px;font-size:;color: !important;">传智讲师原创</span></div><div id="portal_block_165_content" class="dxb_bc"><div class="module cl">
-<ul style=""><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-207-1.html" style="color:#f60; font-size:14px;"> 吹牛专区 | </a>  <a href="thread-39491-1-1.html" title="1007.Net基础班“大牛”级学员笔记--第四更" target="_blank">1007.Net基础班“大牛”级学员笔记--第四更</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-27 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-181-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-38640-1-1.html" title="Ps将照片人物转换成漫画风格" target="_blank">Ps将照片人物转换成漫画风格</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-25 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-207-1.html" style="color:#f60; font-size:14px;"> 吹牛专区 | </a>  <a href="thread-38215-1-1.html" title="PS新课程-28期学员作品汇总-精华展示" target="_blank">PS新课程-28期学员作品汇总-精华展示</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-25 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-181-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-35560-1-1.html" title="PHP程序员最常犯的11个MySQL错误" target="_blank">PHP程序员最常犯的11个MySQL错误</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-20 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-181-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-35554-1-1.html" title="ps快速打造星空特效" target="_blank">ps快速打造星空特效</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-20 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-181-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-35230-1-1.html" title="ps快速打造放射球" target="_blank">ps快速打造放射球</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-19 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-181-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-35132-1-1.html" title="3种颜色的 iPad air 2 展示模型PSD下载" target="_blank">3种颜色的 iPad air 2 展示模型PSD下载</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-19 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-207-1.html" style="color:#f60; font-size:14px;"> 吹牛专区 | </a>  <a href="thread-34069-1-1.html" title="1007.Net基础班“大牛”级学员笔记--" target="_blank">1007.Net基础班“大牛”级学员笔记--</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-17 </em>
-</li><li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="http://bbs.itcast.cn/forum-181-1.html" style="color:#f60; font-size:14px;"> 干货分享 | </a>  <a href="thread-33291-1-1.html" title="Ps通过极坐标快速打造放射背景" target="_blank">Ps通过极坐标快速打造放射背景</a>
-<em style=" font-size:12px; color:#999;"> 2014-10-15 </em>
-</li></ul>
+<ul style="">
+
+<?php foreach($list as $key=>$val){?>
+    <li style="height:28px; line-height:28px; font-size:14px;   overflow:hidden; ">  <a href="" style="color:#f60; font-size:14px;"> <?php echo $val['c_name']?> | </a>  <a href="" title="<?php echo $val['text_title']?>" target="_blank"><?php echo $val['text_title']?></a>
+    <em style=" font-size:12px; color:#999;"><?php echo date("Y-m-d h:m:s",$val['add_time'])?></em>
+    </li>
+    <?php }?>
+
+</ul>
 </div>
 </div></div></div></div></div><!--[/diy]--> </div> 
 <div class="col_1-1_ct"> <!--[diy=diy_vk_guide_2_right_ad]--><div id="diy_vk_guide_2_right_ad" class="area"></div><!--[/diy]--> </div> 
