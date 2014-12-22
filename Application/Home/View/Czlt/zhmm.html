@@ -65,10 +65,30 @@ showDialog(msg, 'notice');
 }
 </script>
 </div>
-
+<!--
 <span id="seccode_cSebs30z"></span>		
-<script type="text/javascript" reload="1">updateseccode('cSebs30z', '<div class="rfm"><table><tr><th><span class="rq">*</span><sec>: </th><td><sec><br /><sec></td></tr></table></div>', 'member::register');</script>
-<?php print_r($yzm);?>
+<script type="text/javascript" reload="1">updateseccode('cSebs30z', '<div class="rfm"><table><tr><th><span class="rq">*</span><sec>: </th><td><sec><br /><sec></td></tr></table></div>', 'member::register');</script>-->
+
+
+<!--验证码start-->
+<p class="top15 captcha" id="captcha-container">  
+  <input name="verify" width="50%" height="50" class="captcha-text" placeholder="验证码" type="text">                  
+  <img width="30%" class="left15" height="50" alt="验证码" src="{:U('Home/Czlt/verify_c',array())}" title="点击刷新"></p>
+<!--验证码end-->
+<script type="text/javascript">
+// 验证码生成  
+var captcha_img = $('#captcha-container').find('img')  
+var verifyimg = captcha_img.attr("src");  
+captcha_img.attr('title', '点击刷新');  
+captcha_img.click(function(){  
+    if( verifyimg.indexOf('?')>0){  
+        $(this).attr("src", verifyimg+'&random='+Math.random());  
+    }else{  
+        $(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());  
+    }  
+});
+</script>
+
 </div>
 
 </div>
