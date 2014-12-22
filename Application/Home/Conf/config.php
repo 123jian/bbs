@@ -34,6 +34,7 @@ return array(
 			'User' 
 	),
 	'DEFAULT_MODULE' => 'Home',
+    '__IP__' => $_SERVER['HTTP_HOST'],
 
 	
 );

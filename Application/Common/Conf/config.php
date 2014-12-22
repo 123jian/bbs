@@ -21,5 +21,6 @@ return array(
 			'User' 
 	),
 	'DEFAULT_MODULE' => 'Home',  //URL去除home目录
+    
 
 );

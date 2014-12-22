@@ -87,27 +87,39 @@ class CzltController extends Controller {
     
     //找回密码
     public function zhmm(){
-        
+        //echo $_SERVER['HTTP_HOST'];die;
+        //echo __ROOT__;die;
         $nav = M("nav");
         $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         $this->assign("nav",$data);
         
         $this->display();
     }
-/**
- * 验证码生成 
- */  
-public function verify_c(){  
-    $Verify = new \Think\Verify();  
-    $Verify->fontSize = 18;  
-    $Verify->length   = 4;  
-    $Verify->useNoise = false;  
-    $Verify->codeSet = '0123456789';  
-    $Verify->imageW = 130;  
-    $Verify->imageH = 50;  
-    //$Verify->expire = 600;  
-    $Verify->entry(); 
-}  
+   /** 
+    * 验证码生成 
+    */  
+    public function verify_c(){  
+       $Verify = new \Think\Verify();  
+       $Verify->fontSize = 18;  
+       $Verify->length   = 4;  
+       $Verify->useNoise = false;  
+       $Verify->codeSet = '0123456789';  
+       $Verify->imageW = 130;  
+       $Verify->imageH = 50;  
+       //$Verify->expire = 600;  
+       $Verify->entry();  
+    }
+    public function yzm(){
+
+        $config = array(    
+                 'fontSize'    =>    130,    // 验证码字体大小   
+                 'length'      =>    4,     // 验证码位数   
+                 'useNoise'    =>    true, // 关闭验证码杂点
+         );
+        $Verify = new \Think\Verify($config);
+        $result = $Verify->entry();
+        print_r($result);die;
+    }
 
 	
 }
