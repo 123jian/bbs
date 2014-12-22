@@ -8,8 +8,9 @@ class CzltController extends Controller {
         
         $nav = M("nav"); // 实例化nav对象
         // 查找status值为1name值为think的用户数据 
-        $data = $nav->where('nav_category=1 and isset=1')->select();
+        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         //dump($data);die;
+        //echo $nav->getLastSql();die;
 
         $this->assign("nav",$data);
         $this->display();
@@ -19,7 +20,7 @@ class CzltController extends Controller {
     public function jslt(){       
         
         $nav = M("nav");
-        $data = $nav->where('nav_category=1 and isset=1')->select();
+        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         $this->assign("nav",$data);
         
         $this->display();
@@ -29,7 +30,7 @@ class CzltController extends Controller {
     public function wdjl(){       
         
         $nav = M("nav");
-        $data = $nav->where('nav_category=1 and isset=1')->select();
+        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         $this->assign("nav",$data);
         
         $this->display();
@@ -39,7 +40,7 @@ class CzltController extends Controller {
     public function cztk(){       
         
         $nav = M("nav");
-        $data = $nav->where('nav_category=1 and isset=1')->select();
+        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         $this->assign("nav",$data);
         
         $this->display();
@@ -49,7 +50,7 @@ class CzltController extends Controller {
     public function jfsc(){       
         
         $nav = M("nav");
-        $data = $nav->where('nav_category=1 and isset=1')->select();
+        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         $this->assign("nav",$data);
         
         $this->display();
@@ -59,7 +60,7 @@ class CzltController extends Controller {
     public function mfgkk(){       
         
         $nav = M("nav");
-        $data = $nav->where('nav_category=1 and isset=1')->select();
+        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         $this->assign("nav",$data);
         
         $this->display();
@@ -69,7 +70,7 @@ class CzltController extends Controller {
     public function jfcj(){       
         
         $nav = M("nav");
-        $data = $nav->where('nav_category=1 and isset=1')->select();
+        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         $this->assign("nav",$data);
         
         $this->display();

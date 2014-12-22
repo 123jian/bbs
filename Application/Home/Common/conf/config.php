@@ -6,7 +6,7 @@
 			'User' 
 	),
 	'DEFAULT_MODULE' => 'Home',
-        'LAYOUT_ON'=>true,
-        'LAYOUT_NAME'=>'layout',
+        //'LAYOUT_ON'=>true,
+        //'LAYOUT_NAME'=>'layout',
     );
 ?>
