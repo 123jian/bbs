@@ -97,7 +97,8 @@ window.onerror = killErrors;
 </div>
  
       
-      <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="top_find_psw" href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"> 找回密码 </a> 
+      <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="top_find_psw" href="javascript:;" onClick="showWindow()"> 找回密码 </a>
+      <!--onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"-->
        
       
        
@@ -1124,7 +1125,8 @@ GMT+8, 2014-12-17 09:42<span id="debuginfo">
   <span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span> 
    
 </div>
-<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script> 
+<script type="text/javascript">
+    _attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script> 
  
  			<div id="discuz_tips" style="display:none;"></div>
 			<script type="text/javascript">
@@ -1134,4 +1136,19 @@ GMT+8, 2014-12-17 09:42<span id="debuginfo">
 			if($('debuginfo')) {
 				$('debuginfo').innerHTML = '. This page is cached  at 09:42:14  .';
 			}
-			</script>
+</script>
+                        
+                        
+<script type="text/javascript">
+
+function showWindow()
+{
+    var str=prompt("随便写点儿啥吧","比如我叫啥");
+    if(str)
+    {
+        alert("您刚输入的是："+ str)
+    }
+}
+
+
+</script>

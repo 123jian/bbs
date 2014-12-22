@@ -25,6 +25,13 @@ ERR: 模板不存在:./Application/Home/View/Czlt/index.html
 [ 2014-12-21T19:47:15+08:00 ] 127.0.0.1 /index.php/czlt/index
 ERR: 模板不存在:./Application/Home/View/Czlt/index.html
 
+<<<<<<< HEAD
+[ 2014-12-21T21:08:04+08:00 ] 127.0.0.1 /member.php?mod=logging&action=login&viewlostpw=1&infloat=yes&handlekey=login&inajax=1&ajaxtarget=fwin_content_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Member.php
+=======
 [ 2014-12-21T21:18:22+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Home
 ERR: Access denied for user 'root'@'localhost' (using password: NO)
 
@@ -60,4 +67,5 @@ ERR: Access denied for user 'root'@'localhost' (using password: NO)
 
 [ 2014-12-21T21:20:24+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Home/czlt/index
 ERR: Access denied for user 'root'@'localhost' (using password: NO)
+>>>>>>> f5f2743d3a97d756b83d2c49af35df878c69c338
 

@@ -21,7 +21,7 @@ class NavController extends Controller {
         $data['nav_category'] = $_POST['category'];
         $data['nav_content'] = $_POST['content'];
         $data['isset'] = $_POST['isset'];
-        $data['order'] = $_POST['order'];
+        $data['orders'] = $_POST['order'];
         $result=$Nav->add($data);
         //var_dump($result);
         if($result){
@@ -97,7 +97,7 @@ class NavController extends Controller {
         $Nav->nav_category = $_POST['category'];
         $Nav->nav_content = $_POST['content'];
         $Nav->isset = $_POST['isset'];
-        $Nav->order = $_POST['order'];
+        $Nav->orders = $_POST['order'];
         $result=$Nav->where('nav_id='.$id)->save();
         //echo $Nav->getLastSql();
         //print_r($result);die;      
