@@ -83,6 +83,12 @@ class CzltController extends Controller {
         
         $this->display();
     }
+    
+    //找回密码
+    public function zhmm(){
+        
+        $this->display();
+    }
 
 	
 }

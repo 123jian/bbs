@@ -12,9 +12,12 @@
 <meta name="copyright" content="2001-2013 Comsenz Inc." />
 <meta name="MSSmartTagsPreventParsing" content="True" />
 <meta http-equiv="MSThemeCompatible" content="Yes" />
+
 <base href="http://bbs.itcast.cn/" />
 <link rel="stylesheet" type="text/css" href="data/cache/style_8_common.css?K3L" />
-<link rel="stylesheet" type="text/css" href="data/cache/style_8_forum_index.css?K3L" /><script type="text/javascript">var STYLEID = '8', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'K3L', charset = 'utf-8', discuz_uid = '0', cookiepre = 'UwrY_2132_', cookiedomain = '', cookiepath = '/', showusercard = '0', attackevasive = '0', disallowfloat = 'sendpm|newthread|nav', creditnotice = '1|金钱|,2|经验|,3|金币|,4|宣传贡献|,5|冻结金币|', defaultstyle = '', REPORTURL = 'aHR0cDovL2Jicy5pdGNhc3QuY24vZm9ydW0ucGhw', SITEURL = 'http://bbs.itcast.cn/', JSPATH = 'static/js/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
+<link rel="stylesheet" type="text/css" href="data/cache/style_8_forum_index.css?K3L" />
+<script type="text/javascript">
+var STYLEID = '8', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'K3L', charset = 'utf-8', discuz_uid = '0', cookiepre = 'UwrY_2132_', cookiedomain = '', cookiepath = '/', showusercard = '0', attackevasive = '0', disallowfloat = 'sendpm|newthread|nav', creditnotice = '1|金钱|,2|经验|,3|金币|,4|宣传贡献|,5|冻结金币|', defaultstyle = '', REPORTURL = 'aHR0cDovL2Jicy5pdGNhc3QuY24vZm9ydW0ucGhw', SITEURL = 'http://bbs.itcast.cn/', JSPATH = 'static/js/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
 <script src="static/js/common.js?K3L" type="text/javascript"></script>
 <meta name="application-name" content="传智论坛-IT学习社区" />
 <meta name="msapplication-tooltip" content="传智论坛-IT学习社区" />
@@ -22,6 +25,7 @@
 <meta name="msapplication-task" content="name=技术论坛;action-uri=http://bbs.itcast.cn/forum.php;icon-uri=http://bbs.itcast.cn/static/image/common/bbs.ico" />
 <meta name="msapplication-task" content="name=高校俱乐部;action-uri=http://bbs.itcast.cn/group.php;icon-uri=http://bbs.itcast.cn/static/image/common/group.ico" />
 <script src="static/js/forum.js?K3L" type="text/javascript"></script>
+
 
 <meta http-equiv="X-UA-Compatible" content="IE=8" >
 <meta http-equiv="X-UA-Compatible" content="IE=9" >
@@ -98,13 +102,17 @@ window.onerror = killErrors;
  
       
       <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="top_find_psw" href="javascript:;" onClick="showWindow()"> 找回密码 </a>
-      <!--onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"-->
-       
-      
-       
-       
-      
-       
+<!--<a class="top_find_psw" href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"> 找回密码 </a>-->
+
+<!--短信找回密码start-->
+<script>
+function showWindow(){
+    location.href="http://www.bbs.com/index.php/czlt/zhmm";
+}
+</script>    
+<!--短信找回密码end-->      
+
+     
     </div>
   </div>
   </div>
@@ -1136,19 +1144,4 @@ GMT+8, 2014-12-17 09:42<span id="debuginfo">
 			if($('debuginfo')) {
 				$('debuginfo').innerHTML = '. This page is cached  at 09:42:14  .';
 			}
-</script>
-                        
-                        
-<script type="text/javascript">
-
-function showWindow()
-{
-    var str=prompt("随便写点儿啥吧","比如我叫啥");
-    if(str)
-    {
-        alert("您刚输入的是："+ str)
-    }
-}
-
-
 </script>
