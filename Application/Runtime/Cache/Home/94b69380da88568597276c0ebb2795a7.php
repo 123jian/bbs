@@ -13,19 +13,7 @@
 <meta name="MSSmartTagsPreventParsing" content="True" />
 <meta http-equiv="MSThemeCompatible" content="Yes" />
 
-<base href="http://www.bbs.com/" />
-<link rel="stylesheet" type="text/css" href="/Public/Luntan/css/style_8_common.css?K3L" />
-<link rel="stylesheet" type="text/css" href="/Public/Luntan/css/style_8_forum_index.css?K3L" />
-<script type="text/javascript">
-var STYLEID = '8', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'K3L', charset = 'utf-8', discuz_uid = '0', cookiepre = 'UwrY_2132_', cookiedomain = '', cookiepath = '/', showusercard = '0', attackevasive = '0', disallowfloat = 'sendpm|newthread|nav', creditnotice = '1|金钱|,2|经验|,3|金币|,4|宣传贡献|,5|冻结金币|', defaultstyle = '', REPORTURL = 'aHR0cDovL2Jicy5pdGNhc3QuY24vZm9ydW0ucGhw', SITEURL = 'http://bbs.itcast.cn/', JSPATH = 'static/js/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
-<script src="/Public/Luntan/js/common.js?K3L" type="text/javascript"></script>
-<meta name="application-name" content="传智论坛-IT学习社区" />
-<meta name="msapplication-tooltip" content="传智论坛-IT学习社区" />
-<meta name="msapplication-task" content="name=IT学习社区;action-uri=http://bbs.itcast.cn/portal.php;icon-uri=http://bbs.itcast.cn/static/image/common/portal.ico" />
-<meta name="msapplication-task" content="name=技术论坛;action-uri=http://bbs.itcast.cn/forum.php;icon-uri=http://bbs.itcast.cn/static/image/common/bbs.ico" />
-<meta name="msapplication-task" content="name=高校俱乐部;action-uri=http://bbs.itcast.cn/group.php;icon-uri=http://bbs.itcast.cn/static/image/common/group.ico" />
-<script src="static/js/forum.js?K3L" type="text/javascript"></script>
-<!--
+<base href="http://bbs.itcast.cn/" />
 <link rel="stylesheet" type="text/css" href="data/cache/style_8_common.css?K3L" />
 <link rel="stylesheet" type="text/css" href="data/cache/style_8_forum_index.css?K3L" />
 <script type="text/javascript">
@@ -37,7 +25,7 @@ var STYLEID = '8', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHAS
 <meta name="msapplication-task" content="name=技术论坛;action-uri=http://bbs.itcast.cn/forum.php;icon-uri=http://bbs.itcast.cn/static/image/common/bbs.ico" />
 <meta name="msapplication-task" content="name=高校俱乐部;action-uri=http://bbs.itcast.cn/group.php;icon-uri=http://bbs.itcast.cn/static/image/common/group.ico" />
 <script src="static/js/forum.js?K3L" type="text/javascript"></script>
--->
+
 
 <meta http-equiv="X-UA-Compatible" content="IE=8" >
 <meta http-equiv="X-UA-Compatible" content="IE=9" >
@@ -113,54 +101,18 @@ window.onerror = killErrors;
 </div>
  
       
-      <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="btn btn-primary btn-large theme-login" href="javascript:;"> 找回密码 </a>
+      <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="top_find_psw" href="javascript:;" onClick="showWindow()"> 找回密码 </a>
+<!--<a class="top_find_psw" href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"> 找回密码 </a>-->
 
 <!--短信找回密码start-->
-<link rel="stylesheet" href="/Public/Luntan/css/lanrenzhijia.css" media="all">
-<script src="/Public/Luntan/js/jquery.min2.js"></script>
 <script>
-//alert($);
-jQuery(document).ready(function($) {
-     $('.theme-login').click(function(){
-             $('.theme-popover-mask').fadeIn(100);
-             $('.theme-popover').slideDown(200);
-     })
-     $('.theme-poptit .close').click(function(){
-             $('.theme-popover-mask').fadeOut(100);
-             $('.theme-popover').slideUp(200);
-     })
-
- })
-
-
-</script>
-
-<div class="theme-popover">
-     <div class="theme-poptit">
-          <a href="javascript:;" title="关闭" class="close">×</a>
-          <h3>登录 是一种态度</h3>
-     </div>
-     <div class="theme-popbod dform">
-           <form class="theme-signin" name="loginform" action="" method="post">
-                <ol>
-                     <li><h4>你必须先登录！</h4></li>
-                     <li><strong>用户名：</strong><input class="ipt" type="text" name="log" value="lanrenzhijia" size="20" /></li>
-                     <li><strong>密码：</strong><input class="ipt" type="password" name="pwd" value="***" size="20" /></li>
-                     <li><input class="btn btn-primary" type="submit" name="submit" value=" 登 录 " /></li>
-                </ol>
-           </form>
-     </div>
-</div>
-<div class="theme-popover-mask"></div>      
+function showWindow(){
+    location.href="http://www.bbs.com/index.php/czlt/zhmm";
+}
+</script>    
 <!--短信找回密码end-->      
 
-      <!--<a class="top_find_psw" href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"> 找回密码 </a>-->
-       
-      
-       
-       
-      
-       
+     
     </div>
   </div>
   </div>
