@@ -421,3 +421,30 @@ ERR: Access denied for user 'root'@'192.168.1.217' (using password: YES)
 ERR: Access denied for user 'root'@'192.168.1.217' (using password: YES)
 
 >>>>>>> 9b40056c0be8c23d88d4ee057507d2fc8bf70c0c
+[ 2014-12-22T16:51:02+08:00 ] 127.0.0.1 /index.php/czlt/wdjl
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:51:05+08:00 ] 127.0.0.1 /index.php/czlt/wdjl
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:52:35+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:52:40+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:52:44+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:53:15+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:54:03+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:54:03+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:54:17+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+

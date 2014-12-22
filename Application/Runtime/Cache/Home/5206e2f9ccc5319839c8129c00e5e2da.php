@@ -321,7 +321,6 @@ www.veikei.com
   </div>
 
 
-
 <div id="wp" class="wp">
 <script type="text/javascript">
 var strongpw = new Array();
@@ -392,7 +391,7 @@ showDialog(msg, 'notice');
 
 <span id="seccode_cSebs30z"></span>		
 <script type="text/javascript" reload="1">updateseccode('cSebs30z', '<div class="rfm"><table><tr><th><span class="rq">*</span><sec>: </th><td><sec><br /><sec></td></tr></table></div>', 'member::register');</script>
-
+<?php print_r($yzm);?>
 </div>
 
 </div>
@@ -407,7 +406,7 @@ showDialog(msg, 'notice');
 <td>
 <span id="reginfo_a_btn">
 <em>&nbsp;</em><button class="pn pnc" id="registerformsubmit" type="submit" name="regsubmit" value="true" tabindex="1"><strong>提交</strong></button>
-<?php echo $yzm;?>
+
 </span>
 </td>
 <td></td>

@@ -95,7 +95,7 @@ class CzltController extends Controller {
         );
         $Verify = new \Think\Verify($config);
         $yzm = $Verify->entry();
-        //print_r($yzm);die;
+        print_r($yzm);die;
         
         $nav = M("nav");
         $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
