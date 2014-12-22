@@ -1,0 +1,357 @@
+[ 2014-12-22T08:15:22+08:00 ] 127.0.0.1 /index.php/czlt/index
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2014-12-22T14:21:49+08:00 ] 127.0.0.1 /index.php/Home/project/jichu
+ERR: 无法加载控制器:Project
+
+[ 2014-12-22T14:21:57+08:00 ] 127.0.0.1 /index.php/Home/project/jichu
+ERR: 无法加载控制器:Project
+
+[ 2014-12-22T14:26:21+08:00 ] 127.0.0.1 /index.php/czlt/data/cache/style_8_common.css?K3L
+ERR: 非法操作:data
+
+[ 2014-12-22T14:26:21+08:00 ] 127.0.0.1 /index.php/czlt/template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 非法操作:template
+
+[ 2014-12-22T14:26:21+08:00 ] 127.0.0.1 /index.php/czlt/home.php?mod=misc&ac=sendmail&rand=1418780534
+ERR: 非法操作:home.php
+
+[ 2014-12-22T14:26:21+08:00 ] 127.0.0.1 /index.php/czlt/data/cache/style_8_forum_index.css?K3L
+ERR: 非法操作:data
+
+[ 2014-12-22T14:26:21+08:00 ] 127.0.0.1 /index.php/czlt/static/js/common.js?K3L
+ERR: 非法操作:static
+
+[ 2014-12-22T14:26:21+08:00 ] 127.0.0.1 /index.php/czlt/static/js/forum.js?K3L
+ERR: 非法操作:static
+
+[ 2014-12-22T14:31:35+08:00 ] 127.0.0.1 /data/cache/style_8_common.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:31:35+08:00 ] 127.0.0.1 /static/js/common.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:31:35+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:31:35+08:00 ] 127.0.0.1 /data/cache/style_8_forum_index.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:31:35+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:33:23+08:00 ] 127.0.0.1 /data/cache/style_8_forum_index.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:33:23+08:00 ] 127.0.0.1 /data/cache/style_8_common.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:33:23+08:00 ] 127.0.0.1 /static/js/common.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:33:23+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:33:23+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:33:25+08:00 ] 127.0.0.1 /data/cache/style_8_forum_index.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:33:25+08:00 ] 127.0.0.1 /data/cache/style_8_common.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:33:25+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:33:25+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:33:25+08:00 ] 127.0.0.1 /static/js/common.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:34:59+08:00 ] 127.0.0.1 /data/cache/style_8_common.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:34:59+08:00 ] 127.0.0.1 /static/js/common.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:34:59+08:00 ] 127.0.0.1 /data/cache/style_8_forum_index.css?K3L
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:34:59+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:34:59+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:35:22+08:00 ] 127.0.0.1 /index.php/czlt/data/cache/style_8_forum_index.css?K3L
+ERR: 非法操作:data
+
+[ 2014-12-22T14:35:22+08:00 ] 127.0.0.1 /index.php/czlt/static/js/common.js?K3L
+ERR: 非法操作:static
+
+[ 2014-12-22T14:35:22+08:00 ] 127.0.0.1 /index.php/czlt/static/js/forum.js?K3L
+ERR: 非法操作:static
+
+[ 2014-12-22T14:35:22+08:00 ] 127.0.0.1 /index.php/czlt/data/cache/style_8_common.css?K3L
+ERR: 非法操作:data
+
+[ 2014-12-22T14:35:23+08:00 ] 127.0.0.1 /index.php/czlt/home.php?mod=misc&ac=sendmail&rand=1418780534
+ERR: 非法操作:home.php
+
+[ 2014-12-22T14:35:23+08:00 ] 127.0.0.1 /index.php/czlt/template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 非法操作:template
+
+[ 2014-12-22T14:37:59+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:37:59+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:37:59+08:00 ] 127.0.0.1 /static/js/common_extra.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:39:48+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:39:48+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:39:48+08:00 ] 127.0.0.1 /static/js/common_extra.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:39:50+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:39:50+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:39:50+08:00 ] 127.0.0.1 /source/plugin/study_nge/images/common.js?Nzr
+ERR: 无法加载控制器:Source
+
+[ 2014-12-22T14:39:50+08:00 ] 127.0.0.1 /source/plugin/study_nge/images/nge.css?Nzr
+ERR: 无法加载控制器:Source
+
+[ 2014-12-22T14:39:51+08:00 ] 127.0.0.1 /static/js/common_extra.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:39:55+08:00 ] 127.0.0.1 /data/cache/style_8_common.css?Nzr
+ERR: 无法加载控制器:Data
+
+[ 2014-12-22T14:39:55+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:39:55+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/ask/style/style.css
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:39:55+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:39:55+08:00 ] 127.0.0.1 /static/js/common.js?Nzr
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:39:55+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/ask/js/card.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:40:05+08:00 ] 127.0.0.1 /zine.php
+ERR: 无法加载控制器:Zine.php
+
+[ 2014-12-22T14:40:11+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:40:11+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:40:16+08:00 ] 127.0.0.1 /static/js/forum.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:40:16+08:00 ] 127.0.0.1 /template/veikei_dz_portal_20131130_texture/images/nv.js
+ERR: 无法加载控制器:Template
+
+[ 2014-12-22T14:40:16+08:00 ] 127.0.0.1 /static/js/common_extra.js?K3L
+ERR: 无法加载控制器:Static
+
+[ 2014-12-22T14:50:08+08:00 ] 127.0.0.1 /member.php?mod=logging&action=login&viewlostpw=1&infloat=yes&handlekey=login&inajax=1&ajaxtarget=fwin_content_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Member.php
+
+[ 2014-12-22T15:08:59+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:09:30+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:20:10+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:20:21+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:20:22+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:27:01+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:27:03+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:27:05+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:27:07+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:27:09+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:30:04+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:30:10+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:30:11+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:30:11+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:30:12+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:30:14+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:30:15+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:30:16+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:31:30+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:31:33+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:31:34+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:33:53+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Access denied for user 'root'@'Fuck_you' (using password: NO)
+
+[ 2014-12-22T15:38:47+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:38:49+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:38:53+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:38:58+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:39:00+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:39:01+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:39:03+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:39:04+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:41:33+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:41:36+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:41:39+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:55:28+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:55:30+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:55:31+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:55:32+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:55:33+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:55:34+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:55:34+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:57:02+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:57:03+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:57:04+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:57:05+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:58:20+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T15:58:27+08:00 ] 127.0.0.1 /index.php/index/index
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:00:05+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:04:33+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:05:44+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:15:45+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:15:47+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:17:15+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:26:45+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:35:55+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:42:08+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:42:18+08:00 ] 127.0.0.1 /index.php/czlt/index
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:42:24+08:00 ] 127.0.0.1 /index.php/czlt/jslt
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:42:28+08:00 ] 127.0.0.1 /index.php/czlt/wdjl
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:42:32+08:00 ] 127.0.0.1 /index.php/czlt/cztk
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
