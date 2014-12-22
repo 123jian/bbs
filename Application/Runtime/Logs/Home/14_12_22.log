@@ -421,3 +421,9 @@ ERR: Access denied for user 'root'@'192.168.1.217' (using password: YES)
 ERR: Access denied for user 'root'@'192.168.1.217' (using password: YES)
 
 >>>>>>> 9b40056c0be8c23d88d4ee057507d2fc8bf70c0c
+[ 2014-12-22T16:49:00+08:00 ] 127.0.0.1 /bbs/index.php
+ERR: Host '192.168.1.217' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T16:49:37+08:00 ] 127.0.0.1 /bbs/index.php
+ERR: Host '192.168.1.217' is not allowed to connect to this MySQL server
+
