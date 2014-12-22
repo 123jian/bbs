@@ -8,12 +8,9 @@ class CzltController extends Controller {
         
         $nav = M("nav"); // 实例化nav对象
         // 查找status值为1name值为think的用户数据 
-        $data = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
+        $result = $nav->where('nav_category=1 and isset=1')->order("orders")->select();
         //dump($data);die;
-<<<<<<< HEAD
         //echo $nav->getLastSql();die;
-
-=======
 		//***********这个是会员专区和讲师专区
 		$art = M('Article');//获取表总数据
         $data = $art->join('bbs_category ON bbs_article.text_type = bbs_category.c_id')->where('text_status=0 and user_type=3')->order('text_id desc')->limit(8)->select();
@@ -21,9 +18,9 @@ class CzltController extends Controller {
         //print_r($list);//die;
         $this->assign('data',$data);
         $this->assign('list',$list);
-		//************
->>>>>>> f5f2743d3a97d756b83d2c49af35df878c69c338
-        $this->assign("nav",$data);
+		
+
+        $this->assign("nav",$result);
         $this->display();
     }
     
