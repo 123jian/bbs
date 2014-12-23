@@ -10,8 +10,8 @@
 <link href="/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
 <link href="/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
 <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
-<script type="text/javascript" src="/Public/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="/Public/js/imageschange.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/imageschange.js"></script>
 <script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
 <script type="text/javascript" id="bdshell_js"></script>
 
@@ -50,10 +50,10 @@
 	</div>
 	<div class="clear"></div>
 	<ul id="nav">
-           <?php foreach($nav as $key => $val){?>
+<?php foreach($nav as $key => $val){?>
 	<li nid="nav_life" width="15%"><a href="/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
-	<?php }?>
-      
+<?php }?>
+	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
 	</body>
@@ -76,7 +76,7 @@ target="_blank">java学院</A> <IMG src="/Public/shouye/images/sanjiao.jpg">
 <DIV><IMG 
 src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
-    <form action='/index.php/home/index/login_pro' method='post'>
+    <form action='/index.php/index/login_pro' method='post'>
        用户名：<input type="text" name="name" id="name" value=""/></br>
        密码：<input type="text" name="pwd" id="pwd" value=""/></br>
        <input type="submit" value="登录" />
@@ -86,9 +86,9 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
 <script type="text/javascript">
 <!--
 function aa(){
-    $name=document.getElementById('name').value;
-    $pwd=document.getElementById('pwd').value;
-     location.href="/application/index.php/index/zhu_pro/name/$name/pwd/$pwd";
+    var names=document.getElementById('name').value;
+    var pwds=document.getElementById('pwd').value;
+    location.href="/index.php/index/zhu_pro?name="+names+"&pwd="+pwds;
 }	
 //-->
 </script>

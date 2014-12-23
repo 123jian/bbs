@@ -75,56 +75,54 @@ class IndexController extends Controller {
 
      $this->display();
     }
-
 	   //前台用户登录
     public function login(){
         $this->display();
     }
     //执行登录
     public function login_pro(){
-	include '/Public/config.inc.php';
-	include '/Public/uc_client/client.php';
 
-	$name=$_POST['name'];
-	$pwd=$_POST['pwd'];
-	/*list($uid, $username, $password, $email) = uc_user_login($name,$pwd);
-	if($uid > 0) {
-           session('n_name',$name); 
-           echo uc_user_synlogin($uid);
-	 echo "<script>location.href='/bbs/index.php/home/index/index'</script>";
-	} elseif($uid == -1) {
-			echo '用户不存在,或者被删除';
-	} elseif($uid == -2) {
-			echo '密码错';
-	} else {
-			echo '未定义';
-	}*/
-	$user = M("admin_user");
-	$userinfo = $user->where("username=$name")->select();
-	//var_dump($userinfo);die;
-	if($userinfo){
-		if($userinfo[0]["psd"]==md5($pwd)){
-			
-			    session('name',$name); 
-				
-				//var_dump($_SESSION);
-			 $this->success('登录成功','index/index');
-			// print_r ($_SESSION);
-			 //echo '欢迎$name登录成功';
-
-			   //session('name',$name); 
-                      // $this->display('index');
-			//echo "ok";
-		}else{
-			//echo "psd error";
-			$this->success('登录失败','index/login');
+		include 'config.inc.php';
+		include 'uc_client/client.php';
+		$name=$_POST['name'];
+		$pwd=$_POST['pwd'];
+		list($uid, $username, $password, $email) = uc_user_login($name,$pwd);
+		//echo $uid;die;
+		if($uid > 0) {
+		  session('name',$name);
+		 echo uc_user_synlogin($uid);
+		 echo "<script>location.href='/index.php/home/index/index'</script>";
+		} elseif($uid == -1) {
+				echo '用户不存在,或者被删除';
+		} elseif($uid == -2) {
+				echo '密码错';
+		} else {
+				echo '未定义';
 		}
-	}else{
-		echo "name error";
-	}
+		$user = M("admin_user");
+		$userinfo = $user->where("username=$name")->select();
+		//var_dump($userinfo);die;
+		if($userinfo){
+			if($userinfo[0]["psd"]==md5($pwd)){
+
+				//var_dump($_SESSION);
+				$this->success('登录成功','index/index');
+				// print_r ($_SESSION);
+				//echo '欢迎$name登录成功';
+
+				//session('name',$name); 
+				// $this->display('index');
+				//echo "ok";
+			}else{
+				//echo "psd error";
+				$this->success('登录失败','index/login');
+			}
+		}else{
+				echo "name error";
+		  }
 
 
-    }
+   }
 
 
 
@@ -132,10 +130,11 @@ class IndexController extends Controller {
 
 	  //注册
     public function zhu_pro(){
-      // include '/Public/config.inc.php';
-	include '/Public/uc_client/client.php';
+      include '/config.inc.php';
+	include '/uc_client/client.php';
         $name=$_GET['name'];
 	$pwd=$_GET['pwd'];
+	//print_r($_GET);die;
         $uid = uc_user_register($name,$pwd,rand(1111,99999).'@qq.com');
         if($uid <= 0) {
                 if($uid == -1) {
@@ -154,18 +153,18 @@ class IndexController extends Controller {
                         echo '未定义';
                 }
         } else {
-            echo "<script>location.href='/bbs/index.php/home/index/login'</script>";  
+            echo "<script>location.href='/index.php/index/login'</script>";  
         }
     }
     //退出登录
     public function loginout(){
-    //    include '/Public/config.inc.php';
-	//include '/Public/uc_client/client.php';
-           unset($_SESSION['name']); 
-       //    echo uc_user_synlogout($uid); 
-            //$this->redirect('Index/index');
-          
-		   $this->success('退出成功','index/index');
+		include 'config.inc.php';
+		include 'uc_client/client.php';
+		unset($_SESSION['name']); 
+		echo uc_user_synlogout($uid); 
+		//$this->redirect('Index/index');
+
+		$this->success('退出成功','index/index');
     }
     
 

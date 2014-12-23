@@ -10,8 +10,8 @@
 <link href="/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
 <link href="/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
 <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
-<script type="text/javascript" src="/Public/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="/Public/js/imageschange.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/imageschange.js"></script>
 <script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
 <script type="text/javascript" id="bdshell_js"></script>
 

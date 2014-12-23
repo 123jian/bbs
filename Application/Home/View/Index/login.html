@@ -18,7 +18,7 @@ target="_blank">java学院</A> <IMG src="__PUBLIC__/shouye/images/sanjiao.jpg">
 <DIV><IMG 
 src="__PUBLIC__/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
-    <form action='__ROOT__/index.php/home/index/login_pro' method='post'>
+    <form action='__ROOT__/index.php/index/login_pro' method='post'>
        用户名：<input type="text" name="name" id="name" value=""/></br>
        密码：<input type="text" name="pwd" id="pwd" value=""/></br>
        <input type="submit" value="登录" />
@@ -28,9 +28,9 @@ src="__PUBLIC__/shouye/images/lefttop.gif"></DIV>
 <script type="text/javascript">
 <!--
 function aa(){
-    $name=document.getElementById('name').value;
-    $pwd=document.getElementById('pwd').value;
-     location.href="/application/index.php/index/zhu_pro/name/$name/pwd/$pwd";
+    var names=document.getElementById('name').value;
+    var pwds=document.getElementById('pwd').value;
+    location.href="/index.php/index/zhu_pro?name="+names+"&pwd="+pwds;
 }	
 //-->
 </script>
