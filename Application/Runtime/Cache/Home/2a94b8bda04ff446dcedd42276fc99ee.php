@@ -53,7 +53,7 @@
 <?php foreach($nav as $key => $val){?>
 	<li nid="nav_life" width="15%"><a href="/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
 <?php }?>
-	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main">技术论坛</a></li>
+	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
 	</body>
