@@ -678,3 +678,9 @@ ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
 [ 2014-12-22T20:39:51+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
 ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
 
+[ 2014-12-22T21:14:16+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
+[ 2014-12-22T21:14:18+08:00 ] 127.0.0.1 /index.php/czlt/zhmm
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+

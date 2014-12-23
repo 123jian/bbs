@@ -1,5 +1,35 @@
-__SELF__<br>__URL__
-
+<!--短信找回密码start-->
+<?php
+session_start();
+if($_POST){
+	//echo '<pre>';print_r($_POST);print_r($_SESSION);
+	if($_POST['mobile']!=$_SESSION['mobile'] or $_POST['mobile_code']!=$_SESSION['mobile_code'] or empty($_POST['mobile']) or empty($_POST['mobile_code'])){
+		exit('手机验证码输入错误。');	
+	}else{
+		$_SESSION['mobile'] = '';
+		$_SESSION['mobile_code'] = '';	
+		//exit('注册成功。');
+		//header("location:http://www.bbs.com/index.php/czlt/zhmm");
+		echo "<script>alert('注册成功');location.href='http://www.bbs.com/index.php/czlt/zhmm';</script>";
+	}
+}
+function random($length = 6 , $numeric = 0) {
+	PHP_VERSION < '4.2.0' && mt_srand((double)microtime() * 1000000);
+	if($numeric) {
+		$hash = sprintf('%0'.$length.'d', mt_rand(0, pow(10, $length) - 1));
+	} else {
+		$hash = '';
+		$chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789abcdefghjkmnpqrstuvwxyz';
+		$max = strlen($chars) - 1;
+		for($i = 0; $i < $length; $i++) {
+			$hash .= $chars[mt_rand(0, $max)];
+		}
+	}
+	return $hash;
+}
+$_SESSION['send_code'] = random(6,1);
+?>
+<!--短信找回密码end-->
 <div id="wp" class="wp">
 <script type="text/javascript">
 var strongpw = new Array();
@@ -33,7 +63,7 @@ var pwlength = 6;
 
 <p id="returnmessage4"></p>
 
-<form method="post" autocomplete="off" name="register" id="registerform" enctype="multipart/form-data" onsubmit="checksubmit();return false;" action="member.php?mod=register">
+<form method="post" autocomplete="off" name="register" id="registerform" enctype="multipart/form-data" action="">
 <div id="layer_reg" class="bm_c">
 <input type="hidden" name="regsubmit" value="yes" />
 <input type="hidden" name="formhash" value="1c8694aa" />
@@ -43,13 +73,15 @@ var pwlength = 6;
 <div class="mtw">
 <div id="reginfo_a">
 <div class="rfm">
+    
 <table>
 <tr>
 <th><span class="rq">*</span><label for="cs893">请输入手机号码：</label></th>
 <td>
-<input type="text" id="cs893" name="cs893" autocomplete="off" size="25" tabindex="1" class="px" required /><br /><em id="emailmore">&nbsp;</em>
-<input type="hidden" name="handlekey" value="sendregister"/>
+<input id="mobile" name="mobile" type="text" size="25" class="inputBg" /><span style="color:#FF0000"> *</span> 
+        <input id="zphone" type="button" value=" 获取手机验证码 " onClick="get_mobile_code();">
 </td>
+
 <td class="tipcol"><i id="tip_cs893" class="p_tip">请输入正确的手机号码</i><kbd id="chk_cs893" class="p_chk"></kbd></td>
 </tr>
 </table>
@@ -60,7 +92,58 @@ var pwlength = 6;
 找回密码需要验证手机，请务必填写正确的手机号码，提交后请及时查收信息。<br />您可能需要等待几分钟才能收到信息。
 </td>
 </tr>
+<tr>
+    <th><span class="rq">*</span><label for="cs893">验证码：</label></th>
+<td>
+<input type="text" size="8" name="mobile_code" class="inputBg" />       
+</td>
+</tr>
 </table>
+<!--验证码start-->
+<script type="text/javascript" src="__PUBLIC__/js/jq.js"></script>
+<script language="javascript">
+	function get_mobile_code(){
+        //alert($);
+        $.post('sms.php', {mobile:jQuery.trim($('#mobile').val()),send_code:<?php echo $_SESSION['send_code'];?>}, function(msg) {
+            alert(jQuery.trim(unescape(msg)));
+                if(msg=='提交成功'){
+                        RemainTime();
+                        alert('成功');
+                }
+            });
+	};
+	var iTime = 59;
+	var Account;
+	function RemainTime(){
+		document.getElementById('zphone').disabled = true;
+		var iSecond,sSecond="",sTime="";
+		if (iTime >= 0){
+			iSecond = parseInt(iTime%60);
+			iMinute = parseInt(iTime/60)
+			if (iSecond >= 0){
+				if(iMinute>0){
+					sSecond = iMinute + "分" + iSecond + "秒";
+				}else{
+					sSecond = iSecond + "秒";
+				}
+			}
+			sTime=sSecond;
+			if(iTime==0){
+				clearTimeout(Account);
+				sTime='获取手机验证码';
+				iTime = 59;
+				document.getElementById('zphone').disabled = false;
+			}else{
+				Account = setTimeout("RemainTime()",1000);
+				iTime=iTime-1;
+			}
+		}else{
+			sTime='没有倒计时';
+		}
+		document.getElementById('zphone').value = sTime;
+	}	
+</script>
+<!--验证码end-->
 <script type="text/javascript">
 function succeedhandle_sendregister(url, msg, values) {
 showDialog(msg, 'notice');
@@ -72,47 +155,7 @@ showDialog(msg, 'notice');
 <script type="text/javascript" reload="1">updateseccode('cSebs30z', '<div class="rfm"><table><tr><th><span class="rq">*</span><sec>: </th><td><sec><br/><sec></td></tr></table></div>', 'member::register');</script>-->
 
 
-<!--http://www.bbs.com__URL__/yzm验证码start-->
-<div id='yzma'>
-    <img src="" onclick="gai()" width="80"  height='25' id='yzm'/> 
-</div>
 
-<script type="text/javascript" src="__PUBLIC__/js/jq.js"></script>
-<script type="text/javascript">
-    <!--
-	function gai(){
-		//alert(111);
-		var yzma=document.getElementById("yzm");
-		//jq("#yzm").attr("src","/index.php/index/verify_image");
-		yzma.src="";
-	}
-	$('#loginForm').submit(function(){
-		if($('#userName').val()==''){
-			alert('请输入用户名！');
-			return false;
-		}
-		if($('#psd').val()==''){
-			alert('请输入密码！');
-			return false;
-		}
-		if($('#verify').val()==''){
-			alert('请输入验证码！');
-			return false;
-		}
-    });
-	window.onload=function(){(window.onresize=function(){
-		//获取可见高度
-		var _h=document.documentElement.clientHeight,
-		_n_h=$('#login-panel').height();
-		var _login_top=(_h-_n_h-100)/2;
-		$('#login-panel').animate({'margin-top':_login_top+'px'},'slow');
-	})()};
-	$('#userName').focus();
-
-    //-->
-</script>
-
-<!--验证码end-->
 
 </div>
 

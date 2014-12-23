@@ -25,16 +25,16 @@ return array(
     'DB_CHARSET'=> 'utf8', // 字符集
     'DB_DEBUG'  =>  TRUE, // 数据库调试模式 开启后可以记录SQL日志
 
-	'LAYOUT_ON'=>true,
-	'LAYOUT_NAME'=>'layout',
+    'LAYOUT_ON'=>true,
+    'LAYOUT_NAME'=>'layout',
 
-	'MODULE_ALLOW_LIST' => array (
-			'Home',
-			'Admin',
-			'User' 
-	),
-	'DEFAULT_MODULE' => 'Home',
-    '__IP__' => $_SERVER['HTTP_HOST'],
+    'MODULE_ALLOW_LIST' => array (
+                    'Home',
+                    'Admin',
+                    'User' 
+    ),
+    'DEFAULT_MODULE' => 'Home',
+    //'__IP__' => $_SERVER['HTTP_HOST'],
 
 	
 );
