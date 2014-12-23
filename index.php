@@ -29,3 +29,27 @@ define('APP_PATH','./Application/');
 require './ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
+
+//PV统计
+$time = date("Y-m-d",time());
+//echo $time;die;
+$model=M('pv');
+$data=$model->where(['pv_time' => $time])->select();
+//var_dump($data);//die;
+if($data){
+    $model=M('pv');
+    $id=$data[0]['pid'];
+    //echo $id;die;
+    //$info['pv_count'] = $data["pv_count"]+1;
+    $pv_content=$data[0]["pv_count"]+1;
+    //echo $pv_content;die;
+    $model->where('pid='.$id)->setField('pv_count',$pv_content);
+    //echo $model->getLastSql();die;
+
+}  else {
+    $model=M('pv');
+    $info['pv_time'] = date("Y-m-d",time());
+    $info['pv_count'] = 1;
+    $a=$model->add($info);
+    //echo $a;
+}
