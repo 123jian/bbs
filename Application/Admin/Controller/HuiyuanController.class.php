@@ -190,6 +190,26 @@ class HuiyuanController extends Controller{
         $this->assign('page',$show);
         $this->display("check_article");   
     }
+    //点击量统计
+    public function pv(){
+        $pv = M('pv');
+        $data = $pv->select();
+        $y = "";
+        foreach($data as $key=>$val){
+            $y.=$val['pv_count'].",";
+        }
+        $x="";
+        foreach($data as $key=>$val){
+            $x.="'".$val['pv_time']."',";
+        }
+        $x=trim($x,","); 
+        $y= trim($y,","); 
+        //echo $x;
+        $this->assign('x',$x);
+        $this->assign('y',$y);
+        $this->display("pv");
+    }
+
     
 	/*public function yzm()
 	{
