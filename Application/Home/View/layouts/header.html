@@ -23,17 +23,17 @@
 <div class="top1">
 
 	<p class="fr">
-            <?php if(empty($_COOKIE['Example_auth'])){?>
-            <a href="__ROOT__/index.php/index/login">登录注册</a>
+            <?php if(empty($_SESSION['name'])){?>
+            <a href="__ROOT__/index.php/home/index/login">登录注册</a>
             <?php }else{ ?>
-            <span color='red'><?php echo $_COOKIE['Example_auth']?><a href="__ROOT__/index.php/index/loginout">退出</a></span>
+            <span color='red'><?php echo $_SESSION['name']?><a href="__ROOT__/index.php/home/index/loginout">退出</a></span>
             <?php }?>
-            <a href="http://www.itcast.cn/channel/job.shtml" target="_blank">就业宣言</a><a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">报名流程</a><a href="http://open.itcast.cn" target="_blank">免费公开课</a><a href="http://dvd.itcast.cn" target="_blank">免费学习光盘</a><a href="http://www.itcast.cn/channel/book.shtml" target="_blank">原创教材</a><a href="http://bbs.itcast.cn/zine.php" target="_blank">传智特刊</a><a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a><a href="http://bbs.itcast.cn" target="_blank">技术论坛</a></p>
+     </p>
 </div>
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="__PUBLIC__/images/logo.jpg" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="__PUBLIC__/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -51,12 +51,9 @@
 	<div class="clear"></div>
 	<ul id="nav">
            <?php foreach($nav as $key => $val){?>
-	<li nid="nav_life" width="15%"><a href="__ROOT__/<?php echo $val['n_url']?>" id="nav_main"><?php echo $val['n_name']?></a></li>
+	<li nid="nav_life" width="15%"><a href="__ROOT__/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
 	<?php }?>
-        <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">技术论坛</a></li>
-		 <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">首页</a></li>
-		  <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">php培训</a></li>
-		   <li nid="nav_life"><a href="http://www.10.com/Discuz_X3.2_SC_GBK/upload" id="nav_main">视频下载</a></li>
+      
 </ul>
 	</div>
 	</body>

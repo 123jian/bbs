@@ -1583,3 +1583,6 @@ ERR: Host '192.168.1.219' is not allowed to connect to this MySQL server
 [ 2014-12-23T08:50:57+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Home/czlt/index
 ERR: Host '192.168.1.219' is not allowed to connect to this MySQL server
 
+[ 2014-12-23T17:13:37+08:00 ] 127.0.0.1 /index.php/
+ERR: Host '192.168.1.238' is not allowed to connect to this MySQL server
+
