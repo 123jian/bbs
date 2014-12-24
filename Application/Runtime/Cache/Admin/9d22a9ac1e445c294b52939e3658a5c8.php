@@ -1,15 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-    <script type="text/javascript" src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="/Tp3.2/bbs/Public/js/My97DatePicker/WdatePicker.js"></script>
 
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+		<link rel="stylesheet" href="/Tp3.2/bbs/Public/css/public.css" />
 	<title></title>
 </head>
-    <script type="text/javascript" src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="/Tp3.2/bbs/Public/js/My97DatePicker/WdatePicker.js"></script>
 <body>
-	<form action="{:U('Admin/Jiuye/add_jiuye_pro')}" method="post">
+	<form action="<?php echo U('Home/Jiuye/add_jiuye_pro');?>" method="post">
 		<table class="table">
 			<tr>
 				<td class="th" colspan="2">添加就业信息</td>

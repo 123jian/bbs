@@ -5,13 +5,13 @@
 <meta name="keywords" content="php培训,php教程,php视频,php下载,php视频教程" />
 <meta name="description" content="php培训的龙头老大,口碑最好的php培训机构,进来看看同学们的呐喊，就会知道我们是个怎么样的学校,问天下php培训机构谁与争锋?php培训课程内容包含目前最流行的zendframework、thinkphp框架、ECShop、dedecms等产品的二次开发" />
 <title>传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校</title>
-<link href="/Tp3.2/bbs2/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs2/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs2/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs2/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
+<link href="/Tp3.2/bbs/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
+<link href="/Tp3.2/bbs/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
+<link href="/Tp3.2/bbs/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
+<link href="/Tp3.2/bbs/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
 <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/imageschange.js"></script>
+<script type="text/javascript" src="/Tp3.2/bbs/Public/shouye/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Tp3.2/bbs/Public/shouye/js/imageschange.js"></script>
 <script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
 <script type="text/javascript" id="bdshell_js"></script>
 
@@ -24,16 +24,16 @@
 
 	<p class="fr">
             <?php if(empty($_SESSION['name'])){?>
-            <a href="/Tp3.2/bbs2/index.php/home/index/login">登录注册</a>
+            <a href="/Tp3.2/bbs/index.php/home/index/login">登录注册</a>
             <?php }else{ ?>
-            <span color='red'><?php echo $_SESSION['name']?><a href="/Tp3.2/bbs2/index.php/home/index/loginout">退出</a></span>
+            <span color='red'><?php echo $_SESSION['name']?><a href="/Tp3.2/bbs/index.php/home/index/loginout">退出</a></span>
             <?php }?>
      </p>
 </div>
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Tp3.2/bbs2/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Tp3.2/bbs/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -46,20 +46,20 @@
 <p><a href="http://xa.itcast.cn" target="_blank">西安校区</a></p>
 <!-- 校区 --> 
 		</div>
-		<p class="fr"><img src="/Tp3.2/bbs2/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
+		<p class="fr"><img src="/Tp3.2/bbs/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
 	<ul id="nav">
 <?php foreach($nav as $key => $val){?>
-	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs2/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
+	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
 <?php }?>
-	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs2/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
+	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
 	</body>
 <div id="box">
 	<div id="left" class="fl"  style="margin-top:3px;">
-	<div><img src="/Tp3.2/bbs2/Public/images/lefttop.gif"  /></div>
+	<div><img src="/Tp3.2/bbs/Public/images/lefttop.gif"  /></div>
 		<div class="jyjb">
 			<?php if(is_array($res)): $i = 0; $__LIST__ = $res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="jyjb-11">
                     <ul>
@@ -123,12 +123,12 @@ size:12px;background-color:#ecf6fd;">
 <br />
 <br />
 </div>
-<div><img src="/Tp3.2/bbs2/Public/images/leftbottom.gif"  /></div>
+<div><img src="/Tp3.2/bbs/Public/images/leftbottom.gif"  /></div>
 </div>		
 		<div id="right" class="fl">			
 			<h4 class="righttitle1 zhaopin"><span class="blue">最新</span>企业招聘</h4>
 			<div class="rightkuang1">
-			<p class="cent"> <img src="/Tp3.2/bbs2/Public/images/select.jpg"  width="256" height="66" /></p>
+			<p class="cent"> <img src="/Tp3.2/bbs/Public/images/select.jpg"  width="256" height="66" /></p>
                   <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
 <tbody>
 	<tr>
@@ -204,7 +204,7 @@ size:12px;background-color:#ecf6fd;">
 
  <div class="clear"></div>
 			</div>
-			<div class="rightbottom"><img src="/Tp3.2/bbs2/Public/images/bottom1.gif"/></div>
+			<div class="rightbottom"><img src="/Tp3.2/bbs/Public/images/bottom1.gif"/></div>
 			<h4 class="righttitle1" style="margin-top:5px;"><span class="fl">PHP培训开班信息</span></h4>
 			
 			<div class="jyjb-left" >
@@ -238,7 +238,7 @@ size:12px;background-color:#ecf6fd;">
 </ul>
 
 			</div>
-			<div class="rightbottom"><img src="/Tp3.2/bbs2/Public/images/rightbottom.jpg"/></div>
+			<div class="rightbottom"><img src="/Tp3.2/bbs/Public/images/rightbottom.jpg"/></div>
 			<h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
 			<div class="rightkuang">
 		<dl>
@@ -299,7 +299,7 @@ size:12px;background-color:#ecf6fd;">
 </dl>-->
 			<div class="clear"></div>		
 			</div>
-			<div class="rightbottom"><img src="/Tp3.2/bbs2/Public/images/rightbottom.jpg"/></div>
+			<div class="rightbottom"><img src="/Tp3.2/bbs/Public/images/rightbottom.jpg"/></div>
 	  </div>
 	</div>		
 	<div class="clear"></div>
@@ -311,107 +311,7 @@ size:12px;background-color:#ecf6fd;">
     <p>版权所有 2006 - 2014 北京传智播客教育科技有限公司</p>
     <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096</p>
     <p>电话：010-82935150/60/70 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
-<<<<<<< HEAD
-    <p><a target="_blank" href="http://www.miibeian.gov.cn/">京ICP备08001421号</a><a target="_blank" href="http://www.bjgaj.gov.cn/web/">京公网安备110108007702</a></p>
+<p><a target="_blank" href="http://www.miibeian.gov.cn/">京ICP备08001421号</a><a target="_blank" href="http://www.bjgaj.gov.cn/web/">京公网安备110108007702</a></p>
 	<p style="padding-top:10px"><a target="_blank" href="http://webscan.360.cn/index/checkwebsite/url/www.itcast.cn" style="overflow:hidden; margin-right:6px; padding:0;"><img width="124" height="47" src="http://www.itcast.cn/images/360anquan.png"></a><a target="_blank" href="http://t.knet.cn/index_new.jsp" style="overflow:hidden; margin-right:6px; padding:0;"><img width="124" height="47" src="http://www.itcast.cn/images/cx.png"></a><a style="padding:0;" href="http://www.bj.cyberpolice.cn/index.do" target="_blank"><img width="124" height="47" src="http://www.itcast.cn/images/jc.png"></a></p>
   </div>
 </div>
-=======
-    <p><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备08001421号</a><a href="http://www.bjgaj.gov.cn/web/" target="_blank">京公网安备110108007702</a></p>
-	<p style="padding-top:10px"><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://webscan.360.cn/index/checkwebsite/url/www.itcast.cn" target="_blank">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/shouye/images/360anquan.png"></a><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://t.knet.cn/index_new.jsp" target="_blank">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/shouye/images/cx.png"></a><a target="_blank" href="http://www.bj.cyberpolice.cn/index.do" style="padding:0;">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/shouye/images/jc.png"></a></p>
-  </div>
-</div>
-<!-- 页面底部 -->
-<!-- 营销QQ统计 -->
-<!-- WPA Button Begin -->
-<script type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzgwMDA2ODg2OF8xNTA3NV84MDAwNjg4Njhf"></script>
-<!-- WPA Button END -->
-<!--[if lte IE 6]>
-<script src="/kefu/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        DD_belatedPNG.fix('titZx');
-    </script>
-<![endif]-->
-<LINK rel=stylesheet type=text/css href="/Tp3.2/bbs2/Public/shouye/css/common.css">
-<!--[if lte IE 6]>
-<link type="text/css" rel="stylesheet" href="/Tp3.2/bbs2/Public/index/css/ie.css" mce_href="/Tp3.2/bbs2/Public/index/css/ie.css" />
-<![endif]-->
-<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/shouye/js/jquery.js"></SCRIPT>
-<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/shouye/js/index.js"></SCRIPT>
-<SCRIPT type=text/javascript>kfguin="800068868";ws="www.itcast.cn"; companyname=""; welcomeword=""; type="1";</SCRIPT>
-<link href="/Tp3.2/bbs2/Public/shouye/css/init.css" mce_href="/Tp3.2/bbs2/Public/shouye/css/init.css" rel="stylesheet" type="text/css" />
-<link href="/Tp3.2/bbs2/Public/shouye/css/kefu.css" mce_href="/Tp3.2/bbs2/Public/shouye/css/kefu.css" rel="stylesheet" type="text/css" />
-<!--[if lte IE 6]>
-<link type="text/css" rel="stylesheet" href="/Tp3.2/bbs2/Public/index/ie.css" mce_href="/Tp3.2/bbs2/Public/index/ie.css" />
-<![endif]-->
-<div class="fixed">
-	<div class="f_left"></div>
-	<div class="f_right">
-		<div class="fr_c1"></div>
-		<div class="fr_c2">
-			<ul>
-				<li class="fr_c2_li1">QQ在线客服</li>
-				<li class="fr_c2_li2">
-					<div><script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzgwMDA2ODg2OF8yNjY4M184MDAwNjg4Njhf"></script></div>
-				</li>
-				<li class="fr_c2_li3" style="padding:6px 0 0 12px; height:30px; width:90px; border-bottom:none;">
-					<!-- WPA Button Begin -->
-					<a href="http://cnrdn.com/iP66" target="_blank">
-					<img src="/Tp3.2/bbs2/Public/shouye/images/wpa_preview_a02.png"/></a>
-					<!-- WPA Button End -->
-				</li>
-			</ul>
-		</div>
-		<div class="fr_c3">
-			<a href="http://cnrdn.com/iP66" target="_blank">
-			<img src="/Tp3.2/bbs2/Public/shouye/images/right_float_web.png" width="122" height="50" /></a>
-		</div>
-		<A href="tencent://message/?uin=2692033911&Site=博客园&Menu=yes"
-target=blank>qq在线服务</A> 
-		<div class="fr_c4">
-			<ul>
-				<li class="fr_c4_li1">电话咨询</li>
-				<li class="fr_c4_li2"><div id="nobold" style="font-family:Arial;">010-82935150</div></li>
-			</ul>
-		</div>
-		<div class="fr_c6">
-			<ul>
-				<li><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/shouye/images/navicon.gif&quot;) no-repeat scroll 0px -20px transparent;" href="http://www.itcast.cn/forms/index.shtml" target="_blank">预约报名<div></div></a></li>
-				<li style="border-bottom:none;"><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/shouye/images/navicon.gif&quot;) no-repeat scroll 0px -78px transparent;" href="http://bbs.itcast.cn/" target="_blank">技术交流<div></div></a></li>
-			</ul>
-		</div>
-		<div class="fr_c7"></div>
-	</div>
-</div>
-<script>
-	$(document).ready(function(e) {
-		var t=true;
-		$('.f_left').click(function(){
-			if(t){
-				$('.fixed').animate({right:'-131px'},300);
-				$(this).css('background-position','-30px -396px');
-				t= !t;
-			} else{
-				$('.fixed').animate({right:'0px'},300);
-				$(this).css('background-position','0px -396px');
-				t= !t;
-			}
-		});
-	});
-</script>
-
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/webim.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/baidushare.js"></script>
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F616f7dbc9d62017d85a273460d618961' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script src="http://s84.cnzz.com/stat.php?id=4617784&web_id=4617784&show=pic" language="JavaScript"></script>
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-51288244-1', 'itcast.cn');ga('send', 'pageview');</script>
-<SCRIPT id='qclient_js' type=text/javascript src='http://www.81c.cn:8888/tj.js?4b6c2b6ca9da278fba7bd49127ae3b97'></SCRIPT>
-</body>
-</html>
->>>>>>> 77a0c64bbadac96309c5032121ac788c26871fd6
