@@ -1,5 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?><canvas id="myChart" width="400" height="400"></canvas>
-<script src="/Public/Chart.js-master/Chart.js"></script>
+<script src="/Tp3.2/bbs2/Public/Chart.js-master/Chart.js"></script>
 
 <script>
    
