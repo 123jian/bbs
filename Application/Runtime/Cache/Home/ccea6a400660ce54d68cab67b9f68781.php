@@ -78,9 +78,9 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
     <form action='/index.php/index/login_pro' method='post'>
        用户名：<input type="text" name="name" id="name"/></br>
-       密码：<input type="text" name="pwd" id="pwd"/></br>
+       密码：<input type="password" name="pwd" id="pwd"/></br>
 	   手机号码：<input type="text" name="shouji" id="shouji"/>
-	   <span style="color:red;">*注册时需要填写！用于找回密码</span></br>
+	   <span style="color:red;">*注册时需要填写！用于找回密码，请不要填写已注册过的手机号！</span></br>
        <input type="submit" value="登录" />
        <input type="button" value="注册" onclick="aa()"/>
 	   <a href="/index.php/index/zhmm" onclick="">忘记密码？</a>
@@ -95,8 +95,8 @@ function aa(){
 	var shouji=document.getElementById('shouji').value;
 	//alert(shouji);return false;
 	if(shouji==''){
-		alert('请输入手机号码！');
-		return false;
+            alert('请输入手机号码！');
+            return false;
 	}
     location.href="/index.php/index/zhu_pro?name="+names+"&pwd="+pwds+"&phones="+shouji;
 }	
