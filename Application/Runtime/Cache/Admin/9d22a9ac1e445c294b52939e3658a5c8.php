@@ -9,7 +9,7 @@
 </head>
     <script type="text/javascript" src="/Tp3.2/bbs/Public/js/My97DatePicker/WdatePicker.js"></script>
 <body>
-	<form action="<?php echo U('Home/Jiuye/add_jiuye_pro');?>" method="post">
+	<form action="<?php echo U('Admin/Jiuye/add_jiuye_pro');?>" method="post">
 		<table class="table">
 			<tr>
 				<td class="th" colspan="2">添加就业信息</td>
