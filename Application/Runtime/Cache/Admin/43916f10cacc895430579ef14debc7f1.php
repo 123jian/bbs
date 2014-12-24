@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<link rel="stylesheet" href="/Tp3.2/bbs/Public/houtai/css/public.css" />
+		<link rel="stylesheet" href="/Public/houtai/css/public.css" />
 	<title></title>
 </head>
 <body>
-	<form action="/Tp3.2/bbs/index.php/Admin/Index/add_category_pro" method="post">
+	<form action="/index.php/Admin/Index/add_category_pro" method="post">
 		<table class="table">
 			<tr >
 				<td class="th" colspan="2">添加栏目</td>
