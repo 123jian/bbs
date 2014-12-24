@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-	<form action="<?php echo U('Home/Jiuye/add_upload_pro');?>" method="post" enctype="multipart/form-data">
+	<form action="<?php echo U('Admin/Jiuye/add_upload_pro');?>" method="post" enctype="multipart/form-data">
 		<table class="table">
 			<tr>
 				<td class="th" colspan="2">个人形象上传</td>
