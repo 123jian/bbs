@@ -75,6 +75,16 @@ class IndexController extends Controller {
 
      $this->display();
     }
+    //文章查看
+    public function article_show(){
+
+        //print_r($_GET);//die;
+        $jiuye=M('jiuye');
+        $list = $jiuye->where('id='.$_GET['id'])->find();
+        print_r($list);
+        $this->assign('list',$list);
+        $this->display();
+    }
 	   //前台用户登录
     public function login(){
         $this->display();
