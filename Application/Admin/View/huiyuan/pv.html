@@ -1,21 +1,110 @@
-<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart" width="800" height="300"></canvas>
+<div id="container" style="min-width:800px;height:400px"></div>
+<div id="bin" style="min-width:400px;height:400px"></div>
 <script src="__PUBLIC__/Chart.js-master/Chart.js"></script>
-
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/highcharts.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/exporting.js"></script>
 <script>
-   
-  //alert(<?php echo $x?>);
-   
-       var data = {
-            
-                    labels : [<?php echo $x?>],
-                    datasets : [
-                            {
-                                    fillColor : "rgba(220,20,220,0.5)",
-                                    strokeColor : "rgba(220,20,220,1)",
-                                    data : [<?php echo $y?>]
-                            }
-                    ]
-            }
+var data = {
+
+             labels : [<?php echo $x?>],
+             datasets : [
+                     {
+                             fillColor : "rgba(220,20,220,0.5)",
+                             strokeColor : "rgba(220,20,220,1)",
+                             data : [<?php echo $y?>]
+                     }
+             ]
+     }
 var ctx = document.getElementById("myChart").getContext("2d"); 
 var myNewChart = new Chart(ctx).Bar(data);//new Chart(ctx).PolarArea(data);
+//曲线
+$(function () {
+	    $('#container').highcharts({
+	        title: {
+	            text: '曲线图',
+	            x: -20 //center
+	        },
+	        exporting :{
+	        	url:'export/index.php',
+	        	width:800
+	        },
+	        subtitle: {
+	            text: 'Source: WorldClimate.com',
+	            x: -20
+	        },
+	        xAxis: {
+	            categories: [<?php echo $x?>]
+	        },
+	        yAxis: {
+	            title: {
+	                text: '最近几天 (次)'
+	            },
+	            plotLines: [{
+	                value: 0,
+	                width: 1,
+	                color: '#808080'
+	            }]
+	        },
+	        tooltip: {
+	            valueSuffix: '次'
+	        },
+	        legend: {
+	            layout: 'vertical',
+	            align: 'right',
+	            verticalAlign: 'middle',
+	            borderWidth: 0
+	        },
+	        series: [{
+	            name: 'BBS四大天王',
+	            data: [<?php echo $y?>]
+	        },]
+	    });
+            var chart; 
+            chart = new Highcharts.Chart({ 
+        chart: { 
+            renderTo: 'bin',  //饼状图关联html元素id值 
+            defaultSeriesType: 'pie', //默认图表类型为饼状图 
+            plotBackgroundColor: '#ffc',  //设置图表区背景色 
+            plotShadow: true   //设置阴影 
+        }, 
+        title: { 
+            text: '搜索引擎统计分析'  //图表标题 
+        }, 
+        credits: { 
+            text: 'bbs.com' 
+        }, 
+        tooltip: { 
+            formatter: function() { //鼠标滑向图像提示框的格式化提示信息 
+                return '<b>' + [<?php echo $x?>] + '</b>: ' +  
+                twoDecimal([<?php echo $y?>]) + ' %'; 
+            } 
+        }, 
+        plotOptions: { 
+            pie: { 
+                allowPointSelect: true, //允许选中，点击选中的扇形区可以分离出来显示 
+                cursor: 'pointer',  //当鼠标指向扇形区时变为手型（可点击） 
+                //showInLegend: true,  //如果要显示图例，可将该项设置为true 
+                dataLabels: { 
+                    enabled: true,  //设置数据标签可见，即显示每个扇形区对应的数据 
+                    color: '#000000',  //数据显示颜色 
+                    connectorColor: '#999',  //设置数据域扇形区的连接线的颜色 
+                    style:{ 
+                        fontSize: '12px'  //数据显示的大小 
+                    }, 
+                    formatter: function() { //格式化数据 
+                        return '<b>' + [<?php echo $x?>] + '</b>: ' +  
+                        twoDecimal([<?php echo $y?>]) + ' %'; 
+                    } 
+                } 
+            } 
+        }, 
+        series: [{ //数据列 
+            name: 'bin', 
+            data: [<?php echo $y?>] //核心数据列来源于php读取的数据并解析成JSON 
+        }] 
+});
+//饼图
+
 </script>
