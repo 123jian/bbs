@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-	<form action="/index.php/Admin/Video/add_video_pro" enctype="multipart/form-data" method="post" >
+	<form action="/Tp3.2/bbs2/index.php/Admin/Video/add_video_pro" enctype="multipart/form-data" method="post" >
 		<table class="table">
 			<tr>
 				<td class="th" colspan="2">添加视频</td>
