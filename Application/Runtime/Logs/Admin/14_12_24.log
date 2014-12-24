@@ -810,4 +810,40 @@ ERR: 无法加载控制器:Peixun
 [ 2014-12-24T20:08:12+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Peixun/check_course.html
 ERR: 无法加载控制器:Peixun
 
+<<<<<<< HEAD
+[ 2014-12-24T20:43:06+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/shizi/add_shizi.html
+ERR: 非法操作:add_shizi
+
+[ 2014-12-24T20:43:08+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/shizi/add_shizi.html
+ERR: 非法操作:add_shizi
+
+[ 2014-12-24T20:44:18+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/video/category_video_list.html
+ERR: 非法操作:category_video_list
+
+[ 2014-12-24T20:44:28+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/index.html
+ERR: 无法加载控制器:Question
+
+[ 2014-12-24T20:44:29+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/listquestion.html
+ERR: 无法加载控制器:Question
+
+[ 2014-12-24T20:44:29+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/index.html
+ERR: 无法加载控制器:Question
+
+[ 2014-12-24T20:44:30+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/listquestion.html
+ERR: 无法加载控制器:Question
+
+[ 2014-12-24T20:44:31+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/index.html
+ERR: 无法加载控制器:Question
+
+[ 2014-12-24T20:44:31+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/listquestion.html
+ERR: 无法加载控制器:Question
+
+[ 2014-12-24T20:44:32+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/index.html
+ERR: 无法加载控制器:Question
+
+[ 2014-12-24T20:44:32+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Question/listquestion.html
+ERR: 无法加载控制器:Question
+
+=======
 >>>>>>> 3a2e92108a24dec15ddc09a71d0f7c7993fbb70b
+>>>>>>> d8037b73766954e9838d6009886b53e8329d6ee1

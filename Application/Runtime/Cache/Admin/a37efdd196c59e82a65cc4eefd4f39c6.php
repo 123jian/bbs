@@ -36,7 +36,7 @@
 	</div>
 </body>
 </html>
-<script src="/Public/js/jquery.js"></script>
+<script src="/Tp3.2/bbs/Public/js/jquery.js"></script>
 <script>
     function huifu(s_id){
         $.ajax({

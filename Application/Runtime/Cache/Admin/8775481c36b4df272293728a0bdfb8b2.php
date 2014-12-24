@@ -6,28 +6,19 @@
 	<title></title>
 </head>
 <body>
-	<form action="<?php echo U('Admin/Jiuye/add_upload_pro');?>" method="post" enctype="multipart/form-data">
+	<form action="<?php echo U('Admin/position/insert_position');?>" method="post">
 		<table class="table">
-			<tr>
-				<td class="th" colspan="2">个人形象上传</td>
+			<tr >
+				<td class="th" colspan="2">添加职位</td>
 			</tr>
 			<tr>
-				<td>形象描述</td>
-				<td>
-					<input type="text" name="description" class="title"/>
-				</td>
+				<td>职位名称</td>
+				<td><input type="text" name="z_name"/></td>
 			</tr>
 			<tr>
-				<td>形象视频</td>
+				<td>描述</td>
 				<td>
-					<input type="text" name="video" class="title"/>
-
-				</td>
-			</tr>
-			<tr>
-				<td>形象图片</td>
-				<td>
-					<input type="file" name="image" class="title"/>
+					<textarea name="z_content" id="description" class="textarea"></textarea>
 				</td>
 			</tr>
 			<tr>
