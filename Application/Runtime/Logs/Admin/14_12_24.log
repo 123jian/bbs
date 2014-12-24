@@ -436,6 +436,7 @@ ERR: 非法操作:category_video_list
 [ 2014-12-24T17:17:52+08:00 ] 127.0.0.1 /index.php/Admin/Peixun/add_course.html
 ERR: 无法加载控制器:Peixun
 
+<<<<<<< HEAD
 [ 2014-12-24T17:24:09+08:00 ] 127.0.0.1 /index.php/Admin/video/category_video_list.html
 ERR: 非法操作:category_video_list
 
@@ -511,3 +512,14 @@ ERR: 非法操作:add_shizi
 [ 2014-12-24T17:34:16+08:00 ] 127.0.0.1 /index.php/Admin/shizi/add_shizi.html
 ERR: 非法操作:add_shizi
 
+=======
+[ 2014-12-24T18:46:46+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/shizi/add_shizi.html
+ERR: 无法加载控制器:Shizi
+
+[ 2014-12-24T18:46:47+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/shizi/shizi_list.html
+ERR: 无法加载控制器:Shizi
+
+[ 2014-12-24T18:46:48+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/shizi/huishou_shizi.html
+ERR: 无法加载控制器:Shizi
+
+>>>>>>> aca8509030f5fc402e4ed8856270c74d743c2496
