@@ -6,18 +6,13 @@
 <meta name="keywords" content="php培训,php教程,php视频,php下载,php视频教程" />
 <meta name="description" content="php培训的龙头老大,口碑最好的php培训机构,进来看看同学们的呐喊，就会知道我们是个怎么样的学校,问天下php培训机构谁与争锋?php培训课程内容包含目前最流行的zendframework、thinkphp框架、ECShop、dedecms等产品的二次开发" />
 <title>传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校</title>
-<link href="/Tp3.2/bbs2/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs2/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs2/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs2/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
 <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
-<<<<<<< HEAD
 <script type="text/javascript" src="/Public/shouye/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="/Public/shouye/js/imageschange.js"></script>
-=======
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/imageschange.js"></script>
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 <script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
 <script type="text/javascript" id="bdshell_js"></script>
 
@@ -30,16 +25,16 @@
 
 	<p class="fr">
             <?php if(empty($_SESSION['name'])){?>
-            <a href="/Tp3.2/bbs2/index.php/home/index/login">登录注册</a>
+            <a href="/index.php/home/index/login">登录注册</a>
             <?php }else{ ?>
-            <span color='red'><?php echo $_SESSION['name']?><a href="/Tp3.2/bbs2/index.php/home/index/loginout">退出</a></span>
+            <span color='red'><?php echo $_SESSION['name']?><a href="/index.php/home/index/loginout">退出</a></span>
             <?php }?>
      </p>
 </div>
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Tp3.2/bbs2/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -52,27 +47,21 @@
 <p><a href="http://xa.itcast.cn" target="_blank">西安校区</a></p>
 <!-- 校区 --> 
 		</div>
-		<p class="fr"><img src="/Tp3.2/bbs2/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
+		<p class="fr"><img src="/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
 	<ul id="nav">
 <?php foreach($nav as $key => $val){?>
-<<<<<<< HEAD
 	<li nid="nav_life" width="15%"><a href="/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
 <?php }?>
 	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
-=======
-	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs2/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
-<?php }?>
-	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs2/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 </ul>
 	</div>
 	</body>
 <div id="box">
-  <div style="width:960px; height:149px; margin:0 auto;"><img src="/Tp3.2/bbs2/Public/shouye/images/teacherpic.jpg"  /></div>
+  <div style="width:960px; height:149px; margin:0 auto;"><img src="/Public/shouye/images/teacherpic.jpg"  /></div>
   <div id="left" class="fl"  style="margin-top:3px;">
-    <div><img src="/Tp3.2/bbs2/Public/shouye/images/lefttop.gif"/></div>
+    <div><img src="/Public/shouye/images/lefttop.gif"/></div>
     <div class="left_content2">
       <h4 class="ganyan"><span class="STYLE3">师资</span>介绍</h4>
       
@@ -98,7 +87,7 @@
     <div class="page">
 		<?php echo $page;?>
 	</div>
-    <div><img src="/Tp3.2/bbs2/Public/shouye/images/leftbottom.gif"/></div>
+    <div><img src="/Public/shouye/images/leftbottom.gif"/></div>
   </div>
   
 
@@ -114,38 +103,38 @@
   <div id="right" class="fl">
     <h4 class="righttitle1 zhaopin"><span class="blue">讲师</span>招聘</h4>
     <div class="rightkuang1">
-      <p class="cent"><img src="/Tp3.2/bbs2/Public/shouye/images/xuanze.jpg" width="256" height="66" /></p>
+      <p class="cent"><img src="/Public/shouye/images/xuanze.jpg" width="256" height="66" /></p>
       <div class="clear"> </div>
       <p class="miaoshu"> 中国的软件教育已经坑害了不少软件工程师苗子，传智播客自成立之日起就立志于改变中国的软件教育，目前已经出版IT教程书籍十多本，教学视频几十套，发表各类技术文章几百篇，已经开始对中国的软件教育有所影响。随着传智播客的事业被越来越多的人认知，加盟到传智播客愿意为此事业奋斗终生的技术牛人也越来越多。尽管加盟到传智播客的技术牛人很多，但要从政策上改变中国的软件教育，我们的力量还很小，小到可以说是微不足道。所以我们需要各路英雄豪杰加盟传智播客，为改变中国的软件教育而奋斗不息。</p>
-      <p class="cent"><a href="" target="_blank"><img src="/Tp3.2/bbs2/Public/shouye/images/liulan.jpg" width="142" height="23"/></a></p>
+      <p class="cent"><a href="" target="_blank"><img src="/Public/shouye/images/liulan.jpg" width="142" height="23"/></a></p>
     </div>
-    <div class="rightbottom"><img src="/Tp3.2/bbs2/Public/shouye/images/bottom1.gif"/></div>
+    <div class="rightbottom"><img src="/Public/shouye/images/bottom1.gif"/></div>
     <h4 class="righttitle1"><span class="fl">我们出版的书籍</span><span class="fr"><a href="">+MORE</a></span></h4>
     <div class="rightkuang chuban" style="height:auto; overflow:hidden;">
        
 <dl>
-        <dt><a href="" target="_blank"><img src="/Tp3.2/bbs2/Public/shouye/images/book01.jpg"/></a></dt>
+        <dt><a href="" target="_blank"><img src="/Public/shouye/images/book01.jpg"/></a></dt>
         <dd><span class="blue"><strong><a href="" target="_blank">《EJB3.0入门经典》</a></strong></span></dd>
         <dd>作 者：<span class="STYLE4">黎活明</span> </dd>
         <dd>定价：<span class="STYLE6"><strong>￥59.80 元</strong> </span></dd>
         <dd>页数：<span class="STYLE4">479</span> </dd>
 </dl> 
     </div>
-    <div class="rightbottom"><img src="/Tp3.2/bbs2/Public/shouye/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Public/shouye/images/rightbottom.jpg"/></div>
     <h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
     <div class="rightkuang">
 <dl>
 		<dt style="padding-bottom:20px;">
 		北京传智播客</dt>
 		<dd style="width:120px;height:40px;float:left;">
-		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Tp3.2/bbs2/Public/shouye/images/qqmfst.jpg" width="99" /></a></dd>
+		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Public/shouye/images/qqmfst.jpg" width="99" /></a></dd>
 		<dd style="width:120px;height:40px;float:left;">
-		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Tp3.2/bbs2/Public/shouye/images/qqkczx.jpg" width="99" /></a></dd>
+		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Public/shouye/images/qqkczx.jpg" width="99" /></a></dd>
 	</dl>
 
       <div class="clear"></div>
     </div>
-    <div class="rightbottom"><img src="/Tp3.2/bbs2/Public/shouye/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Public/shouye/images/rightbottom.jpg"/></div>
   </div>
 </div>
 <div class="clear"></div>
@@ -160,15 +149,9 @@
     <p>电话：010-82935150/60/70 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
     <p><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备08001421号</a><a href="http://www.bjgaj.gov.cn/web/" target="_blank">京公网安备110108007702</a></p>
 	<p style="padding-top:10px"><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://webscan.360.cn/index/checkwebsite/url/www.itcast.cn" target="_blank">
-<<<<<<< HEAD
 	<img width="124" height="47" src="/Public/shouye/images/360anquan.png"></a><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://t.knet.cn/index_new.jsp" target="_blank">
 	<img width="124" height="47" src="/Public/shouye/images/cx.png"></a><a target="_blank" href="http://www.bj.cyberpolice.cn/index.do" style="padding:0;">
 	<img width="124" height="47" src="/Public/shouye/images/jc.png"></a></p>
-=======
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/images/360anquan.png"></a><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://t.knet.cn/index_new.jsp" target="_blank">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/images/cx.png"></a><a target="_blank" href="http://www.bj.cyberpolice.cn/index.do" style="padding:0;">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/images/jc.png"></a></p>
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
   </div>
 </div>
 <!-- 页面底部 -->
@@ -182,29 +165,17 @@
         DD_belatedPNG.fix('titZx');
     </script>
 <![endif]-->
-<<<<<<< HEAD
 <LINK rel=stylesheet type=text/css href="/Public/shouye/css/common.css">
-=======
-<LINK rel=stylesheet type=text/css href="/Tp3.2/bbs2/Public/css/common.css">
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 <!--[if lte IE 6]>
-<link type="text/css" rel="stylesheet" href="/Tp3.2/bbs2/Public/index/css/ie.css" mce_href="/Tp3.2/bbs2/Public/index/css/ie.css" />
+<link type="text/css" rel="stylesheet" href="/Public/index/css/ie.css" mce_href="/Public/index/css/ie.css" />
 <![endif]-->
-<<<<<<< HEAD
 <SCRIPT type=text/javascript src="/Public/shouye/js/jquery.js"></SCRIPT>
 <SCRIPT type=text/javascript src="/Public/shouye/js/index.js"></SCRIPT>
 <SCRIPT type=text/javascript>kfguin="800068868";ws="www.itcast.cn"; companyname=""; welcomeword=""; type="1";</SCRIPT>
 <link href="/Public/shouye/css/init.css" mce_href="/Public/shouye/css/init.css" rel="stylesheet" type="text/css" />
 <link href="/Public/shouye/css/kefu.css" mce_href="/Public/shouye/css/kefu.css" rel="stylesheet" type="text/css" />
-=======
-<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/js/jquery.js"></SCRIPT>
-<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/js/Tp3.2/bbs2/Public/index.js"></SCRIPT>
-<SCRIPT type=text/javascript>kfguin="800068868";ws="www.itcast.cn"; companyname=""; welcomeword=""; type="1";</SCRIPT>
-<link href="/Tp3.2/bbs2/Public/css/init.css" mce_href="/Tp3.2/bbs2/Public/css/init.css" rel="stylesheet" type="text/css" />
-<link href="/Tp3.2/bbs2/Public/css/kefu.css" mce_href="/Tp3.2/bbs2/Public/css/kefu.css" rel="stylesheet" type="text/css" />
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 <!--[if lte IE 6]>
-<link type="text/css" rel="stylesheet" href="/Tp3.2/bbs2/Public/index/ie.css" mce_href="/Tp3.2/bbs2/Public/index/ie.css" />
+<link type="text/css" rel="stylesheet" href="/Public/index/ie.css" mce_href="/Public/index/ie.css" />
 <![endif]-->
 <div class="fixed">
 	<div class="f_left"></div>
@@ -218,23 +189,15 @@
 				</li>
 				<li class="fr_c2_li3" style="padding:6px 0 0 12px; height:30px; width:90px; border-bottom:none;">
 					<!-- WPA Button Begin -->
-<<<<<<< HEAD
 					<a href="http://cnrdn.com/iP66" target="_blank">
 					<img src="/Public/shouye/images/wpa_preview_a02.png"/></a>
-=======
-					<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Tp3.2/bbs2/Public/images/wpa_preview_a02.png"/></a>
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 					<!-- WPA Button End -->
 				</li>
 			</ul>
 		</div>
 		<div class="fr_c3">
-<<<<<<< HEAD
 			<a href="http://cnrdn.com/iP66" target="_blank">
 			<img src="/Public/shouye/images/right_float_web.png" width="122" height="50" /></a>
-=======
-			<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Tp3.2/bbs2/Public/images/right_float_web.png" width="122" height="50" /></a>
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 		</div>
 		<A href="tencent://message/?uin=2692033911&Site=博客园&Menu=yes"
 target=blank>qq在线服务</A> 
@@ -246,13 +209,8 @@ target=blank>qq在线服务</A>
 		</div>
 		<div class="fr_c6">
 			<ul>
-<<<<<<< HEAD
 				<li><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Public/shouye/images/navicon.gif&quot;) no-repeat scroll 0px -20px transparent;" href="http://www.itcast.cn/forms/index.shtml" target="_blank">预约报名<div></div></a></li>
 				<li style="border-bottom:none;"><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Public/shouye/images/navicon.gif&quot;) no-repeat scroll 0px -78px transparent;" href="http://bbs.itcast.cn/" target="_blank">技术交流<div></div></a></li>
-=======
-				<li><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/images/navicon.gif&quot;) no-repeat scroll 0px -20px transparent;" href="http://www.itcast.cn/forms/index.shtml" target="_blank">预约报名<div></div></a></li>
-				<li style="border-bottom:none;"><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/images/navicon.gif&quot;) no-repeat scroll 0px -78px transparent;" href="http://bbs.itcast.cn/" target="_blank">技术交流<div></div></a></li>
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 			</ul>
 		</div>
 		<div class="fr_c7"></div>
@@ -275,13 +233,8 @@ target=blank>qq在线服务</A>
 	});
 </script>
 
-<<<<<<< HEAD
 <script type="text/javascript" src="/Public/shouye/js/webim.js"></script>
 <script type="text/javascript" src="/Public/shouye/js/baidushare.js"></script>
-=======
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/webim.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/baidushare.js"></script>
->>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F616f7dbc9d62017d85a273460d618961' type='text/javascript'%3E%3C/script%3E"));

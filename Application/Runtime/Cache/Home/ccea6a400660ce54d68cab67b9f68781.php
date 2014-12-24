@@ -72,7 +72,7 @@ target="_blank">java学院</A> <IMG src="/Public/shouye/images/sanjiao.jpg">
 <A href="http://c.itcast.cn/">c/c++学院</A><IMG src="/Public/shouye/images/sanjiao.jpg"> 
 <A href="http://icd.itcast.cn/" target="_blank">网页平面设计学院</A></DIV></DIV>
 
-<DIV style="margin-top: 3px;" id="left" class="fl">
+<DIV style="margin-top: 3px;" id="left" class="fl"></div>
 <DIV><IMG 
 src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
@@ -85,7 +85,8 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
        <input type="button" value="注册" onclick="aa()"/>
 	   <a href="/index.php/index/zhmm" onclick="">忘记密码？</a>
     </form>
-</div>  
+</div>
+
 <script type="text/javascript">
 <!--
 function aa(){
