@@ -523,3 +523,21 @@ ERR: 无法加载控制器:Shizi
 ERR: 无法加载控制器:Shizi
 
 >>>>>>> aca8509030f5fc402e4ed8856270c74d743c2496
+[ 2014-12-24T19:33:33+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Jiuye/add_upload.html
+ERR: 无法加载控制器:Jiuye
+
+[ 2014-12-24T19:33:34+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Jiuye/add_upload.html
+ERR: 无法加载控制器:Jiuye
+
+[ 2014-12-24T19:33:35+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Jiuye/show_jiuye.html
+ERR: 无法加载控制器:Jiuye
+
+[ 2014-12-24T19:33:35+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Jiuye/add_jiuye.html
+ERR: 无法加载控制器:Jiuye
+
+[ 2014-12-24T19:33:36+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Jiuye/show_jiuye.html
+ERR: 无法加载控制器:Jiuye
+
+[ 2014-12-24T19:33:36+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/Jiuye/add_jiuye.html
+ERR: 无法加载控制器:Jiuye
+

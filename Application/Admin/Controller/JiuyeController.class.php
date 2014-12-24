@@ -1,5 +1,5 @@
 <?php
-namespace Home\Controller;
+namespace Admin\Controller;
 use Think\Controller;
 header("Content-Type:text/html;charset=utf-8"); 
 class JiuyeController extends Controller{	
