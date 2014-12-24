@@ -75,10 +75,10 @@ class IndexController extends Controller {
 
      $this->display();
     }
-<<<<<<< HEAD
+
     //文章查看
     public function article_show(){
-
+//echo 123;die;
         //print_r($_GET);//die;
         $jiuye=M('jiuye');
         $list = $jiuye->where('id='.$_GET['id'])->find();
@@ -87,9 +87,9 @@ class IndexController extends Controller {
         $this->display();
     }
 	   //前台用户登录
-=======
+
     //前台用户登录
->>>>>>> 77a0c64bbadac96309c5032121ac788c26871fd6
+
     public function login(){
         $this->display();
     }

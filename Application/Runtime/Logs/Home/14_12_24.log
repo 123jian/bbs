@@ -2684,3 +2684,6 @@ ERR: 无法加载控制器:Public
 [ 2014-12-24T11:36:22+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
 ERR: 无法加载控制器:Public
 
+[ 2014-12-24T14:38:50+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Home/Index/article_show/id/11
+ERR: 模板不存在:./Application/Home/View/Index/article_show.html
+
