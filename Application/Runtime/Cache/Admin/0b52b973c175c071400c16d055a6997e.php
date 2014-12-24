@@ -2,19 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-<<<<<<< HEAD
 		<link rel="stylesheet" href="/Public/houtai/css/public.css" />
 	<title></title>
 </head>
 <body>
 	<form action="/index.php/Admin/Index/article_show" method="post">
-=======
-		<link rel="stylesheet" href="/Tp3.2/bbs/Public/houtai/css/public.css" />
-	<title></title>
-</head>
-<body>
-	<form action="/Tp3.2/bbs/index.php/Admin/Index/article_show" method="post">
->>>>>>> aca8509030f5fc402e4ed8856270c74d743c2496
 		<table class="table">
 			<tr>
 				<td class="th" colspan="2">添加文章</td>

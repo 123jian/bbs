@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>bbsbendi后台管理首页</title>
-	<link rel="stylesheet" href="/Tp3.2/bbs/Public/css/admin.css" />
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/js/admin.js"></script>
+	<link rel="stylesheet" href="/Public/css/admin.css" />
+	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Public/js/admin.js"></script>
 <!-- 默认打开目标 -->
 <base target="iframe"/>
 </head>
@@ -91,17 +91,17 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
-				        	<a href="<?php echo U('shizi/shizi_add');?>" class="pos">添加师资</a>				        	
+				        	<a href="<?php echo U('Admin/Shizi/add_shizi');?>" class="pos">添加师资</a>				        	
 				        </li> 
 				    </ul>  
 				    <ul class="con">
 				        <li class="nav_u">
-				        	<a href="<?php echo U('shizi/shizi_list');?>" class="pos">师资列表</a>				        	
+				        	<a href="<?php echo U('Admin/Shizi/shizi_list');?>" class="pos">师资列表</a>				        	
 				        </li> 
 				    </ul>
 				    <ul class="con">
 				        <li class="nav_u">
-				        	<a href="<?php echo U('shizi/shizi_huishou');?>" class="pos">回收站</a>				        	
+				        	<a href="<?php echo U('Admin/Shizi/huishou_shizi');?>" class="pos">回收站</a>				        	
 				        </li> 
 				    </ul>   
 				</div>
@@ -265,7 +265,7 @@
 	</div>
 
 </body>
-    <script language="javascript" src="/Tp3.2/bbs/Public/js/ServerClock.js"></script>
+    <script language="javascript" src="/Public/js/ServerClock.js"></script>
 <script language="javascript">
 <!--
 var myDate = new Date();

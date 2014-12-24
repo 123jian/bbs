@@ -3,54 +3,53 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="__PUBLIC__/houtai/css/public.css" />
-		
+	<link rel="stylesheet" href="/bbs/admin/Public/css/public.css" />
+	
 </head>
 <body>
 	<table class="table">
 		<tr>
-			<td class="th" colspan="10">查看师资数据</td>
+			<td class="th" colspan="10">被放入回收站的讲师</td>
 		</tr>
 		<tr>
-			<td class="tdLittle1" >ID</td>
-			<td class="tdLittle2">讲师名称</td>
+			<td class="tdLittle1">ID</td>
+			<td>讲师名称</td>
 			<td class="tdLittle2">职位名称</td>
 			<td class="tdLtitle4">专业描述</td>
 			<td class="tdLtitle7">操作</td>
 		</tr>
-            <?php foreach($list as $key => $val){?>
+            <?php foreach($list as $k=>$val) { ?>
 		<tr>
 			<td ><?php echo $val['s_id']?></td>
 			<td><?php echo $val['s_name']?></td>
 			<td><a href=""><?php echo $val['z_name']?></a></td>
-			<td> <?php echo mb_substr($val['s_content'],0,16,'utf-8').'........';?></td>
+			<td> <?php echo substr($val['s_content'],0,35).'........';?></td>
 			<td>
-				<a href="" onclick="is_show(<?php echo $val['s_id'];?>,<?php echo $val['is_show'];?>)">[<?php if($val['is_show']==1){echo '隐藏';}else{echo '显示';}?>]</a>
-                                <a href="{:U('shizi/edit_shizi')}?s_id=<?php echo $val['s_id'];?>">[编辑]</a>
-				<a href="" onclick="is_del(<?php echo $val['s_id'];?>)">[删除]</a>
+                            <a href="" onclick="huifu(<?php echo $val['s_id'];?>)">[恢复]</a>
+				<a href="" class="del" onclick="del(<?php echo $val['s_id'];?>)">[彻底删除]</a>
 			</td>
 		</tr>
-            <?php }?>
+            <?php } ?>
 	</table>
-	<div class="page">
+        <div class="page">
 		<?php echo $page;?>
 	</div>
 </body>
 </html>
 <script src="__PUBLIC__/js/jquery.js"></script>
 <script>
-    function is_show(s_id,is_show){
+    function huifu(s_id){
         $.ajax({
-            url:"{:U('shizi/is_show')}",
-            data:{"s_id":s_id,"is_show":is_show},
+            url:"{:U('shizi/huifu')}",
+            data:{"s_id":s_id},
             type:"post",
             success:function(){
             }
         })
     }
-    function is_del(s_id){
+    function del(s_id){
         $.ajax({
-            url:"{:U('shizi/is_del')}",
+            url:"{:U('shizi/delete_shizi')}",
             data:{"s_id":s_id},
             type:"post",
             success:function(){
