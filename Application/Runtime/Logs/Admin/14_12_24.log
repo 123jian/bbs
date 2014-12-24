@@ -358,3 +358,27 @@ ERR: 无法加载控制器:Peixun
 ERR: 无法加载控制器:Shizi
 
 >>>>>>> 97d4734114baab23a23543fa7dbcd9f74e401b79
+[ 2014-12-24T14:57:16+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/index/category_list.html
+ERR: 非法操作:category_list
+
+[ 2014-12-24T14:57:17+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/index/article_show.html
+ERR: 非法操作:article_show
+
+[ 2014-12-24T14:57:18+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/index/article_list.html
+ERR: 非法操作:article_list
+
+[ 2014-12-24T14:57:19+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/shizi/add_shizi.html
+ERR: 无法加载控制器:Shizi
+
+[ 2014-12-24T14:57:20+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/shizi/shizi_list.html
+ERR: 无法加载控制器:Shizi
+
+[ 2014-12-24T14:57:20+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/shizi/huishou_shizi.html
+ERR: 无法加载控制器:Shizi
+
+[ 2014-12-24T14:57:23+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/position/add_position.html
+ERR: 无法加载控制器:Position
+
+[ 2014-12-24T14:57:24+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/Admin/position/position_list.html
+ERR: 无法加载控制器:Position
+
