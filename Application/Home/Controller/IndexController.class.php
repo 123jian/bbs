@@ -82,7 +82,7 @@ class IndexController extends Controller {
         //print_r($_GET);//die;
         $jiuye=M('jiuye');
         $list = $jiuye->where('id='.$_GET['id'])->find();
-        print_r($list);
+        //print_r($list);
         $this->assign('list',$list);
         $this->display();
     }

@@ -80,7 +80,7 @@
         </div>
       </div>
       <div class="pre">
-	               <a href="/Tp3.2/bbs2/index.php/Home/Index/article_show/id/<?php echo $val['id']+1?>">上一篇<=</a><a href="/Tp3.2/bbs2/index.php/Home/Index/article_show/id/<?php echo $val['id']-1?>">=>下一篇</a>
+	               
                        
        	  </div>
       <div class="next">
