@@ -244,20 +244,25 @@
 	   <!-- 右边 -->
 	</div>
 	<div class="clear"></div>
-<!-- 页面底部 -->
 <div id="footer">
   <div class="footer_info">
     <p class="fl mar"><!--<img src="/images/footlogo.jpg" />--></p>
-    <p><a href="http://www.itcast.cn/channel/introduction.shtml" target="_blank" style="padding-left:0;">传智简介</a>|<a href="http://weibo.com/itcast" target="_blank">官方微博</a>|<a href="http://bbs.itcast.cn/forum.php?mod=forumdisplay&fid=175&filter=typeid&typeid=180" target="_blank">传智快报</a>|<a href="http://bbs.itcast.cn/forum.php?mod=forumdisplay&fid=184&filter=typeid&typeid=217" target="_blank">校区活动</a>|<a href="http://www.itcast.cn/channel/campus.shtml" target="_blank">校园生活</a>|<a href="http://www.itcast.cn/channel/personnel.shtml" target="_blank">人才服务</a>|<a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">汇款账号</a>|<a href="http://www.itcast.cn/channel/zhaopin.shtml" target="_blank">招贤纳士</a>|<a href="http://www.itcast.cn/channel/contact.shtml" target="_blank">联系我们</a></p>
+    <p><a style="padding-left:0;" target="_blank" href="http://www.itcast.cn/channel/introduction.shtml">传智简介</a>|<a target="_blank" href="http://weibo.com/itcast">官方微博</a>|<a target="_blank" href="http://bbs.itcast.cn/forum.php?mod=forumdisplay&amp;fid=175&amp;filter=typeid&amp;typeid=180">传智快报</a>|<a target="_blank" href="http://bbs.itcast.cn/forum.php?mod=forumdisplay&amp;fid=184&amp;filter=typeid&amp;typeid=217">校区活动</a>|<a target="_blank" href="http://www.itcast.cn/channel/campus.shtml">校园生活</a>|<a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a>|<a target="_blank" href="http://www.itcast.cn/channel/flow.shtml">汇款账号</a>|<a target="_blank" href="http://www.itcast.cn/channel/zhaopin.shtml">招贤纳士</a>|<a target="_blank" href="http://www.itcast.cn/channel/contact.shtml">联系我们</a></p>
     <p>传智播客-专业java培训、.net培训、php培训、iOS培训、C++培训、网页设计、平面设计、网络营销培训机构</p>
     <p>版权所有 2006 - 2014 北京传智播客教育科技有限公司</p>
     <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096</p>
     <p>电话：010-82935150/60/70 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+<<<<<<< HEAD
+    <p><a target="_blank" href="http://www.miibeian.gov.cn/">京ICP备08001421号</a><a target="_blank" href="http://www.bjgaj.gov.cn/web/">京公网安备110108007702</a></p>
+	<p style="padding-top:10px"><a target="_blank" href="http://webscan.360.cn/index/checkwebsite/url/www.itcast.cn" style="overflow:hidden; margin-right:6px; padding:0;"><img width="124" height="47" src="http://www.itcast.cn/images/360anquan.png"></a><a target="_blank" href="http://t.knet.cn/index_new.jsp" style="overflow:hidden; margin-right:6px; padding:0;"><img width="124" height="47" src="http://www.itcast.cn/images/cx.png"></a><a style="padding:0;" href="http://www.bj.cyberpolice.cn/index.do" target="_blank"><img width="124" height="47" src="http://www.itcast.cn/images/jc.png"></a></p>
+  </div>
+</div>
+=======
     <p><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备08001421号</a><a href="http://www.bjgaj.gov.cn/web/" target="_blank">京公网安备110108007702</a></p>
 	<p style="padding-top:10px"><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://webscan.360.cn/index/checkwebsite/url/www.itcast.cn" target="_blank">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/images/360anquan.png"></a><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://t.knet.cn/index_new.jsp" target="_blank">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/images/cx.png"></a><a target="_blank" href="http://www.bj.cyberpolice.cn/index.do" style="padding:0;">
-	<img width="124" height="47" src="/Tp3.2/bbs2/Public/images/jc.png"></a></p>
+	<img width="124" height="47" src="/Tp3.2/bbs2/Public/shouye/images/360anquan.png"></a><a style="overflow:hidden; margin-right:6px; padding:0;" href="http://t.knet.cn/index_new.jsp" target="_blank">
+	<img width="124" height="47" src="/Tp3.2/bbs2/Public/shouye/images/cx.png"></a><a target="_blank" href="http://www.bj.cyberpolice.cn/index.do" style="padding:0;">
+	<img width="124" height="47" src="/Tp3.2/bbs2/Public/shouye/images/jc.png"></a></p>
   </div>
 </div>
 <!-- 页面底部 -->
@@ -271,15 +276,15 @@
         DD_belatedPNG.fix('titZx');
     </script>
 <![endif]-->
-<LINK rel=stylesheet type=text/css href="/Tp3.2/bbs2/Public/css/common.css">
+<LINK rel=stylesheet type=text/css href="/Tp3.2/bbs2/Public/shouye/css/common.css">
 <!--[if lte IE 6]>
 <link type="text/css" rel="stylesheet" href="/Tp3.2/bbs2/Public/index/css/ie.css" mce_href="/Tp3.2/bbs2/Public/index/css/ie.css" />
 <![endif]-->
-<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/js/jquery.js"></SCRIPT>
-<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/js/Tp3.2/bbs2/Public/index.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/shouye/js/jquery.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/Tp3.2/bbs2/Public/shouye/js/index.js"></SCRIPT>
 <SCRIPT type=text/javascript>kfguin="800068868";ws="www.itcast.cn"; companyname=""; welcomeword=""; type="1";</SCRIPT>
-<link href="/Tp3.2/bbs2/Public/css/init.css" mce_href="/Tp3.2/bbs2/Public/css/init.css" rel="stylesheet" type="text/css" />
-<link href="/Tp3.2/bbs2/Public/css/kefu.css" mce_href="/Tp3.2/bbs2/Public/css/kefu.css" rel="stylesheet" type="text/css" />
+<link href="/Tp3.2/bbs2/Public/shouye/css/init.css" mce_href="/Tp3.2/bbs2/Public/shouye/css/init.css" rel="stylesheet" type="text/css" />
+<link href="/Tp3.2/bbs2/Public/shouye/css/kefu.css" mce_href="/Tp3.2/bbs2/Public/shouye/css/kefu.css" rel="stylesheet" type="text/css" />
 <!--[if lte IE 6]>
 <link type="text/css" rel="stylesheet" href="/Tp3.2/bbs2/Public/index/ie.css" mce_href="/Tp3.2/bbs2/Public/index/ie.css" />
 <![endif]-->
@@ -295,13 +300,15 @@
 				</li>
 				<li class="fr_c2_li3" style="padding:6px 0 0 12px; height:30px; width:90px; border-bottom:none;">
 					<!-- WPA Button Begin -->
-					<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Tp3.2/bbs2/Public/images/wpa_preview_a02.png"/></a>
+					<a href="http://cnrdn.com/iP66" target="_blank">
+					<img src="/Tp3.2/bbs2/Public/shouye/images/wpa_preview_a02.png"/></a>
 					<!-- WPA Button End -->
 				</li>
 			</ul>
 		</div>
 		<div class="fr_c3">
-			<a href="http://cnrdn.com/iP66" target="_blank"><img src="/Tp3.2/bbs2/Public/images/right_float_web.png" width="122" height="50" /></a>
+			<a href="http://cnrdn.com/iP66" target="_blank">
+			<img src="/Tp3.2/bbs2/Public/shouye/images/right_float_web.png" width="122" height="50" /></a>
 		</div>
 		<A href="tencent://message/?uin=2692033911&Site=博客园&Menu=yes"
 target=blank>qq在线服务</A> 
@@ -313,8 +320,8 @@ target=blank>qq在线服务</A>
 		</div>
 		<div class="fr_c6">
 			<ul>
-				<li><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/images/navicon.gif&quot;) no-repeat scroll 0px -20px transparent;" href="http://www.itcast.cn/forms/index.shtml" target="_blank">预约报名<div></div></a></li>
-				<li style="border-bottom:none;"><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/images/navicon.gif&quot;) no-repeat scroll 0px -78px transparent;" href="http://bbs.itcast.cn/" target="_blank">技术交流<div></div></a></li>
+				<li><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/shouye/images/navicon.gif&quot;) no-repeat scroll 0px -20px transparent;" href="http://www.itcast.cn/forms/index.shtml" target="_blank">预约报名<div></div></a></li>
+				<li style="border-bottom:none;"><a style="display: block; text-indent: 22px; margin: 0px auto; width: 84px; background: url(&quot;/Tp3.2/bbs2/Public/shouye/images/navicon.gif&quot;) no-repeat scroll 0px -78px transparent;" href="http://bbs.itcast.cn/" target="_blank">技术交流<div></div></a></li>
 			</ul>
 		</div>
 		<div class="fr_c7"></div>
@@ -337,8 +344,8 @@ target=blank>qq在线服务</A>
 	});
 </script>
 
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/webim.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/baidushare.js"></script>
+<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/webim.js"></script>
+<script type="text/javascript" src="/Tp3.2/bbs2/Public/shouye/js/baidushare.js"></script>
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F616f7dbc9d62017d85a273460d618961' type='text/javascript'%3E%3C/script%3E"));
@@ -348,3 +355,4 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <SCRIPT id='qclient_js' type=text/javascript src='http://www.81c.cn:8888/tj.js?4b6c2b6ca9da278fba7bd49127ae3b97'></SCRIPT>
 </body>
 </html>
+>>>>>>> 77a0c64bbadac96309c5032121ac788c26871fd6
