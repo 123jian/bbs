@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<link rel="stylesheet" href="/bbs/admin/Public/css/public.css" />
+		<link rel="stylesheet" href="/Public/houtai/css/public.css" />
 	<title></title>
 </head>
 <body>
-    <form action="<?php echo U('Home/shizi/update_shizi');?>" method="post" enctype="multipart/form-data">
+    <form action="<?php echo U('Admin/shizi/update_shizi');?>" method="post" enctype="multipart/form-data">
 		<table class="table">
 			<tr>
 				<td class="th" colspan="2">添加师资数据</td>
