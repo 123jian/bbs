@@ -191,9 +191,27 @@ class IndexController extends Controller {
     public function zhmm(){
         $this->display();
     }
-    //处理找回密码
+    //处理找回密码页面
     public function zhmm_pro(){
-        print_r($_POST);
+       $this->display();
+    }
+    //设置新密码
+    public function xmm(){
+        //print_r($_POST);
+        //print_r($_SESSION);
+        $phone=$_SESSION['mobile'];
+        $user = M("admin_user"); // 实例化User对象
+        $data['psd'] = md5($_POST['pwd']);
+        $result=$user->where('phones='.$phone)->save($data); // 根据条件更新记录
+        //echo $user->getLastSql();
+        //print_r($result);die;
+        if($result){
+            unset($_SESSION['mobile']);
+            unset($_SESSION['mobile_code']); 
+            echo "<script>alert('密码修改成功');location.href='/index.php/index/login'</script>";
+        }else{
+            echo "<script>alert('修改失败');location.href=history.go(-1);</script>";
+        }
     }
     
 
