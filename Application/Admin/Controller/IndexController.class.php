@@ -96,18 +96,21 @@ class IndexController extends Controller {
         public function zhuce(){
             $this->display();
         }
-	
-		
-		/*      //将栏目添加到数据库
+        
+        //将栏目添加到数据库
 	public function add_category_pro(){
         $this->ll();
 	$name=$_POST['name'];
+	//print_r($name);
 	$content=$_POST['content'];
-	$category = M("bbs_categorys"); // 实例化User对象
+	//var_dump($content);die;
+	$category = M("categorys"); // 实例化User对象
+	
 	// 然后直接给数据对象赋值
 	$data['c_title'] = $name;
 	$data['c_content'] = $content;
 	$aa=$category->add($data);
+	//var_dump($aa);die;
         if($aa){
            $this->redirect('Index/category_list'); 
         }
@@ -115,7 +118,8 @@ class IndexController extends Controller {
         //查看栏目
 	public function category_list(){
                 $this->ll();
-		$category = M("bbs_categorys"); // 实例化User对象    
+		$category = M("categorys"); // 实例化User对象   
+		//print_r($category );die;
         $count      = $category->count();// 查询满足要求的总记录数
         $Page       = new \Think\Page($count,5);// 实例化分页类 传入总记录数和每页显示的记录数(25)
         $show       = $Page->show();// 分页显示输出
@@ -129,8 +133,9 @@ class IndexController extends Controller {
         public function category_delete(){
                 $this->ll();
             $cid=$_GET['c_id'];
-           $category = M('bbs_categorys');
+           $category = M('categorys');
             $aa=$category->delete($cid);
+			//var_dump($aa);die;
             if($aa){
                $this->redirect('Index/category_list');  
             }
@@ -139,7 +144,7 @@ class IndexController extends Controller {
         public function edit_category_show(){
                 $this->ll();
             $c_id=$_GET['c_id'];
-              $category=M('bbs_categorys'); 
+              $category=M('categorys'); 
           $condition = array( 'c_id' =>$c_id);
             $array=$category->where($condition)->find();
             $this->assign('list',$array); 
@@ -152,7 +157,7 @@ class IndexController extends Controller {
        // echo $id;die;
         $c_title=$_POST['c_title'];
         $c_content=$_POST['c_content'];
-        $category=M("bbs_categorys");
+        $category=M("categorys");
         $data=array('c_title'=>$c_title,'c_content'=>$c_content);
         //var_dump($data);die;
         $a=$category->where("c_id='$id'")->setField($data); //更新个别字段的值，可以使用setField方法。
@@ -164,7 +169,7 @@ class IndexController extends Controller {
         //显示文章表单并查询分类
         public function article_show(){
              $this->ll();
-           $category=M('bbs_categorys'); 
+           $category=M('categorys'); 
            $array = $category->select();
 	//print_r($array);
 	$this->assign('array',$array); 
@@ -176,7 +181,7 @@ class IndexController extends Controller {
 	$title=$_POST['title'];
         $aid=$_POST['a_id'];
 	$content=$_POST['content'];
-	$article = M("bbs_articles"); // 实例化User对象
+	$article = M("articles"); // 实例化User对象
        $data['c_title']=$aid;
 	$data['a_title'] = $title;
 	$data['a_content'] = $content;
@@ -188,7 +193,7 @@ class IndexController extends Controller {
         //将文章列表显示
         public function article_list(){
              $this->ll();
-            $article=M('bbs_articles');
+            $article=M('articles');
             $count      = $article->count();// 查询满足要求的总记录数
             $Page       = new \Think\Page($count,5);// 实例化分页类 传入总记录数和每页显示的记录数(25)
             $show       = $Page->show();// 分页显示输出
@@ -212,8 +217,8 @@ class IndexController extends Controller {
         public function edit_article_show(){
                 $this->ll();
             $id=$_GET['id'];
-            $article=M('bbs_articles');
-            $category=M('bbs_categorys');
+            $article=M('articles');
+            $category=M('categorys');
             $array=$category->select();
             $condition = array( 'id' =>$id);
             $list=$article->where($condition)->find();
@@ -228,13 +233,16 @@ class IndexController extends Controller {
             $id=$_POST['id'];
              $title=$_POST['c_title'];
             $content=$_POST['content'];
-            $article = M("bbs_articles"); // 实例化User对象
+            $article = M("articles"); // 实例化User对象
         // 更改用户的name和email的值
         $data = array('a_title'=>$a_title,'c_title'=>$title,'a_content'=>$content);
         $aa=$article-> where("id='".$id."'")->setField($data);
             if($aa){
             $this->redirect('Index/article_list'); 
         }
-        }*/
+        }
+	
+		
+
 
 	}

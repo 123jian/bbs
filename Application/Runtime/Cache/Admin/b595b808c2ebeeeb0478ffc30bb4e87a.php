@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>bbsbendi后台管理首页</title>
-	<link rel="stylesheet" href="/Tp3.2/bbs2/Public/css/admin.css" />
-	<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/admin.js"></script>
+	<link rel="stylesheet" href="/Public/css/admin.css" />
+	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Public/js/admin.js"></script>
 <!-- 默认打开目标 -->
 <base target="iframe"/>
 </head>
@@ -79,11 +79,11 @@
 				        	<a href="<?php echo U('Admin/index/article_list');?>" class="pos">博文列表</a>				        	
 				        </li> 
 				    </ul>
-				    <ul class="con">
+				  <!--   <ul class="con">
 				        <li class="nav_u">
 				        	<a href="" class="pos">回收站</a>				        	
 				        </li> 
-				    </ul>   
+				    </ul> -->   
 				</div>
 			</div>
 			 <div class="menu_box">
@@ -181,7 +181,16 @@
 			<div class="menu_box">
 				<h2>视频管理</h2>
 				<div class="text">
-                      
+                                    <ul class="con">
+				        <li class="nav_u">
+				        	<a href="<?php echo U('Admin/video/add_video_category');?>" class="pos">添加视频分类</a>
+				        </li> 
+				    </ul>
+                                     <ul class="con">
+				        <li class="nav_u">
+				        	<a href="<?php echo U('Admin/video/category_video_list');?>" class="pos">视频分类列表</a>
+				        </li> 
+				    </ul>
 					<ul class="con">
 				        <li class="nav_u">
 				        	<a href="<?php echo U('Admin/video/add_video');?>" class="pos">上传视频</a>
@@ -225,11 +234,6 @@
 									<a href="<?php echo U('Admin/Huiyuan/article_huishou_list');?>" class="pos">回收站</a>				        	
 							</li> 
 						</ul>   
-                                                <ul class="con">
-							<li class="nav_u">
-									<a href="<?php echo U('Admin/Huiyuan/pv');?>" class="pos">查看点击量</a>				        	
-							</li> 
-						</ul> 
 					</div>
 			</div>
 			 <div class="menu_box">
@@ -261,7 +265,7 @@
 	</div>
 
 </body>
-    <script language="javascript" src="/Tp3.2/bbs2/Public/js/ServerClock.js"></script>
+    <script language="javascript" src="/Public/js/ServerClock.js"></script>
 <script language="javascript">
 <!--
 var myDate = new Date();
