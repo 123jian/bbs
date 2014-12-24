@@ -1,4 +1,4 @@
-﻿<include file="application/Home/view/layouts/header.html"/>
+﻿<include file="application/Home/View/layouts/header.html"/>
 <DIV id="box">
 <DIV class="mbx"><!-- Baidu share BEGIN -->
 <DIV id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"><SPAN class="bds_more">分享到：</SPAN><A 
@@ -18,29 +18,27 @@ target="_blank">java学院</A> <IMG src="__PUBLIC__/shouye/images/sanjiao.jpg">
 <DIV><IMG 
 src="__PUBLIC__/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
-    <form action='__ROOT__/index.php/index/login_pro' method='post'>
+    <form action='__ROOT__/index.php/index/zhmm_pro' method='post' onsubmit="return check()">
        用户名：<input type="text" name="name" id="name"/></br>
-       密码：<input type="text" name="pwd" id="pwd"/></br>
 	   手机号码：<input type="text" name="shouji" id="shouji"/>
-	   <span style="color:red;">*注册时需要填写！用于找回密码</span></br>
-       <input type="submit" value="登录" />
-       <input type="button" value="注册" onclick="aa()"/>
-	   <a href="__ROOT__/index.php/index/zhmm" onclick="">忘记密码？</a>
+	   <span style="color:red;">*用于找回密码</span></br>
+       <input type="submit" value="提交" />
     </form>
-</div>
-
+</div>  
 <script type="text/javascript">
 <!--
-function aa(){
-    var names=document.getElementById('name').value;
-    var pwds=document.getElementById('pwd').value;
+function check(){
+	var name=document.getElementById('name').value;
 	var shouji=document.getElementById('shouji').value;
 	//alert(shouji);return false;
+	if(name==''){
+		alert('请输入用户名！');
+		return false;
+	}
 	if(shouji==''){
 		alert('请输入手机号码！');
 		return false;
 	}
-    location.href="/index.php/index/zhu_pro?name="+names+"&pwd="+pwds+"&phones="+shouji;
 }	
 //-->
 </script>

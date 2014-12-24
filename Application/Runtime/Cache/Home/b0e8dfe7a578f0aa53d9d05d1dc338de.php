@@ -1,5 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -58,86 +57,49 @@
 </ul>
 	</div>
 	</body>
-<div id="box">
-  <div style="width:960px; height:149px; margin:0 auto;"><img src="/Public/shouye/images/teacherpic.jpg"  /></div>
-  <div id="left" class="fl"  style="margin-top:3px;">
-    <div><img src="/Public/shouye/images/lefttop.gif"/></div>
-    <div class="left_content2">
-      <h4 class="ganyan"><span class="STYLE3">师资</span>介绍</h4>
-      
-	  <?php foreach($list as $k=>$v){ ?>
-	<div class="teacher_z" style="height: auto; overflow: hidden">
-		<div class="teacher">
-			<p class="fl">
-				<img alt="" src="/bbs/upload/<?php echo $v['s_image'];?>" style="width: 155px; height: 189px;" />
-			</p>
-			<dl class="fr">
-				<dt>
-                                <span class="blue"><strong><?php echo $v['s_name'];?></strong></span><strong>--<a href="<?php echo U('shizi/detail');?>?s_id=<?php echo $v['s_id'];?>" target="_blank"><span style="color: rgb(0, 0, 255);">在线试听精彩课程</span></a></strong></dt>
-				<dt><strong>职 务：<?php echo $v['z_name'];?></strong></dt>
-				<dd>
-                                    <?php echo $v['s_content'];?>
-				</dd>
-			</dl>
-		</div>
-		<div></div>
-	</div><br />
-	<?php } ?>
-    </div>
-    <div class="page">
-		<?php echo $page;?>
-	</div>
-    <div><img src="/Public/shouye/images/leftbottom.gif"/></div>
-  </div>
-  
+<DIV id="box">
+<DIV class="mbx"><!-- Baidu share BEGIN -->
+<DIV id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"><SPAN class="bds_more">分享到：</SPAN><A 
+class="bds_sqq">QQ好友</A><A class="bds_qzone">QQ空间</A><A 
+class="bds_tqq">腾讯微博</A><A class="bds_tsina">新浪微博</A><A 
+class="bds_tieba">百度贴吧</A><A class="shareCount"></A></DIV><!-- Baidu share END 需在页面底部添加baidushare.js -->
+<DIV 
+style="padding-left: 60px; float: left; _padding-top: 8px;"><B>其它学院入口：</B><IMG 
+src="/Public/shouye/images/sanjiao.jpg"> <A href="http://java.itcast.cn/" 
+target="_blank">java学院</A> <IMG src="/Public/shouye/images/sanjiao.jpg"> 
+<A href="http://net.itcast.cn/" target="_blank">.net学院</A><IMG src="/Public/shouye/images/sanjiao.jpg"> 
+<A href="http://ios.itcast.cn/">ios学院</A> <IMG src="/Public/shouye/images/sanjiao.jpg"> 
+<A href="http://c.itcast.cn/">c/c++学院</A><IMG src="/Public/shouye/images/sanjiao.jpg"> 
+<A href="http://icd.itcast.cn/" target="_blank">网页平面设计学院</A></DIV></DIV>
 
-
-
-
-
-
-
-
-
-
-  <div id="right" class="fl">
-    <h4 class="righttitle1 zhaopin"><span class="blue">讲师</span>招聘</h4>
-    <div class="rightkuang1">
-      <p class="cent"><img src="/Public/shouye/images/xuanze.jpg" width="256" height="66" /></p>
-      <div class="clear"> </div>
-      <p class="miaoshu"> 中国的软件教育已经坑害了不少软件工程师苗子，传智播客自成立之日起就立志于改变中国的软件教育，目前已经出版IT教程书籍十多本，教学视频几十套，发表各类技术文章几百篇，已经开始对中国的软件教育有所影响。随着传智播客的事业被越来越多的人认知，加盟到传智播客愿意为此事业奋斗终生的技术牛人也越来越多。尽管加盟到传智播客的技术牛人很多，但要从政策上改变中国的软件教育，我们的力量还很小，小到可以说是微不足道。所以我们需要各路英雄豪杰加盟传智播客，为改变中国的软件教育而奋斗不息。</p>
-      <p class="cent"><a href="" target="_blank"><img src="/Public/shouye/images/liulan.jpg" width="142" height="23"/></a></p>
-    </div>
-    <div class="rightbottom"><img src="/Public/shouye/images/bottom1.gif"/></div>
-    <h4 class="righttitle1"><span class="fl">我们出版的书籍</span><span class="fr"><a href="">+MORE</a></span></h4>
-    <div class="rightkuang chuban" style="height:auto; overflow:hidden;">
-       
-<dl>
-        <dt><a href="" target="_blank"><img src="/Public/shouye/images/book01.jpg"/></a></dt>
-        <dd><span class="blue"><strong><a href="" target="_blank">《EJB3.0入门经典》</a></strong></span></dd>
-        <dd>作 者：<span class="STYLE4">黎活明</span> </dd>
-        <dd>定价：<span class="STYLE6"><strong>￥59.80 元</strong> </span></dd>
-        <dd>页数：<span class="STYLE4">479</span> </dd>
-</dl> 
-    </div>
-    <div class="rightbottom"><img src="/Public/shouye/images/rightbottom.jpg"/></div>
-    <h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
-    <div class="rightkuang">
-<dl>
-		<dt style="padding-bottom:20px;">
-		北京传智播客</dt>
-		<dd style="width:120px;height:40px;float:left;">
-		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Public/shouye/images/qqmfst.jpg" width="99" /></a></dd>
-		<dd style="width:120px;height:40px;float:left;">
-		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Public/shouye/images/qqkczx.jpg" width="99" /></a></dd>
-	</dl>
-
-      <div class="clear"></div>
-    </div>
-    <div class="rightbottom"><img src="/Public/shouye/images/rightbottom.jpg"/></div>
-  </div>
-</div>
-<div class="clear"></div>
+<DIV style="margin-top: 3px;" id="left" class="fl"></div>
+<DIV><IMG 
+src="/Public/shouye/images/lefttop.gif"></DIV>
+<DIV class="left_content2">
+    <form action='/index.php/index/zhmm_pro' method='post' onsubmit="return check()">
+       用户名：<input type="text" name="name" id="name"/></br>
+	   手机号码：<input type="text" name="shouji" id="shouji"/>
+	   <span style="color:red;">*用于找回密码</span></br>
+       <input type="submit" value="提交" />
+    </form>
+</div>  
+<script type="text/javascript">
+<!--
+function check(){
+	var name=document.getElementById('name').value;
+	var shouji=document.getElementById('shouji').value;
+	//alert(shouji);return false;
+	if(name==''){
+		alert('请输入用户名！');
+		return false;
+	}
+	if(shouji==''){
+		alert('请输入手机号码！');
+		return false;
+	}
+}	
+//-->
+</script>
 <!-- 页面底部 -->
 <div id="footer">
   <div class="footer_info">

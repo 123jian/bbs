@@ -51,7 +51,7 @@ class IndexController extends Controller {
         
 	//查看php培训
 
-	$p_class = M("pxclass"); //实例化p_class对   
+	 $p_class = M("pxclass"); //实例化p_class对   
    
      $list5=$p_class->select();
      $this->assign("list5",$list5); //赋值数据集
@@ -75,6 +75,7 @@ class IndexController extends Controller {
 
      $this->display();
     }
+<<<<<<< HEAD
     //文章查看
     public function article_show(){
 
@@ -86,6 +87,9 @@ class IndexController extends Controller {
         $this->display();
     }
 	   //前台用户登录
+=======
+    //前台用户登录
+>>>>>>> 77a0c64bbadac96309c5032121ac788c26871fd6
     public function login(){
         $this->display();
     }
@@ -101,7 +105,7 @@ class IndexController extends Controller {
 		if($uid > 0) {
 		  session('name',$name);
 		 echo uc_user_synlogin($uid);
-		 echo "<script>location.href='/index.php/home/index/index'</script>";
+		 echo "<script>location.href='/index.php/index/index'</script>";
 		} elseif($uid == -1) {
 				echo '用户不存在,或者被删除';
 		} elseif($uid == -2) {
@@ -137,44 +141,59 @@ class IndexController extends Controller {
 
 
 
-
-	  //注册
+//注册
     public function zhu_pro(){
-      include '/config.inc.php';
-	include '/uc_client/client.php';
+        include 'config.inc.php';
+	include 'uc_client/client.php';
         $name=$_GET['name'];
-	$pwd=$_GET['pwd'];
-	//print_r($_GET);die;
+	$pwd=md5($_GET['pwd']);
+        $phones=$_GET['phones'];
+	//print_r($_GET);
         $uid = uc_user_register($name,$pwd,rand(1111,99999).'@qq.com');
-        if($uid <= 0) {
-                if($uid == -1) {
-                        echo '用户名不合法';
-                } elseif($uid == -2) {
-                        echo '包含要允许注册的词语';
-                } elseif($uid == -3) {
-                        echo '用户名已经存在';
-                } elseif($uid == -4) {
-                        echo 'Email 格式有误';
-                } elseif($uid == -5) {
-                        echo 'Email 不允许注册';
-                } elseif($uid == -6) {
-                        echo '该 Email 已经被注册';
-                } else {
-                        echo '未定义';
-                }
+        //print_r($_GET);
+        if($uid <= 0) { 
+            if($uid == -1) {
+                    echo '用户名不合法';
+            } elseif($uid == -2) {
+                    echo '包含要允许注册的词语';
+            } elseif($uid == -3) {
+                    echo '用户名已经存在';
+            } elseif($uid == -4) {
+                    echo 'Email 格式有误';
+            } elseif($uid == -5) {
+                    echo 'Email 不允许注册';
+            } elseif($uid == -6) {
+                    echo '该 Email 已经被注册';
+            } else {
+                    echo '未定义';
+            }
+                           
         } else {
-            echo "<script>location.href='/index.php/index/login'</script>";  
+            $user = M("admin_user"); // 实例化nav对象
+            $data['username'] = $name;
+            $data['psd'] = $pwd;
+            $data['phones'] = $phones;
+            $user->add($data);
+          echo "<script>location.href='/index.php/index/login'</script>";    
         }
     }
     //退出登录
     public function loginout(){
-		include 'config.inc.php';
-		include 'uc_client/client.php';
-		unset($_SESSION['name']); 
-		echo uc_user_synlogout($uid); 
-		//$this->redirect('Index/index');
+        include 'config.inc.php';
+        include 'uc_client/client.php';
+        unset($_SESSION['name']); 
+        echo uc_user_synlogout($uid); 
+        //$this->redirect('Index/index');
 
-		$this->success('退出成功','index/index');
+        $this->success('退出成功','index/index');
+    }
+    //前台找回密码
+    public function zhmm(){
+        $this->display();
+    }
+    //处理找回密码
+    public function zhmm_pro(){
+        print_r($_POST);
     }
     
 
