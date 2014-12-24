@@ -3259,7 +3259,43 @@ ERR: 非法操作:传智播客PHP学院官网-北京PHP培训_PHP网站开发培
 [ 2014-12-24T15:13:55+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
 ERR: 无法加载控制器:Public
 
+<<<<<<< HEAD
+[ 2014-12-24T15:28:32+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:28:34+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:28:35+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:28:37+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:28:40+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:40:14+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/index/%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 非法操作:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:40:14+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:52:45+08:00 ] 127.0.0.1 /Tp3.2/bbs2/Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:52:53+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/index/%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 非法操作:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:55:19+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/index/%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 非法操作:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:55:53+08:00 ] 127.0.0.1 /Tp3.2/bbs2/index.php/index/%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 非法操作:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+=======
 >>>>>>> fd893c6e2c3846805ae22fbd0c8e67ab547faf74
+<<<<<<< HEAD
 [ 2014-12-24T15:19:52+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
 ERR: 无法加载控制器:Public
 
@@ -3362,3 +3398,42 @@ ERR: 无法加载控制器:Public
 [ 2014-12-24T16:12:21+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
 ERR: 无法加载控制器:Public
 
+=======
+[ 2014-12-24T15:19:52+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:19:55+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:20:05+08:00 ] 127.0.0.1 /%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 无法加载控制器:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:20:05+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:38:31+08:00 ] 127.0.0.1 /%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 无法加载控制器:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:38:31+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:38:33+08:00 ] 127.0.0.1 /%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 无法加载控制器:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:38:33+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:38:36+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T15:38:36+08:00 ] 127.0.0.1 /%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 无法加载控制器:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:48:14+08:00 ] 127.0.0.1 /%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: 无法加载控制器:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
+
+[ 2014-12-24T15:48:14+08:00 ] 127.0.0.1 /Public/shouye/js/index.js
+ERR: 无法加载控制器:Public
+
+>>>>>>> 3839f76e453df8a0b8397a52c5048fa715150037
+>>>>>>> 27a8330decb9745bb222eebca16a77014a3296ff
