@@ -80,9 +80,9 @@ class IndexController extends Controller {
     public function article_show(){
 //echo 123;die;
         //print_r($_GET);//die;
-        $jiuye=M('jiuye');
-        $list = $jiuye->where('id='.$_GET['id'])->find();
-        //print_r($list);
+        $article=M('articles');
+        $list = $article->where('id='.$_GET['id'])->find();
+        //print_r($list);die;
         $this->assign('list',$list);
         $this->display();
     }
