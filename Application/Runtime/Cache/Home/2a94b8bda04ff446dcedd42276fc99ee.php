@@ -56,7 +56,7 @@
 	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
-	</body>/index.php/Home/Index
+	</body>
 <DIV id="box">
 <DIV class="mbx"><!-- Baidu share BEGIN -->
 <DIV id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"><SPAN class="bds_more">分享到：</SPAN><A 
@@ -173,11 +173,7 @@ class="STYLE3">PHP培训</SPAN>学员呐喊</SPAN><SPAN class="fr"><A href="http
   <UL class="bjhd">
       <?php foreach($list2 as $key => $val){?>
     <LI><IMG 
-<<<<<<< HEAD
-    src="/Public/shouye/images/great(1).jpg"><A href="/bbs/index.php/Home/jiuye/index/"><?php echo $val['student_name']?> 
-=======
     src="/Public/shouye/images/great(1).jpg"><A href="/index.php/Home/jiuye/index/"><?php echo $val['student_name']?> 
->>>>>>> c9609327eb631b0425695a918f3fa183dd2db34a
     <?php echo $val['job_time']?> &nbsp;<?php echo $val['job_company']?> &nbsp;<?php echo $val['work_money']?></A></LI>
     <?php }?>
     <LI><IMG 
