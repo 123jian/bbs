@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/Public/houtai/css/public.css" />
+	<link rel="stylesheet" href="/Tp3.2/bbs/Public/houtai/css/public.css" />
 	
 </head>
 <body>

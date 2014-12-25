@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [ 2014-12-25T08:43:55+08:00 ] 127.0.0.1 /index.php/Admin/Shizi/is_show.html
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
@@ -292,3 +293,11 @@ SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007000s ]
 SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-25'  [ RunTime:0.002000s ]
 SQL: UPDATE `bbs_pv` SET `pv_count`=146 WHERE ( pid=25 ) [ RunTime:0.201012s ]
 
+=======
+[ 2014-12-25T09:07:09+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/video/category_video_list.html
+ERR: 非法操作:category_video_list
+
+[ 2014-12-25T09:32:14+08:00 ] 127.0.0.1 /Tp3.2/bbs/index.php/Admin/video/category_video_list.html
+ERR: 非法操作:category_video_list
+
+>>>>>>> a51089807d3d3d8adf43f54c951f1babb160308e

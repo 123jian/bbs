@@ -56,7 +56,7 @@
 	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
-	</body>/index.php/Home/Index
+	</body>
 <DIV id="box">
 <DIV class="mbx"><!-- Baidu share BEGIN -->
 <DIV id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"><SPAN class="bds_more">分享到：</SPAN><A 
