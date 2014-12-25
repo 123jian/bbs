@@ -173,11 +173,15 @@ class="STYLE3">PHP培训</SPAN>学员呐喊</SPAN><SPAN class="fr"><A href="http
   <UL class="bjhd">
       <?php foreach($list2 as $key => $val){?>
     <LI><IMG 
+<<<<<<< HEAD
     src="/Public/shouye/images/great(1).jpg"><A href="/bbs/index.php/Home/jiuye/index/"><?php echo $val['student_name']?> 
+=======
+    src="/Public/shouye/images/great(1).jpg"><A href="/index.php/Home/jiuye/index/"><?php echo $val['student_name']?> 
+>>>>>>> c9609327eb631b0425695a918f3fa183dd2db34a
     <?php echo $val['job_time']?> &nbsp;<?php echo $val['job_company']?> &nbsp;<?php echo $val['work_money']?></A></LI>
     <?php }?>
     <LI><IMG 
-    src="/Public/shouye/images/great(1).jpg"><A href="http://www.bbs.com/bbs/jiuye/index"><FONT 
+    src="/Public/shouye/images/great(1).jpg"><A href="/jiuye/index"><FONT 
     style="color: red;"><B>&gt;&gt;查看更多就业信息</B></FONT></A></LI></UL></DD></DL>
 <DIV class="clear"></DIV></DIV>
 <DIV class="clear"></DIV>

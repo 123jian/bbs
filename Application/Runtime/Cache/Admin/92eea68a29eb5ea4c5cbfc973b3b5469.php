@@ -25,7 +25,7 @@
 			<td><?php echo $v["p_id"]?></td>
 			<td><a href=""><?php echo $v["p_name"]?></a></td>
 			<td><?php echo $v["p_content"]?></td>
-                        <td><img src="/bbs/upload/<?php echo $v['p_image'];?>" width="200" height="200"></td>
+                        <td><img src="/Public/<?php echo $v['p_image'];?>" width="200" height="200"></td>
 			<td>
 				<a href="/Tp3.2/bbs/index.php/Admin/Peixun/uppeix/id/<?php echo $v['p_id'];?>">[编辑]</a>
                                 <a href="/Tp3.2/bbs/index.php/Admin/Peixun/delpeix/id/<?php echo $v['p_id'];?>" class="del">[删除]</a>

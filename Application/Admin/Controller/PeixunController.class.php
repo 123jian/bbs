@@ -12,8 +12,7 @@ class PeixunController extends Controller
     //培训课程分班添加
     public function addpeixun()
     {
-        //图片上传
-      
+        //图片上传      
         $p_class = M('p_class');//实例化
         $data['p_show']=$_POST['p_show'];
         $data['p_name']=$_POST['p_name'];
@@ -22,14 +21,14 @@ class PeixunController extends Controller
             $upload->maxSize   =     3145728 ;// 设置附件上传大小
             $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
             $upload->rootPath  =     './upload/'; // 设置附件上传根目录
-            $upload->savePath  =     ''; // 设置附件上传（子）目录
+            //$upload->savePath  =     ''; // 设置附件上传（子）目录
             // 上传文件 
             $info   =  $upload->upload();
-            if(!$info) {// 上传错误提示错误信息
+            if(!$info) {
+                // 上传错误提示错误信息
                 $this->error($upload->getError());
-            }else{// 上传成功
-                
-                
+            }else{
+                // 上传成功                
                 $data['p_image']=$info['p_image']['savename'];
                // var_dump($info['p_image']['savename']);die;
                 $res=$p_class->add($data);

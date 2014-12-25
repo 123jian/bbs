@@ -57,13 +57,15 @@ class ShiziController extends Controller{
         public function is_show(){
             $shizi=M('shizi');
             $s_id=$_POST['s_id'];
-            $is_show=$_POST['is_show'];   
+            $is_show=$_POST['is_show'];
+            //print_r($_POST);die;
             if($is_show==1){
                 $data['is_show']=0;
             }else{
                $data['is_show']=1;
             }
-            $shizi->where("s_id='$s_id'")->save($data);      
+            $shizi->where("s_id='$s_id'")->save($data);
+            //echo $shizi->getLastSql();
         } 
         public function is_del(){
             $shizi=M('shizi');
