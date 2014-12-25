@@ -9,7 +9,7 @@ return array(
 	'DB_PORT'   => 3306, // 端口
 	'DB_PREFIX' => 'bbs_', // 数据库表前缀 
 	'DB_CHARSET'=> 'utf8', // 字符集
-    'URL_HTML_SUFFIX' => 'html|shtml|xml' , //自动生成静态文件   ：缓存
+    'URL_HTML_SUFFIX'=>'shtml' , //自动生成静态文件   ：缓存
     'SHOW_PAGE_TRACE' =>true, //开启错误日志
 );
 ?>
