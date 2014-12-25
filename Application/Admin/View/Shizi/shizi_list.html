@@ -37,11 +37,13 @@
 	</div>
 </body>
 </html>
-<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/js/jq.js"></script>
 <script>
     function is_show(s_id,is_show){
+        //alert(s_id);
+        //alert(is_show);
         $.ajax({
-            url:"{:U('shizi/is_show')}",
+            url:"{:U('Admin/Shizi/is_show')}",
             data:{"s_id":s_id,"is_show":is_show},
             type:"post",
             success:function(){
@@ -50,7 +52,7 @@
     }
     function is_del(s_id){
         $.ajax({
-            url:"{:U('shizi/is_del')}",
+            url:"{:U('Admin/Shizi/is_del')}",
             data:{"s_id":s_id},
             type:"post",
             success:function(){

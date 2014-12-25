@@ -36,11 +36,11 @@
 	</div>
 </body>
 </html>
-<script src="/Tp3.2/bbs/Public/js/jquery.js"></script>
+<script src="/Public/js/jq.js"></script>
 <script>
     function huifu(s_id){
         $.ajax({
-            url:"<?php echo U('shizi/huifu');?>",
+            url:"<?php echo U('Admin/shizi/huifu');?>",
             data:{"s_id":s_id},
             type:"post",
             success:function(){
@@ -49,7 +49,7 @@
     }
     function del(s_id){
         $.ajax({
-            url:"<?php echo U('shizi/delete_shizi');?>",
+            url:"<?php echo U('Admin/shizi/delete_shizi');?>",
             data:{"s_id":s_id},
             type:"post",
             success:function(){

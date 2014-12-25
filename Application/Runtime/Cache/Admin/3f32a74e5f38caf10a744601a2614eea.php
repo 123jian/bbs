@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/Tp3.2/bbs/Public/houtai/css/public.css" />
+	<link rel="stylesheet" href="/Public/houtai/css/public.css" />
 		
 </head>
 <body>
@@ -37,11 +37,13 @@
 	</div>
 </body>
 </html>
-<script src="/Tp3.2/bbs/Public/js/jquery.js"></script>
+<script src="/Public/js/jq.js"></script>
 <script>
     function is_show(s_id,is_show){
+        //alert(s_id);
+        //alert(is_show);
         $.ajax({
-            url:"<?php echo U('shizi/is_show');?>",
+            url:"<?php echo U('Admin/Shizi/is_show');?>",
             data:{"s_id":s_id,"is_show":is_show},
             type:"post",
             success:function(){
@@ -50,7 +52,7 @@
     }
     function is_del(s_id){
         $.ajax({
-            url:"<?php echo U('shizi/is_del');?>",
+            url:"<?php echo U('Admin/Shizi/is_del');?>",
             data:{"s_id":s_id},
             type:"post",
             success:function(){
