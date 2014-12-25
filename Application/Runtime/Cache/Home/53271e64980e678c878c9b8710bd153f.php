@@ -97,6 +97,21 @@
     </div>
 <!-- Baidu share END 需在页面底部添加baidushare.js -->	  
 	  </div>
+	  <?php if(is_array($data)): foreach($data as $key=>$vo): ?><div class="review">
+	  <!-- 评论列表 -->
+			<h3 class="reviewtitle"><span class="fl"><?php echo ($vo["user"]); ?>
+			</span><span class="fr"><?php echo (date('Y-m-d h:i:s',$vo["add_time"])); ?> 发表</span></h3>
+			<div class="reviewneirong">
+			<?php echo ($vo["content"]); ?>    
+			<!-- -- reply ---->
+			<!-- -- reply ---->
+			</div>
+			<!-- 评论列表 -->
+			<!--<div class="febgye">
+						   <a href="javascript:goPage(1)" title="首页">&lt;&lt;</a>
+													  <span>1</span>
+			</div>-->
+      </div><?php endforeach; endif; ?>
 	  <div class="clear"></div>
       <div class="print"><a id="printbutton" href="#">【打印】</a> <a href="#pagetop">【返回顶部】</a></div>
       	  <!-- 评论区 -->
@@ -106,13 +121,13 @@
                });   
 	       </script>
 	  <div id="commentcontent"></div>
-	  <form style="padding:0;margin:0px;" name="comment">
-        <input type="hidden" value="20140328-17081824603" name="referenceSource">
-        <input type="hidden" value="NEWS" name="type">
+	  <form style="padding:0;margin:0px;" name="comment" action="/index.php/Home/Index/add_com" method="post">
+        <input type="hidden" value="<?php echo $list['id']?>" name="pid">
+
         <textarea name="content" style="width:610px;" rows="6" cols="85"></textarea>
         <div class="clear"></div>
         <div class="fabiao">
-	      <span class="fl">请输入验证码：<input type="text" style="width:80px;" name="validatecode">  <!----><img width="100" id="yzm" onclick="gai()" src="/index.php/Home/Index/verify"></span><span class="fr"><input type="button" id="savebutton" value="提 交"></span>
+	      <span class="fl">请输入验证码：<input type="text" style="width:80px;" name="code">  <!----><img width="100" id="yzm" onclick="gai()" src="/index.php/Home/Index/verify"></span><span class="fr"><input type="submit" id="savebutton" value="提 交"></span>
 	    </div>
 	  </form>
 	  <div title="评论保存结果" id="dialog"></div><!-- 对话框内容 -->
