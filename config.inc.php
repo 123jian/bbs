@@ -30,3 +30,10 @@ $dbcharset = 'gbk';			// MySQL 字符集, 可选 'gbk', 'big5', 'utf8', 'latin1'
 //同步登录 Cookie 设置
 $cookiedomain = ''; 			// cookie 作用域
 $cookiepath = '/';			// cookie 作用路径
+
+//一些 Cookie 设置 
+$_UC = array(); 
+$_UC["cookiedomain"] = ''; // cookie 作用域 
+$_UC["cookiepath"] = '/'; // cookie 作用路径 
+$_UC["cookiepre"] = 'uc_'; // cookie 前缀 
+$_UC["cookietime"] = '31536000'; //cookie 作用时间

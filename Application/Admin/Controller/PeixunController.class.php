@@ -21,16 +21,18 @@ class PeixunController extends Controller
             $upload->maxSize   =     3145728 ;// 设置附件上传大小
             $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
             $upload->rootPath  =     './upload/'; // 设置附件上传根目录
-            //$upload->savePath  =     ''; // 设置附件上传（子）目录
+            $upload->savePath  =     ''; // 设置附件上传（子）目录
             // 上传文件 
             $info   =  $upload->upload();
+            //echo "<pre>";
+            //print_r($info);exit;
             if(!$info) {
                 // 上传错误提示错误信息
                 $this->error($upload->getError());
             }else{
                 // 上传成功                
-                $data['p_image']=$info['p_image']['savename'];
-               // var_dump($info['p_image']['savename']);die;
+                $data['p_image']=$info['p_image']['savepath'].$info['p_image']['savename'];
+                //var_dump($data['p_image']);die;
                 $res=$p_class->add($data);
                 if($res){
                     $this->success('上传成功！',U('check_peixun'));

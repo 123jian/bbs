@@ -3,8 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/Tp3.2/bbs/Public/css/public.css" />
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/js/jquery-1.7.2.min.js"></script>	
+	<link rel="stylesheet" href="/Public/css/public.css" />
+	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>	
 </head>
 <body>
 	<table class="table">
@@ -20,7 +20,7 @@
                 <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 			<td><?php echo ($vo["id"]); ?></td>
 			<td><?php echo ($vo["description"]); ?></td>
-			<td><img src="/bbs/upload/<?php echo ($vo["image"]); ?>" width="100" height="100"></td>
+			<td><img src="/upload/<?php echo ($vo["image"]); ?>" width="100" height="100"></td>
 			<td>
 				<a href="<?php echo U('Jiuye/delet');?>?id=<?php echo ($vo["id"]); ?>" class="del">删除</a>
                                 <a href="<?php echo U('Jiuye/upd');?>?id=<?php echo ($vo["id"]); ?>" class="del">修改</a>

@@ -86,7 +86,7 @@ class JiuyeController extends Controller{
             if(!$info) {// 上传错误提示错误信息
                 $this->error($upload->getError());
             }else{// 上传成功
-                $data['image']=$info['image']['savename'];
+                $data['image']=$info['image']['savepath'].$info['image']['savename'];
                 $res = $Jiuye1->add($data);
                 if($res){
                     $this->success('上传成功！',U('Jiuye/show_upload'));
