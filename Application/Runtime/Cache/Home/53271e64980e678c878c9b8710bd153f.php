@@ -84,19 +84,7 @@
 	  	  </div>
 
       <div class="clear"></div>
-      <div class="share">
-	  <!-- Baidu share BEGIN -->
-    <div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
-        <span class="bds_more">分享到：</span>
-        <a class="bds_sqq" title="分享到QQ好友" href="#">QQ好友</a>
-		<a class="bds_qzone" title="分享到QQ空间" href="#">QQ空间</a>
-		<a class="bds_tqq" title="分享到腾讯微博" href="#">腾讯微博</a>
-		<a class="bds_tsina" title="分享到新浪微博" href="#">新浪微博</a>
-		<a class="bds_tieba" title="分享到百度贴吧" href="#">百度贴吧</a>
-		<a class="shareCount" href="#" title="累计分享0次">0</a>
-    </div>
-<!-- Baidu share END 需在页面底部添加baidushare.js -->	  
-	  </div>
+     <div class="bshare-custom icon-medium-plus"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
 	  <?php if(is_array($data)): foreach($data as $key=>$vo): ?><div class="review">
 	  <!-- 评论列表 -->
 			<h3 class="reviewtitle"><span class="fl"><?php echo ($vo["user"]); ?>
