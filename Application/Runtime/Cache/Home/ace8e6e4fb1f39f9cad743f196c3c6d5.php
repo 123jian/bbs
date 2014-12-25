@@ -6,13 +6,13 @@
 <meta name="keywords" content="php培训,php教程,php视频,php下载,php视频教程" />
 <meta name="description" content="php培训的龙头老大,口碑最好的php培训机构,进来看看同学们的呐喊，就会知道我们是个怎么样的学校,问天下php培训机构谁与争锋?php培训课程内容包含目前最流行的zendframework、thinkphp框架、ECShop、dedecms等产品的二次开发" />
 <title>传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校</title>
-<link href="/TP3.2/bbs/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
-<link href="/TP3.2/bbs/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
-<link href="/TP3.2/bbs/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
-<link href="/TP3.2/bbs/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
 <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
-<script type="text/javascript" src="/TP3.2/bbs/Public/shouye/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="/TP3.2/bbs/Public/shouye/js/imageschange.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/imageschange.js"></script>
 <script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
 <script type="text/javascript" id="bdshell_js"></script>
 
@@ -25,16 +25,16 @@
 
 	<p class="fr">
             <?php if(empty($_SESSION['name'])){?>
-            <a href="/TP3.2/bbs/index.php/home/index/login">登录注册</a>
+            <a href="/index.php/home/index/login">登录注册</a>
             <?php }else{ ?>
-            <span color='red'><?php echo $_SESSION['name']?><a href="/TP3.2/bbs/index.php/home/index/loginout">退出</a></span>
+            <span color='red'><?php echo $_SESSION['name']?><a href="/index.php/home/index/loginout">退出</a></span>
             <?php }?>
      </p>
 </div>
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/TP3.2/bbs/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -47,21 +47,21 @@
 <p><a href="http://xa.itcast.cn" target="_blank">西安校区</a></p>
 <!-- 校区 --> 
 		</div>
-		<p class="fr"><img src="/TP3.2/bbs/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
+		<p class="fr"><img src="/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
 	<ul id="nav">
 <?php foreach($nav as $key => $val){?>
-	<li nid="nav_life" width="15%"><a href="/TP3.2/bbs/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
+	<li nid="nav_life" width="15%"><a href="/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
 <?php }?>
-	<li nid="nav_life" width="15%"><a href="/TP3.2/bbs/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
+	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
 	</body>
 <div id="box">
-  <div style="width:960px; height:149px; margin:0 auto;"><img src="/TP3.2/bbs/Public/shouye/images/teacherpic.jpg"  /></div>
+  <div style="width:960px; height:149px; margin:0 auto;"><img src="/Public/shouye/images/teacherpic.jpg"  /></div>
   <div id="left" class="fl"  style="margin-top:3px;">
-    <div><img src="/TP3.2/bbs/Public/shouye/images/lefttop.gif"/></div>
+    <div><img src="/Public/shouye/images/lefttop.gif"/></div>
     <div class="left_content2">
       <h4 class="ganyan"><span class="STYLE3">师资</span>介绍</h4>
       
@@ -87,7 +87,7 @@
     <div class="page">
 		<?php echo $page;?>
 	</div>
-    <div><img src="/TP3.2/bbs/Public/shouye/images/leftbottom.gif"/></div>
+    <div><img src="/Public/shouye/images/leftbottom.gif"/></div>
   </div>
   
 
@@ -103,38 +103,38 @@
   <div id="right" class="fl">
     <h4 class="righttitle1 zhaopin"><span class="blue">讲师</span>招聘</h4>
     <div class="rightkuang1">
-      <p class="cent"><img src="/TP3.2/bbs/Public/shouye/images/xuanze.jpg" width="256" height="66" /></p>
+      <p class="cent"><img src="/Public/shouye/images/xuanze.jpg" width="256" height="66" /></p>
       <div class="clear"> </div>
       <p class="miaoshu"> 中国的软件教育已经坑害了不少软件工程师苗子，传智播客自成立之日起就立志于改变中国的软件教育，目前已经出版IT教程书籍十多本，教学视频几十套，发表各类技术文章几百篇，已经开始对中国的软件教育有所影响。随着传智播客的事业被越来越多的人认知，加盟到传智播客愿意为此事业奋斗终生的技术牛人也越来越多。尽管加盟到传智播客的技术牛人很多，但要从政策上改变中国的软件教育，我们的力量还很小，小到可以说是微不足道。所以我们需要各路英雄豪杰加盟传智播客，为改变中国的软件教育而奋斗不息。</p>
-      <p class="cent"><a href="" target="_blank"><img src="/TP3.2/bbs/Public/shouye/images/liulan.jpg" width="142" height="23"/></a></p>
+      <p class="cent"><a href="" target="_blank"><img src="/Public/shouye/images/liulan.jpg" width="142" height="23"/></a></p>
     </div>
-    <div class="rightbottom"><img src="/TP3.2/bbs/Public/shouye/images/bottom1.gif"/></div>
+    <div class="rightbottom"><img src="/Public/shouye/images/bottom1.gif"/></div>
     <h4 class="righttitle1"><span class="fl">我们出版的书籍</span><span class="fr"><a href="">+MORE</a></span></h4>
     <div class="rightkuang chuban" style="height:auto; overflow:hidden;">
        
 <dl>
-        <dt><a href="" target="_blank"><img src="/TP3.2/bbs/Public/shouye/images/book01.jpg"/></a></dt>
+        <dt><a href="" target="_blank"><img src="/Public/shouye/images/book01.jpg"/></a></dt>
         <dd><span class="blue"><strong><a href="" target="_blank">《EJB3.0入门经典》</a></strong></span></dd>
         <dd>作 者：<span class="STYLE4">黎活明</span> </dd>
         <dd>定价：<span class="STYLE6"><strong>￥59.80 元</strong> </span></dd>
         <dd>页数：<span class="STYLE4">479</span> </dd>
 </dl> 
     </div>
-    <div class="rightbottom"><img src="/TP3.2/bbs/Public/shouye/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Public/shouye/images/rightbottom.jpg"/></div>
     <h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
     <div class="rightkuang">
 <dl>
 		<dt style="padding-bottom:20px;">
 		北京传智播客</dt>
 		<dd style="width:120px;height:40px;float:left;">
-		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/TP3.2/bbs/Public/shouye/images/qqmfst.jpg" width="99" /></a></dd>
+		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Public/shouye/images/qqmfst.jpg" width="99" /></a></dd>
 		<dd style="width:120px;height:40px;float:left;">
-		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/TP3.2/bbs/Public/shouye/images/qqkczx.jpg" width="99" /></a></dd>
+		<a href="" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="/Public/shouye/images/qqkczx.jpg" width="99" /></a></dd>
 	</dl>
 
       <div class="clear"></div>
     </div>
-    <div class="rightbottom"><img src="/TP3.2/bbs/Public/shouye/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Public/shouye/images/rightbottom.jpg"/></div>
   </div>
 </div>
 <div class="clear"></div>

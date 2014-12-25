@@ -136,10 +136,10 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
   		开拓视野，展现自我，“非你莫属”我们来啦！</A></DT>
   <DD class="huodongfr">
   <H3 class="STYLE7">班级活动</H3>
-  <UL class="bjhd">
+  <UL class="bjhd"><!--http://www.bbs.com/index.php/Home/index/article_show?id=<?php echo $val['id']?>-->
      <?php foreach($list1 as $key => $val){?>
     <LI><IMG src="/Public/shouye/images/great.jpg"><A 
-    href="http://php.itcast.cn/news/20140328/17081824603.shtml" 
+    href="index.php/Home/index/article_show/id/<?php echo $val['id']?>" 
     target="_blank"><?php echo $val['a_title']?></A></LI>
     <?php }?>
    </UL></DD></DL>

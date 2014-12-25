@@ -6,16 +6,13 @@
     <div class="infotop"><img src="/images/infotop.gif"></div>
     <div class="left_content1">
       <div id="printarea">
-        <h1 class="infotitle">PHP学院26期就业班开班，我们为何选择传智！</h1>
-        <div class="editer">更新时间:<?php echo $list['add_time']?> 来源:<?php echo $list['school_name']?></div>
+        <h1 class="infotitle"><?php echo $list['a_title']?></h1>
+        <div class="editer">更新时间:<?php echo $list['a_time']?> </div>
         <div class="infor">
-         <div><span style="font-size:14px;"><strong>&nbsp; &nbsp; 3月20日，26期<a target="_blank" href="http://php.itcast.cn/php/course.shtml">PHP高薪就业班</a>开班。我们为何选择八维？同学们纷纷到讲桌前发表了感言：</strong></span></div>
+         <div><span style="font-size:14px;"><strong>&nbsp; &nbsp; 开班。我们为何选择八维？同学们纷纷到讲桌前发表了感言：<br><?php echo $list['a_content']?></strong></span></div>
 <div style="text-align: center;"><br>
-我是<font color='red'><?php echo $list['student_name']?></font>
-论坛看到八维，攒钱半年而来<br>
-上了大概一周课以后，我就傻X了！和想像的太不一样了，这班主任比接待的客服还漂亮，懂的也忒多了！没事就是人生，就是理想，就是奋斗。每天动员的同胞们急着眼的学，那叫一个亢奋，这氛围玩两分钟就不好意思看班主任眼神了。更可恨的是讲师阿，那叫一个犀利，一个问题能用八中方法给你整出来，那笔记做的可比他们漂亮的多，那小图花的，想不懂都难。一个个讲师，都是上课庄严哥，课下猥琐哥，一个个段子顺嘴就来！谁叫老师跟谁急，非让叫哥，说是显年轻，行业确实挺年轻，嘿嘿……谁有问题，不管啥时候吱一声嗖嗖的就来了，顾客就是上帝……知无不言，言无不尽，呕心沥血一遍一遍的讲，哼，我早就听明白了，就是不说话。
 
-　　我最喜欢每次休息时的末位辅导，早上尽管睡……不到十点，辅导员就会在群里咋呼的嚷这让去上自习，免费的闹铃阿……嘿嘿，辅导员可是为美女，屁颠屁颠的小跑去了自习室。就这样在无良讲师的打击下，在温柔班主任的安慰下，在美女辅导员的辅导下度过了小半年，转眼到了模拟面试了，很负责说这个相当重要，完全可以减少一半找工作时间，我面试五家拿到三个OFFER模拟面试功不可没阿……人事的问题基本上都在模拟面试上提到了，最后全部拿下……
+
 </strong></span></div>
 
 	
@@ -57,7 +54,7 @@
         <textarea name="content" style="width:610px;" rows="6" cols="85"></textarea>
         <div class="clear"></div>
         <div class="fabiao">
-	      <span class="fl">请输入验证码：<input type="text" style="width:80px;" name="validatecode">  <img width="100" id="kaptchaImage" src="http://manage.itcast.cn:8080/validatecode/comment.jpg"></span><span class="fr"><input type="button" id="savebutton" value="提 交"></span>
+	      <span class="fl">请输入验证码：<input type="text" style="width:80px;" name="validatecode">  <!----><img width="100" id="yzm" onclick="gai()" src="__URL__/verify"></span><span class="fr"><input type="button" id="savebutton" value="提 交"></span>
 	    </div>
 	  </form>
 	  <div title="评论保存结果" id="dialog"></div><!-- 对话框内容 -->
@@ -95,4 +92,16 @@
    
   </div>
 </div>
+<script src="__PUBLIC__/houtai/js/jq.js"></script>
+   <script type="text/javascript">
+    <!--
+      function gai(){
+                        //alert(111)
+                        var yzma=document.getElementById("yzm");
+
+                                //jq("#yzm").attr("src","/index.php/index/verify_image");
+                        yzma.src="__URL__/verify";
+        }
+	//-->
+</script>
 <include file="application/Home/View/layouts/footer.html"/>
