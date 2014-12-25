@@ -130,14 +130,15 @@ class PeixunController extends Controller
 		
         $p_class=M("p_class");
 		//var_dump( $p_class);
-        $sql="select * from course,p_class where course.p_id=p_class.p_id";
-		var_dump ($sql) ;
+        $sql="select * from bbs_course,bbs_p_class where bbs_course.p_id=bbs_p_class.p_id";
+		//var_dump ($sql) ;
         $count=$course->count(); //查询总记录数
 		//var_dump( $count);
         $Page= new\Think\Page($count,2); // 实例化分页类  传入总记录数和每页显示条数
         $show=$Page->show(); //分页显示输出
         // 进行分页数据查询  注意limit 方法的参数要使用Page类的属性
         $list=$course->limit($Page->firstRow.','.$Page->listRows)->query($sql);
+		//print_r($list);
         $this->assign("list",$list); //赋值数据集
         $this->assign('page',$show); //赋值输出*/ 
         $this->display("check_course");
