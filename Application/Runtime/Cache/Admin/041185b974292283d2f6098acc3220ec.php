@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<link rel="stylesheet" href="/Tp3.2/bbs/Public/houtai/css/login.css" />
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/houtai/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/houtai/js/login.js"></script>
+	<link rel="stylesheet" href="/Public/houtai/css/login.css" />
+	<script type="text/javascript" src="/Public/houtai/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Public/houtai/js/login.js"></script>
 	<title></title>
 </head>
 <body>
@@ -16,9 +16,9 @@
 			<input type="submit" id="sub" value=""/>
 			<!-- 验证码 -->
                         <div id='yzma'>
-			<img src='/Tp3.2/bbs/index.php/Admin/Index/yzm' onclick="gai()"  width="80"  height='25' id='yzm'/> 
+			<img src='/index.php/Admin/Index/yzm' onclick="gai()"  width="80"  height='25' id='yzm'/> 
                         </div>
-                        <div id='zhu'><a href="<?php echo U('Admin/index/zhuce');?>"><img src="/Tp3.2/bbs/Public/houtai/images/medish.jpg"></a></div>
+                        <div id='zhu'><a href="<?php echo U('Admin/index/zhuce');?>"><img src="/Public/houtai/images/medish.jpg"></a></div>
 		</form>
 		<div class="four_bj">
 			<p class="f_lt"></p>
@@ -38,13 +38,13 @@
 		</ul>
 	</div>
 <!--[if IE 6]>
-    <script type="text/javascript" src="/Tp3.2/bbs/Public/houtai/js/iepng.js"></script>
+    <script type="text/javascript" src="/Public/houtai/js/iepng.js"></script>
     <script type="text/javascript">
         DD_belatedPNG.fix('form','background');
     </script>
 <![endif]-->
 </body>
-   <script src="/Tp3.2/bbs/Public/houtai/js/jq.js"></script>
+   <script src="/Public/houtai/js/jq.js"></script>
    <script type="text/javascript">
     <!--
       function gai(){
@@ -52,7 +52,7 @@
                         var yzma=document.getElementById("yzm");
 
                                 //jq("#yzm").attr("src","/index.php/index/verify_image");
-                        yzma.src="/Tp3.2/bbs/index.php/Admin/Index/yzm";
+                        yzma.src="/index.php/Admin/Index/yzm";
         }
         $('#loginForm').submit(function(){
         if($('#userName').val()==''){

@@ -20,7 +20,7 @@
                 <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 			<td><?php echo ($vo["id"]); ?></td>
 			<td><?php echo ($vo["description"]); ?></td>
-			<td><img src="/bbs/upload/<?php echo ($vo["image"]); ?>" width="100" height="100"></td>
+			<td><img src="/upload/<?php echo ($vo["image"]); ?>" width="100" height="100"></td>
 			<td>
 				<a href="<?php echo U('Jiuye/delet');?>?id=<?php echo ($vo["id"]); ?>" class="del">删除</a>
                                 <a href="<?php echo U('Jiuye/upd');?>?id=<?php echo ($vo["id"]); ?>" class="del">修改</a>
