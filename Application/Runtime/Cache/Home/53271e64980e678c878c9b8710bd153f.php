@@ -112,7 +112,7 @@
         <textarea name="content" style="width:610px;" rows="6" cols="85"></textarea>
         <div class="clear"></div>
         <div class="fabiao">
-	      <span class="fl">请输入验证码：<input type="text" style="width:80px;" name="validatecode">  <img width="100" id="kaptchaImage" src="http://manage.itcast.cn:8080/validatecode/comment.jpg"></span><span class="fr"><input type="button" id="savebutton" value="提 交"></span>
+	      <span class="fl">请输入验证码：<input type="text" style="width:80px;" name="validatecode">  <!----><img width="100" id="yzm" onclick="gai()" src="/index.php/Home/Index/verify"></span><span class="fr"><input type="button" id="savebutton" value="提 交"></span>
 	    </div>
 	  </form>
 	  <div title="评论保存结果" id="dialog"></div><!-- 对话框内容 -->
@@ -150,6 +150,18 @@
    
   </div>
 </div>
+<script src="/Public/houtai/js/jq.js"></script>
+   <script type="text/javascript">
+    <!--
+      function gai(){
+                        //alert(111)
+                        var yzma=document.getElementById("yzm");
+
+                                //jq("#yzm").attr("src","/index.php/index/verify_image");
+                        yzma.src="/index.php/Home/Index/verify";
+        }
+	//-->
+</script>
 <div id="footer">
   <div class="footer_info">
     <p class="fl mar"><!--<img src="/images/footlogo.jpg" />--></p>

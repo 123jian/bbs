@@ -80,8 +80,22 @@ class IndexController extends Controller {
     public function article_show(){
 //echo 123;die;
         //print_r($_GET);//die;
-        $article=M('articles');
-        $list = $article->where('id='.$_GET['id'])->find();
+		$id=$_GET['id'];
+        
+		//memcache缓存
+		//$mem = new Memcache;
+		//$mem->connect("192.168.1.219","11211");
+		/*if(S(md5($id)){
+			echo "memcache";
+			$list=S(md5($id));
+		}else{
+			echo "数据库";*/
+			$article=M('articles');
+			$list = $article->where('id='.$_GET['id'])->find();
+		//	$mem->set(md5($id),$list,0,5);
+		//	S(md5($id),$list,5);
+		//}
+
         //print_r($list);die;
         $this->assign('list',$list);
         $this->display();
@@ -213,6 +227,12 @@ class IndexController extends Controller {
             echo "<script>alert('修改失败');location.href=history.go(-1);</script>";
         }
     }
-    
+	public function verify(){
+		$Verify =     new \Think\Verify();
+		$Verify->fontSize = 20;
+		$Verify->length   = 4;
+		$Verify->useNoise = false;
+		$Verify->entry();
+    }
 
 }
