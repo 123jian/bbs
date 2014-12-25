@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/Public/css/public.css" />
-	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Public/js/public.js"></script>	
+	<link rel="stylesheet" href="/Tp3.2/bbs/Public/css/public.css" />
+	<script type="text/javascript" src="/Tp3.2/bbs/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Tp3.2/bbs/Public/js/public.js"></script>	
 </head>
 <body>
 	<table class="table">
@@ -27,8 +27,8 @@
 			<td><?php echo $v['k_time']?></td>
 			<td>
 				<a href="">[置顶]</a>
-				<a href="/index.php/Admin/Peixun/updcourse/id/<?php echo $v['k_id'];?>">[编辑]</a>
-				<a href="/index.php/Admin/Peixun/delcourse/id/<?php echo $v['k_id'];?>" class="del">[删除]</a>
+				<a href="/Tp3.2/bbs/index.php/Admin/Peixun/updcourse/id/<?php echo $v['k_id'];?>">[编辑]</a>
+				<a href="/Tp3.2/bbs/index.php/Admin/Peixun/delcourse/id/<?php echo $v['k_id'];?>" class="del">[删除]</a>
 			</td>
 		</tr>
             <?php } ?>
