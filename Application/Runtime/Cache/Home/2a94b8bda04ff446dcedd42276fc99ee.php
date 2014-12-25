@@ -5,13 +5,13 @@
 <meta name="keywords" content="php培训,php教程,php视频,php下载,php视频教程" />
 <meta name="description" content="php培训的龙头老大,口碑最好的php培训机构,进来看看同学们的呐喊，就会知道我们是个怎么样的学校,问天下php培训机构谁与争锋?php培训课程内容包含目前最流行的zendframework、thinkphp框架、ECShop、dedecms等产品的二次开发" />
 <title>传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校</title>
-<link href="/Tp3.2/bbs/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
-<link href="/Tp3.2/bbs/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/css.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/nav_main.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/imageswitch.css" type="text/css" rel="stylesheet" />
+<link href="/Public/shouye/css/webim.css" type="text/css" rel="stylesheet" />
 <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" /> 
-<script type="text/javascript" src="/Tp3.2/bbs/Public/shouye/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs/Public/shouye/js/imageschange.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Public/shouye/js/imageschange.js"></script>
 <script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
 <script type="text/javascript" id="bdshell_js"></script>
 
@@ -24,16 +24,16 @@
 
 	<p class="fr">
             <?php if(empty($_SESSION['name'])){?>
-            <a href="/Tp3.2/bbs/index.php/home/index/login">登录注册</a>
+            <a href="/index.php/home/index/login">登录注册</a>
             <?php }else{ ?>
-            <span color='red'><?php echo $_SESSION['name']?><a href="/Tp3.2/bbs/index.php/home/index/loginout">退出</a></span>
+            <span color='red'><?php echo $_SESSION['name']?><a href="/index.php/home/index/loginout">退出</a></span>
             <?php }?>
      </p>
 </div>
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Tp3.2/bbs/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.bbs.com/bbs/index.php"><img src="/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -46,14 +46,14 @@
 <p><a href="http://xa.itcast.cn" target="_blank">西安校区</a></p>
 <!-- 校区 --> 
 		</div>
-		<p class="fr"><img src="/Tp3.2/bbs/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
+		<p class="fr"><img src="/Public/shouye/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
 	<ul id="nav">
 <?php foreach($nav as $key => $val){?>
-	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
+	<li nid="nav_life" width="15%"><a href="/index.php/<?php echo $val['nav_url']?>" id="nav_main"><?php echo $val['nav_name']?></a></li>
 <?php }?>
-	<li nid="nav_life" width="15%"><a href="/Tp3.2/bbs/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
+	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
 	</body>
@@ -65,15 +65,15 @@ class="bds_tqq">腾讯微博</A><A class="bds_tsina">新浪微博</A><A
 class="bds_tieba">百度贴吧</A><A class="shareCount"></A></DIV><!-- Baidu share END 需在页面底部添加baidushare.js -->
 <DIV 
 style="padding-left: 60px; float: left; _padding-top: 8px;"><B>其它学院入口：</B><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/sanjiao.jpg"> <A href="http://java.itcast.cn/" 
-target="_blank">java学院</A> <IMG src="/Tp3.2/bbs/Public/shouye/images/sanjiao.jpg"> 
-<A href="http://net.itcast.cn/" target="_blank">.net学院</A><IMG src="/Tp3.2/bbs/Public/shouye/images/sanjiao.jpg"> 
-<A href="http://ios.itcast.cn/">ios学院</A> <IMG src="/Tp3.2/bbs/Public/shouye/images/sanjiao.jpg"> 
-<A href="http://c.itcast.cn/">c/c++学院</A><IMG src="/Tp3.2/bbs/Public/shouye/images/sanjiao.jpg"> 
+src="/Public/shouye/images/sanjiao.jpg"> <A href="http://java.itcast.cn/" 
+target="_blank">java学院</A> <IMG src="/Public/shouye/images/sanjiao.jpg"> 
+<A href="http://net.itcast.cn/" target="_blank">.net学院</A><IMG src="/Public/shouye/images/sanjiao.jpg"> 
+<A href="http://ios.itcast.cn/">ios学院</A> <IMG src="/Public/shouye/images/sanjiao.jpg"> 
+<A href="http://c.itcast.cn/">c/c++学院</A><IMG src="/Public/shouye/images/sanjiao.jpg"> 
 <A href="http://icd.itcast.cn/" target="_blank">网页平面设计学院</A></DIV></DIV>
 <DIV style="margin-top: 3px;" id="left" class="fl">
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/lefttop.gif"></DIV>
+src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
 <H4 class="title1"><SPAN style="padding-right: 20px; font-size: 14px; float: right;">今天我终于来到了心中向往已久的神圣学府--传智播客，开始了改变命运的征途</SPAN><SPAN 
 class="STYLE3">我们开学啦</SPAN></H4>
@@ -83,13 +83,13 @@ class="STYLE3">我们开学啦</SPAN></H4>
 <UL id="idSlider2" class="slider slider2">
   <LI><A href="http://php.itcast.cn/subject/phpwzlx/bbs.shtml" 
   target="_blank"><IMG style="width: 297px; height: 216px;" alt="王者来袭--只做中国PHP培训界的领航者!" 
-  src="/Tp3.2/bbs/Public/shouye/images/20140507122631634.jpg"></A></LI>
+  src="/Public/shouye/images/20140507122631634.jpg"></A></LI>
   <LI><A href="http://php.itcast.cn/news/20140904/1456540144.shtml?yuanchao" 
   target="_blank"><IMG style="width: 297px; height: 216px;" alt="【精英访谈】PHP袁超：叛逆少年的成长" 
-  src="/Tp3.2/bbs/Public/shouye/images/20140902180947196.jpg"></A></LI>
+  src="/Public/shouye/images/20140902180947196.jpg"></A></LI>
   <LI><A href="http://php.itcast.cn/subject/phpzly/bbs.html" 
   target="_blank"><IMG style="width: 297px; height: 216px;" alt="学PHP编程,不做孬种程序员" 
-  src="/Tp3.2/bbs/Public/shouye/images/20140528133631480.jpg"></A></LI>
+  src="/Public/shouye/images/20140528133631480.jpg"></A></LI>
 </UL>
 <UL id="idNum2" class="num">
   <LI>1</LI>
@@ -98,17 +98,17 @@ class="STYLE3">我们开学啦</SPAN></H4>
 <DIV class="fr shouye">
     <?php foreach($res as $key =>$val){?>
 <UL>
-  <LI><A href="/Tp3.2/bbs/index.php/home/jiuye/detial/id=<?php echo $val['id']?>""><IMG style="width: 142px; height: 87px;" alt="传智播客php" src="/bbs/upload/<?php echo $val['image']?>"></A></LI>
+  <LI><A href="/index.php/home/jiuye/detial/id=<?php echo $val['id']?>""><IMG style="width: 142px; height: 87px;" alt="传智播客php" src="/Public/shouye/images/<?php echo $val['image']?>"></A></LI>
   <LI><A class="style3" href="http://php.itcast.cn/news/20131128/10173894392.shtml">曹伟-玩酷我的程序人生</A></LI>
 </UL>
     <?php } ?>
 </DIV>
 <DIV></DIV></DIV>
 <DIV class="clear"></DIV>
-<P class="kxsy-font1"><IMG src="/Tp3.2/bbs/Public/shouye/images/kxsy-tu6.jpg"></P><!--  校园消息  -->
+<P class="kxsy-font1"><IMG src="/Public/shouye/images/kxsy-tu6.jpg"></P><!--  校园消息  -->
 <UL class="huodong11">
   <?php foreach($list as $key => $val){?>
-  <LI><IMG src="/Tp3.2/bbs/Public/shouye/images/sanjiao-1.jpg"><A 
+  <LI><IMG src="/Public/shouye/images/sanjiao-1.jpg"><A 
   href="http://php.itcast.cn/news/20141203/14264847561.shtml" 
   target="_blank"><SPAN 
   ><?php echo $val['a_title']?></SPAN></A></LI>
@@ -122,34 +122,34 @@ class="STYLE3">我们开学啦</SPAN></H4>
 --></UL><!--  校园消息  -->
 <DIV class="clear"></DIV>
 <P class="text-r"><A href="http://php.itcast.cn/news/list/48b817de-285d-4981-a85a-ccdb3f42b15b/1.shtml"><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/jiantoumore.gif"></A></P></DIV>
+src="/Public/shouye/images/jiantoumore.gif"></A></P></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/leftbottom.gif"></DIV>
+src="/Public/shouye/images/leftbottom.gif"></DIV>
 <DIV class="clear"></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/lefttop.gif"></DIV>
+src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
 <H4 class="title1"><SPAN class="STYLE3">校园</SPAN>动态</H4>
 <DL class="ganyan1 huodong1">
   <DT class="fl"><A href="http://php.itcast.cn/news/20131117/14525122556.shtml" 
-  target="_blank"><IMG style="width: 286px; height: 215px;" src="/Tp3.2/bbs/Public/shouye/images/20131117151902186.jpg"><BR>
+  target="_blank"><IMG style="width: 286px; height: 215px;" src="/Public/shouye/images/20131117151902186.jpg"><BR>
   		开拓视野，展现自我，“非你莫属”我们来啦！</A></DT>
   <DD class="huodongfr">
   <H3 class="STYLE7">班级活动</H3>
   <UL class="bjhd">
      <?php foreach($list1 as $key => $val){?>
-    <LI><IMG src="/Tp3.2/bbs/Public/shouye/images/great.jpg"><A 
+    <LI><IMG src="/Public/shouye/images/great.jpg"><A 
     href="http://php.itcast.cn/news/20140328/17081824603.shtml" 
     target="_blank"><?php echo $val['a_title']?></A></LI>
     <?php }?>
    </UL></DD></DL>
 <DIV class="clear"></DIV>
-<P class="text-r"><IMG src="/Tp3.2/bbs/Public/shouye/images/jiantoumore.gif"></P></DIV>
+<P class="text-r"><IMG src="/Public/shouye/images/jiantoumore.gif"></P></DIV>
 <DIV class="clear"></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/leftbottom.gif"></DIV>
+src="/Public/shouye/images/leftbottom.gif"></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/lefttop.gif"></DIV>
+src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
 <H4 class="ganyan"><SPAN class="STYLE3">论坛</SPAN>热贴<SPAN class="fr"><A href="http://bbs.itcast.cn/">+MORE</A></SPAN></H4>
 <DIV class="tie">
@@ -157,15 +157,15 @@ src="/Tp3.2/bbs/Public/shouye/images/lefttop.gif"></DIV>
 </DIV>
 <DIV class="clear"></DIV></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/leftbottom.gif"></DIV>
+src="/Public/shouye/images/leftbottom.gif"></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/lefttop.gif"></DIV>
+src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
 <H4 class="ganyan"><SPAN class="fl"><SPAN 
 class="STYLE3">PHP培训</SPAN>学员呐喊</SPAN><SPAN class="fr"><A href="http://php.itcast.cn/php/jyjb.shtml">+MORE</A></SPAN></H4>
 <DL class="ganyan1 huodong1">
   <DT class="fl"><A href="http://php.itcast.cn/news/20130705/14332258802.shtml" 
-  target="_blank"><IMG style="width: 287px; height: 189px;" src="/Tp3.2/bbs/Public/shouye/images/20130705170611718.jpg"></A><BR><A 
+  target="_blank"><IMG style="width: 287px; height: 189px;" src="/Public/shouye/images/20130705170611718.jpg"></A><BR><A 
   href="http://php.itcast.cn/news/20130705/14332258802.shtml" 
   target="_blank">传智播客PHP学院就业明星-张巍</A></DT>
   <DD class="huodongfr">
@@ -173,18 +173,18 @@ class="STYLE3">PHP培训</SPAN>学员呐喊</SPAN><SPAN class="fr"><A href="http
   <UL class="bjhd">
       <?php foreach($list2 as $key => $val){?>
     <LI><IMG 
-    src="/Tp3.2/bbs/Public/shouye/images/great(1).jpg"><A href="/Tp3.2/bbs/index.php/Home/Index/article_show/id/<?php echo $val['id']?>"><?php echo $val['student_name']?> 
+    src="/Public/shouye/images/great(1).jpg"><A href="/index.php/Home/Index/article_show/id/<?php echo $val['id']?>"><?php echo $val['student_name']?> 
     <?php echo $val['job_time']?> &nbsp;<?php echo $val['job_company']?> &nbsp;<?php echo $val['work_money']?></A></LI>
     <?php }?>
     <LI><IMG 
-    src="/Tp3.2/bbs/Public/shouye/images/great(1).jpg"><A href="http://www.bbs.com/bbs/jiuye/index"><FONT 
+    src="/Public/shouye/images/great(1).jpg"><A href="http://www.bbs.com/bbs/jiuye/index"><FONT 
     style="color: red;"><B>&gt;&gt;查看更多就业信息</B></FONT></A></LI></UL></DD></DL>
 <DIV class="clear"></DIV></DIV>
 <DIV class="clear"></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/leftbottom.gif"></DIV>
+src="/Public/shouye/images/leftbottom.gif"></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/lefttop.gif"></DIV>
+src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
 <H4 class="ganyan"><SPAN class="fl"><SPAN class="STYLE3">学员</SPAN>感言</SPAN><SPAN 
 class="fr"><A href="http://php.itcast.cn/news/list/0b8acc29-7202-4e1d-a6db-f6dfd3a639bb/1.shtml">+MORE</A></SPAN></H4>
@@ -192,7 +192,7 @@ class="fr"><A href="http://php.itcast.cn/news/list/0b8acc29-7202-4e1d-a6db-f6dfd
 <DIV class="ganyanleft fl">
 <DL class="ganyan1">
   <DT class="fl"><A href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml"><IMG 
-  style="width: 108px; height: 71px;" alt="" src="/Tp3.2/bbs/Public/shouye/images/xygn03.jpg"></A></DT>
+  style="width: 108px; height: 71px;" alt="" src="/Public/shouye/images/xygn03.jpg"></A></DT>
   <DD class="fr"><SPAN class="STYLE6"><A href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">[php学员]</A></SPAN><A 
   href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">钟玲玉：传智，我人生中重要的一站</A></DD>
 </DL>
@@ -209,7 +209,7 @@ class="fr"><A href="http://php.itcast.cn/news/list/0b8acc29-7202-4e1d-a6db-f6dfd
 <DL class="ganyan1">
   <DT class="fl"><A 
   href="http://php.itcast.cn/news/20120913/11580550824.shtml"><IMG style="width: 108px; height: 71px;" 
-  alt="" src="/Tp3.2/bbs/Public/shouye/images/20130812133704044.jpg"></A></DT>
+  alt="" src="/Public/shouye/images/20130812133704044.jpg"></A></DT>
   <DD class="fr"><SPAN class="STYLE6"><A href="http://php.itcast.cn/news/20120913/11580550824.shtml">[php学员]</A></SPAN><A 
   href="http://php.itcast.cn/news/20120913/11580550824.shtml">王艳：美女网编,毕业薪水6500</A></DD>
 </DL>
@@ -223,30 +223,30 @@ class="fr"><A href="http://php.itcast.cn/news/list/0b8acc29-7202-4e1d-a6db-f6dfd
   style="color: red;"><B>&gt;&gt;查看更多学员感言</B></FONT></A></LI></UL></DIV></DIV><BR>
 <DIV class="clear"></DIV></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/leftbottom.gif"></DIV>
+src="/Public/shouye/images/leftbottom.gif"></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/lefttop.gif"></DIV>
+src="/Public/shouye/images/lefttop.gif"></DIV>
 <DIV class="left_content2">
 <H4 class="ganyan"><SPAN class="fl"><SPAN 
 class="STYLE3">PHP培训</SPAN>名师答疑</SPAN><SPAN class="fr"><A href="http://php.itcast.cn/news/list/cba8c58c-b2d4-4f48-bf64-a10b59fb2666/1.shtml">+MORE</A></SPAN></H4>
 <DIV class="msdy">
-<DIV class="msdy-left"><IMG src="/Tp3.2/bbs/Public/shouye/images/wenhao-1.jpg"></DIV>
+<DIV class="msdy-left"><IMG src="/Public/shouye/images/wenhao-1.jpg"></DIV>
 <DIV class="msdy-right">
 <UL>
     <?php foreach($list3 as $key =>$val){?>
-  <LI><A href="/Tp3.2/bbs/index.php/home/question1/qq/id/<?php echo $val['q_id']?>"><?php echo $val['q_wenti']?></A></LI>
+  <LI><A href="/index.php/home/question1/qq/id/<?php echo $val['q_id']?>"><?php echo $val['q_wenti']?></A></LI>
  <?php } ?>
 </UL>
 <UL>
     <?php foreach($list4 as $key =>$val){?>
   <LI><A 
-  href="/Tp3.2/bbs/index.php/home/question1/qq/id/<?php echo $val['q_id']?>"><?php echo $val['q_wenti']?></A></LI>
+  href="/index.php/home/question1/qq/id/<?php echo $val['q_id']?>"><?php echo $val['q_wenti']?></A></LI>
   <?php }?>
   <LI><A href="http://www.bbs.com/bbs/question1/index"><FONT 
   style="color: red;"><B>&gt;&gt;查看更多答疑信息</B></FONT></A></LI></UL></DIV><BR></DIV>
 <DIV class="clear"></DIV></DIV>
 <DIV><IMG 
-src="/Tp3.2/bbs/Public/shouye/images/leftbottom.gif"></DIV>
+src="/Public/shouye/images/leftbottom.gif"></DIV>
 <DIV></DIV></DIV>
 
 
@@ -268,10 +268,10 @@ class="fl">PHP培训开班信息</SPAN></H4>
  </UL>
  <?php } ?>
 </DIV>
-<DIV class="rightbottom"><IMG src="/Tp3.2/bbs/Public/shouye/images/rightbottom.jpg"></DIV>
+<DIV class="rightbottom"><IMG src="/Public/shouye/images/rightbottom.jpg"></DIV>
 <H4 class="righttitle1 zhaopin"><SPAN class="blue">最新</SPAN>企业招聘</H4>
 <DIV class="rightkuang1">
-<P class="cent"> <IMG src="/Tp3.2/bbs/Public/shouye/images/select.jpg" 
+<P class="cent"> <IMG src="/Public/shouye/images/select.jpg" 
 width="256" height="66"></P>
 <TABLE style="margin-top: 5px;" class="zhaopinlist" border="0" cellSpacing="0" 
 cellPadding="0" width="98%" height="124">
@@ -348,14 +348,14 @@ cellPadding="0" width="98%" height="124">
       target="_blank"><SPAN style="color: rgb(255, 0, 0);">更多</SPAN></A></TD></TR>
   <TR></TR></TBODY></TABLE>
 <DIV class="clear"></DIV></DIV>
-<DIV class="rightbottom"><IMG src="/Tp3.2/bbs/Public/shouye/images/bottom1.gif"></DIV>
+<DIV class="rightbottom"><IMG src="/Public/shouye/images/bottom1.gif"></DIV>
 <H4 style="margin-top: 3px;" class="righttitle1 zhaopin"><SPAN 
 class="blue">常见</SPAN>问题</H4>
 <DIV style="padding-top: 18px;" class="rightkuang1">
 <UL class="title4">
   <UL class="zhaopinlist wenti">
   <?php foreach($list7 as $k=>$v){?>
-	<li><a href="/Tp3.2/bbs/index.php/Home/Index/qq/id/<?php echo $v['q_id']?>" target="_blank"><?php echo $v['q_wenti']?></a></li>
+	<li><a href="/index.php/Home/Index/qq/id/<?php echo $v['q_id']?>" target="_blank"><?php echo $v['q_wenti']?></a></li>
 	<?php } ?>
     
    </UL></UL>
@@ -363,15 +363,15 @@ class="blue">常见</SPAN>问题</H4>
 				<ul class="links">
 <ul>
 <?php foreach($list8 as $k=>$v1) {?>
-<li><a href="/Tp3.2/bbs/index.php/Home/Index/qq/id/<?php echo $v['q_id']?>" target="_blank"><?php echo $v1['q_wenti'];?></a></li>
+<li><a href="/index.php/Home/Index/qq/id/<?php echo $v['q_id']?>" target="_blank"><?php echo $v1['q_wenti'];?></a></li>
 <?php } ?>
 </ul>
 
 			    </ul>
 <DIV class="clear"></DIV>
 <P class="text-r"><A href="http://php.itcast.cn/php/question.shtml"><IMG border="0" 
-src="/Tp3.2/bbs/Public/shouye/images/jiantoumore.gif"></A></P></DIV>
-<DIV class="rightbottom"><IMG src="/Tp3.2/bbs/Public/shouye/images/bottom1.gif"></DIV>
+src="/Public/shouye/images/jiantoumore.gif"></A></P></DIV>
+<DIV class="rightbottom"><IMG src="/Public/shouye/images/bottom1.gif"></DIV>
 <H4 class="righttitle1 lianxi"><SPAN class="fl"><SPAN 
 class="blue">课程</SPAN>咨询</SPAN></H4>
 <DIV class="rightkuang">
@@ -415,12 +415,12 @@ class="blue">课程</SPAN>咨询</SPAN></H4>
 		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
 </dl>-->
 <DIV class="clear"></DIV></DIV>
-<DIV class="rightbottom"><IMG src="/Tp3.2/bbs/Public/shouye/images/rightbottom.jpg"></DIV></DIV></DIV>
+<DIV class="rightbottom"><IMG src="/Public/shouye/images/rightbottom.jpg"></DIV></DIV></DIV>
 <DIV class="clear"></DIV><!-- 友情链接 -->
 <DIV class="content">
 <DIV class="friendlink_con">
 <DIV class="friendlink">
-<DIV class="friendlink_style01"><IMG src="/Tp3.2/bbs/Public/shouye/images/youqin.jpg" 
+<DIV class="friendlink_style01"><IMG src="/Public/shouye/images/youqin.jpg" 
 width="37" height="87"></DIV>
 <DIV class="friendlink_style03">
 <UL>
