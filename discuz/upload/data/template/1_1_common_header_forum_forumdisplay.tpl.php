@@ -1,8 +1,8 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_common.htm', 1419474242, '1', './data/template/1_1_common_header_forum_forumdisplay.tpl.php', './template/default', 'common/header_forum_forumdisplay')
-|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_qmenu.htm', 1419474242, '1', './data/template/1_1_common_header_forum_forumdisplay.tpl.php', './template/default', 'common/header_forum_forumdisplay')
-|| checktplrefresh('./template/default/common/header.htm', './template/default/common/pubsearchform.htm', 1419474242, '1', './data/template/1_1_common_header_forum_forumdisplay.tpl.php', './template/default', 'common/header_forum_forumdisplay')
+|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_common.htm', 1419494851, '1', './data/template/1_1_common_header_forum_forumdisplay.tpl.php', './template/default', 'common/header_forum_forumdisplay')
+|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_qmenu.htm', 1419494851, '1', './data/template/1_1_common_header_forum_forumdisplay.tpl.php', './template/default', 'common/header_forum_forumdisplay')
+|| checktplrefresh('./template/default/common/header.htm', './template/default/common/pubsearchform.htm', 1419494851, '1', './data/template/1_1_common_header_forum_forumdisplay.tpl.php', './template/default', 'common/header_forum_forumdisplay')
 ;?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -46,6 +46,8 @@
 
 <body id="nv_<?php echo $_G['basescript'];?>" class="pg_<?php echo CURMODULE;?><?php if($_G['basescript'] === 'portal' && CURMODULE === 'list' && !empty($cat)) { ?> <?php echo $cat['bodycss'];?><?php } ?>" onkeydown="if(event.keyCode==27) return false;">
 <div id="append_parent"></div><div id="ajaxwaitid"></div>
+        
+
 <?php if($_GET['diy'] == 'yes' && check_diy_perm($topic)) { include template('common/header_diy'); } if(check_diy_perm($topic)) { include template('common/header_diynav'); } if(CURMODULE == 'topic' && $topic && empty($topic['useheader']) && check_diy_perm($topic)) { ?>
 <?php echo $diynav;?>
 <?php } if(empty($topic) || $topic['useheader']) { if($_G['setting']['mobile']['allowmobile'] && (!$_G['setting']['cacheindexlife'] && !$_G['setting']['cachethreadon'] || $_G['uid']) && ($_GET['diy'] != 'yes' || !$_GET['inajax']) && ($_G['mobile'] != '' && $_G['cookie']['mobile'] == '' && $_GET['mobile'] != 'no')) { ?>

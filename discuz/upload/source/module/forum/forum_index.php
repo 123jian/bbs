@@ -12,7 +12,6 @@ if(!defined('IN_DISCUZ')) {
 }
 
 require_once libfile('function/forumlist');
-
 $gid = intval(getgpc('gid'));
 $showoldetails = get_index_online_details();
 
