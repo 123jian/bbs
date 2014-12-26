@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/Tp3.2/bbs/Public/houtai/css/public.css" />
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/houtai/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/houtai/js/public.js"></script>	
+	<link rel="stylesheet" href="/Public/houtai/css/public.css" />
+	<script type="text/javascript" src="/Public/houtai/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Public/houtai/js/public.js"></script>	
 </head>
 <body>
 	<table class="table">
@@ -26,8 +26,8 @@
 			<td><a href=""><?php echo $val['c_title']?></a></td>
 			<td><?php echo $val['a_time']?></td>
 			<td>
-				<a href="/Tp3.2/bbs/index.php/Admin/Index/edit_article_show/id/<?php echo $val['id']?>">[编辑]</a>
-                                <a href="/Tp3.2/bbs/index.php/Admin/Index/article_delete/c_id/<?php echo $val['id']?>" class="del">[删除]</a>
+				<a href="/index.php/Admin/Index/edit_article_show/id/<?php echo $val['id']?>">[编辑]</a>
+                                <a href="/index.php/Admin/Index/article_delete/c_id/<?php echo $val['id']?>" class="del">[删除]</a>
 			</td>
 		</tr>
             <?php }?>

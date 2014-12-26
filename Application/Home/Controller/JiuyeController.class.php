@@ -50,12 +50,12 @@ class JiuyeController extends Controller {
         $this->display();
     }
 	public function search(){
-        $Jiuye = M("jiuye");
+        $Jiuye = M("bbs_jiuye");
         $student_name = $_POST['student_name'];
         $school_name = $_POST['school_name'];
 		include('/sphinxapi.php');
 		$sphinx = new \SphinxClient();
-		/* 谁用改谁IP*/$sphinx->SetServer("192.168.1.220",9312);
+		/* 谁用改谁IP*/$sphinx->SetServer("127.0.0.1",9312);
 		$sphinx->SetMatchMode(SPH_MATCH_ANY);
 		$result = $sphinx->query($student_name,"*");
 		//var_dump($result);die;
@@ -69,9 +69,9 @@ class JiuyeController extends Controller {
         }
         if(!empty($school_name)) {
                 $where .= " and school_name like '%$school_name%'";
-            //$map['school_name'] = array('like',"%{$school_name}%");
+            ////$map['school_name'] = array('like',"%{$school_name}%");
         }
-		$sql="select * from jiuye" . $where;
+		$sql="select * from bbs_jiuye" . $where;
 		//echo $sql;die;
 		$list = $Jiuye->query($sql);
 	//	$list = $Jiuye ->  where($map)-> select();
