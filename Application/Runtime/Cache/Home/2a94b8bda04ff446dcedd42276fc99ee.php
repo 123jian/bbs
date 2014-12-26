@@ -139,7 +139,7 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
   <UL class="bjhd"><!--http://www.bbs.com/index.php/Home/index/article_show?id=<?php echo $val['id']?>-->
      <?php foreach($list1 as $key => $val){?>
     <LI><IMG src="/Public/shouye/images/great.jpg"><A 
-    href="index.php/Home/index/article_show/id/<?php echo $val['id']?>" 
+    href="article_show/id/<?php echo $val['id']?>" 
     target="_blank"><?php echo $val['a_title']?></A></LI>
     <?php }?>
    </UL></DD></DL>

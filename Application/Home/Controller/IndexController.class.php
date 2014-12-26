@@ -97,10 +97,40 @@ class IndexController extends Controller {
 		//}
 
         //print_r($list);die;
+		$com=M("comment");
+		$data = $com->where('a_id='.$_GET['id'])->select();
+		//echo time();die;
+		if($data){
+			$this->assign('data',$data);
+			//print_r($data);die;
+		}
         $this->assign('list',$list);
         $this->display();
     }
-	   //前台用户登录
+	//添加评论
+	public function add_com(){
+		//die;
+		$code=$_POST['code'];
+		$verify = new \Think\Verify();   
+		if($verify->check($code,$id='')){
+			//$this->display('login');
+//print_r($_POST);
+			
+			$com=M("comment");
+			$data['user'] = "游客";
+			$data['content'] = $_POST['content'];
+			$data['add_time'] = time();
+			$data['a_id'] = $_POST['pid'];
+			if($com->add($data)){
+				$this->success('评论成功', 'article_show/id/'.$_POST['pid']);
+			}else{
+				$this->success('添加失败', 'article_show/id/'.$_POST['pid']);
+			}
+
+		}else{
+			$this->success('验证码错误，重新输入', 'article_show/id/'.$_POST['pid']);
+		}
+	}
 
     //前台用户登录
 
