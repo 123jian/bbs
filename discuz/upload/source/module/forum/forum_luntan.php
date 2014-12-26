@@ -128,9 +128,9 @@ if(empty($gid) && empty($_G['member']['accessmasks']) && empty($showoldetails)) 
 	if(defined('FORUM_INDEX_PAGE_MEMORY') && FORUM_INDEX_PAGE_MEMORY) {
 		categorycollapse();
 		if(!defined('IN_ARCHIVER')) {
-			include template('diy:forum/discuz');
+			include template('diy:forum/discuz_luntan');
 		} else {
-			include loadarchiver('forum/discuz');
+			include loadarchiver('forum/discuz_luntan');
 		}
 		dexit();
 	}
@@ -406,7 +406,7 @@ if(!$gid && (!defined('FORUM_INDEX_PAGE_MEMORY') || !FORUM_INDEX_PAGE_MEMORY)) {
 
 
 if(defined('IN_ARCHIVER')) {
-	include loadarchiver('forum/discuz');
+	include loadarchiver('forum/discuz_luntan');
 	exit();
 }
 categorycollapse();
@@ -499,7 +499,7 @@ function do_forum_bind_domains() {
 	if($_G['setting']['binddomains'] && $_G['setting']['forumdomains']) {
 		$loadforum = isset($_G['setting']['binddomains'][$_SERVER['HTTP_HOST']]) ? max(0, intval($_G['setting']['binddomains'][$_SERVER['HTTP_HOST']])) : 0;
 		if($loadforum) {
-			dheader('Location: '.$_G['setting']['siteurl'].'/forum.php?mod=forumdisplay&fid='.$loadforum);
+			dheader('Location: '.$_G['setting']['siteurl'].'/luntan.php?mod=forumdisplay&fid='.$loadforum);
 		}
 	}
 }
