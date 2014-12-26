@@ -531,13 +531,4 @@ function categorycollapse() {
 }
 
 
-
-//discuz二次开发
-$discuz=C::app();
-$discuz->init();
-$data = DB::fetch_all('SELECT * FROM %t order by dateline desc limit 10', array('forum_post'));
-//var_dump($data);
-foreach($data as $key=>$val) {
-    $data[$key]['time']=date('Y-m-d H:i:s',$val['dateline']);
-}
 ?>
