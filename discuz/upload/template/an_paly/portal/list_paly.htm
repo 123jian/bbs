@@ -1,0 +1,115 @@
+<!--{subtemplate common/header}-->
+<!--[name]list_play[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp"> 
+    <!--[diy=diy1]-->
+    <div id="diy1" class="area"></div>
+    <!--[/diy]--> 
+</div>
+<div id="body" class="newry_list wp cl">
+    <div id="xh_content" class="left w620">
+        <div class="list_border">
+            <div id="pt" class="bm cl">
+                <div class="z"> <a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em> <a href="$_G[setting][navs][1][filename]">{lang portal}</a> <em>&rsaquo;</em> 
+                    <!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}--> 
+                    $cat[catname] </div>
+            </div>
+        </div>
+        <!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}--> 
+        <!--[diy=listcontenttop]-->
+        <div id="listcontenttop" class="area"></div>
+        <!--[/diy]-->
+        <div class="pla_list_box">
+            <div class="xld"> 
+                <!--{loop $list['list'] $value}--> 
+                <!--{eval $highlight = article_title_style($value);}-->
+                <dl class="bbda list_bbda cl">
+                    <!--{if $value[pic]}-->
+                    <div class="atc"><a href="portal.php?mod=view&aid=$value[aid]" target="_blank"><img src="$value[pic]" alt="$value[title]" class="tn" /></a></div>
+                    <!--{/if}-->
+                    <dt><a href="portal.php?mod=view&aid=$value[aid]" target="_blank" class="list_tit" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></dt>
+                    <dd> 
+                        <!--{if $value[catname] && $cat[subs]}-->{lang category}:
+                        <label><a href="{echo getportalcategoryurl($value[catid]);}" class="xi2">$value[catname]</a></label>
+                        &nbsp;&nbsp;<!--{/if}--> 
+                        <span class="xg1"> $value[dateline]</span> 
+                        <!--{if $_G['group']['allowmanagearticle'] || ($_G['group']['allowpostarticle'] && $value['uid'] == $_G['uid'] && (empty($_G['group']['allowpostarticlemod']) || $_G['group']['allowpostarticlemod'] && $value['status'] == 1)) || $categoryperm[$value['catid']]['allowmanage']}--> 
+                        <span class="xg1"> <span class="pipe">|</span>
+                        <label><a href="portal.php?mod=portalcp&ac=article&op=edit&aid=$value[aid]">{lang edit}</a></label>
+                        <span class="pipe">|</span>
+                        <label><a href="portal.php?mod=portalcp&ac=article&op=delete&aid=$value[aid]" id="article_delete_$value[aid]" onclick="showWindow(this.id, this.href, 'get', 0);">{lang delete}</a></label>
+                        </span> 
+                        <!--{/if}--> 
+                    </dd>
+                    <dd class="xs2 cl"> $value[summary] </dd>
+                </dl>
+                <!--{/loop}--> 
+            </div>
+        </div>
+        <!--[diy=listloopbottom]-->
+        <div id="listloopbottom" class="area"></div>
+        <!--[/diy]--> 
+        <!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}--> 
+        <!--{if $list['multi']}-->
+        <div class="pgs cl">{$list['multi']}</div>
+        <!--{/if}--> 
+        
+        <!--[diy=diycontentbottom]-->
+        <div id="diycontentbottom" class="area"></div>
+        <!--[/diy]--> 
+    </div>
+    <div class="right w300"> <span class="blank9"></span> 
+        <!--[diy=diy_r1]-->
+        <div id="diy_r1" class="area"></div>
+        <!--[/diy]--> 
+        
+        <span class="blank15"></span>
+        <div class="border-top-bold"></div>
+        <div class="cool-pro border-three plr10"> 
+            <!--[diy=diy12]-->
+            <div id="diy12" class="area"></div>
+            <!--[/diy]--> 
+            <span class="blank9"></span> </div>
+        <span class="blank20"></span>
+        <div id="guess" class="guess border-top-bold"> 
+            <!--[diy=diy7]-->
+            <div id="diy7" class="area"></div>
+            <!--[/diy]--> 
+        </div>
+        <span class="blank15"></span> <span class="blank15"></span>
+
+        <div class="col-special border-top-bold"> 
+            <!--[diy=diy6]-->
+            <div id="diy6" class="area"></div>
+            <!--[/diy]--> 
+            <div class="plr10 contribute border-top-solid">
+            <span class="blank20"></span>
+            <a href="portal.php?mod=portalcp&ac=article&catid=">我要投稿</a>
+            <span class="blank20"></span>
+        </div>
+        </div>
+        <span class="blank20"></span>
+        <div id="guess" class="guess border-top-bold"> 
+            <!--[diy=diy8]-->
+            <div id="diy8" class="area"></div>
+            <!--[/diy]--> 
+        </div>
+        
+        <!--[diy=diy13]-->
+        <div id="diy13" class="area"></div>
+        <!--[/diy]--> 
+        
+    </div>
+    <div class="wp mtn"> 
+        <!--[diy=diy3]-->
+        <div id="diy3" class="area"></div>
+        <!--[/diy]--> 
+    </div>
+</div>
+
+<!--{template common/footer}-->
