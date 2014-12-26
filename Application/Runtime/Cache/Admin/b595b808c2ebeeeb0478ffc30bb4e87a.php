@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<title>bbsbendi后台管理首页</title>
+	<title>BBS后台管理首页</title>
 	<link rel="stylesheet" href="/Public/css/admin.css" />
 	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="/Public/js/admin.js"></script>
@@ -13,7 +13,7 @@
 <!-- 头部 -->
 	<div id="top_box">
 		<div id="top">
-			<p id="top_font">bbsbendi后台管理首页 （V1.1）</p>
+			<p id="top_font">BBS|eight后台管理首页 （V1.1）</p>
 		</div>
 		<div class="top_bar">
 			<p class="adm">
@@ -237,6 +237,11 @@
 									<a href="<?php echo U('Admin/Huiyuan/article_huishou_list');?>" class="pos">回收站</a>				        	
 							</li> 
 						</ul>   
+						<ul class="con">
+							<li class="nav_u">
+									<a href="<?php echo U('Admin/Huiyuan/pv');?>" class="pos">查看点击量</a>				        	
+							</li> 
+						</ul> 
 					</div>
 			</div>
 			 <div class="menu_box">

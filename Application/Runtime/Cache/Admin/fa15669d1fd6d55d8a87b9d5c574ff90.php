@@ -1,10 +1,10 @@
 <?php if (!defined('THINK_PATH')) exit();?><canvas id="myChart" width="800" height="300"></canvas>
 <div id="container" style="min-width:800px;height:400px"></div>
 
-<script src="/Tp3.2/bbs2/Public/Chart.js-master/Chart.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/highcharts.js"></script>
-<script type="text/javascript" src="/Tp3.2/bbs2/Public/js/exporting.js"></script>
+<script src="/Public/Chart.js-master/Chart.js"></script>
+<script type="text/javascript" src="/Public/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/Public/js/highcharts.js"></script>
+<script type="text/javascript" src="/Public/js/exporting.js"></script>
 <script>
 var data = {
 
