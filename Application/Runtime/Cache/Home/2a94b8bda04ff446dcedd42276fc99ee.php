@@ -136,12 +136,11 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
   		开拓视野，展现自我，“非你莫属”我们来啦！</A></DT>
   <DD class="huodongfr">
   <H3 class="STYLE7">班级活动</H3>
-  <UL class="bjhd"><!--http://www.bbs.com/index.php/Home/index/article_show?id=<?php echo $val['id']?>-->
-     <?php foreach($list1 as $key => $val){?>
-    <LI><IMG src="/Public/shouye/images/great.jpg"><A 
-    href="article_show/id/<?php echo $val['id']?>" 
-    target="_blank"><?php echo $val['a_title']?></A></LI>
-    <?php }?>
+  <UL class="bjhd"><!--http://www.bbs.com/index.php/Home/index/article_show?id=<?php echo $val['id']?>article_show/id/<?php echo $val['id']?>-->
+    <?php if(is_array($list1)): foreach($list1 as $key=>$val): ?><LI><IMG src="/Public/shouye/images/great.jpg"><A 
+    href="<?php echo U('index/article_show',array('id'=>$val['id']));?>" 
+    target="_blank"><?php echo ($val['a_title']); ?></A></LI><?php endforeach; endif; ?>
+	 
    </UL></DD></DL>
 <DIV class="clear"></DIV>
 <P class="text-r"><IMG src="/Public/shouye/images/jiantoumore.gif"></P></DIV>
