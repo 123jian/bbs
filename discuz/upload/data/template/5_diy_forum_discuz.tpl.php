@@ -1,5 +1,5 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('discuz');
-block_get('9,24,23');?><?php include template('common/header'); ?><script src="template/an_paly/style/js/jquery-1.js" type="text/javascript"></script>
+block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script src="template/an_paly/style/js/jquery-1.js" type="text/javascript"></script>
 <script src="template/an_paly/style/js/jquery_pic.js" type="text/javascript"></script>
 <style type="text/css">
 .specials-pic-text, .specials-list li a, .specials-text-bg{ width:220px}
@@ -9,12 +9,99 @@ block_get('9,24,23');?><?php include template('common/header'); ?><script src="t
 
 <?php if(empty($gid)) { ?><?php echo adshow("text/wp a_t");?><?php } ?>
 
-<style id="diy_style" type="text/css">#portal_block_24 {  margin-bottom:20px !important;}</style>
+<style id="diy_style" type="text/css">#portal_block_24 { margin-bottom:20px !important;}</style>
+
 
 
 <?php if(empty($gid)) { ?>
 <div class="wp">
-<!--[diy=diy1]--><div id="diy1" class="area"><div id="framed2q1R8" class="frame move-span cl frame-1"><div id="framed2q1R8_left" class="column frame-1-c"><div id="framed2q1R8_left_temp" class="move-span temp"></div><?php block_display('9');?><div id="pt" class="bm cl">
+<!--[diy=diy1]--><div id="diy1" class="area"><div id="framed2q1R8" class="frame move-span cl frame-1"><div id="framed2q1R8_left" class="column frame-1-c"><div id="framed2q1R8_left_temp" class="move-span temp"></div><?php block_display('9');?></div></div><div id="framez85WVC" class="frame move-span cl frame-1"><div id="framez85WVC_left" class="column frame-1-c"><div id="framez85WVC_left_temp" class="move-span temp"></div><?php block_display('24');?><?php block_display('23');?></div></div><div id="framen29fDU" class="frame move-span cl frame-1-1-1"><div class="title frame-title"><span class="titletext">1-1-1框架</span></div><div id="framen29fDU_left" class="column frame-1-1-1-l"><div id="framen29fDU_left_temp" class="move-span temp"></div><?php block_display('41');?></div><div id="framen29fDU_center" class="column frame-1-1-1-c"><div id="framen29fDU_center_temp" class="move-span temp"></div><?php block_display('42');?><!--杨黎明文章列表start-->		
+<div style="float:left;margin-left:20px;">
+
+<div class="vk_portal_hot_ct shadow_1 "> <!--[diy=diy_vk_portal_hot_ct]--><div class="area" id="diy_vk_portal_hot_ct"><div class=" frame move-span cl frame-1 moving" id="frameje4p91"><div class="column frame-1-c" id="frameje4p91_left"><div class="move-span temp" id="frameje4p91_left_temp"></div><div class="block move-span" id="portal_block_148"><div class="dxb_bc" id="portal_block_148_content"><style type="text/css">
+.module { position: relative;}
+.module em { position:absolute; right:0px;}
+</style>
+
+<div class="module cl xl">
+<ul><li>
+<dl class="cl xld">
+<dt style="height:24px; line-height:26px; overflow:hidden; text-align:center; "><a style="font-size:18px; color:#333;  " target="_blank" title="播妞庆双旦，礼物送不停！" href="http://bbs.itcast.cn/thread-46775-1-1.html">播妞庆双旦，礼物送不停！</a></dt>
+<dd style="height:auto; max-height:48px; overflow:hidden;  line-height:24px; "><span style="font-size:12px; color:#555; ">圣诞节就要来了，相信你还是一个人！没人送苹果好寂寞！来播妞怀里，让你欢喜！ <a style="color:#f60;" target="_blank" title="播妞庆双旦，礼物送不停！" href="http://bbs.itcast.cn/thread-46775-1-1.html"> | 查看全文 </a></span>
+        </dd>
+</dl> 
+<hr class="da">
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> 干货分享 | </a> <a style="font-size:14px;" target="_blank" title="Unity基础入门全套视频教程 2015特供版" href="http://bbs.itcast.cn/thread-44031-1-1.html">Unity基础入门全套视频教程 2015特供版</a>
+<!--
+<em>  </em>
+-->
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-173-1.html"> 学员感言 | </a> <a style="font-size:14px;" target="_blank" title="【.Net】应届生高薪就业的背后，看到第3条我惊呆了！" href="http://bbs.itcast.cn/thread-43095-1-1.html">【.Net】应届生高薪就业的背后，看到第3条我惊呆了！</a>
+<!--
+<em>  </em>
+-->
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-185-1.html"> 热门活动 | </a> <a style="font-size:14px;" target="_blank" title="0924.net就业班项目实战评比暨颁奖典礼" href="http://bbs.itcast.cn/thread-45692-1-1.html">0924.net就业班项目实战评比暨颁奖典礼</a>
+<!--
+<em>  </em>
+-->
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> 干货分享 | </a> <a style="font-size:14px;" target="_blank" title="【史上最强JavaSE笔记】之数组篇" href=" http://bbs.itcast.cn/forum.php?mod=viewthread&amp;tid=39277&amp;fromuid=110341">【史上最强JavaSE笔记】之数组篇</a>
+<!--
+<em>  </em>
+-->
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-209-1.html"> 网页平面作品展示 | </a> <a style="font-size:14px;" target="_blank" title="PS新课程-28期学员作品汇总-精华推荐" href="http://bbs.itcast.cn/thread-38215-1-1.html">PS新课程-28期学员作品汇总-精华推荐</a>
+<!--
+<em>  </em>
+-->
+</li>
+</ul>
+</div>
+</div></div>
+<div class="block move-span" id="portal_block_150"><div class="dxb_bc" id="portal_block_150_content"><div class="portal_block_summary"><hr class="da"></div></div></div><div class="block move-span" id="portal_block_171">
+
+</div>
+</div></div></div><!--[/diy]--></div>
+
+</div>
+</div>
+<!--杨黎明文章列表end-->
+
+<!--杨黎明右侧小龙女start-->
+<div style="float:left;margin-left:30px;margin-top:30px;">
+
+<div class="col_2-3-1_r  col_vk_title ">
+   	<div class="vk_top_post_title_1"> <a target="_blank" href="http://bbs.itcast.cn/forum-185-1.html">  </a> </div>
+
+    	<div class="vk_top_sd "><!--[diy=diy_vk_top_r_2]--><div class="area" id="diy_vk_top_r_2"><div class=" frame move-span cl frame-1" id="framew9CCK1"><div class="column frame-1-c" id="framew9CCK1_left"><div class="move-span temp" id="framew9CCK1_left_temp"></div><div class="block move-span" id="portal_block_152"><div class="dxb_bc" id="portal_block_152_content"><div class="module cl xld"><dl class="cl">
+<dd class="m"><a target="_blank" href="http://bbs.itcast.cn/thread-50796-1-1.html"><img width="120" height="100" alt="从黑帮到Java大神，你有什么要问" src="http://www.bbs.com/upload/2.jpg"></a></dd>
+<dt style=" font-size:14px; font-weight: normal; color:#333; width:290px;" >  <br><a target="_blank" title="从黑帮到Java大神，你有什么要问" href="http://bbs.itcast.cn/thread-50796-1-1.html">从黑帮到Java大神，你有什么要问</a></dt>
+<dd style=" font-size:12px; font-weight: normal; color:#999;">从黑帮老大到Java大神，一路艰辛</dd>
+</dl><dl class="cl">
+<dd class="m"><a target="_blank" href="http://bbs.itcast.cn/thread-46105-1-1.html"><img width="120" height="100" alt="小龙女，你TM是在逗我吗？！" src="http://www.bbs.com/upload/3.jpg"></a></dd>
+<dt style=" font-size:14px; font-weight: normal; color:#333;"><br><a target="_blank" title="小龙女，你TM是在逗我吗？！" href="http://bbs.itcast.cn/thread-46105-1-1.html">小龙女，你TM是在逗我吗？！</a></dt>
+<dd style=" font-size:12px; font-weight: normal; color:#999;">我以为小龙女是这样，没想到。。
+</dd>
+</dl></div>
+</div></div></div></div></div><!--[/diy]--></div>
+
+    	<!--<div class="vk_top_post_pic_edit"> <a class=" " href="#" >  </a> </div>-->
+<!--
+<div class="vk_top_post_list">
+<a href="#" class="left" > 投资理财 </a>
+<a href="#" class="right" > 话费充值 </a>
+</div>
+-->
+</div>
+
+</div>
+<!--杨黎明右侧小龙女end-->
+
+<div id="framen29fDU_right" class="column frame-1-1-1-r"><div id="framen29fDU_right_temp" class="move-span temp"></div></div></div></div><!--[/diy]-->
+</div>
+<?php } ?>
+
+
+
+
+<div id="pt" class="bm cl">
 <?php if(empty($gid) && $announcements) { ?>
 <div class="y">
 <div id="an">
@@ -28,18 +115,12 @@ block_get('9,24,23');?><?php include template('common/header'); ?><script src="t
 <script type="text/javascript">announcement();</script>
 </div>
 <?php } ?>
+
 <div class="z">
 <a href="./" class="nvhm" title="首页"><?php echo $_G['setting']['bbname'];?></a><em>&raquo;</em><a href="forum.php"><?php echo $_G['setting']['navs']['2']['navname'];?></a><?php echo $navigation;?>
 </div>
 <div class="z"><?php if(!empty($_G['setting']['pluginhooks']['index_status_extra'])) echo $_G['setting']['pluginhooks']['index_status_extra'];?></div>
 </div>
-
-
-</div></div><div id="framez85WVC" class="frame move-span cl frame-1"><div id="framez85WVC_left" class="column frame-1-c"><div id="framez85WVC_left_temp" class="move-span temp"></div><?php block_display('24');?><?php block_display('23');?></div></div></div><!--[/diy]-->
-</div>
-<?php } ?>
-
-
 
 
 <div id="ct" class="wp cl<?php if($_G['setting']['forumallowside']) { ?> ct2<?php } ?>">

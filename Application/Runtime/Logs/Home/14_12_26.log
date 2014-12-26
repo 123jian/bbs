@@ -185,3 +185,15 @@ ERR: 非法操作:传智播客PHP学院官网-北京PHP培训_PHP网站开发培
 ERR: 非法操作:传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校_files
 
 >>>>>>> 691f39c3e6c75cedbc859d093c12abb322861863
+[ 2014-12-26T18:57:00+08:00 ] 127.0.0.1 /discuz/upload/static/js/common_postimg.js?Kyz
+ERR: 无法加载控制器:Discuz
+
+[ 2014-12-26T18:57:00+08:00 ] 127.0.0.1 /discuz/upload/static/js/common_postimg.js?Kyz
+ERR: 无法加载控制器:Discuz
+
+[ 2014-12-26T20:32:39+08:00 ] 127.0.0.1 /index.php/home/question1/qq/id/7
+ERR: 无法加载控制器:Question1
+
+[ 2014-12-26T20:32:46+08:00 ] 127.0.0.1 /index.php/Home/Index/qq/id/5
+ERR: 非法操作:qq
+
