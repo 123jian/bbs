@@ -498,3 +498,8 @@
 <?PHP exit;?>	1419599621	admin	1	127.0.0.1	nav	GET={}; POST={};
 <?PHP exit;?>	1419599627	admin	1	127.0.0.1	setting	GET={operation=styles; }; POST={};
 <?PHP exit;?>	1419599629	admin	1	127.0.0.1	styles	GET={}; POST={};
+<?PHP exit;?>	1419599832	admin	1	127.0.0.1	styles	GET={}; POST={};
+<?PHP exit;?>	1419599836	admin	1	127.0.0.1	plugins	GET={}; POST={};
+<?PHP exit;?>	1419599837	admin	1	127.0.0.1	plugins	GET={frames=yes; }; POST={};
+<?PHP exit;?>	1419599837	admin	1	127.0.0.1	plugins	GET={}; POST={};
+<?PHP exit;?>	1419600779	admin	1	127.0.0.1	styles	GET={}; POST={};
