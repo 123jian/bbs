@@ -56,7 +56,7 @@
 	<li nid="nav_life" width="15%"><a href="/discuz/upload/forum.php" id="nav_main" target="_blank">技术论坛</a></li>
 </ul>
 	</div>
-	</body>
+
 <div id="box">
 	<div id="left" class="fl"  style="margin-top:3px;">
 	<div><img src="/Public/images/lefttop.gif"  /></div>
@@ -64,7 +64,7 @@
 			<?php if(is_array($res)): $i = 0; $__LIST__ = $res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="jyjb-11">
                     <ul>
                     <li class="fl jyjb-11-font1" style="height:96px;"><a href="<?php echo U('Jiuye/detial');?>?id=
-<?php echo ($v["id"]); ?>"><img alt="传智播客php培训学院就业学生" src="/bbs/upload/<?php echo ($v["image"]); ?>" style="width: 130px; height: 93px;" 
+<?php echo ($v["id"]); ?>"><img alt="传智播客php培训学院就业学生" src="./upload/<?php echo ($v["image"]); ?>" style="width: 130px; height: 93px;" 
 /></a></li>
                     <li class="fl jyjb-11-font1" style="height:100px;">
                         <span style="color:#000000;">
@@ -315,3 +315,7 @@ size:12px;background-color:#ecf6fd;">
 	<p style="padding-top:10px"><a target="_blank" href="http://webscan.360.cn/index/checkwebsite/url/www.itcast.cn" style="overflow:hidden; margin-right:6px; padding:0;"><img width="124" height="47" src="http://www.itcast.cn/images/360anquan.png"></a><a target="_blank" href="http://t.knet.cn/index_new.jsp" style="overflow:hidden; margin-right:6px; padding:0;"><img width="124" height="47" src="http://www.itcast.cn/images/cx.png"></a><a style="padding:0;" href="http://www.bj.cyberpolice.cn/index.do" target="_blank"><img width="124" height="47" src="http://www.itcast.cn/images/jc.png"></a></p>
   </div>
 </div>
+
+
+
+<body>
