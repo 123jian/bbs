@@ -33,7 +33,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="/index.php"><img src="/Public/shouye/images/logo6.jpg" width='170' height='66' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="/index.php"><img src="/Public/shouye/images/logo6.jpg" width='180' height='95' alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -83,13 +83,13 @@ class="STYLE3">我们开学啦</SPAN></H4>
 <UL id="idSlider2" class="slider slider2">
   <LI><A href="http://php.itcast.cn/subject/phpwzlx/bbs.shtml" 
   target="_blank"><IMG style="width: 297px; height: 216px;" alt="王者来袭--只做中国PHP培训界的领航者!" 
-  src="/Public/shouye/images/20140507122631634.jpg"></A></LI>
+  src="/Public/shouye/images/mmbizgif.gif"></A></LI>
   <LI><A href="http://php.itcast.cn/news/20140904/1456540144.shtml?yuanchao" 
   target="_blank"><IMG style="width: 297px; height: 216px;" alt="【精英访谈】PHP袁超：叛逆少年的成长" 
-  src="/Public/shouye/images/20140902180947196.jpg"></A></LI>
+  src="/Public/shouye/images/mmbizgif2.gif"></A></LI>
   <LI><A href="http://php.itcast.cn/subject/phpzly/bbs.html" 
   target="_blank"><IMG style="width: 297px; height: 216px;" alt="学PHP编程,不做孬种程序员" 
-  src="/Public/shouye/images/20140528133631480.jpg"></A></LI>
+  src="/Public/shouye/images/mmbizgif3.gif"></A></LI>
 </UL>
 <UL id="idNum2" class="num">
   <LI>1</LI>
@@ -98,7 +98,7 @@ class="STYLE3">我们开学啦</SPAN></H4>
 <DIV class="fr shouye">
     <?php foreach($res as $key =>$val){?>
 <UL>
-  <LI><A href="/index.php/home/jiuye/detial/id=<?php echo $val['id']?>""><IMG style="width: 142px; height: 87px;" alt="传智播客php" src="/upload/<?php echo $val['image']?>"></A></LI>
+  <LI><A href="/index.php/home/jiuye/detial/id=<?php echo $val['id']?>"><IMG style="width: 142px; height: 87px;" alt="传智播客php" src="/upload/<?php echo $val['image']?>"></A></LI>
   <LI><A class="style3" href="http://php.itcast.cn/news/20131128/10173894392.shtml">曹伟-玩酷我的程序人生</A></LI>
 </UL>
     <?php } ?>
