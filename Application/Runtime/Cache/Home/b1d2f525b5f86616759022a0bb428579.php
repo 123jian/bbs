@@ -64,7 +64,7 @@
 			<?php if(is_array($res)): $i = 0; $__LIST__ = $res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="jyjb-11">
                     <ul>
                     <li class="fl jyjb-11-font1" style="height:96px;"><a href="<?php echo U('Jiuye/detial');?>?id=
-<?php echo ($v["id"]); ?>"><img alt="传智播客php培训学院就业学生" src="./upload/<?php echo ($v["image"]); ?>" style="width: 130px; height: 93px;" 
+<?php echo ($v["id"]); ?>"><img alt="传智播客php培训学院就业学生" src="/upload/<?php echo ($v["image"]); ?>" style="width: 130px; height: 93px;" 
 /></a></li>
                     <li class="fl jyjb-11-font1" style="height:100px;">
                         <span style="color:#000000;">
