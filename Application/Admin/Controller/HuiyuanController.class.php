@@ -209,6 +209,32 @@ class HuiyuanController extends Controller{
         $this->assign('y',$y);
         $this->display("pv");
     }
+	//接口
+    public function jiekou(){
+		//print_r($_GET);die;
+		$a=$_GET['callback'];
+		$my = $_GET["my"];
+		$page = $_GET["page"];
+		$nonce = $_GET["nonce"];
+		$token = 'http://www.bbs1.com/index.php/Admin/Huiyuan/jiekou';
+		$tmpArr = array($token,$page,$nonce);
+		sort($tmpArr, SORT_STRING);
+		$tmpStr = implode( '|',$tmpArr );
+		$tmpStr = sha1( $tmpStr );
+//print_r($tmpStr);echo 123123;die;
+		if( $tmpStr == $my ){
+			/*$pdo=new PDO('mysql:dbname=bbs;host=192.168.1.217','root','');
+			$pdo->query('set names utf8');
+			$re=$pdo->query("select * from witkey_shop");
+			$arr=$re->fetchall();*/
+			$art = M('article');
+			$data = $art->select();
+			//print_r($data);die;
+			echo $a."(".json_encode($data).")";
+		}else{
+			echo $a."(".json_encode('0').")";
+		}
+    }
 
     
 	/*public function yzm()

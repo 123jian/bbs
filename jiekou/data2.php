@@ -8,23 +8,23 @@ header("content-type:text/html;charset=utf-8");
 //alert($)
 function sear(){
 	$.ajax({
-		url:"http://www.bbs1.com/jiekou/jiekou.php",
+		url:"http://www.bbs1.com/index.php/Admin/Huiyuan/jiekou",
 			dataType:"jsonp",
-			data:{'typeture':'c86a7ee3d8ef0b55ed58e354a836f2b'},
+			data:{'my':'f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e','page':2,'nonce':3},
 			type:'get',
 			jsonp:'callback',
 			//type:"post",
 			success:function(e){
 				//alert(e)
 				if(e!=0){
-					var str='<table><tr><td>id</td><td>描述</td><td>时间戳</td></tr>';
+					var str='<table><tr><td>id</td><td>标题</td><td>时间戳</td></tr>';
 					for(var i in e){
-						str+='<tr>'+'<td>'+e[i].c_id+'</td>'+'<td>'+e[i].c_desc+'</td>'+'<td>'+e[i].c_time+'</td>'+'</tr>';
+						str+='<tr><td>'+e[i].text_id+'</td>'+'<td>'+e[i].text_title+'</td>'+'<td>'+e[i].text_content+'</td></tr>';
 					}
 					str+='</table>';
-					$('#listDiv').html(str);
+					$('#listDiv').html(str);/**/
 				}else{
-					$('#listDiv').html("密钥有错");
+					$('#listDiv').html("密钥错了！！！");
 				}
 				
 			}

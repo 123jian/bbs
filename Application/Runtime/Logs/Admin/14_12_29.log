@@ -1,0 +1,182 @@
+[ 2014-12-29T20:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17008362643041447715_1419856195029&typeture=c86a7ee3d8ef0b551ed58e354a836f2b&_=1419856196493
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=274 WHERE ( pid=29 ) [ RunTime:0.360001s ]
+
+[ 2014-12-29T20:40:55+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17023389789104780045_1419856851871&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419856852484
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+NOTIC: [2] mysql_connect():  E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2014-12-29T20:41:25+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1709009554272941613_1419856884923&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419856885604
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-29T20:52:33+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1703502901547547994_1419857552950&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419857553592
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-29T20:52:52+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17033803780932634697_1419857571554&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419857572159
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-29T20:57:23+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery170018173295819148727_1419857841419&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419857842608
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=289 WHERE ( pid=29 ) [ RunTime:0.170000s ]
+
+[ 2014-12-29T20:57:31+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1701471661854624493_1419857850743&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419857851552
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.020000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=290 WHERE ( pid=29 ) [ RunTime:0.060000s ]
+
+[ 2014-12-29T20:58:23+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1703221565238574381_1419857902523&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419857903150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-29T21:02:08+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17049195252675861945_1419858128084&my=f0aedffc0333fe9b7f984b282c6aad7d35fbd1e&page=2&nonce=3&_=1419858128545
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=291 WHERE ( pid=29 ) [ RunTime:0.070000s ]
+
+[ 2014-12-29T21:05:43+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17018136873873981074_1419858342368&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419858343700
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.060000s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.040000s ]
+
+[ 2014-12-29T21:12:05+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1704602315220831773_1419858720479&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419858721106
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.190000s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.080000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=292 WHERE ( pid=29 ) [ RunTime:0.160000s ]
+
+[ 2014-12-29T21:13:25+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1704602315220831773_1419858720480&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419858804488
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.023002s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=293 WHERE ( pid=29 ) [ RunTime:0.078005s ]
+
+[ 2014-12-29T21:13:32+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1708035380612139826_1419858810940&my=f0aedffc0333fe9b7f98d7d3b5fbd1e&page=2&nonce=3&_=1419858811520
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=294 WHERE ( pid=29 ) [ RunTime:0.423024s ]
+
+[ 2014-12-29T21:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1705667250666162765_1419859068549&my=f0aedffc0333fe9b7f98d7d3b5fbd1e&page=2&nonce=3&_=1419859068982
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.020000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=295 WHERE ( pid=29 ) [ RunTime:0.080000s ]
+
+[ 2014-12-29T21:22:30+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17038891067483368_1419859349431&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419859350019
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=296 WHERE ( pid=29 ) [ RunTime:0.090001s ]
+
+[ 2014-12-29T21:23:02+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17030324471813310394_1419859380915&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419859381967
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.010000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=297 WHERE ( pid=29 ) [ RunTime:0.070000s ]
+
+[ 2014-12-29T21:24:05+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1708293514630371656_1419859444794&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419859445396
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.020000s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.020000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=298 WHERE ( pid=29 ) [ RunTime:0.230000s ]
+
