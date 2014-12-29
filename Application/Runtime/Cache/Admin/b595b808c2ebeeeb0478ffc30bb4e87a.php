@@ -189,11 +189,7 @@
 				        	<a href="<?php echo U('Admin/video/add_video_category');?>" class="pos">添加视频分类</a>
 				        </li> 
 				    </ul>
-                                     <ul class="con">
-				        <li class="nav_u">
-				        	<a href="<?php echo U('Admin/video/category_video_list');?>" class="pos">视频分类列表</a>
-				        </li> 
-				    </ul>
+                    
 					<ul class="con">
 				        <li class="nav_u">
 				        	<a href="<?php echo U('Admin/video/add_video');?>" class="pos">上传视频</a>

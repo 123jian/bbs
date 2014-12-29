@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link rel="stylesheet" href="/Tp3.2/bbs/Public/css/public.css" />
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="/Tp3.2/bbs/Public/js/public.js"></script>	
+	<link rel="stylesheet" href="/Public/css/public.css" />
+	<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/Public/js/public.js"></script>	
 </head>
 <body>
 	<table class="table">
@@ -26,15 +26,15 @@
 			<td align='center' ><?php echo $val['v_title'];?></td>
                         <td align='center' ><?php echo $val['name'];?></td>
 			<td align='center' ><?php echo $val['desc'];?></td>
-			<td align='center' ><img src="/Tp3.2/bbs/Uploads/<?php echo $val['thumb'];?>" width="50" height="50" border="0" alt=""></td>
+			<td align='center' ><img src="/Uploads/<?php echo $val['thumb'];?>" width="50" height="50" border="0" alt=""></td>
 			
 			<td align='center' >
                             <?php if($val['status']==1){?>
-				<a href="/Tp3.2/bbs/index.php/Admin/Video/video_up/id/<?php echo $val['id'];?>/status/<?php echo $val['status'];?>">[不显示]</a>
+				<a href="/index.php/Admin/Video/video_up/id/<?php echo $val['id'];?>/status/<?php echo $val['status'];?>">[不显示]</a>
                             <?php }else{?>
-                                <a href="/Tp3.2/bbs/index.php/Admin/Video/video_up/id/<?php echo $val['id'];?>/status/<?php echo $val['status'];?>">[显示]</a>
+                                <a href="/index.php/Admin/Video/video_up/id/<?php echo $val['id'];?>/status/<?php echo $val['status'];?>">[显示]</a>
                             <?php }?>
-				<a href="/Tp3.2/bbs/index.php/Admin/Video/video_del/id/<?php echo $val['id'];?>" class="del">[删除]</a>
+				<a href="/index.php/Admin/Video/video_del/id/<?php echo $val['id'];?>" class="del">[删除]</a>
 			</td>
 		</tr>
 		<?php }?>
