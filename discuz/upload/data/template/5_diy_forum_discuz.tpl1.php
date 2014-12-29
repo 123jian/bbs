@@ -15,7 +15,7 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 
 <?php if(empty($gid)) { ?>
 <div class="wp">
-<!--[diy=diy1]--><div id="diy1" class="area"><div id="framed2q1R8" class="frame move-span cl frame-1"><div id="framed2q1R8_left" class="column frame-1-c"><div id="framed2q1R8_left_temp" class="move-span temp"></div><?php block_display('9');?></div></div><div id="framez85WVC" class="frame move-span cl frame-1"><div id="framez85WVC_left" class="column frame-1-c"><div id="framez85WVC_left_temp" class="move-span temp"></div><?php block_display('24');?><?php block_display('23');?></div></div><div id="framen29fDU" class="frame move-span cl frame-1-1-1"><div class="title frame-title"><span class="titletext">1-1-1¿ò¼Ü</span></div><div id="framen29fDU_left" class="column frame-1-1-1-l"><div id="framen29fDU_left_temp" class="move-span temp"></div><?php block_display('41');?></div><div id="framen29fDU_center" class="column frame-1-1-1-c"><div id="framen29fDU_center_temp" class="move-span temp"></div><?php block_display('42');?><!--ÑîÀèÃ÷ÎÄÕÂÁĞ±ístart-->		
+<!--[diy=diy1]--><div id="diy1" class="area"><div id="framed2q1R8" class="frame move-span cl frame-1"><div id="framed2q1R8_left" class="column frame-1-c"><div id="framed2q1R8_left_temp" class="move-span temp"></div><?php block_display('9');?></div></div><div id="framez85WVC" class="frame move-span cl frame-1"><div id="framez85WVC_left" class="column frame-1-c"><div id="framez85WVC_left_temp" class="move-span temp"></div><?php block_display('24');?><?php block_display('23');?></div></div><div id="framen29fDU" class="frame move-span cl frame-1-1-1"><div class="title frame-title"><span class="titletext">1-1-1æ¡†æ¶</span></div><div id="framen29fDU_left" class="column frame-1-1-1-l"><div id="framen29fDU_left_temp" class="move-span temp"></div><?php block_display('41');?></div><div id="framen29fDU_center" class="column frame-1-1-1-c"><div id="framen29fDU_center_temp" class="move-span temp"></div><?php block_display('42');?><!--æ¨é»æ˜æ–‡ç« åˆ—è¡¨start-->		
 <div style="float:left;margin-left:20px;">
 
 <div class="vk_portal_hot_ct shadow_1 "> <!--[diy=diy_vk_portal_hot_ct]--><div class="area" id="diy_vk_portal_hot_ct"><div class=" frame move-span cl frame-1 moving" id="frameje4p91"><div class="column frame-1-c" id="frameje4p91_left"><div class="move-span temp" id="frameje4p91_left_temp"></div><div class="block move-span" id="portal_block_148"><div class="dxb_bc" id="portal_block_148_content"><style type="text/css">
@@ -26,8 +26,8 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 <div class="module cl xl">
 <ul><li>
 <dl class="cl xld">
-<dt style="height:24px; line-height:26px; overflow:hidden; text-align:center; "><a style="font-size:18px; color:#333;  " target="_blank" title="²¥æ¤ÇìË«µ©£¬ÀñÎïËÍ²»Í££¡" href="http://bbs.itcast.cn/thread-46775-1-1.html">²¥æ¤ÇìË«µ©£¬ÀñÎïËÍ²»Í££¡</a></dt>
-<dd style="height:auto; max-height:48px; overflow:hidden;  line-height:24px; "><span style="font-size:12px; color:#555; ">Ê¥µ®½Ú¾ÍÒªÀ´ÁË£¬ÏàĞÅÄã»¹ÊÇÒ»¸öÈË£¡Ã»ÈËËÍÆ»¹ûºÃ¼ÅÄ¯£¡À´²¥æ¤»³Àï£¬ÈÃÄã»¶Ï²£¡ <a style="color:#f60;" target="_blank" title="²¥æ¤ÇìË«µ©£¬ÀñÎïËÍ²»Í££¡" href="http://bbs.itcast.cn/thread-46775-1-1.html"> | ²é¿´È«ÎÄ </a></span>
+<dt style="height:24px; line-height:26px; overflow:hidden; text-align:center; "><a style="font-size:18px; color:#333;  " target="_blank" title="æ’­å¦åº†åŒæ—¦ï¼Œç¤¼ç‰©é€ä¸åœï¼" href="http://bbs.itcast.cn/thread-46775-1-1.html">æ’­å¦åº†åŒæ—¦ï¼Œç¤¼ç‰©é€ä¸åœï¼</a></dt>
+<dd style="height:auto; max-height:48px; overflow:hidden;  line-height:24px; "><span style="font-size:12px; color:#555; ">åœ£è¯èŠ‚å°±è¦æ¥äº†ï¼Œç›¸ä¿¡ä½ è¿˜æ˜¯ä¸€ä¸ªäººï¼æ²¡äººé€è‹¹æœå¥½å¯‚å¯ï¼æ¥æ’­å¦æ€€é‡Œï¼Œè®©ä½ æ¬¢å–œï¼ <a style="color:#f60;" target="_blank" title="æ’­å¦åº†åŒæ—¦ï¼Œç¤¼ç‰©é€ä¸åœï¼" href="http://bbs.itcast.cn/thread-46775-1-1.html"> | æŸ¥çœ‹å…¨æ–‡ </a></span>
         </dd>
 </dl> 
 <hr class="da">
@@ -42,26 +42,26 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 	print_r($arr);
 ?>
 
-<li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> ¸É»õ·ÖÏí | </a> <a style="font-size:14px;" target="_blank" title="Unity»ù´¡ÈëÃÅÈ«Ì×ÊÓÆµ½Ì³Ì 2015ÌØ¹©°æ" href="http://bbs.itcast.cn/thread-44031-1-1.html">Unity»ù´¡ÈëÃÅÈ«Ì×ÊÓÆµ½Ì³Ì 2015ÌØ¹©°æ</a>
+<li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> å¹²è´§åˆ†äº« | </a> <a style="font-size:14px;" target="_blank" title="UnityåŸºç¡€å…¥é—¨å…¨å¥—è§†é¢‘æ•™ç¨‹ 2015ç‰¹ä¾›ç‰ˆ" href="http://bbs.itcast.cn/thread-44031-1-1.html">UnityåŸºç¡€å…¥é—¨å…¨å¥—è§†é¢‘æ•™ç¨‹ 2015ç‰¹ä¾›ç‰ˆ</a>
 <!--
 <em>  </em>
 -->
 </li>
 
 
-<li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-173-1.html"> Ñ§Ô±¸ĞÑÔ | </a> <a style="font-size:14px;" target="_blank" title="¡¾.Net¡¿Ó¦½ìÉú¸ßĞ½¾ÍÒµµÄ±³ºó£¬¿´µ½µÚ3ÌõÎÒ¾ª´ôÁË£¡" href="http://bbs.itcast.cn/thread-43095-1-1.html">¡¾.Net¡¿Ó¦½ìÉú¸ßĞ½¾ÍÒµµÄ±³ºó£¬¿´µ½µÚ3ÌõÎÒ¾ª´ôÁË£¡</a>
+<li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-173-1.html"> å­¦å‘˜æ„Ÿè¨€ | </a> <a style="font-size:14px;" target="_blank" title="ã€.Netã€‘åº”å±Šç”Ÿé«˜è–ªå°±ä¸šçš„èƒŒåï¼Œçœ‹åˆ°ç¬¬3æ¡æˆ‘æƒŠå‘†äº†ï¼" href="http://bbs.itcast.cn/thread-43095-1-1.html">ã€.Netã€‘åº”å±Šç”Ÿé«˜è–ªå°±ä¸šçš„èƒŒåï¼Œçœ‹åˆ°ç¬¬3æ¡æˆ‘æƒŠå‘†äº†ï¼</a>
 <!--
 <em>  </em>
 -->
-</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-185-1.html"> ÈÈÃÅ»î¶¯ | </a> <a style="font-size:14px;" target="_blank" title="0924.net¾ÍÒµ°àÏîÄ¿ÊµÕ½ÆÀ±Èôß°ä½±µäÀñ" href="http://bbs.itcast.cn/thread-45692-1-1.html">0924.net¾ÍÒµ°àÏîÄ¿ÊµÕ½ÆÀ±Èôß°ä½±µäÀñ</a>
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-185-1.html"> çƒ­é—¨æ´»åŠ¨ | </a> <a style="font-size:14px;" target="_blank" title="0924.netå°±ä¸šç­é¡¹ç›®å®æˆ˜è¯„æ¯”æš¨é¢å¥–å…¸ç¤¼" href="http://bbs.itcast.cn/thread-45692-1-1.html">0924.netå°±ä¸šç­é¡¹ç›®å®æˆ˜è¯„æ¯”æš¨é¢å¥–å…¸ç¤¼</a>
 <!--
 <em>  </em>
 -->
-</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> ¸É»õ·ÖÏí | </a> <a style="font-size:14px;" target="_blank" title="¡¾Ê·ÉÏ×îÇ¿JavaSE±Ê¼Ç¡¿Ö®Êı×éÆª" href=" http://bbs.itcast.cn/forum.php?mod=viewthread&amp;tid=39277&amp;fromuid=110341">¡¾Ê·ÉÏ×îÇ¿JavaSE±Ê¼Ç¡¿Ö®Êı×éÆª</a>
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> å¹²è´§åˆ†äº« | </a> <a style="font-size:14px;" target="_blank" title="ã€å²ä¸Šæœ€å¼ºJavaSEç¬”è®°ã€‘ä¹‹æ•°ç»„ç¯‡" href=" http://bbs.itcast.cn/forum.php?mod=viewthread&amp;tid=39277&amp;fromuid=110341">ã€å²ä¸Šæœ€å¼ºJavaSEç¬”è®°ã€‘ä¹‹æ•°ç»„ç¯‡</a>
 <!--
 <em>  </em>
 -->
-</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-209-1.html"> ÍøÒ³Æ½Ãæ×÷Æ·Õ¹Ê¾ | </a> <a style="font-size:14px;" target="_blank" title="PSĞÂ¿Î³Ì-28ÆÚÑ§Ô±×÷Æ·»ã×Ü-¾«»ªÍÆ¼ö" href="http://bbs.itcast.cn/thread-38215-1-1.html">PSĞÂ¿Î³Ì-28ÆÚÑ§Ô±×÷Æ·»ã×Ü-¾«»ªÍÆ¼ö</a>
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-209-1.html"> ç½‘é¡µå¹³é¢ä½œå“å±•ç¤º | </a> <a style="font-size:14px;" target="_blank" title="PSæ–°è¯¾ç¨‹-28æœŸå­¦å‘˜ä½œå“æ±‡æ€»-ç²¾åæ¨è" href="http://bbs.itcast.cn/thread-38215-1-1.html">PSæ–°è¯¾ç¨‹-28æœŸå­¦å‘˜ä½œå“æ±‡æ€»-ç²¾åæ¨è</a>
 <!--
 <em>  </em>
 -->
@@ -76,22 +76,22 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 
 </div>
 </div>
-<!--ÑîÀèÃ÷ÎÄÕÂÁĞ±íend-->
+<!--æ¨é»æ˜æ–‡ç« åˆ—è¡¨end-->
 
-<!--ÑîÀèÃ÷ÓÒ²àĞ¡ÁúÅ®start-->
+<!--æ¨é»æ˜å³ä¾§å°é¾™å¥³start-->
 <div style="float:left;margin-left:30px;margin-top:30px;">
 
 <div class="col_2-3-1_r  col_vk_title ">
    	<div class="vk_top_post_title_1"> <a target="_blank" href="http://bbs.itcast.cn/forum-185-1.html">  </a> </div>
 
     	<div class="vk_top_sd "><!--[diy=diy_vk_top_r_2]--><div class="area" id="diy_vk_top_r_2"><div class=" frame move-span cl frame-1" id="framew9CCK1"><div class="column frame-1-c" id="framew9CCK1_left"><div class="move-span temp" id="framew9CCK1_left_temp"></div><div class="block move-span" id="portal_block_152"><div class="dxb_bc" id="portal_block_152_content"><div class="module cl xld"><dl class="cl">
-<dd class="m"><a target="_blank" href="http://bbs.itcast.cn/thread-50796-1-1.html"><img width="120" height="100" alt="´ÓºÚ°ïµ½Java´óÉñ£¬ÄãÓĞÊ²Ã´ÒªÎÊ" src="http://www.bbs.com/upload/2.jpg"></a></dd>
-<dt style=" font-size:14px; font-weight: normal; color:#333; width:290px;" >  <br><a target="_blank" title="´ÓºÚ°ïµ½Java´óÉñ£¬ÄãÓĞÊ²Ã´ÒªÎÊ" href="http://bbs.itcast.cn/thread-50796-1-1.html">´ÓºÚ°ïµ½Java´óÉñ£¬ÄãÓĞÊ²Ã´ÒªÎÊ</a></dt>
-<dd style=" font-size:12px; font-weight: normal; color:#999;">´ÓºÚ°ïÀÏ´óµ½Java´óÉñ£¬Ò»Â·¼èĞÁ</dd>
+<dd class="m"><a target="_blank" href="http://bbs.itcast.cn/thread-50796-1-1.html"><img width="120" height="100" alt="ä»é»‘å¸®åˆ°Javaå¤§ç¥ï¼Œä½ æœ‰ä»€ä¹ˆè¦é—®" src="http://www.bbs.com/upload/2.jpg"></a></dd>
+<dt style=" font-size:14px; font-weight: normal; color:#333; width:290px;" >  <br><a target="_blank" title="ä»é»‘å¸®åˆ°Javaå¤§ç¥ï¼Œä½ æœ‰ä»€ä¹ˆè¦é—®" href="http://bbs.itcast.cn/thread-50796-1-1.html">ä»é»‘å¸®åˆ°Javaå¤§ç¥ï¼Œä½ æœ‰ä»€ä¹ˆè¦é—®</a></dt>
+<dd style=" font-size:12px; font-weight: normal; color:#999;">ä»é»‘å¸®è€å¤§åˆ°Javaå¤§ç¥ï¼Œä¸€è·¯è‰°è¾›</dd>
 </dl><dl class="cl">
-<dd class="m"><a target="_blank" href="http://bbs.itcast.cn/thread-46105-1-1.html"><img width="120" height="100" alt="Ğ¡ÁúÅ®£¬ÄãTMÊÇÔÚ¶ºÎÒÂğ£¿£¡" src="http://www.bbs.com/upload/3.jpg"></a></dd>
-<dt style=" font-size:14px; font-weight: normal; color:#333;"><br><a target="_blank" title="Ğ¡ÁúÅ®£¬ÄãTMÊÇÔÚ¶ºÎÒÂğ£¿£¡" href="http://bbs.itcast.cn/thread-46105-1-1.html">Ğ¡ÁúÅ®£¬ÄãTMÊÇÔÚ¶ºÎÒÂğ£¿£¡</a></dt>
-<dd style=" font-size:12px; font-weight: normal; color:#999;">ÎÒÒÔÎªĞ¡ÁúÅ®ÊÇÕâÑù£¬Ã»Ïëµ½¡£¡£
+<dd class="m"><a target="_blank" href="http://bbs.itcast.cn/thread-46105-1-1.html"><img width="120" height="100" alt="å°é¾™å¥³ï¼Œä½ TMæ˜¯åœ¨é€—æˆ‘å—ï¼Ÿï¼" src="http://www.bbs.com/upload/3.jpg"></a></dd>
+<dt style=" font-size:14px; font-weight: normal; color:#333;"><br><a target="_blank" title="å°é¾™å¥³ï¼Œä½ TMæ˜¯åœ¨é€—æˆ‘å—ï¼Ÿï¼" href="http://bbs.itcast.cn/thread-46105-1-1.html">å°é¾™å¥³ï¼Œä½ TMæ˜¯åœ¨é€—æˆ‘å—ï¼Ÿï¼</a></dt>
+<dd style=" font-size:12px; font-weight: normal; color:#999;">æˆ‘ä»¥ä¸ºå°é¾™å¥³æ˜¯è¿™æ ·ï¼Œæ²¡æƒ³åˆ°ã€‚ã€‚
 </dd>
 </dl></div>
 </div></div></div></div></div><!--[/diy]--></div>
@@ -99,14 +99,14 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
     	<!--<div class="vk_top_post_pic_edit"> <a class=" " href="#" >  </a> </div>-->
 <!--
 <div class="vk_top_post_list">
-<a href="#" class="left" > Í¶×ÊÀí²Æ </a>
-<a href="#" class="right" > »°·Ñ³äÖµ </a>
+<a href="#" class="left" > æŠ•èµ„ç†è´¢ </a>
+<a href="#" class="right" > è¯è´¹å……å€¼ </a>
 </div>
 -->
 </div>
 
 </div>
-<!--ÑîÀèÃ÷ÓÒ²àĞ¡ÁúÅ®end-->
+<!--æ¨é»æ˜å³ä¾§å°é¾™å¥³end-->
 
 <div id="framen29fDU_right" class="column frame-1-1-1-r"><div id="framen29fDU_right_temp" class="move-span temp"></div></div></div></div><!--[/diy]-->
 </div>
@@ -120,7 +120,7 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 <div class="y">
 <div id="an">
 <dl class="cl">
-<dt class="z xw1">¹«¸æ:&nbsp;</dt>
+<dt class="z xw1">å…¬å‘Š:&nbsp;</dt>
 <dd>
 <div id="anc"><ul id="ancl"><?php echo $announcements;?></ul></div>
 </dd>
@@ -131,7 +131,7 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 <?php } ?>
 
 <div class="z">
-<a href="./" class="nvhm" title="Ê×Ò³"><?php echo $_G['setting']['bbname'];?></a><em>&raquo;</em><a href="forum.php"><?php echo $_G['setting']['navs']['2']['navname'];?></a><?php echo $navigation;?>
+<a href="./" class="nvhm" title="é¦–é¡µ"><?php echo $_G['setting']['bbname'];?></a><em>&raquo;</em><a href="forum.php"><?php echo $_G['setting']['navs']['2']['navname'];?></a><?php echo $navigation;?>
 </div>
 <div class="z"><?php if(!empty($_G['setting']['pluginhooks']['index_status_extra'])) echo $_G['setting']['pluginhooks']['index_status_extra'];?></div>
 </div>
@@ -140,10 +140,10 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 <div id="ct" class="wp cl<?php if($_G['setting']['forumallowside']) { ?> ct2<?php } ?>">
 <?php if(empty($gid)) { ?>
 <div id="chart" class="bm bw0 cl">
-<p class="chart z">½ñÈÕ: <em><?php echo $todayposts;?></em><span class="pipe">|</span>×òÈÕ: <em><?php echo $postdata['0'];?></em><span class="pipe">|</span>Ìû×Ó: <em><?php echo $posts;?></em><span class="pipe">|</span>»áÔ±: <em><?php echo $_G['cache']['userstats']['totalmembers'];?></em><?php if($_G['cache']['userstats']['newsetuser']) { ?><span class="pipe">|</span>»¶Ó­ĞÂ»áÔ±: <em><a href="home.php?mod=space&amp;username=<?php echo rawurlencode($_G['cache']['userstats']['newsetuser']); ?>" target="_blank" class="xi2"><?php echo $_G['cache']['userstats']['newsetuser'];?></a></em><?php } ?></p>
+<p class="chart z">ä»Šæ—¥: <em><?php echo $todayposts;?></em><span class="pipe">|</span>æ˜¨æ—¥: <em><?php echo $postdata['0'];?></em><span class="pipe">|</span>å¸–å­: <em><?php echo $posts;?></em><span class="pipe">|</span>ä¼šå‘˜: <em><?php echo $_G['cache']['userstats']['totalmembers'];?></em><?php if($_G['cache']['userstats']['newsetuser']) { ?><span class="pipe">|</span>æ¬¢è¿æ–°ä¼šå‘˜: <em><a href="home.php?mod=space&amp;username=<?php echo rawurlencode($_G['cache']['userstats']['newsetuser']); ?>" target="_blank" class="xi2"><?php echo $_G['cache']['userstats']['newsetuser'];?></a></em><?php } ?></p>
 <div class="y">
 <?php if(!empty($_G['setting']['pluginhooks']['index_nav_extra'])) echo $_G['setting']['pluginhooks']['index_nav_extra'];?>
-<?php if($_G['uid']) { ?><a href="forum.php?mod=guide&amp;view=my" title="ÎÒµÄÌû×Ó" class="xi2">ÎÒµÄÌû×Ó</a><?php } if(!empty($_G['setting']['search']['forum']['status'])) { if($_G['uid']) { ?><span class="pipe">|</span><?php } ?><a href="forum.php?mod=guide&amp;view=new" title="×îĞÂ»Ø¸´" class="xi2">×îĞÂ»Ø¸´</a><?php } ?>
+<?php if($_G['uid']) { ?><a href="forum.php?mod=guide&amp;view=my" title="æˆ‘çš„å¸–å­" class="xi2">æˆ‘çš„å¸–å­</a><?php } if(!empty($_G['setting']['search']['forum']['status'])) { if($_G['uid']) { ?><span class="pipe">|</span><?php } ?><a href="forum.php?mod=guide&amp;view=new" title="æœ€æ–°å›å¤" class="xi2">æœ€æ–°å›å¤</a><?php } ?>
 </div>
 </div>
 <?php } ?>
@@ -158,7 +158,7 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
 <?php if(!$_G['setting']['grid']['gridtype']) { ?>
 <td valign="top" class="category_l1">
 <div class="newimgbox">
-<h4><span class="tit_newimg"></span>×îĞÂÍ¼Æ¬</h4>
+<h4><span class="tit_newimg"></span>æœ€æ–°å›¾ç‰‡</h4>
 <div class="module cl slidebox_grid" style="width:218px">
 <script type="text/javascript">
 var slideSpeed = 5000;
@@ -181,30 +181,30 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php } ?>
 <td valign="top" class="category_l2">
 <div class="subjectbox">
-<h4><span class="tit_subject"></span>×îĞÂÖ÷Ìâ</h4>
+<h4><span class="tit_subject"></span>æœ€æ–°ä¸»é¢˜</h4>
         <ul class="category_newlist">
         <?php if(is_array($grids['newthread'])) foreach($grids['newthread'] as $thread) { ?>        	<?php if(!$thread['forumstick'] && $thread['closed'] > 1 && ($thread['isgroup'] == 1 || $thread['fid'] != $_G['fid'])) { $thread[tid]=$thread[closed];?><?php } ?>
-<li><a href="forum.php?mod=viewthread&amp;tid=<?php echo $thread['tid'];?>&amp;extra=<?php echo $extra;?>"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?> tip="±êÌâ: <strong><?php echo $thread['oldsubject'];?></strong><br/>×÷Õß: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>²é¿´/»Ø¸´: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
+<li><a href="forum.php?mod=viewthread&amp;tid=<?php echo $thread['tid'];?>&amp;extra=<?php echo $extra;?>"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?> tip="æ ‡é¢˜: <strong><?php echo $thread['oldsubject'];?></strong><br/>ä½œè€…: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>æŸ¥çœ‹/å›å¤: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
 <?php } ?>
          </ul>
          </div>
 </td>
 <td valign="top" class="category_l3">
 <div class="replaybox">
-<h4><span class="tit_replay"></span>×îĞÂ»Ø¸´</h4>
+<h4><span class="tit_replay"></span>æœ€æ–°å›å¤</h4>
         <ul class="category_newlist">
         <?php if(is_array($grids['newreply'])) foreach($grids['newreply'] as $thread) { ?>        	<?php if(!$thread['forumstick'] && $thread['closed'] > 1 && ($thread['isgroup'] == 1 || $thread['fid'] != $_G['fid'])) { $thread[tid]=$thread[closed];?><?php } ?>
-<li><a href="forum.php?mod=redirect&amp;tid=<?php echo $thread['tid'];?>&amp;goto=lastpost#lastpost"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?>tip="±êÌâ: <strong><?php echo $thread['oldsubject'];?></strong><br/>×÷Õß: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>²é¿´/»Ø¸´: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
+<li><a href="forum.php?mod=redirect&amp;tid=<?php echo $thread['tid'];?>&amp;goto=lastpost#lastpost"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?>tip="æ ‡é¢˜: <strong><?php echo $thread['oldsubject'];?></strong><br/>ä½œè€…: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>æŸ¥çœ‹/å›å¤: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
 <?php } ?>
          </ul>
          </div>
 </td>
 <td valign="top" class="category_l3">
 <div class="hottiebox">
-<h4><span class="tit_hottie"></span>ÈÈÌû</h4>
+<h4><span class="tit_hottie"></span>çƒ­å¸–</h4>
         <ul class="category_newlist">
         <?php if(is_array($grids['hot'])) foreach($grids['hot'] as $thread) { ?>        	<?php if(!$thread['forumstick'] && $thread['closed'] > 1 && ($thread['isgroup'] == 1 || $thread['fid'] != $_G['fid'])) { $thread[tid]=$thread[closed];?><?php } ?>
-<li><a href="forum.php?mod=viewthread&amp;tid=<?php echo $thread['tid'];?>&amp;extra=<?php echo $extra;?>"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?> tip="±êÌâ: <strong><?php echo $thread['oldsubject'];?></strong><br/>×÷Õß: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>²é¿´/»Ø¸´: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
+<li><a href="forum.php?mod=viewthread&amp;tid=<?php echo $thread['tid'];?>&amp;extra=<?php echo $extra;?>"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?> tip="æ ‡é¢˜: <strong><?php echo $thread['oldsubject'];?></strong><br/>ä½œè€…: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>æŸ¥çœ‹/å›å¤: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
 <?php } ?>
          </ul>
          </div>
@@ -212,9 +212,9 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php if($_G['setting']['grid']['gridtype']) { ?>
 <td valign="top" class="category_l4">
 <div class="goodtiebox">
-<h4><span class="tit_goodtie"></span>¾«»ªÌû×Ó</h4>
+<h4><span class="tit_goodtie"></span>ç²¾åå¸–å­</h4>
 <ul class="category_newlist"><?php if(is_array($grids['digest'])) foreach($grids['digest'] as $thread) { if(!$thread['forumstick'] && $thread['closed'] > 1 && ($thread['isgroup'] == 1 || $thread['fid'] != $_G['fid'])) { $thread[tid]=$thread[closed];?><?php } ?>
-<li><a href="forum.php?mod=viewthread&amp;tid=<?php echo $thread['tid'];?>&amp;extra=<?php echo $extra;?>"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?> tip="±êÌâ: <strong><?php echo $thread['oldsubject'];?></strong><br/>×÷Õß: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>²é¿´/»Ø¸´: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
+<li><a href="forum.php?mod=viewthread&amp;tid=<?php echo $thread['tid'];?>&amp;extra=<?php echo $extra;?>"<?php if($thread['highlight']) { ?> <?php echo $thread['highlight'];?><?php } if($_G['setting']['grid']['showtips']) { ?> tip="æ ‡é¢˜: <strong><?php echo $thread['oldsubject'];?></strong><br/>ä½œè€…: <?php echo $thread['author'];?> (<?php echo $thread['dateline'];?>)<br/>æŸ¥çœ‹/å›å¤: <?php echo $thread['views'];?>/<?php echo $thread['replies'];?>" onmouseover="showTip(this)"<?php } else { ?> title="<?php echo $thread['oldsubject'];?>"<?php } if($_G['setting']['grid']['targetblank']) { ?> target="_blank"<?php } ?>><?php echo $thread['subject'];?></a></li>
 <?php } ?>
  </ul>
  	</div>
@@ -230,7 +230,7 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php if(!empty($_G['cache']['heats']['message'])) { ?>
 <div class="bm">
 <div class="bm_h cl">
-<h2><?php echo $_G['setting']['navs']['2']['navname'];?>ÈÈµã</h2>
+<h2><?php echo $_G['setting']['navs']['2']['navname'];?>çƒ­ç‚¹</h2>
 </div>
 <div class="bm_c cl">
 <div class="heat z"><?php if(is_array($_G['cache']['heats']['message'])) foreach($_G['cache']['heats']['message'] as $data) { ?><dl class="xld">
@@ -252,9 +252,9 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php if(!empty($collectiondata['follows'])) { $forumscount = count($collectiondata['follows']);?><?php $forumcolumns = 4;?><?php $forumcolwidth = (floor(100 / $forumcolumns) - 0.1).'%';?><div class="<?php if($forumcolumns) { ?> flg<?php } ?> cl">
 <div class="bm_h cl">
 <span class="o">
-<img id="category_-1_img" src="<?php echo IMGDIR;?>/<?php echo $collapse['collapseimg_-1'];?>" title="ÊÕÆğ/Õ¹¿ª" alt="ÊÕÆğ/Õ¹¿ª" onclick="toggle_collapse('category_-1');" />
+<img id="category_-1_img" src="<?php echo IMGDIR;?>/<?php echo $collapse['collapseimg_-1'];?>" title="æ”¶èµ·/å±•å¼€" alt="æ”¶èµ·/å±•å¼€" onclick="toggle_collapse('category_-1');" />
 </span>
-<h2><a href="forum.php?mod=collection&amp;op=my">ÎÒ¶©ÔÄµÄ×¨¼­</a></h2>
+<h2><a href="forum.php?mod=collection&amp;op=my">æˆ‘è®¢é˜…çš„ä¸“è¾‘</a></h2>
 </div>
 <div id="category_-1" class="bm_c" style="<?php echo $collapse['category_-1']; ?>">
 <table cellspacing="0" cellpadding="0" class="fl_tb">
@@ -269,14 +269,14 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 </div>
 <dl>
 <dt><a href="forum.php?mod=collection&amp;action=view&amp;ctid=<?php echo $colletion['ctid'];?>"><?php echo $colletion['name'];?></a></dt>
-<dd><em>Ö÷Ìâ: <?php echo dnumber($colletion['threadnum']); ?></em>, <em>ÆÀÂÛ: <?php echo dnumber($colletion['commentnum']); ?></em></dd>
+<dd><em>ä¸»é¢˜: <?php echo dnumber($colletion['threadnum']); ?></em>, <em>è¯„è®º: <?php echo dnumber($colletion['commentnum']); ?></em></dd>
 <dd>
 <?php if($colletion['lastpost']) { if($forumcolumns < 3) { ?>
 <a href="forum.php?mod=redirect&amp;tid=<?php echo $colletion['lastpost'];?>&amp;goto=lastpost#lastpost" class="xi2"><?php echo cutstr($colletion['lastsubject'], 30); ?></a> <cite><?php echo dgmdate($colletion[lastposttime]);?> <?php if($colletion['lastposter']) { ?><?php echo $colletion['lastposter'];?><?php } else { ?><?php echo $_G['setting']['anonymoustext'];?><?php } ?></cite>
 <?php } else { ?>
-<a href="forum.php?mod=redirect&amp;tid=<?php echo $colletion['lastpost'];?>&amp;goto=lastpost#lastpost">×îºó·¢±í: <?php echo dgmdate($colletion[lastposttime]);?></a>
+<a href="forum.php?mod=redirect&amp;tid=<?php echo $colletion['lastpost'];?>&amp;goto=lastpost#lastpost">æœ€åå‘è¡¨: <?php echo dgmdate($colletion[lastposttime]);?></a>
 <?php } } else { ?>
-´ÓÎ´
+ä»æœª
 <?php } ?>
 </dd>
 <?php if(!empty($_G['setting']['pluginhooks']['index_followcollection_extra'][$colletion[ctid]])) echo $_G['setting']['pluginhooks']['index_followcollection_extra'][$colletion[ctid]];?>
@@ -291,9 +291,9 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php } if(empty($gid) && !empty($forum_favlist)) { $forumscount = count($forum_favlist);?><?php $forumcolumns = $forumscount > 3 ? ($forumscount == 4 ? 4 : 5) : 1;?><?php $forumcolwidth = (floor(100 / $forumcolumns) - 0.1).'%';?><div class="<?php if($forumcolumns) { ?> flg<?php } ?> cl">
 <div class="bm_h cl">
 <span class="o">
-<img id="category_0_img" src="<?php echo IMGDIR;?>/<?php echo $collapse['collapseimg_0'];?>" title="ÊÕÆğ/Õ¹¿ª" alt="ÊÕÆğ/Õ¹¿ª" onclick="toggle_collapse('category_0');" />
+<img id="category_0_img" src="<?php echo IMGDIR;?>/<?php echo $collapse['collapseimg_0'];?>" title="æ”¶èµ·/å±•å¼€" alt="æ”¶èµ·/å±•å¼€" onclick="toggle_collapse('category_0');" />
 </span>
-<h2><a href="home.php?mod=space&amp;do=favorite&amp;type=forum">ÎÒÊÕ²ØµÄ°æ¿é</a></h2>
+<h2><a href="home.php?mod=space&amp;do=favorite&amp;type=forum">æˆ‘æ”¶è—çš„ç‰ˆå—</a></h2>
 </div>
 <div id="category_0" class="bm_c" style="<?php echo $collapse['category_0']; ?>">
 <table cellspacing="0" cellpadding="0" class="fl_tb">
@@ -311,19 +311,19 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php } ?>
 </div>
 <dl<?php if(!empty($forum['extra']['iconwidth']) && !empty($forum['icon'])) { ?> style="margin-left: <?php echo $forum['extra']['iconwidth'];?>px;"<?php } ?>>
-<dt><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="½ñÈÕ"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></dt>
-<?php if(empty($forum['redirect'])) { ?><dd><em>Ö÷Ìâ: <?php echo dnumber($forum['threads']); ?></em>, <em>ÌûÊı: <?php echo dnumber($forum['posts']); ?></em></dd><?php } ?>
+<dt><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="ä»Šæ—¥"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></dt>
+<?php if(empty($forum['redirect'])) { ?><dd><em>ä¸»é¢˜: <?php echo dnumber($forum['threads']); ?></em>, <em>å¸–æ•°: <?php echo dnumber($forum['posts']); ?></em></dd><?php } ?>
 <dd>
 <?php if($forum['permission'] == 1) { ?>
-Ë½ÃÜ°æ¿é
+ç§å¯†ç‰ˆå—
 <?php } else { if($forum['redirect']) { ?>
-<a href="<?php echo $forumurl;?>" class="xi2">Á´½Óµ½Íâ²¿µØÖ·</a>
+<a href="<?php echo $forumurl;?>" class="xi2">é“¾æ¥åˆ°å¤–éƒ¨åœ°å€</a>
 <?php } elseif(is_array($forum['lastpost'])) { if($forumcolumns < 3) { ?>
 <a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost" class="xi2"><?php echo cutstr($forum['lastpost']['subject'], 30); ?></a> <cite><?php echo $forum['lastpost']['dateline'];?> <?php if($forum['lastpost']['author']) { ?><?php echo $forum['lastpost']['author'];?><?php } else { ?><?php echo $_G['setting']['anonymoustext'];?><?php } ?></cite>
 <?php } else { ?>
-<a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost">×îºó·¢±í: <?php echo $forum['lastpost']['dateline'];?></a>
+<a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost">æœ€åå‘è¡¨: <?php echo $forum['lastpost']['dateline'];?></a>
 <?php } } else { ?>
-´ÓÎ´
+ä»æœª
 <?php } } ?>
 </dd>
 <?php if(!empty($_G['setting']['pluginhooks']['index_favforum_extra'][$forum[fid]])) echo $_G['setting']['pluginhooks']['index_favforum_extra'][$forum[fid]];?>
@@ -337,8 +337,8 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php } ?>
 </td>
 <td>
-<h2><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="½ñÈÕ"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></h2>
-<?php if($forum['description']) { ?><p class="xg2"><?php echo $forum['description'];?></p><?php } if($forum['subforums']) { ?><p>×Ó°æ¿é: <?php echo $forum['subforums'];?></p><?php } if($forum['moderators']) { ?><p>°æÖ÷: <span class="xi2"><?php echo $forum['moderators'];?></span></p><?php } ?>
+<h2><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="ä»Šæ—¥"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></h2>
+<?php if($forum['description']) { ?><p class="xg2"><?php echo $forum['description'];?></p><?php } if($forum['subforums']) { ?><p>å­ç‰ˆå—: <?php echo $forum['subforums'];?></p><?php } if($forum['moderators']) { ?><p>ç‰ˆä¸»: <span class="xi2"><?php echo $forum['moderators'];?></span></p><?php } ?>
 <?php if(!empty($_G['setting']['pluginhooks']['index_favforum_extra'][$forum[fid]])) echo $_G['setting']['pluginhooks']['index_favforum_extra'][$forum[fid]];?>
 </td>
 <td class="fl_i">
@@ -347,13 +347,13 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <td class="fl_by">
 <div>
 <?php if($forum['permission'] == 1) { ?>
-Ë½ÃÜ°æ¿é
+ç§å¯†ç‰ˆå—
 <?php } else { if($forum['redirect']) { ?>
-<a href="<?php echo $forumurl;?>" class="xi2">Á´½Óµ½Íâ²¿µØÖ·</a>
+<a href="<?php echo $forumurl;?>" class="xi2">é“¾æ¥åˆ°å¤–éƒ¨åœ°å€</a>
 <?php } elseif(is_array($forum['lastpost'])) { ?>
 <a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost" class="xi2"><?php echo cutstr($forum['lastpost']['subject'], 30); ?></a> <cite><?php echo $forum['lastpost']['dateline'];?> <?php if($forum['lastpost']['author']) { ?><?php echo $forum['lastpost']['author'];?><?php } else { ?><?php echo $_G['setting']['anonymoustext'];?><?php } ?></cite>
 <?php } else { ?>
-´ÓÎ´
+ä»æœª
 <?php } } ?>
 </div>
 </td>
@@ -369,9 +369,9 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <div class="<?php if($cat['forumcolumns']) { ?> flg<?php } ?> cl">
 <div class="bm_h cl">
 <span class="o">
-<img id="category_<?php echo $cat['fid'];?>_img" src="<?php echo IMGDIR;?>/<?php echo $cat['collapseimg'];?>" title="ÊÕÆğ/Õ¹¿ª" alt="ÊÕÆğ/Õ¹¿ª" onclick="toggle_collapse('category_<?php echo $cat['fid'];?>');" />
+<img id="category_<?php echo $cat['fid'];?>_img" src="<?php echo IMGDIR;?>/<?php echo $cat['collapseimg'];?>" title="æ”¶èµ·/å±•å¼€" alt="æ”¶èµ·/å±•å¼€" onclick="toggle_collapse('category_<?php echo $cat['fid'];?>');" />
 </span>
-<?php if($cat['moderators']) { ?><span class="y">·ÖÇø°æÖ÷: <?php echo $cat['moderators'];?></span><?php } $caturl = !empty($cat['domain']) && !empty($_G['setting']['domain']['root']['forum']) ? 'http://'.$cat['domain'].'.'.$_G['setting']['domain']['root']['forum'] : '';?><h2><a href="<?php if(!empty($caturl)) { ?><?php echo $caturl;?><?php } else { ?>forum.php?gid=<?php echo $cat['fid'];?><?php } ?>" style="<?php if($cat['extra']['namecolor']) { ?>color: <?php echo $cat['extra']['namecolor'];?>;<?php } ?>"><?php echo $cat['name'];?></a></h2>
+<?php if($cat['moderators']) { ?><span class="y">åˆ†åŒºç‰ˆä¸»: <?php echo $cat['moderators'];?></span><?php } $caturl = !empty($cat['domain']) && !empty($_G['setting']['domain']['root']['forum']) ? 'http://'.$cat['domain'].'.'.$_G['setting']['domain']['root']['forum'] : '';?><h2><a href="<?php if(!empty($caturl)) { ?><?php echo $caturl;?><?php } else { ?>forum.php?gid=<?php echo $cat['fid'];?><?php } ?>" style="<?php if($cat['extra']['namecolor']) { ?>color: <?php echo $cat['extra']['namecolor'];?>;<?php } ?>"><?php echo $cat['name'];?></a></h2>
 </div>
 <div id="category_<?php echo $cat['fid'];?>" class="bm_c" style="<?php echo $collapse['category_'.$cat['fid']]; ?>">
 <table cellspacing="0" cellpadding="0" class="fl_tb">
@@ -389,19 +389,19 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php } ?>
 </div>
 <dl<?php if(!empty($forum['extra']['iconwidth']) && !empty($forum['icon'])) { ?> style="margin-left: <?php echo $forum['extra']['iconwidth'];?>px;"<?php } ?>>
-<dt><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="½ñÈÕ"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></dt>
-<?php if(empty($forum['redirect'])) { ?><dd><em>Ö÷Ìâ: <?php echo dnumber($forum['threads']); ?></em>, <em>ÌûÊı: <?php echo dnumber($forum['posts']); ?></em></dd><?php } ?>
+<dt><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="ä»Šæ—¥"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></dt>
+<?php if(empty($forum['redirect'])) { ?><dd><em>ä¸»é¢˜: <?php echo dnumber($forum['threads']); ?></em>, <em>å¸–æ•°: <?php echo dnumber($forum['posts']); ?></em></dd><?php } ?>
 <dd>
 <?php if($forum['permission'] == 1) { ?>
-Ë½ÃÜ°æ¿é
+ç§å¯†ç‰ˆå—
 <?php } else { if($forum['redirect']) { ?>
-<a href="<?php echo $forumurl;?>" class="xi2">Á´½Óµ½Íâ²¿µØÖ·</a>
+<a href="<?php echo $forumurl;?>" class="xi2">é“¾æ¥åˆ°å¤–éƒ¨åœ°å€</a>
 <?php } elseif(is_array($forum['lastpost'])) { if($cat['forumcolumns'] < 3) { ?>
 <a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost" class="xi2"><?php echo cutstr($forum['lastpost']['subject'], 30); ?></a> <cite><?php echo $forum['lastpost']['dateline'];?> <?php if($forum['lastpost']['author']) { ?><?php echo $forum['lastpost']['author'];?><?php } else { ?><?php echo $_G['setting']['anonymoustext'];?><?php } ?></cite>
 <?php } else { ?>
-<a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost">×îºó·¢±í: <?php echo $forum['lastpost']['dateline'];?></a>
+<a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost">æœ€åå‘è¡¨: <?php echo $forum['lastpost']['dateline'];?></a>
 <?php } } else { ?>
-´ÓÎ´
+ä»æœª
 <?php } } ?>
 </dd>
 <?php if(!empty($_G['setting']['pluginhooks']['index_forum_extra'][$forum[fid]])) echo $_G['setting']['pluginhooks']['index_forum_extra'][$forum[fid]];?>
@@ -416,8 +416,8 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php } ?>
 </td>
 <td>
-<h2><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="½ñÈÕ"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></h2>
-<?php if($forum['description']) { ?><p class="xg2"><?php echo $forum['description'];?></p><?php } if($forum['subforums']) { ?><p>×Ó°æ¿é: <?php echo $forum['subforums'];?></p><?php } if($forum['moderators']) { ?><p>°æÖ÷: <span class="xi2"><?php echo $forum['moderators'];?></span></p><?php } ?>
+<h2><a href="<?php echo $forumurl;?>"<?php if($forum['redirect']) { ?> target="_blank"<?php } if($forum['extra']['namecolor']) { ?> style="color: <?php echo $forum['extra']['namecolor'];?>;"<?php } ?>><?php echo $forum['name'];?></a><?php if($forum['todayposts'] && !$forum['redirect']) { ?><em class="xw0 xi1" title="ä»Šæ—¥"> (<?php echo $forum['todayposts'];?>)</em><?php } ?></h2>
+<?php if($forum['description']) { ?><p class="xg2"><?php echo $forum['description'];?></p><?php } if($forum['subforums']) { ?><p>å­ç‰ˆå—: <?php echo $forum['subforums'];?></p><?php } if($forum['moderators']) { ?><p>ç‰ˆä¸»: <span class="xi2"><?php echo $forum['moderators'];?></span></p><?php } ?>
 <?php if(!empty($_G['setting']['pluginhooks']['index_forum_extra'][$forum[fid]])) echo $_G['setting']['pluginhooks']['index_forum_extra'][$forum[fid]];?>
 </td>
 <td class="fl_i">
@@ -426,13 +426,13 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <td class="fl_by">
 <div>
 <?php if($forum['permission'] == 1) { ?>
-Ë½ÃÜ°æ¿é
+ç§å¯†ç‰ˆå—
 <?php } else { if($forum['redirect']) { ?>
-<a href="<?php echo $forumurl;?>" class="xi2">Á´½Óµ½Íâ²¿µØÖ·</a>
+<a href="<?php echo $forumurl;?>" class="xi2">é“¾æ¥åˆ°å¤–éƒ¨åœ°å€</a>
 <?php } elseif(is_array($forum['lastpost'])) { ?>
 <a href="forum.php?mod=redirect&amp;tid=<?php echo $forum['lastpost']['tid'];?>&amp;goto=lastpost#lastpost" class="xi2"><?php echo cutstr($forum['lastpost']['subject'], 30); ?></a> <cite><?php echo $forum['lastpost']['dateline'];?> <?php if($forum['lastpost']['author']) { ?><?php echo $forum['lastpost']['author'];?><?php } else { ?><?php echo $_G['setting']['anonymoustext'];?><?php } ?></cite>
 <?php } else { ?>
-´ÓÎ´
+ä»æœª
 <?php } } ?>
 </div>
 </td>
@@ -446,9 +446,9 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 </div><?php echo adshow("intercat/bm a_c/$cat[fid]");?><?php } if(!empty($collectiondata['data'])) { $forumscount = count($collectiondata['data']);?><?php $forumcolumns = 4;?><?php $forumcolwidth = (floor(100 / $forumcolumns) - 0.1).'%';?><div class="<?php if($forumcolumns) { ?> flg<?php } ?> cl">
 <div class="bm_h cl">
 <span class="o">
-<img id="category_-2_img" src="<?php echo IMGDIR;?>/<?php echo $collapse['collapseimg_-2'];?>" title="ÊÕÆğ/Õ¹¿ª" alt="ÊÕÆğ/Õ¹¿ª" onclick="toggle_collapse('category_-2');" />
+<img id="category_-2_img" src="<?php echo IMGDIR;?>/<?php echo $collapse['collapseimg_-2'];?>" title="æ”¶èµ·/å±•å¼€" alt="æ”¶èµ·/å±•å¼€" onclick="toggle_collapse('category_-2');" />
 </span>
-<h2><a href="forum.php?mod=collection">ÌÔ×¨¼­ÍÆ¼ö</a></h2>
+<h2><a href="forum.php?mod=collection">æ·˜ä¸“è¾‘æ¨è</a></h2>
 </div>
 <div id="category_-2" class="bm_c" style="<?php echo $collapse['category_-2']; ?>">
 <table cellspacing="0" cellpadding="0" class="fl_tb">
@@ -463,14 +463,14 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 </div>
 <dl>
 <dt><a href="forum.php?mod=collection&amp;action=view&amp;ctid=<?php echo $colletion['ctid'];?>"><?php echo $colletion['name'];?></a></dt>
-<dd><em>Ö÷Ìâ: <?php echo dnumber($colletion['threadnum']); ?></em>, <em>ÆÀÂÛ: <?php echo dnumber($colletion['commentnum']); ?></em></dd>
+<dd><em>ä¸»é¢˜: <?php echo dnumber($colletion['threadnum']); ?></em>, <em>è¯„è®º: <?php echo dnumber($colletion['commentnum']); ?></em></dd>
 <dd>
 <?php if($colletion['lastpost']) { if($forumcolumns < 3) { ?>
 <a href="forum.php?mod=redirect&amp;tid=<?php echo $colletion['lastpost'];?>&amp;goto=lastpost#lastpost" class="xi2"><?php echo cutstr($colletion['lastsubject'], 30); ?></a> <cite><?php echo dgmdate($colletion[lastposttime]);?> <?php if($colletion['lastposter']) { ?><?php echo $colletion['lastposter'];?><?php } else { ?><?php echo $_G['setting']['anonymoustext'];?><?php } ?></cite>
 <?php } else { ?>
-<a href="forum.php?mod=redirect&amp;tid=<?php echo $colletion['lastpost'];?>&amp;goto=lastpost#lastpost">×îºó·¢±í: <?php echo dgmdate($colletion[lastposttime]);?></a>
+<a href="forum.php?mod=redirect&amp;tid=<?php echo $colletion['lastpost'];?>&amp;goto=lastpost#lastpost">æœ€åå‘è¡¨: <?php echo dgmdate($colletion[lastposttime]);?></a>
 <?php } } else { ?>
-´ÓÎ´
+ä»æœª
 <?php } ?>
 </dd>
 <?php if(!empty($_G['setting']['pluginhooks']['index_datacollection_extra'][$colletion[ctid]])) echo $_G['setting']['pluginhooks']['index_datacollection_extra'][$colletion[ctid]];?>
@@ -495,28 +495,28 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <div id="online" class="bm oll">
 <div class="bm_h">
 <?php if($detailstatus) { ?>
-<span class="o"><a href="forum.php?showoldetails=no#online" title="ÊÕÆğ/Õ¹¿ª"><img src="<?php echo IMGDIR;?>/collapsed_no.gif" alt="ÊÕÆğ/Õ¹¿ª" /></a></span>
+<span class="o"><a href="forum.php?showoldetails=no#online" title="æ”¶èµ·/å±•å¼€"><img src="<?php echo IMGDIR;?>/collapsed_no.gif" alt="æ”¶èµ·/å±•å¼€" /></a></span>
 <h3>
-<strong><a href="home.php?mod=space&amp;do=friend&amp;view=online&amp;type=member">ÔÚÏß»áÔ±</a></strong>
-<span class="xs1">- <strong><?php echo $onlinenum;?></strong> ÈËÔÚÏß
-- <strong><?php echo $membercount;?></strong> »áÔ±(<strong><?php echo $invisiblecount;?></strong> ÒşÉí),
-<strong><?php echo $guestcount;?></strong> Î»ÓÎ¿Í
-- ×î¸ß¼ÇÂ¼ÊÇ <strong><?php echo $onlineinfo['0'];?></strong> ÓÚ <strong><?php echo $onlineinfo['1'];?></strong>.</span>
+<strong><a href="home.php?mod=space&amp;do=friend&amp;view=online&amp;type=member">åœ¨çº¿ä¼šå‘˜</a></strong>
+<span class="xs1">- <strong><?php echo $onlinenum;?></strong> äººåœ¨çº¿
+- <strong><?php echo $membercount;?></strong> ä¼šå‘˜(<strong><?php echo $invisiblecount;?></strong> éšèº«),
+<strong><?php echo $guestcount;?></strong> ä½æ¸¸å®¢
+- æœ€é«˜è®°å½•æ˜¯ <strong><?php echo $onlineinfo['0'];?></strong> äº <strong><?php echo $onlineinfo['1'];?></strong>.</span>
 </h3>
 <?php } else { if(empty($_G['setting']['sessionclose'])) { ?>
-<span class="o"><a href="forum.php?showoldetails=yes#online" title="ÊÕÆğ/Õ¹¿ª"><img src="<?php echo IMGDIR;?>/collapsed_yes.gif" alt="ÊÕÆğ/Õ¹¿ª" /></a></span>
+<span class="o"><a href="forum.php?showoldetails=yes#online" title="æ”¶èµ·/å±•å¼€"><img src="<?php echo IMGDIR;?>/collapsed_yes.gif" alt="æ”¶èµ·/å±•å¼€" /></a></span>
 <?php } ?>
 <h3>
 <strong>
 <?php if(!empty($_G['setting']['whosonlinestatus'])) { ?>
-ÔÚÏß»áÔ±
+åœ¨çº¿ä¼šå‘˜
 <?php } else { ?>
-<a href="home.php?mod=space&amp;do=friend&amp;view=online&amp;type=member">ÔÚÏß»áÔ±</a>
+<a href="home.php?mod=space&amp;do=friend&amp;view=online&amp;type=member">åœ¨çº¿ä¼šå‘˜</a>
 <?php } ?>
 </strong>
-<span class="xs1">- ×Ü¼Æ <strong><?php echo $onlinenum;?></strong> ÈËÔÚÏß
-<?php if($membercount) { ?>- <strong><?php echo $membercount;?></strong> »áÔ±,<strong><?php echo $guestcount;?></strong> Î»ÓÎ¿Í<?php } ?>
-- ×î¸ß¼ÇÂ¼ÊÇ <strong><?php echo $onlineinfo['0'];?></strong> ÓÚ <strong><?php echo $onlineinfo['1'];?></strong>.</span>
+<span class="xs1">- æ€»è®¡ <strong><?php echo $onlinenum;?></strong> äººåœ¨çº¿
+<?php if($membercount) { ?>- <strong><?php echo $membercount;?></strong> ä¼šå‘˜,<strong><?php echo $guestcount;?></strong> ä½æ¸¸å®¢<?php } ?>
+- æœ€é«˜è®°å½•æ˜¯ <strong><?php echo $onlineinfo['0'];?></strong> äº <strong><?php echo $onlineinfo['1'];?></strong>.</span>
 </h3>
 <?php } ?>
 </div>
@@ -526,7 +526,7 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php if($detailstatus) { ?>
 <dd class="ptm pbm">
 <ul class="cl">
-<?php if($whosonline) { if(is_array($whosonline)) foreach($whosonline as $key => $online) { ?><li title="Ê±¼ä: <?php echo $online['lastactivity'];?>">
+<?php if($whosonline) { if(is_array($whosonline)) foreach($whosonline as $key => $online) { ?><li title="æ—¶é—´: <?php echo $online['lastactivity'];?>">
 <img src="<?php echo STATICURL;?>image/common/<?php echo $online['icon'];?>" alt="icon" />
 <?php if($online['uid']) { ?>
 <a href="home.php?mod=space&amp;uid=<?php echo $online['uid'];?>"><?php echo $online['username'];?></a>
@@ -535,7 +535,7 @@ slideImgTexts[<?php echo $k; ?>] = '<?php echo $svalue['subject'];?>';<?php $k++
 <?php } ?>
 </li>
 <?php } } else { ?>
-<li style="width: auto">µ±Ç°Ö»ÓĞÓÎ¿Í»òÒşÉí»áÔ±ÔÚÏß</li>
+<li style="width: auto">å½“å‰åªæœ‰æ¸¸å®¢æˆ–éšèº«ä¼šå‘˜åœ¨çº¿</li>
 <?php } ?>
 </ul>
 </dd>

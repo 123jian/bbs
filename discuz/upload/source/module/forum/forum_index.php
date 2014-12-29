@@ -7,6 +7,25 @@
  *      $Id: forum_index.php 34291 2013-12-17 03:47:28Z hypowang $
  */
 
+//论坛首页文章列表
+$discuz=C::app();
+$discuz->init();
+
+$arr = DB::fetch_all('select * from pre_forum_post p,pre_forum_forum f where p.fid=f.fid order by dateline desc limit 4');
+
+foreach ($arr as $key=>$val){
+    $arr[$key]['data']=date('Y-m-d H:i:s',$val['dateline']);
+}
+//查询主题
+$thread = DB::fetch_all('select * from pre_forum_thread t,pre_forum_forum f where t.fid=f.fid order by dateline desc limit 4');
+//var_dump($thread);
+foreach ($thread as $key=>$val){
+    $thread[$key]['data']=date('Y-m-d H:i:s',$val['dateline']);
+}
+
+
+
+
 if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
