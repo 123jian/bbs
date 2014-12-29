@@ -87,7 +87,7 @@
 <ol>
     <?php foreach($list as $k=>$v){?>
     
-<li class="fl" style="width:141px;"><img src="/bbs/upload/<?php echo $v['p_image'];?>" width="100" height="100"></li>
+<li class="fl" style="width:141px;"><img src="/upload/<?php echo $v['p_image'];?>" width="100" height="100"></li>
 <li class="fl jyjb-11-font1" style=" width:470px;"><b class="jyjb-11-font2"><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank"><?php echo $v['p_name']?></a></b>
 <p><?php echo $v['p_content']?></p>
 </li>

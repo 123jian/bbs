@@ -69,7 +69,7 @@
 	<div class="teacher_z" style="height: auto; overflow: hidden">
 		<div class="teacher">
 			<p class="fl">
-				<img alt="" src="/bbs/upload/<?php echo $v['s_image'];?>" style="width: 155px; height: 189px;" />
+				<img alt="" src="/upload/<?php echo $v['s_image'];?>" style="width: 155px; height: 189px;" />
 			</p>
 			<dl class="fr">
 				<dt>
