@@ -31,25 +31,11 @@ block_get('9,24,23,41,42');?><?php include template('common/header'); ?><script 
         </dd>
 </dl> 
 <hr class="da">
-</li>
-<?php
-	mysql_connect("localhost","root","");
-	mysql_query("SET NAMES 'gbk'");
-	mysql_select_db("bbs");
-	$sql="select subject,message from pre_forum_post order by dateline desc limit 4";
-	$res=mysql_query($sql);
-	$arr=mysql_fetch_assoc($res);
-	print_r($arr);
-?>
-
-<li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> 干货分享 | </a> <a style="font-size:14px;" target="_blank" title="Unity基础入门全套视频教程 2015特供版" href="http://bbs.itcast.cn/thread-44031-1-1.html">Unity基础入门全套视频教程 2015特供版</a>
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-181-1.html"> 干货分享 | </a> <a style="font-size:14px;" target="_blank" title="Unity基础入门全套视频教程 2015特供版" href="http://bbs.itcast.cn/thread-44031-1-1.html">Unity基础入门全套视频教程 2015特供版</a>
 <!--
 <em>  </em>
 -->
-</li>
-
-
-<li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-173-1.html"> 学员感言 | </a> <a style="font-size:14px;" target="_blank" title="【.Net】应届生高薪就业的背后，看到第3条我惊呆了！" href="http://bbs.itcast.cn/thread-43095-1-1.html">【.Net】应届生高薪就业的背后，看到第3条我惊呆了！</a>
+</li><li style="height:24px; overflow:hidden;  line-height:24px; ">  <a style="color:#f60; font-size:14px;" href="http://bbs.itcast.cn/forum-173-1.html"> 学员感言 | </a> <a style="font-size:14px;" target="_blank" title="【.Net】应届生高薪就业的背后，看到第3条我惊呆了！" href="http://bbs.itcast.cn/thread-43095-1-1.html">【.Net】应届生高薪就业的背后，看到第3条我惊呆了！</a>
 <!--
 <em>  </em>
 -->
