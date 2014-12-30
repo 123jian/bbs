@@ -59,6 +59,9 @@ $_CACHE['apps'] = array (
     'extra' => 
     array (
       'apppath' => '',
+      'extraurl' => 
+      array (
+      ),
     ),
     'tagtemplates' => '<?xml version="1.0" encoding="ISO-8859-1"?>
 <root>

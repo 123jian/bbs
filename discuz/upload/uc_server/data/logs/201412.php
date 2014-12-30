@@ -7,3 +7,6 @@
 <?PHP exit;?>	UCenterAdministrator	192.168.1.219	1419902496	app_add	appid=3; appname=wk
 <?PHP exit;?>	UCenterAdministrator	127.0.0.1	1419902809	login	succeed
 <?PHP exit;?>	UCenterAdministrator	192.168.1.120	1419903007	login	succeed
+<?PHP exit;?>	UCenterAdministrator	192.168.1.120	1419904329	app_edit	appid=3
+<?PHP exit;?>	UCenterAdministrator	192.168.1.120	1419904354	app_edit	appid=3
+<?PHP exit;?>	UCenterAdministrator	192.168.1.120	1419904375	app_edit	appid=3
