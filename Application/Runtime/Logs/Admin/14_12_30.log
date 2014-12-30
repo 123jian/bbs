@@ -1,0 +1,14 @@
+[ 2014-12-30T15:33:28+08:00 ] 127.0.0.1 /index.php/Admin/Huiyuan/jiekou?callback=jQuery1704005670731105446_1419924806794&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419924807507
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.167009s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-30'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=3 WHERE ( pid=30 ) [ RunTime:0.142008s ]
+

@@ -17,7 +17,7 @@ function sear(){
 			success:function(e){
 				//alert(e)
 				if(e!=0){
-					var str='<table><tr><td>id</td><td>标题</td><td>时间戳</td></tr>';
+					var str='<table border=1><tr><td>id</td><td>标题</td><td>时间戳</td></tr>';
 					for(var i in e){
 						str+='<tr><td>'+e[i].text_id+'</td>'+'<td>'+e[i].text_title+'</td>'+'<td>'+e[i].text_content+'</td></tr>';
 					}
@@ -26,7 +26,6 @@ function sear(){
 				}else{
 					$('#listDiv').html("密钥错了！！！");
 				}
-				
 			}
 			//$("#listDiv").html(list);
 	})
