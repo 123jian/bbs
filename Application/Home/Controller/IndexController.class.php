@@ -235,6 +235,28 @@ class IndexController extends Controller {
     public function zhmm(){
         $this->display();
     }
+
+	//找回密码--获取手机号
+    public function hqsj(){
+
+		$name=$_GET['username'];       
+		$user = M("admin_user");
+		$result = $user->where("username='$name'")->select();
+		echo $user->getLastSql();
+		var_dump($result);
+		//$res=mysql_query($sql);
+		//while($row=mysql_fetch_assoc($res)){
+			//$data[]=$row;
+		//}
+		/*
+		$a=$_GET['callback'];
+		//$b=$result['phones'];
+		$b=$result;
+
+		echo $a."(".json_encode($b).")";
+		*/
+    }
+
     //处理找回密码页面
     public function zhmm_pro(){
        $this->display();
@@ -266,3 +288,5 @@ class IndexController extends Controller {
     }
 
 }
+
+?>

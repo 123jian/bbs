@@ -142,3 +142,1775 @@ ERR: ÈùûÊ≥ïÊìç‰Ωú:‰º†Êô∫Êí≠ÂÆ¢PHPÂ≠¶Èô¢ÂÆòÁΩë-Âåó‰∫¨PHPÂüπËÆ≠_PHPÁΩëÁ´ôÂºÄÂèëÂüπ
 [ 2014-12-29T11:36:23+08:00 ] 192.168.1.219 /discuz/upload/static/js/common_postimg.js?Kyz
 ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Discuz
 
+[ 2014-12-29T12:30:15+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.003000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T12:30:17+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T12:30:18+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T19:14:06+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419851533&code=e347cIeeh9vY7e92AxnzohYRa4REd7ttfY8%2Fp1zKHyXC%2B0fK%2FiOUp98Wl4U99jgQJKDPSN6wIJx10AfUYQ
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T19:15:32+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419851619&code=d1ae83TAaSDxqWqzRRD1NTXSg%2FkJcr%2BgM7Zec77mFOXaaz4di56k6tv86fGbEGHao78Naa9Ckz%2BeRoDFbw
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T19:16:46+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419851693&code=64fbRa8Ji1i%2BLeuQHg9E9mN%2B0ZOENM8vb%2BCgseUJe4ettMA0z9qLBuyBP9K%2BGXRJWql68ERePPiNsOBW%2Fg
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T19:17:18+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419851726&code=2f4etmR4d2c43VxFsYohMBHem9zjzkzVaj8OiEhs5qSfpmETf5OkkQ3J5GJrw7toRTzMXuAjff4zJGTtIg
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T19:18:57+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419851824&code=335fJ8Y47H8iJyWx8NMBfovKnIhYd03lhZTMQJa9fjLRsKNBUTLdmYAjfiyPBWmo43pixB105fRVJ9ql1w
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T19:19:29+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419851856&code=6815rS6lUcruMddhDgn5zkvJ5t6OnB5DD4Fw1wgZO1kRm6%2FIyFG4LPECRKoTx1XqxVG7dplWMH6OBju4NGMuTahvnI7KWuvDZMXHHGWwAvYyLpcbaScqGn79P2bIJkqXeqXbbbIwot%2Fv9BhV1XlGQeSX8KpC8OJJ8Zg
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T19:21:22+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419851969&code=8828heKZhBcxJrqy%2Blb9MRyW%2B6RAancM6qFZNrabuEcfJzH1scU2mqxc3IYJayYClUB7IJ%2FzaQumPuy6pQ
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T19:26:10+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419852257&code=903fCPsKhXY7Ak%2BHb0ZjA1HxPgDNeYGxvSikFJYSWGEhonnCdaegzOBlx0g52ejxU949Er0lSXNZrhu6Hn5%2FOWHXOuqRkY8DCi9XNXH97JS0DOIYZL466ff3w0Bh3g9LxFqIcqRH270P9meuibN9J1vgTlwvQGs661Q
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T20:16:57+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj?callback=jQuery1810414838234661147_1419854291441
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.032002s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T20:16:59+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj?callback=jQuery1810414838234661147_1419854291441
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.093005s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T20:17:52+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj?callback=jQuery18109688210659660399_1419855466613
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T20:17:53+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj?callback=jQuery18109688210659660399_1419855466613
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T20:17:54+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj?callback=jQuery18109688210659660399_1419855466613
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T20:17:55+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj?callback=jQuery18109688210659660399_1419855466613
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.031002s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T20:19:19+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181009639222244732082_1419855554112
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.079004s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=250 WHERE ( pid=29 ) [ RunTime:0.125007s ]
+
+[ 2014-12-29T20:19:21+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181009639222244732082_1419855554112
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=251 WHERE ( pid=29 ) [ RunTime:0.126007s ]
+
+[ 2014-12-29T20:19:22+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181009639222244732082_1419855554112
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=252 WHERE ( pid=29 ) [ RunTime:0.236014s ]
+
+[ 2014-12-29T20:22:50+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery18108952424123417586_1419855765920
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.066003s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.002000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=254 WHERE ( pid=29 ) [ RunTime:0.124008s ]
+
+[ 2014-12-29T20:22:52+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery18108952424123417586_1419855765920
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.002000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=255 WHERE ( pid=29 ) [ RunTime:0.116007s ]
+
+[ 2014-12-29T20:22:53+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery18108952424123417586_1419855765920
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.069004s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.002000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=256 WHERE ( pid=29 ) [ RunTime:0.331019s ]
+
+[ 2014-12-29T20:23:00+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery18108952424123417586_1419855765920
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.026002s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001001s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=257 WHERE ( pid=29 ) [ RunTime:0.112006s ]
+
+[ 2014-12-29T20:23:31+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery18106512363536749035_1419855805098
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.002000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=259 WHERE ( pid=29 ) [ RunTime:0.176010s ]
+
+[ 2014-12-29T20:23:32+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery18106512363536749035_1419855805098
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=260 WHERE ( pid=29 ) [ RunTime:0.119007s ]
+
+[ 2014-12-29T20:24:08+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181021890742308460176_1419855846653
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=262 WHERE ( pid=29 ) [ RunTime:0.090005s ]
+
+[ 2014-12-29T20:24:09+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181021890742308460176_1419855846653
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=263 WHERE ( pid=29 ) [ RunTime:0.077005s ]
+
+[ 2014-12-29T20:24:29+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181021890742308460176_1419855846653
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.002000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=264 WHERE ( pid=29 ) [ RunTime:0.082004s ]
+
+[ 2014-12-29T20:24:30+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181021890742308460176_1419855846653
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=265 WHERE ( pid=29 ) [ RunTime:0.105006s ]
+
+[ 2014-12-29T20:24:31+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery181021890742308460176_1419855846653
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.002000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=266 WHERE ( pid=29 ) [ RunTime:0.177010s ]
+
+[ 2014-12-29T20:37:12+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=284 WHERE ( pid=29 ) [ RunTime:0.136008s ]
+
+[ 2014-12-29T20:38:35+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=286 WHERE ( pid=29 ) [ RunTime:0.183010s ]
+
+[ 2014-12-29T20:39:19+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: callback E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=288 WHERE ( pid=29 ) [ RunTime:0.083005s ]
+
+[ 2014-12-29T20:40:35+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419856719&code=bdddiy8%2BoBG6Dk95lKjm41AqzshXcdTZLc%2FARULlgedMSC8XhtzKskjGNU05xQjjSy7LTsV3Z1ulRmyxZCA59DwX3QsdGnFX4Tvr%2F2uK2JbBWAN6YbNT1EmD2TTLIzkawj35mV1o4zhspIFe5%2FMHPHymYFGfz53A7eU
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T20:40:56+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+NOTIC: [2] mysql_connect():  E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:43:09+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+NOTIC: [2] mysql_connect():  E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:43:13+08:00 ] 127.0.0.1 /index.php/index/zhmm
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:43:20+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+NOTIC: [2] mysql_connect():  E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:43:48+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:43:56+08:00 ] 127.0.0.1 /index.php/index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:43:59+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:44:02+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:44:51+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:44:57+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:45:00+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:45:03+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:45:06+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:45:09+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:45:23+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:45:53+08:00 ] 127.0.0.1 /index.php/home/index/login
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:45:58+08:00 ] 127.0.0.1 /index.php/index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:46:18+08:00 ] 127.0.0.1 /index.php/index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:46:41+08:00 ] 127.0.0.1 /index.php/index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-12-29T20:47:12+08:00 ] 127.0.0.1 /index.php/index/%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2PHP%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91-%E5%8C%97%E4%BA%ACPHP%E5%9F%B9%E8%AE%AD_PHP%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%B9%E8%AE%AD_PHP%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1_files/api.htm
+ERR: ÈùûÊ≥ïÊìç‰Ωú:‰º†Êô∫Êí≠ÂÆ¢PHPÂ≠¶Èô¢ÂÆòÁΩë-Âåó‰∫¨PHPÂüπËÆ≠_PHPÁΩëÁ´ôÂºÄÂèëÂüπËÆ≠_PHPÁ®ãÂ∫èÂëòÂüπËÆ≠Â≠¶Ê†°_files
+
+[ 2014-12-29T20:50:29+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1703540560291148722_1419857424503&username=123&_=1419857429033
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=7 WHERE ( pid=23 ) [ RunTime:0.019001s ]
+
+[ 2014-12-29T21:00:37+08:00 ] 192.168.1.120 /Public/api/uc.php?time=1419857924&code=2518zhtPYBcdM03FEWk6mMACqfous%2B%2FM%2B%2By4SNO8ELlGr9Cl2FY5tzr2%2FfAiEteERQYiD8AAiS5jreAN%2BA
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Public
+
+[ 2014-12-29T21:05:45+08:00 ] 127.0.0.1 /index.php/index/hqsj?username=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username= )  [ RunTime:0.019001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username= ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=9 WHERE ( pid=23 ) [ RunTime:0.058003s ]
+
+[ 2014-12-29T21:06:06+08:00 ] 127.0.0.1 /index.php/index/hqsj?username=ylm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username= )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username= ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=10 WHERE ( pid=23 ) [ RunTime:0.013000s ]
+
+[ 2014-12-29T21:06:10+08:00 ] 127.0.0.1 /index.php/index/hqsj?username=ylm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username= )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username= ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.002000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=11 WHERE ( pid=23 ) [ RunTime:0.306018s ]
+
+[ 2014-12-29T21:06:43+08:00 ] 127.0.0.1 /index.php/index/hqsj?username=ylm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.026002s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: username E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username= )  [ RunTime:0.002001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username= ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=12 WHERE ( pid=23 ) [ RunTime:0.059004s ]
+
+[ 2014-12-29T21:07:19+08:00 ] 127.0.0.1 /index.php/index/hqsj?username=ylm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username= )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username= ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=13 WHERE ( pid=23 ) [ RunTime:0.079004s ]
+
+[ 2014-12-29T21:07:21+08:00 ] 127.0.0.1 /index.php/index/hqsj?username=ylm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 241 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username= )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username= ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=14 WHERE ( pid=23 ) [ RunTime:0.029002s ]
+
+[ 2014-12-29T21:07:36+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=17 WHERE ( pid=23 ) [ RunTime:0.369021s ]
+
+[ 2014-12-29T21:08:33+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=19 WHERE ( pid=23 ) [ RunTime:0.222013s ]
+
+[ 2014-12-29T21:09:05+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=21 WHERE ( pid=23 ) [ RunTime:0.013001s ]
+
+[ 2014-12-29T21:09:58+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:10:09+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:16+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:53+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:55+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:56+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:57+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:58+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:58+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:12:59+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:13:03+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:13:04+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:13:19+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:13:20+08:00 ] 127.0.0.1 /index.php/index/index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index.php
+
+[ 2014-12-29T21:13:47+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ii )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ii' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ii ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=27 WHERE ( pid=23 ) [ RunTime:0.014001s ]
+
+[ 2014-12-29T21:14:05+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=yyuy )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'yyuy' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=yyuy ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=29 WHERE ( pid=23 ) [ RunTime:0.016001s ]
+
+[ 2014-12-29T21:14:09+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=yyuy )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'yyuy' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=yyuy ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=30 WHERE ( pid=23 ) [ RunTime:0.486028s ]
+
+[ 2014-12-29T21:14:15+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=31 WHERE ( pid=23 ) [ RunTime:0.012001s ]
+
+[ 2014-12-29T21:14:17+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=32 WHERE ( pid=23 ) [ RunTime:0.028001s ]
+
+[ 2014-12-29T21:14:46+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=yl,m )  [ RunTime:0.015001s ]
+ERR: 1054:Unknown column 'yl' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=yl,m ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=34 WHERE ( pid=23 ) [ RunTime:0.041002s ]
+
+[ 2014-12-29T21:14:52+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=35 WHERE ( pid=23 ) [ RunTime:0.429024s ]
+
+[ 2014-12-29T21:15:09+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=37 WHERE ( pid=23 ) [ RunTime:0.047003s ]
+
+[ 2014-12-29T21:15:25+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=39 WHERE ( pid=23 ) [ RunTime:0.027002s ]
+
+[ 2014-12-29T21:15:27+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=40 WHERE ( pid=23 ) [ RunTime:0.053003s ]
+
+[ 2014-12-29T21:15:31+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=41 WHERE ( pid=23 ) [ RunTime:0.040002s ]
+
+[ 2014-12-29T21:15:50+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=43 WHERE ( pid=23 ) [ RunTime:0.013001s ]
+
+[ 2014-12-29T21:15:53+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=44 WHERE ( pid=23 ) [ RunTime:0.020001s ]
+
+[ 2014-12-29T21:17:03+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 244 Ë°å.
+SQL: SELECT * FROM `bbs_admin_user` LIMIT 1   [ RunTime:0.037002s ]
+NOTIC: [8] Undefined index: phones E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 245 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=46 WHERE ( pid=23 ) [ RunTime:0.026002s ]
+
+[ 2014-12-29T21:20:49+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=48 WHERE ( pid=23 ) [ RunTime:0.171010s ]
+
+[ 2014-12-29T21:24:13+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 250 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=50 WHERE ( pid=23 ) [ RunTime:0.019001s ]
+
+[ 2014-12-29T21:24:40+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001001s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=52 WHERE ( pid=23 ) [ RunTime:0.024001s ]
+
+[ 2014-12-29T21:26:23+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 250 Ë°å.
+
+[ 2014-12-29T21:28:35+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 248 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 253 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=55 WHERE ( pid=23 ) [ RunTime:0.394023s ]
+
+[ 2014-12-29T21:28:37+08:00 ] 127.0.0.1 /index.php/index/hqsj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 248 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 253 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=56 WHERE ( pid=23 ) [ RunTime:0.026001s ]
+
+[ 2014-12-29T21:31:44+08:00 ] 127.0.0.1 /index.php/index/hqsj?ssss=jQuery17028672515600919724_1419859900196&username=ylm&_=1419859903986
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=58 WHERE ( pid=23 ) [ RunTime:0.257015s ]
+
+[ 2014-12-29T21:31:45+08:00 ] 127.0.0.1 /index.php/index/hqsj?ssss=jQuery17028672515600919724_1419859900197&username=ylm&_=1419859904960
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=59 WHERE ( pid=23 ) [ RunTime:0.016001s ]
+
+[ 2014-12-29T21:31:45+08:00 ] 127.0.0.1 /index.php/index/hqsj?ssss=jQuery17028672515600919724_1419859900198&username=ylm&_=1419859905687
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=60 WHERE ( pid=23 ) [ RunTime:0.091006s ]
+
+[ 2014-12-29T21:33:10+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1706407261956483126_1419859986063&username=123&_=1419859990462
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=62 WHERE ( pid=23 ) [ RunTime:0.420024s ]
+
+[ 2014-12-29T21:33:15+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1706407261956483126_1419859986064&username=ylm&_=1419859995166
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=63 WHERE ( pid=23 ) [ RunTime:0.011001s ]
+
+[ 2014-12-29T21:33:17+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1706407261956483126_1419859986065&username=ylm&_=1419859997326
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=64 WHERE ( pid=23 ) [ RunTime:0.022001s ]
+
+[ 2014-12-29T21:33:19+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1706407261956483126_1419859986066&username=ylm&_=1419859999594
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=65 WHERE ( pid=23 ) [ RunTime:0.013001s ]
+
+[ 2014-12-29T21:34:21+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery17032658415054902434_1419860057885&username=ylm&_=1419860061127
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=67 WHERE ( pid=23 ) [ RunTime:0.009000s ]
+
+[ 2014-12-29T21:34:28+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery17032658415054902434_1419860057886&username=123&_=1419860068443
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 247 Ë°å.
+NOTIC: [8] Undefined variable: data E:\bbs\Application\Home\Controller\IndexController.class.php Á¨¨ 251 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=68 WHERE ( pid=23 ) [ RunTime:0.042002s ]
+
+[ 2014-12-29T21:36:09+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1705237759700976312_1419860165398&username=ylm&_=1419860169372
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=70 WHERE ( pid=23 ) [ RunTime:0.033002s ]
+
+[ 2014-12-29T21:36:42+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1706713703421410173_1419860194921&username=ylm&_=1419860202157
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=72 WHERE ( pid=23 ) [ RunTime:0.133008s ]
+
+[ 2014-12-29T21:37:16+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1704626783689018339_1419860230595&username=tlm&_=1419860235987
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=tlm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'tlm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=tlm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=74 WHERE ( pid=23 ) [ RunTime:0.019001s ]
+
+[ 2014-12-29T21:38:26+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1709475723134819418_1419860302487&username=ylm&_=1419860306243
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=76 WHERE ( pid=23 ) [ RunTime:0.232014s ]
+
+[ 2014-12-29T21:38:30+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1709475723134819418_1419860302488&username=fgfg&_=1419860310680
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.041003s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=fgfg )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'fgfg' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=fgfg ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=77 WHERE ( pid=23 ) [ RunTime:0.126007s ]
+
+[ 2014-12-29T21:38:54+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1709941249105613679_1419860332329&username=fgf&_=1419860334041
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=79 WHERE ( pid=23 ) [ RunTime:0.025002s ]
+
+[ 2014-12-29T21:38:56+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1709941249105613679_1419860332330&username=fgf&_=1419860336287
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=80 WHERE ( pid=23 ) [ RunTime:0.010000s ]
+
+[ 2014-12-29T21:42:32+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708427598085254431_1419860547304&username=ylm&_=1419860552366
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=82 WHERE ( pid=23 ) [ RunTime:0.011001s ]
+
+[ 2014-12-29T21:46:06+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708987241217400879_1419860760904&username=yl&_=1419860766114
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=yl )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'yl' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=yl ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=84 WHERE ( pid=23 ) [ RunTime:0.395022s ]
+
+[ 2014-12-29T21:46:09+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708987241217400879_1419860760905&username=ylm&_=1419860769743
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=85 WHERE ( pid=23 ) [ RunTime:0.042002s ]
+
+[ 2014-12-29T21:50:45+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1703397679596673697_1419861041378&username=ylm&_=1419861045812
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=87 WHERE ( pid=23 ) [ RunTime:0.020001s ]
+
+[ 2014-12-29T21:51:32+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1707382713893894106_1419861086096&username=ylm&_=1419861092810
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=89 WHERE ( pid=23 ) [ RunTime:0.017001s ]
+
+[ 2014-12-29T21:58:28+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery17025321801169775426_1419861504275&username=ylm&_=1419861508522
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.031002s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=91 WHERE ( pid=23 ) [ RunTime:0.373021s ]
+
+[ 2014-12-29T22:14:15+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708069923720322549_1419862445248&username=ylm&_=1419862455376
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=94 WHERE ( pid=23 ) [ RunTime:0.011001s ]
+
+[ 2014-12-29T22:16:31+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708069923720322549_1419862445249&username=ylm&_=1419862591068
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=95 WHERE ( pid=23 ) [ RunTime:0.013001s ]
+
+[ 2014-12-29T22:16:45+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708069923720322549_1419862445250&username=ylm&_=1419862605635
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=96 WHERE ( pid=23 ) [ RunTime:0.014001s ]
+
+[ 2014-12-29T22:16:47+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708069923720322549_1419862445251&username=ylm&_=1419862607499
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=97 WHERE ( pid=23 ) [ RunTime:0.196012s ]
+
+[ 2014-12-29T22:16:49+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708069923720322549_1419862445252&username=ylm&_=1419862608979
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=98 WHERE ( pid=23 ) [ RunTime:0.016001s ]
+
+[ 2014-12-29T22:16:57+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery17027223550505004823_1419862612920&username=ylm&_=1419862616910
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=100 WHERE ( pid=23 ) [ RunTime:0.449026s ]
+
+[ 2014-12-29T22:19:07+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1705211826250888407_1419862742516&username=ylm&_=1419862747025
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=102 WHERE ( pid=23 ) [ RunTime:0.404024s ]
+
+[ 2014-12-29T22:19:10+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1705211826250888407_1419862742517&username=ylm&_=1419862749905
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.000000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=103 WHERE ( pid=23 ) [ RunTime:0.253015s ]
+
+[ 2014-12-29T22:20:35+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1707234723253641278_1419862831573&username=ylm&_=1419862835610
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=107 WHERE ( pid=23 ) [ RunTime:0.017001s ]
+
+[ 2014-12-29T22:21:09+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery17085986342956312_1419862865478&username=ylm&_=1419862869057
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.067004s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=111 WHERE ( pid=23 ) [ RunTime:0.442026s ]
+
+[ 2014-12-29T22:21:35+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708463547027204186_1419862892290&username=ylm&_=1419862895552
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001001s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=114 WHERE ( pid=23 ) [ RunTime:0.031001s ]
+
+[ 2014-12-29T22:22:22+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery17007044862699694932_1419862936845&username=ylm&_=1419862942390
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=117 WHERE ( pid=23 ) [ RunTime:0.017001s ]
+
+[ 2014-12-29T22:22:45+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1705727382830809802_1419862962180&username=ylm&_=1419862965792
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=119 WHERE ( pid=23 ) [ RunTime:0.017001s ]
+
+[ 2014-12-29T22:22:45+08:00 ] 127.0.0.1 /index.php/index/hqsj&username=ylm
+ERR: ÈùûÊ≥ïÊìç‰Ωú:hqsj&username=ylm
+
+[ 2014-12-29T22:23:25+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1701785265039652586_1419863001816&username=ylm&_=1419863005309
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=121 WHERE ( pid=23 ) [ RunTime:0.019001s ]
+
+[ 2014-12-29T22:23:56+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1708980297488160431_1419863032730&username=ylm&_=1419863036093
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=130 WHERE ( pid=23 ) [ RunTime:0.013001s ]
+
+[ 2014-12-29T22:24:23+08:00 ] 127.0.0.1 /index.php/index/hqsj?callback=jQuery1703323674181010574_1419863059537&username=ylm&_=1419863063076
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav` WHERE ( nav_category=0 and isset=1 ) ORDER BY orders  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_admin_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_admin_user` WHERE ( username=ylm )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'ylm' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `bbs_admin_user` WHERE ( username=ylm ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-29'  [ RunTime:0.001000s ]
+SQL: UPDATE `bbs_pv` SET `pv_count`=139 WHERE ( pid=23 ) [ RunTime:0.066004s ]
+

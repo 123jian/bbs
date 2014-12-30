@@ -42,6 +42,30 @@ $_CACHE['apps'] = array (
 </root>',
     'allowips' => '',
   ),
+  3 => 
+  array (
+    'appid' => '3',
+    'type' => 'DISCUZX',
+    'name' => 'wk',
+    'url' => 'http://www.10.com/keke/frontend/web',
+    'authkey' => '123456',
+    'ip' => '192.168.1.120',
+    'viewprourl' => '',
+    'apifilename' => 'uc.php',
+    'charset' => '',
+    'dbcharset' => '',
+    'synlogin' => '1',
+    'recvnote' => '1',
+    'extra' => 
+    array (
+      'apppath' => '',
+    ),
+    'tagtemplates' => '<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="template"><![CDATA[]]></item>
+</root>',
+    'allowips' => '',
+  ),
 );
 
 ?>
