@@ -53,3 +53,8 @@ if($data){
     $a=$model->add($info);
     //echo $a;
 }
+
+//session存memcache
+ini_set("session.save_handler","memcache");
+ini_set("session.save_path",'tcp://192.168.1.2:11211');
+session_start();
