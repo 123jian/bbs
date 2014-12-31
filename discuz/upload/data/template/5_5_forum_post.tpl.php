@@ -1,18 +1,18 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('post');
 0
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_editor_extra.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_editor_body.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_editor_attribute.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/seccheck_post.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/editor_menu.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/editor_menu_forum.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/upload.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/editor.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/seccheck.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
-|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419564190, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_editor_extra.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_editor_body.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_editor_attribute.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/seccheck_post.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/editor_menu.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/editor_menu_forum.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/upload.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/editor.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/common/seccheck.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
+|| checktplrefresh('./template/default/forum/post.htm', './template/default/forum/post_attachlimit.htm', 1419925493, '5', './data/template/5_5_forum_post.tpl.php', './template/an_paly', 'forum/post')
 ;?><?php include template('common/header'); ?><script type="text/javascript">
 var allowpostattach = parseInt('<?php echo $_G['group']['allowpostattach'];?>');
 var allowpostimg = parseInt('<?php echo $allowpostimg;?>');

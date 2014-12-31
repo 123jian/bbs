@@ -86,9 +86,10 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
 		<td align="right">请输入用户名：<td>
 		<input id="username" name="username" type="text" size="25" class="inputBg" onblur="get_mobile()"/>
 		<span style="color:#FF0000"> *</span><input id="zphone" type="button" value=" 获取手机验证码 " onClick="get_mobile_code();"> </td>
-        </tr>		
-		<input id="mobile" name="mobile" type="hidden" size="25" class="inputBg" readonly />
-       </td>
+        </tr>
+        <tr>          
+	<td><input id="mobile" name="mobile" type="hidden" size="25" class="inputBg" readonly /></td>
+       </tr>
        
 		<tr>
 			<td align="right">验证码：</td>
@@ -96,8 +97,8 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
 		</tr>
 		<tr>
 			<td align="right"></td>
-			<td><input type="submit" value=" 注册 " class="button">
-			<input type="button" value=" 获取 " class="button" onclick="aa()"></td>
+			<td><input type="submit" value=" 提交 " class="button">
+			</td>
 		</tr>
 	</table>
 </form>
@@ -107,10 +108,6 @@ src="/Public/shouye/images/lefttop.gif"></DIV>
 <script type="text/javascript" src="/Public/js/jquery-suke.js"></script>
 <script type="text/javascript" src="/Public/js/jq.js"></script>
 <script language="javascript">
-function aa(){
-	var name=$("#username").val();
-	location.href="http://www.bbs.com/index.php/index/hqsj?username="+name;
-}
 
 //通过用户名获取手机号码
 	function get_mobile(){
@@ -118,18 +115,25 @@ function aa(){
 		var name=$("#username").val();
 		//alert(name);
 		if(name==''){
-			alert('请输入用户名！');
-			return false;
+                    alert('请输入用户名！');
+                    return false;
 		}
 		
 		$.ajax({			
-			url:"http://www.bbs.com/index.php/index/hqsj",
+			url:"/index.php/index/hqsj",
 			data:{"username":name},
 			type:"get",
 			dataType:"jsonp",
 			jsonp:'callback',
-            success: function(msg){
-				alert(msg);
+                        success: function(msg){
+                            //alert(msg);
+                            if(msg==null){
+                                alert('用户名错误');
+                                return false;
+                            }else{
+                               $("#mobile").val(msg);
+                               //alert($("#mobile").val()); 
+                            }          
 			}
 		})
 		
@@ -139,7 +143,7 @@ function aa(){
 	function get_mobile_code(){
 		//alert($);		
         $.post('/sms.php', {mobile:jQuery.trim($('#mobile').val()),send_code:<?php echo $_SESSION['send_code'];?>}, function(msg) {
-            alert(jQuery.trim(unescape(msg)));
+            //alert(jQuery.trim(unescape(msg)));
 			if(msg=='提交成功'){
 				RemainTime();
 			}

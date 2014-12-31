@@ -11,8 +11,9 @@
 $discuz=C::app();
 $discuz->init();
 
-$arr = DB::fetch_all('select * from pre_forum_post p,pre_forum_forum f where p.fid=f.fid order by dateline desc limit 4');
-
+$arr = DB::fetch_all('select * from pre_forum_post p,pre_forum_forum f where p.fid=f.fid order by dateline desc limit 5');
+$arr1 = DB::fetch_all('select * from pre_forum_post p,pre_forum_forum f where p.fid=f.fid order by dateline desc limit 1');
+//var_dump($arr);die;
 foreach ($arr as $key=>$val){
     $arr[$key]['data']=date('Y-m-d H:i:s',$val['dateline']);
 }
@@ -64,7 +65,6 @@ if($_G['setting']['indexhot']['status'] && $_G['cache']['heats']['expiration'] <
 	require_once libfile('function/cache');
 	updatecache('heats');
 }
-
 if($_G['uid'] && empty($_G['cookie']['nofavfid'])) {
 	$favfids = array();
 	$forum_favlist = C::t('home_favorite')->fetch_all_by_uid_idtype($_G['uid'], 'fid');

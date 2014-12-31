@@ -1,9 +1,9 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seditor.htm', 1419564227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/forum/seccheck_post.htm', 1419564227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/upload.htm', 1419564227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seccheck.htm', 1419564227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seditor.htm', 1419929227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/forum/seccheck_post.htm', 1419929227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/upload.htm', 1419929227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seccheck.htm', 1419929227, '5', './data/template/5_5_forum_forumdisplay_fastpost.tpl.php', './template/an_paly', 'forum/forumdisplay_fastpost')
 ;?>
 <script type="text/javascript">
 var postminchars = parseInt('<?php echo $_G['setting']['minpostsize'];?>');
