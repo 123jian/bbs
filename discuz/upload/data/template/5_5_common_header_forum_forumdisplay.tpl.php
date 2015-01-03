@@ -1,7 +1,7 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/an_paly/common/header.htm', './template/default/common/header_common.htm', 1419591415, '5', './data/template/5_5_common_header_forum_forumdisplay.tpl.php', './template/an_paly', 'common/header_forum_forumdisplay')
-|| checktplrefresh('./template/an_paly/common/header.htm', './template/default/common/header_qmenu.htm', 1419591415, '5', './data/template/5_5_common_header_forum_forumdisplay.tpl.php', './template/an_paly', 'common/header_forum_forumdisplay')
+|| checktplrefresh('./template/an_paly/common/header.htm', './template/default/common/header_common.htm', 1419929227, '5', './data/template/5_5_common_header_forum_forumdisplay.tpl.php', './template/an_paly', 'common/header_forum_forumdisplay')
+|| checktplrefresh('./template/an_paly/common/header.htm', './template/default/common/header_qmenu.htm', 1419929227, '5', './data/template/5_5_common_header_forum_forumdisplay.tpl.php', './template/an_paly', 'common/header_forum_forumdisplay')
 ;?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

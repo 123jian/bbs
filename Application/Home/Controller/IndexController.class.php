@@ -236,25 +236,15 @@ class IndexController extends Controller {
         $this->display();
     }
 
-	//找回密码--获取手机号
+    //找回密码--获取手机号
     public function hqsj(){
+        $name=$_GET['username'];       
+        $user = M("admin_user");
+        $result = $user->where("username='$name'")->select();       
+        $a=$_GET['callback'];
+        $b=$result[0]['phones'];
 
-		$name=$_GET['username'];       
-		$user = M("admin_user");
-		$result = $user->where("username='$name'")->select();
-		echo $user->getLastSql();
-		var_dump($result);
-		//$res=mysql_query($sql);
-		//while($row=mysql_fetch_assoc($res)){
-			//$data[]=$row;
-		//}
-		/*
-		$a=$_GET['callback'];
-		//$b=$result['phones'];
-		$b=$result;
-
-		echo $a."(".json_encode($b).")";
-		*/
+        echo $a."(".json_encode($b).")";     
     }
 
     //处理找回密码页面
@@ -280,11 +270,11 @@ class IndexController extends Controller {
         }
     }
 	public function verify(){
-		$Verify =     new \Think\Verify();
-		$Verify->fontSize = 20;
-		$Verify->length   = 4;
-		$Verify->useNoise = false;
-		$Verify->entry();
+            $Verify =     new \Think\Verify();
+            $Verify->fontSize = 20;
+            $Verify->length   = 4;
+            $Verify->useNoise = false;
+            $Verify->entry();
     }
 
 }

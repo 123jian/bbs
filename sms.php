@@ -52,7 +52,8 @@ $send_code = $_POST['send_code'];
 
 $mobile_code = random(4,1);
 if(empty($mobile)){
-	exit('手机号码不能为空');
+	//exit('手机号码不能为空');
+	//exit('用户名错误');
 }
 
 if(empty($_SESSION['send_code']) or $send_code!=$_SESSION['send_code']){

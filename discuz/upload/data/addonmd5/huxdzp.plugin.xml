@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[huxdzp.plugin]]></item>
+	<item id="RevisionID"><![CDATA[736]]></item>
+	<item id="SN"><![CDATA[20141230120H9140e30s]]></item>
+	<item id="RevisionDateline"><![CDATA[1331686450]]></item>
+	<item id="Data">
+		<item id="/admin_jx.inc.php"><![CDATA[fe53cc76997738064913ef7f970e5c39]]></item>
+		<item id="/check.inc.php"><![CDATA[4d167e2db8df99cbe767ebfe19d88f2e]]></item>
+		<item id="/discuz_plugin_huxdzp_SC_GBK.xml"><![CDATA[972fe1da22d88e1828db57a9fa95370f]]></item>
+		<item id="/discuz_plugin_huxdzp_SC_UTF8.xml"><![CDATA[31ca9850dd19ff4f0f8db6a71e31d246]]></item>
+		<item id="/discuz_plugin_huxdzp_TC_BIG5.xml"><![CDATA[1d228d9670a8dc442cf682aba9def07f]]></item>
+		<item id="/discuz_plugin_huxdzp_TC_UTF8.xml"><![CDATA[6aed8922e98ffb4f01fc72799b2e6ce9]]></item>
+		<item id="/huxdzp.func.php"><![CDATA[afcb60c072a2b53e9cf0f7b7e4ccc899]]></item>
+		<item id="/huxdzp.inc.php"><![CDATA[5bb45a7c18128419aac00b4480bd2d51]]></item>
+		<item id="/huxdzp.swf"><![CDATA[18e5af84d4d8843253e54ccf54501093]]></item>
+		<item id="/images/bg_b.gif"><![CDATA[20a22eb342e920053076896639d8c1ca]]></item>
+		<item id="/images/huxdzp.gif"><![CDATA[9f9f1416b41301cf4146e7b6ab8f8c4a]]></item>
+		<item id="/images/huxdzp.small.gif"><![CDATA[463327ec05d56610087ac971442b108f]]></item>
+		<item id="/install.php"><![CDATA[324c2e4feefa8c3099e600d64a03a5ec]]></item>
+		<item id="/template/huxdzp.htm"><![CDATA[9a84913c5aea7a0d50b983418831fc2d]]></item>
+		<item id="/uninstall.php"><![CDATA[5c2f90ceca3a8f30d8073d9e7078c606]]></item>
+		<item id="/upgrade.php"><![CDATA[d681ece46e1d868ffac07d64f4a16cb1]]></item>
+	</item>
+</root>
