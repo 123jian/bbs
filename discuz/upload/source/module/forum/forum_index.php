@@ -7,7 +7,7 @@
  *      $Id: forum_index.php 34291 2013-12-17 03:47:28Z hypowang $
  */
 
-//论坛首页文章列表
+//论坛首页帖子列表
 $discuz=C::app();
 $discuz->init();
 

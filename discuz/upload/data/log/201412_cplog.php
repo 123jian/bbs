@@ -604,3 +604,11 @@
 <?PHP exit;?>	1419942221	admin	1	192.168.1.238		GET={}; POST={};
 <?PHP exit;?>	1419942222	admin	1	192.168.1.238	index	GET={}; POST={};
 <?PHP exit;?>	1419942224	admin	1	192.168.1.238	plugins	GET={}; POST={};
+<?PHP exit;?>	1419995825	admin	1	192.168.1.219		GET={}; POST={};
+<?PHP exit;?>	1419995826	admin	1	192.168.1.219	index	GET={}; POST={};
+<?PHP exit;?>	1419995833	admin	1	192.168.1.219	tools	GET={operation=updatecache; }; POST={};
+<?PHP exit;?>	1419995842	admin	1	192.168.1.219	plugins	GET={}; POST={};
+<?PHP exit;?>	1419995844	admin	1	192.168.1.219	plugins	GET={operation=config; do=13; }; POST={};
+<?PHP exit;?>	1419995847	admin	1	192.168.1.219	plugins	GET={operation=config; do=13; identifier=huxdzp; pmod=admin_jx; }; POST={};
+<?PHP exit;?>	1419995870	admin	1	192.168.1.219	plugins	GET={operation=config; do=13; identifier=huxdzp; pmod=admin_jx; jid1=1; jname1=no1; jid2=2; jorder2=1; jname2=no2; jid3=3; jorder3=2; jname3=no3; jid4=4; jorder4=3; jname4=no4; jid5=5; jorder5=4; jname5=no5; jid6=6; jorder6=5; jname6=no6; jid7=7; jorder7=6; jname7=no7; jid8=8; jorder8=7; jname8=no8; jid9=9; jorder9=8; jname9=no9; jid10=10; jorder10=9; jname10=no10; jid11=11; jorder11=10; jname11=no11; jid12=12; jorder12=11; jname12=四大天王演唱会; dzpsubmit=提交; }; POST={jid1=1; jname1=no1; jid2=2; jorder2=1; jname2=no2; jid3=3; jorder3=2; jname3=no3; jid4=4; jorder4=3; jname4=no4; jid5=5; jorder5=4; jname5=no5; jid6=6; jorder6=5; jname6=no6; jid7=7; jorder7=6; jname7=no7; jid8=8; jorder8=7; jname8=no8; jid9=9; jorder9=8; jname9=no9; jid10=10; jorder10=9; jname10=no10; jid11=11; jorder11=10; jname11=no11; jid12=12; jorder12=11; jname12=四大天王演唱会; dzpsubmit=提交; };
+<?PHP exit;?>	1419995873	admin	1	192.168.1.219	plugins	GET={operation=config; do=13; identifier=huxdzp; pmod=admin_jx; }; POST={};
