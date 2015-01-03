@@ -1,0 +1,18 @@
+[ 2014-12-31T07:54:04+08:00 ] 192.168.1.120 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17001140052662231028_1419983508564&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419983509484
+ERR: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+
+[ 2014-12-31T09:31:15+08:00 ] 192.168.1.120 /index.php/Admin/Huiyuan/jiekou?callback=jQuery17013620101287961006_1419989339253&my=f0aedffc0333fe9b7f984b282c6aad7d3b5fbd1e&page=2&nonce=3&_=1419989340017
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\jicheng\htdocs\Tp3.2\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.343200s ]
+SQL: SELECT * FROM `bbs_article`  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031200s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.031200s ]
+SQL: SELECT * FROM `bbs_pv` WHERE `pv_time` = '2014-12-31'  [ RunTime:0.000000s ]
+SQL: INSERT INTO `bbs_pv` (`pv_time`,`pv_count`) VALUES ('2014-12-31',1) [ RunTime:0.343201s ]
+
